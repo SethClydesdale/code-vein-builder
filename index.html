@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="UTF-8">
+    <title>Code Vein Builder</title>
+    <meta name="title" content="Code Vein Builder">
+    <meta name="twitter:title" content="Code Vein Builder">
+    <meta property="og:title" content="Code Vein Builder">
+    <meta name="description" content="Code Vein Builder is a tool that lets you create and share builds with others.">
+    <meta property="og:description" content="Code Vein Builder is a tool that lets you create and share builds with others.">
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/code-vein.ico">
+
+    <meta name="keywords" content="Code Vein, Builds, Maker, コードヴェイン, ビルド" lang="en">
+    <meta name="language" content="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:site_name" content="sethclydesdale.github.io">
+    <meta property="og:url" content="https://sethclydesdale.github.io/code-vein-builder/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://sethclydesdale.github.io/code-vein-builder/resources/images/cv-thumb.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@SethC1995">
+
+    <link rel="stylesheet" href="resources/css/main.min.css">
+    <link rel="stylesheet" href="resources/css/builder.min.css">
+    <script src="resources/javascript/head.min.js" async></script>
+    <script src="resources/javascript/ga.js" async></script>
+    <meta name="google-site-verification" content="a6Dkj3tZ7SEai-QbfbOI0M0Jb65Lp18nbY1Hl3LwOro">
+  </head>
+
+  <body>
+    
+    <header>
+      <h1><a href="./" id="home-link">Code Vein Builder</a></h1>
+      <a id="fork-me" href="https://github.com/SethClydesdale/code-vein-builder">Fork Me</a>
+    </header>
+    
+    <div id="content">
+      <div id="builder">
+        <div id="build-list">
+          <div id="top-row">
+            <div id="equipment">
+              <div class="equip-row">
+                <div id="weapon-1" class="ui-block" data-type="weapon" data-id="0" onclick="CodeVeinBuilder.selector.open('weapon', 1);"></div>
+                <div id="transform-1" class="ui-block ui-transform" data-type="transform" data-id="0" onclick="CodeVeinBuilder.selector.open('transform', 4);"></div>
+              </div>
+
+              <div class="equip-row">
+                <div id="weapon-2" class="ui-block" data-type="weapon" data-id="0" onclick="CodeVeinBuilder.selector.open('weapon', 2);"></div>
+                <div id="transform-2" class="ui-block ui-transform" data-type="transform" data-id="0" onclick="CodeVeinBuilder.selector.open('transform', 5);"></div>
+              </div>
+
+              <div class="equip-row last">
+                <div id="blood-veil" class="ui-block" data-type="blood_veil" data-id="0" onclick="CodeVeinBuilder.selector.open('blood_veil', 3);"></div>
+                <div id="transform-3" class="ui-block ui-transform" data-type="transform" data-id="0" onclick="CodeVeinBuilder.selector.open('transform', 6);"></div>
+              </div>
+            </div>
+          </div>
+
+          <div id="bottom-row" class="columns-2 clear">
+            <div id="build-column">
+              <div id="passives">
+                <div class="passive-row">
+                  <div id="passive-1" class="ui-block" data-type="passive" data-id="0" onclick="CodeVeinBuilder.selector.open('passive', 7);"></div>
+                  <div id="passive-2" class="ui-block last" data-type="passive" data-id="0" onclick="CodeVeinBuilder.selector.open('passive', 8);"></div>
+                </div>
+
+                <div class="passive-row last">
+                  <div id="passive-3" class="ui-block" data-type="passive" data-id="0" onclick="CodeVeinBuilder.selector.open('passive', 9);"></div>
+                  <div id="passive-4" class="ui-block last" data-type="passive" data-id="0" onclick="CodeVeinBuilder.selector.open('passive', 10);"></div>
+                </div>
+              </div>
+
+              <div id="blood-code" class="ui-block" data-type="blood_code" data-id="0" onclick="CodeVeinBuilder.selector.open('blood_code', 0);"></div>
+
+              <div id="actives">
+                <div id="actives-top">
+                  <div id="active-1" class="ui-block" data-type="active" data-id="0" onclick="CodeVeinBuilder.selector.open('active', 11);"></div>
+                  <div id="active-2" class="ui-block" data-type="active" data-id="0" onclick="CodeVeinBuilder.selector.open('active', 12);"></div>
+                  <div id="active-3" class="ui-block" data-type="active" data-id="0" onclick="CodeVeinBuilder.selector.open('active', 13);"></div>
+                  <div id="active-4" class="ui-block" data-type="active" data-id="0" onclick="CodeVeinBuilder.selector.open('active', 14);"></div>
+                </div>
+
+                <div id="actives-bottom">
+                  <div id="active-5" class="ui-block" data-type="active" data-id="0" onclick="CodeVeinBuilder.selector.open('active', 15);"></div>
+                  <div id="active-6" class="ui-block" data-type="active" data-id="0" onclick="CodeVeinBuilder.selector.open('active', 16);"></div>
+                  <div id="active-7" class="ui-block" data-type="active" data-id="0" onclick="CodeVeinBuilder.selector.open('active', 17);"></div>
+                  <div id="active-8" class="ui-block" data-type="active" data-id="0" onclick="CodeVeinBuilder.selector.open('active', 18);"></div>
+                </div>
+              </div>
+            </div>
+
+            <div id="info-column">
+              <div id="status-info"><div id="stats-window" class="ui-window"><div class="ui-title"></div><div class="spacer"></div></div></div>
+              <div id="options"><div id="options" class="ui-window"><div class="ui-title"></div><div class="spacer"></div></div></div>
+            </div>
+          </div>
+        </div>
+        
+        <div id="selector-window" class="columns-2 clear" style="display:none;">
+          <div class="selector-column">
+            <div id="selector-box" class="ui-window"></div>
+          </div>
+            
+          <div class="selector-column">
+            <div id="selector-info-top" class="ui-window"></div>
+            <div id="selector-info-bottom" class="ui-window"></div>
+          </div>
+          
+          <div id="selector-close" class="ui-block" onclick="CodeVeinBuilder.selector.close();" title="close"><i class="fa">&#xf00d;</i></div>
+        </div>
+      </div>
+    </div>
+    
+    <footer class="clear">
+      <ul class="footer-left">
+        <li><a href="./">Home</a></li>
+        <li><a href="privacy/">Privacy</a></li>
+        <li><a href="report/">Report a Bug</a></li>
+      </ul>
+      
+      <ul class="footer-right">
+        <li>Created by <a href="https://github.com/SethClydesdale">Seth Clydesdale</a> and the <a href="https://github.com/SethClydesdale/code-vein-builder/graphs/contributors">Github Community</a></li>
+      </ul>
+    </footer>
+    
+    <script src="resources/javascript/builder.min.js"></script>
+    <script src="resources/javascript/main.min.js"></script>
+    <script src="resources/javascript/tools/lz-string.min.js"></script>
+    <script src="resources/javascript/tools/clipboard.min.js"></script>
+  </body>
+</html>

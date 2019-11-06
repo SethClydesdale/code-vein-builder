@@ -2420,7 +2420,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C26 : { // Concentration
-    image : 'Concentration',
+    image : 'concentration',
     tree : _lang.tree.light,
 
     required : {
@@ -4486,7 +4486,7 @@ CodeVeinBuilder.data.transform = {
   },
   
   C2 : { // Inhibit
-    image : 'Inhibit'
+    image : 'inhibit'
   },
 
   C3 : { // Slow

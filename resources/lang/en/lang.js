@@ -1,7 +1,7 @@
 // # ENGLISH TRANSLATION
 // Language file for the entire application which can be used for translations.
 window._lang = {
-  // general/misc
+  // general placeholders
   na : 'N/A', // English abbreviation for "Not Available"; Japanese typically use "なし" (so use your equiv.)
   none : '(None)',
   
@@ -45,6 +45,9 @@ window._lang = {
   
   // stats
   status : 'Status',
+  lv : 'Level',
+  hp : 'HP',
+  sta : 'Stamina',
   ichor : 'Ichor',
   str : 'Strength',
   dex : 'Dexterity',
@@ -54,9 +57,43 @@ window._lang = {
   for : 'Fortitude',
   
   
-  // removal
-  remove : 'Remove',
-  remove_desc : 'Remove the currently equipped skill or equipment.',
+  // weight
+  weight : 'Weight',
+  total_weight : 'Total Weight',
+  weight_limit : 'Weight Limit',
+  
+  
+  // attack stats
+  attack : 'Attack',
+  drain_attack : 'Drain Attack',
+  physical : 'Physical', // weapon damage
+  base : 'Base', // base damage
+  scaling : 'Scaling', // damage from scaling
+  drain_rating : 'Drain Rating',
+  
+  
+  // defense stats
+  defense : 'Defense',
+  stamina_reduction : 'Stamina Reduction',
+  balance : 'Balance',
+  base_balance : 'Base Balance',
+  
+  
+  // resistances
+  status_effects : 'Status Effects',
+  resistances : 'Resistances',
+  venom : 'Venom',
+  stun : 'Stun',
+  inhibit : 'Inhibit',
+  slow : 'Slow',
+  leak : 'Leak',
+  
+  
+  // misc menu options
+  passive_effect : 'Passive Effects',
+  on : 'On',
+  off : 'Off',
+  hint : 'Read Hint',
   
   
   // info group titles (stuff shown in the bottom info window when hovering over an item/skill)
@@ -65,6 +102,7 @@ window._lang = {
   
   
   // mobility
+  mobility : 'Mobility',
   mobi : {
     base : 'Base Mobility', // label for blood code mobility type (also used in the status display)
     slow : 'Slow',
@@ -99,6 +137,9 @@ window._lang = {
   
   
   // gift stats
+  gift : 'Gift', // singular
+  gifts : 'Gifts', // plural
+  
   ichor_cost : 'Ichor Cost',
   cooldown : 'Cooldown',
    seconds : 'sec.', // displayed after the cooldown number
@@ -107,44 +148,13 @@ window._lang = {
   usage_req : 'Usage Requirements',
   
   
-  // /!\ UNUSED START /!\ (may be used in future; feel free to translate or ignore --> if ignore, skip to data section further down)
-  LV : 'Level',
-  HP : 'HP',
-  STA : 'Stamina',
+  // removal (of skills/equipment)
+  remove : 'Remove',
+  remove_desc : 'Remove the currently equipped skill or equipment.',
   
-  mobility : 'Mobility',
-  weight : 'Weight',
-  total_weight : 'Total Weight',
-  weight_limit : 'Weight Limit',
   
-  attack : 'Attack',
-  drain_attack : 'Drain Attack',
-  physical : 'Physical', // weapon damage
-  base : 'Base', // base damage
-  scaling : 'Scaling', // damage from scaling
-  drain_rating : 'Drain Rating',
-  
-  Gifts : 'Gifts',
-  Gift : 'Gift',
-  
-  status_effects : 'Status Effects',
-  resistances : 'Resistances',
-  venom : 'Venom',
-  stun : 'Stun',
-  inhibit : 'Inhibit',
-  slow : 'Slow',
-  leak : 'Leak',
-  
-  defense : 'Defense',
-  stamina_reduction : 'Stamina Reduction',
-  balance : 'Balance',
-  base_balance : 'Base Balance',
-  
-  passive_effect : 'Passive Effects',
-  on : 'On',
-  off : 'Off',
-  hint : 'Read Hint',
-  // /!\ UNSED END /!\
+  // equip error
+  equip_error : 'You do not meet the stat requirements to use one or more Gifts/Items you have equipped.',
   
   
   // # DATA SECTION #

@@ -1122,10 +1122,12 @@
             case ' ' :
               var active = document.querySelector('.ui-group-active');
               
-              if (active.nextSibling) {
-                active.nextSibling.click();
-              } else {
-                document.querySelector('.ui-group-all').click();
+              if (active) {
+                if (active.nextSibling) {
+                  active.nextSibling.click();
+                } else {
+                  document.querySelector('.ui-group-all').click();
+                }
               }
               
               e.preventDefault();

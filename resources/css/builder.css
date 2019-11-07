@@ -80,8 +80,10 @@
 }
 
 @supports (pointer-events: none) {
-  #build-column:after {
-    content:url(../images/ui/overlay.png);
+  #build-overlay {
+    background:url(../images/ui/overlay.png) no-repeat;
+    height:190px;
+    width:527px;
     position:absolute;
     top:44px;
     left:-8px;

@@ -1,5 +1,5 @@
 # Code Vein Builder
-Code Vein Builder is a tool that lets you create and share builds with others. It was created to help make sharing builds for Code Vein easier, by providing a user interface that closely resembles that of the game's.
+Code Vein Builder is a tool that lets you create and share builds with others. It was created to help make sharing builds for Code Vein easier. Instead of having to painstakingly write your builds out by hand, you can simply share a link to your build! As an added bonus, the tool's UI closely resembles the in-game UI, which helps make it easier to identify skills, equipment, etc.
 
 
 ### How to Use
@@ -17,6 +17,10 @@ You can use some keyboard controls while selecting skills/equipment.
 - **Left/Right Arrow Keys:** Move left/right in the selection list.
 - **Enter Key:** Equip the currently selected skill/equipment.
 - **Space Bar:** Cycle through skill/equipment groups.
+
+You can use these shortcuts to undo/redo changes. (you can use the back/forward history buttons, too)
+- **ALT+Left Arrow:** Undo Build Change.
+- **ALT+Right Arrow:** Redo Build Change.
 
 
 ### Suggestions, Feedback, Bug Reports

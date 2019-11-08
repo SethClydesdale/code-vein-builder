@@ -55,7 +55,7 @@
     },
     
     // various data on weapons, skills, etc...
-    // see files in resources/javascript/lang/{LANG_CODE} (eg. en, ja, etc...)
+    // see file in resources/javascript/data.js
     data : {
       // dummy data used for default values, mostly during comparisons
       dummy : {
@@ -1119,6 +1119,7 @@
               break;
               
             // cycle through groups
+            case 'Spacebar' :
             case ' ' :
               var active = document.querySelector('.ui-group-active');
               
@@ -1164,6 +1165,10 @@
 
     if (lang && lang[1]) {
       CodeVeinBuilder.setupData(lang[1].toLowerCase());
+    } 
+    // load default if lang code cannot be obtained
+    else {
+      CodeVeinBuilder.setupData('en');
     }
   } 
 

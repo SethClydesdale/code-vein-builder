@@ -120,6 +120,13 @@ window._lang = {
     skill : 'Skill'
   },
   
+  // weapon names/tooltips for weapon icons next to tree: skill
+  '1h' : 'One-handed Sword',
+  '2h' : 'Two-handed Sword',
+  halberd : 'Halberd',
+  hammer : 'Hammer',
+  bayonet : 'Bayonet',
+  
   
   // attack attributes
   attr : {
@@ -154,7 +161,7 @@ window._lang = {
   
   
   // equip error
-  equip_error : 'You do not meet the stat requirements to use one or more Gifts/Items you have equipped.',
+  equip_error : 'You do not meet the requirements to use one or more Gifts/Items you have equipped.',
   
   
   // # DATA SECTION #

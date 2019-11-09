@@ -276,19 +276,25 @@
         // checks the build to see if currently equipped skills/items meet their stat requirements
         equipped : function () {
           // numbers 1-3 refers to equipment; numbers 7-10 refers to passives; numbers 11-18 refers to actives
-          for (var id = [1, 2, 3, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], i = 0, j = id.length, block, badStats; i < j; i++) {
+          for (var id = [1, 2, 3, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], i = 0, j = id.length, block, badStats, bad; i < j; i++) {
             block = CodeVeinBuilder.cache.build[id[i]];
             badStats = CodeVeinBuilder.status.check.stats(block.dataset.type, block.dataset.id);
 
             // add the bad class if stats are insufficient
             if (badStats && !/ui-stats-bad/.test(block.className)) {
               block.className += ' ' + badStats;
+              bad = true;
             }
 
             // remove the bad class if stats are sufficient
             else if (!badStats && /ui-stats-bad/.test(block.className)) {
               block.className = block.className.replace(' ui-stats-bad', '');
             }
+          }
+          
+          // alert the user of unuseable equipment/gifts that are equipped
+          if (bad) {
+            CodeVeinBuilder.alert.open(_lang.equip_error);
           }
         }
       },
@@ -301,6 +307,83 @@
             CodeVeinBuilder.status[val[i]][k] = 0;
           }
         }
+      }
+    },
+    
+    
+    // alert system
+    alert : {
+      isOpen : false,
+      
+      // open an alert
+      open : function (text) {
+        if (CodeVeinBuilder.alert.isOpen) {
+          CodeVeinBuilder.alert.close(true);
+        }
+        
+        var alert = document.createElement('DIV');
+        alert.id = 'cv-alert';
+        alert.className = 'alert-closed';
+        alert.innerHTML = '<div id="cv-alert-body">'+
+          '<div id="cv-alert-icon" class="icon-glow"><i class="fa">&#xf05a;</i></div>'+
+          '<div id="cv-alert-text"><p>' + text + '</p></div>'+
+        '</div>';
+        
+        // closes the alert when clicked (swat it like a pesky fly!)
+        alert.onclick = function () {
+          CodeVeinBuilder.alert.close(true);
+        };
+        
+        // add alert to document
+        document.body.appendChild(alert);
+        
+        // cache node and state
+        CodeVeinBuilder.cache.alert = alert;
+        CodeVeinBuilder.alert.isOpen = true;
+        
+        // remove class to animate it in
+        window.setTimeout(function () {
+          if (CodeVeinBuilder.alert.isOpen) {
+            CodeVeinBuilder.cache.alert.className = '';
+            CodeVeinBuilder.cache.alert.querySelector('#cv-alert-icon').className = '';
+          }
+        }, 150);
+        
+        // close the alert after some time
+        CodeVeinBuilder.alert.timeout = window.setTimeout(CodeVeinBuilder.alert.close, 3000);
+      },
+      
+      
+      // close an alert
+      close : function (instant) {
+        // delete the timeout
+        if (CodeVeinBuilder.alert.timeout) {
+          window.clearTimeout(CodeVeinBuilder.alert.timeout);
+          delete CodeVeinBuilder.alert.timeout;
+        }
+        
+        if (instant) { // instantly remove the alert
+          CodeVeinBuilder.alert.remove();
+          
+        } else { // gracefully remove the alert with an animation
+          CodeVeinBuilder.cache.alert.className = 'alert-closed';
+          CodeVeinBuilder.cache.alert.style.opacity = 0;
+          CodeVeinBuilder.alert.closeTimeout = window.setTimeout(CodeVeinBuilder.alert.remove, 500);
+        }
+      },
+      
+      
+      // removes the alert
+      remove : function () {
+        // delete the close timeout
+        if (CodeVeinBuilder.alert.closeTimeout) {
+          window.clearTimeout(CodeVeinBuilder.alert.closeTimeout);
+          delete CodeVeinBuilder.alert.closeTimeout;
+        }
+        
+        // finally remove the alert
+        document.body.removeChild(CodeVeinBuilder.cache.alert);
+        CodeVeinBuilder.alert.isOpen = false;
       }
     },
     
@@ -694,19 +777,33 @@
         
         /* ACTIVES */
         else if (type == 'active') {
-          var active = CodeVeinBuilder.data[type][id];
+          var active = CodeVeinBuilder.data[type][id],
+              wep_req = '',
+              k;
+          
+          // weapon requirements for skill-based Gifts
+          if (active.weapon_req) {
+            // loop through the weapon group list to setup the weapon requirement icons
+            for (k in CodeVeinBuilder.selector.group.weapon) {
+              // ignore 0 or "all"
+              if (k != 0) {
+                // add the weapon icon along with a class to show if the weapon is compatible with the current Gift
+                wep_req += '<img src="' + CodeVeinBuilder.getImage('group', CodeVeinBuilder.selector.group.weapon[k]) + '" class="weapon-' + (active.weapon_req.indexOf(k) != -1 ? 'valid' : 'invalid') + '" title="' + _lang[CodeVeinBuilder.selector.group.weapon[k]] + '">';
+              }
+            }
+          }
           
           // tree and type info
           bottom += 
             '<div class="info-row">'+
               '<span class="info-sub-group">'+
                 '<span class="info-label">' + _lang.tree.title + '</span>'+
-                '<span class="info-value">' + CodeVeinBuilder.data[type][id].tree + '</span>'+
+                '<span class="info-value">' + CodeVeinBuilder.data[type][id].tree + (wep_req ? '<span class="weapon-requirement">' + wep_req +  '</span>' : '') + '</span>'+
               '</span>'+
             
               '<span class="info-sub-group">'+
                 '<span class="info-label">' + _lang.gift_type + '</span>'+
-                '<span class="info-value">' + _lang.passive + '</span>'+
+                '<span class="info-value">' + _lang.active + '</span>'+
               '</span>'+
             '</div>'+
             '<div class="hr"></div>';

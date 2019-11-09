@@ -265,6 +265,20 @@
   padding-left:30px;
 }
 
+/* weapon requirements */
+.weapon-requirement { height:20px; }
+.weapon-requirement img {
+  height:30px;
+  vertical-align:middle;
+  margin-right:5px;
+  margin-top:-10px;
+  position:relative;
+  top:5px;
+}
+.weapon-requirement img:first-child { margin-left:3px; }
+.weapon-requirement img:last-child { margin-right:0; }
+.weapon-requirement .weapon-invalid { opacity:0.3; }
+
 
 /* share/load build */
 .share-build-options input { width:80%; }
@@ -470,6 +484,71 @@
 .item-desc {
   line-height:20px;
   padding:3px;
+}
+
+
+/* ALERT SYSTEM */
+#cv-alert {
+  position:fixed;
+  left:10px;
+  bottom:10px;
+  overflow:hidden;
+  width:600px;
+  opacity:1;
+  transition:width 300ms, opacity 500ms;
+  cursor:pointer;
+}
+#cv-alert.alert-closed { width:60px; }
+
+#cv-alert-body {
+  color:#1B0200;
+  background-color:#E13E3F;
+  height:60px;
+  width:600px !important;
+}
+
+#cv-alert-icon, #cv-alert-text, #cv-alert-text p { position:absolute; }
+
+#cv-alert-icon {
+  color:#E13E3F;
+  text-shadow:none;
+  background-color:#1B0200;
+  width:60px;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  transition:text-shadow 500ms, background-color 100ms;
+}
+
+#cv-alert-icon.icon-glow {
+  text-shadow:0 0 15px #E13E3F, 0 0 5px #1B0200;
+  background-color:#E13E3F;
+}
+
+#cv-alert-icon i {
+  font-size:34px;
+  text-align:center;
+  display:block;
+  line-height:60px;
+}
+
+#cv-alert-text {
+  width:540px;
+  left:60px;
+  top:0;
+  bottom:0;
+}
+
+#cv-alert-text p {
+  font-size:14px;
+  font-weight:bold;
+  margin:0;
+  padding:10px 30px;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
 }
 
 

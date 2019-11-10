@@ -504,7 +504,7 @@
   color:#1B0200;
   background-color:#E13E3F;
   height:60px;
-  width:600px !important;
+  width:600px;
 }
 
 #cv-alert-icon, #cv-alert-text, #cv-alert-text p { position:absolute; }
@@ -564,4 +564,14 @@
   }
   
   #stats-window { margin-top:0; }
+}
+
+
+@media (max-width:800px) {
+  #cv-alert, #cv-alert-body {
+    width:300px;
+  }
+
+  #cv-alert-text { width:240px; }
+  #cv-alert-text p { padding:5px; font-size:11px; }
 }

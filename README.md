@@ -17,6 +17,7 @@ You can use some keyboard controls while selecting skills/equipment.
 - **Left/Right Arrow Keys:** Move left/right in the selection list.
 - **Enter Key:** Equip the currently selected skill/equipment.
 - **Space Bar:** Cycle through skill/equipment groups.
+- **Esc/Escape:** Close the skill/equipment selector without selecting anything.
 
 You can use these shortcuts to undo/redo changes. (you can use the back/forward history buttons, too)
 - **ALT+Left Arrow:** Undo Build Change.
@@ -39,3 +40,10 @@ The following resources were used in this project. Check them out!
 - [Font-Awesome](https://github.com/FortAwesome/Font-Awesome) for the awesome icons.
 - [clipboard.js](https://github.com/zenorocha/clipboard.js) for copying build codes/urls.
 - [lz-string](https://github.com/pieroxy/lz-string) for the string compression used for sharing builds.
+
+
+### Donate
+You can help support my work in the following ways.
+
+- [Paypal](https://paypal.me/sethc95/3)
+- [Amazon Wishlist](https://www.amazon.com/hz/wishlist/ls/S7YILFHYK0IZ)

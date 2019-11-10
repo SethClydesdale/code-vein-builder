@@ -350,7 +350,7 @@
         }, 150);
         
         // close the alert after some time
-        CodeVeinBuilder.alert.timeout = window.setTimeout(CodeVeinBuilder.alert.close, 3000);
+        CodeVeinBuilder.alert.timeout = window.setTimeout(CodeVeinBuilder.alert.close, 4000);
       },
       
       
@@ -460,12 +460,13 @@
         CodeVeinBuilder.scrollTo(CodeVeinBuilder.cache.selector.window, 0, -5);
         
         // cache selector options
-        CodeVeinBuilder.cache.selector.options = document.getElementById('selector-options');
+        CodeVeinBuilder.cache.selector.list = document.getElementById('selector-options');
+        CodeVeinBuilder.cache.selector.options = CodeVeinBuilder.cache.selector.list.querySelectorAll('.ui-block');
         
         // highlights info for the first item or selected item and scrolls to it
-        active = document.querySelector('#selector-options [data-id="' + (block.dataset.id == 0 ? 'A0' : block.dataset.id) + '"]');
+        active = CodeVeinBuilder.cache.selector.list.querySelector('[data-id="' + (block.dataset.id == 0 ? 'A0' : block.dataset.id) + '"]');
         CodeVeinBuilder.selector.showInfo(active);
-        CodeVeinBuilder.scrollTo(active, CodeVeinBuilder.cache.selector.options, type == 'blood_code' ? -85 : -95);
+        CodeVeinBuilder.scrollTo(active, CodeVeinBuilder.cache.selector.list, type == 'blood_code' ? -85 : -95);
       },
       
       
@@ -568,21 +569,21 @@
       // toggles the display of skills/items
       toggleGroup : function (id, caller) {
         var active = document.querySelector('.ui-group-active'),
-            a = document.querySelectorAll('#selector-options .ui-block'),
+            options = CodeVeinBuilder.cache.selector.options,
             i = 0,
-            j = a.length;
+            j = options.length;
         
         // hide/show items/skills
         for (; i < j; i++) {
-          if (a[i].dataset.id != 0) { // excludes removal option
+          if (options[i].dataset.id != 0) { // excludes removal option
             
             // show items/skills that match the id or if the passed id is 0 (show all)
-            if ((id == 0 || a[i].dataset.id.charAt(0) == id)) {
-              a[i].style.display = '';
+            if ((id == 0 || options[i].dataset.id.charAt(0) == id)) {
+              options[i].style.display = '';
             } 
             // hides skills/items that don't begin with the specified id
-            else if (a[i].dataset.id.charAt(0) != id) {
-              a[i].style.display = 'none';
+            else if (options[i].dataset.id.charAt(0) != id) {
+              options[i].style.display = 'none';
             }
           }
         }
@@ -590,6 +591,16 @@
         // update active group icon
         active.className = active.className.replace(' ui-group-active', '');
         caller.className += ' ui-group-active';
+        
+        // focus first visible gift/item
+        for (i = 0; i < j; i++) {
+          if (options[i].style.display != 'none' && options[i].dataset.id != 0) {
+            active = options[i];
+            break;
+          }
+        }
+        
+        CodeVeinBuilder.selector.showInfo(active);
       },
       
       
@@ -597,20 +608,35 @@
       active : null,
       moveActive : function (pos) {
         var active = CodeVeinBuilder.selector.active,
-            options = CodeVeinBuilder.cache.selector.options,
-            type = active.dataset.type;
+            list = CodeVeinBuilder.cache.selector.list,
+            type = active.dataset.type,
+            searching = true;
         
         switch (pos) {
           case 'left' :
-            active = active.previousSibling ? active.previousSibling : options.lastChild;
+            while (searching) { // search for the next active element
+              active = active.previousSibling ? active.previousSibling : list.lastChild;
+              
+              if (active.style.display != 'none') { // cease search when a visible match is found
+                searching = false;
+              }
+            }
+            
             CodeVeinBuilder.selector.showInfo(active);
-            CodeVeinBuilder.scrollTo(active, options, type == 'blood_code' ? -85 : -95);
+            CodeVeinBuilder.scrollTo(active, list, type == 'blood_code' ? -85 : -95);
             break
             
           case 'right' :
-            active = active.nextSibling ? active.nextSibling : options.firstChild;
+            while (searching) {
+              active = active.nextSibling ? active.nextSibling : list.firstChild;
+              
+              if (active.style.display != 'none') {
+                searching = false;
+              }
+            }
+            
             CodeVeinBuilder.selector.showInfo(active);
-            CodeVeinBuilder.scrollTo(active, options, type == 'blood_code' ? -85 : -95);
+            CodeVeinBuilder.scrollTo(active, list, type == 'blood_code' ? -85 : -95);
             break;
         }
       },
@@ -1236,6 +1262,13 @@
               CodeVeinBuilder.selector.change(CodeVeinBuilder.selector.active, CodeVeinBuilder.selector.activeCaller);
               e.preventDefault();
               break
+              
+            // closes the selector
+            case 'Esc' :
+            case 'Escape' :
+              CodeVeinBuilder.selector.close();
+              e.preventDefault();
+              break;
             
             // RESERVED FOR POSSIBLE FUTURE IMPLEMENTATION
             // Up/Down for the next element is a little difficult to calcuate atm

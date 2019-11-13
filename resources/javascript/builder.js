@@ -672,9 +672,10 @@
         
           '<div class="' + caller.className.replace(' info-active', '') + '" style="background-image:url(' + CodeVeinBuilder.getImage(type, id) + ');"></div>'+
           '<div class="item-info">'+
-            '<div class="item-title">' + CodeVeinBuilder.data[type][id].name + '</div>'+
+            '<div class="item-title">' + CodeVeinBuilder.data[type][id].name + (CodeVeinBuilder.data[type][id].dlc ? '<span class="tag tag-dlc">' + _lang.dlc + '</span>' : '') + '</div>'+
             '<div class="hr"></div>'+
             (CodeVeinBuilder.data[type][id].owner ? '<div class="code-owner"><span class="t-darker">' + _lang.code_owner + '</span> ' + CodeVeinBuilder.data[type][id].owner + '</div>' : '')+
+            (CodeVeinBuilder.data[type][id].origin ? '<div class="gift-origin"><span class="t-darker">' + _lang.origin + '</span> ' + CodeVeinBuilder.data.blood_code[CodeVeinBuilder.data[type][id].origin].name + (CodeVeinBuilder.data[type][id].blood_code_req ? '<span class="tag tag-exclusive" title="' + _lang.exclusive + '"><i class="fa">&#xf005;</i></span>' : '') + '</div>' : '')+
             '<div class="item-desc">' + CodeVeinBuilder.data[type][id].desc + '</div>'+
           '</div>';
         

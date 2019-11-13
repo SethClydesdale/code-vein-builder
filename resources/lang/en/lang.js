@@ -5,6 +5,7 @@ window._lang = {
   na : 'N/A', // English abbreviation for "Not Available"; Japanese typically use "なし" (so use your equiv.)
   none : '(None)',
   
+  
   // titles/labels
   weapon : 'Weapon',
   blood_veil : 'Blood Veil',
@@ -16,6 +17,9 @@ window._lang = {
   options : 'Options',
   lang_select : 'Language',
   code_owner : 'Code Owner',
+  origin : 'Learned from: ',
+  exclusive : 'Exclusive',
+  dlc : 'DLC',
   
   
   // modal

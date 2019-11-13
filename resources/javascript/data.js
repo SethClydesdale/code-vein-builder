@@ -686,6 +686,7 @@ CodeVeinBuilder.data.blood_code = {
   
   A32 : { // Harbinger
     image : 'harbinger',
+    dlc : 1,
 
     mobility : _lang.mobi.normal,
     weight : 100,
@@ -707,6 +708,7 @@ CodeVeinBuilder.data.blood_code = {
   
   A33 : { // Astrea
     image : 'astrea',
+    dlc : 1,
 
     mobility : _lang.mobi.normal,
     weight : 85,
@@ -1188,6 +1190,7 @@ CodeVeinBuilder.data.passive = {
   F3 : { // Torchbearer
     image : 'torchbearer',
     tree : _lang.tree.light,
+    dlc : 1,
     blood_code_req : 'A33' // Astrea
   },
   
@@ -1273,6 +1276,7 @@ CodeVeinBuilder.data.active = {
   A0 : { // Sonic Arrow
     image : 'sonic-arrow',
     tree : _lang.tree.dark,
+    //origin : 'A2',
 
     ichor_cost : 1,
     cooldown : 2,
@@ -1394,6 +1398,7 @@ CodeVeinBuilder.data.active = {
   A9 : { // Lightning Spike
     image : 'lightning-spike',
     tree : _lang.tree.light,
+    dlc : 1,
 
     required : {
       mnd : 5
@@ -1921,6 +1926,7 @@ CodeVeinBuilder.data.active = {
   A47 : { // Desperate Burst
     image : 'desperate-burst',
     tree : _lang.tree.dark,
+    dlc : 1,
 
     ichor_cost : 20,
     cooldown : 30,
@@ -2396,6 +2402,7 @@ CodeVeinBuilder.data.active = {
   C24 : { // Gift Extension
     image : 'gift-extension',
     tree : _lang.tree.light,
+    dlc : 1,
 
     required : {
       mnd : 5,
@@ -2505,6 +2512,7 @@ CodeVeinBuilder.data.active = {
   C33 : { // Final Journey
     image : 'final-journey',
     tree : _lang.tree.light,
+    //origin : 'A0',
     
     ichor_cost : 10,
     cooldown : '0',
@@ -2842,6 +2850,7 @@ CodeVeinBuilder.data.active = {
   F3 : { // Guardian Aid
     image : 'guardian-aid',
     tree : _lang.tree.light,
+    dlc : 1,
 
     ichor_cost : 2,
     cooldown : 15,
@@ -3394,6 +3403,7 @@ CodeVeinBuilder.data.weapon = {
   
   A13 : { // Crimson Longsword
     image : 'crimson-longsword',
+    dlc : 1,
 
     scaling : {
       str : 5,
@@ -3565,6 +3575,7 @@ CodeVeinBuilder.data.weapon = {
   
   B11 : { // Blanched Greatsword
     image : 'blanched-greatsword',
+    dlc : 1,
 
     scaling : {
       str : 9
@@ -3742,6 +3753,7 @@ CodeVeinBuilder.data.weapon = {
   
   C11 : { // Cerulean Spear
     image : 'cerulean-spear',
+    dlc : 1,
 
     scaling : {
       str : 5,
@@ -4173,6 +4185,7 @@ CodeVeinBuilder.data.blood_veil = {
   
   A5 : { // Venous Claw
     image : 'venous-claw',
+    dlc : 1,
 
     scaling : {
       str : 5,

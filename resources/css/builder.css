@@ -479,7 +479,7 @@
   padding:8px 0 0 3px;
 }
 
-.code-owner { font-size:12px; }
+.code-owner, .gift-origin { font-size:12px; }
 
 .item-desc {
   line-height:20px;
@@ -549,6 +549,40 @@
   left:0;
   right:0;
   bottom:0;
+}
+
+
+/* info tags */
+.tag {
+  font-size:10px;
+  font-weight:bold;
+  text-transform:uppercase;
+  font-family:sans-serif;
+  border-radius:10px;
+  vertical-align:middle;
+  padding:3px 5px;
+  margin-left:4px;
+  cursor:default;
+}
+
+.tag-dlc {
+  color:#FFF;
+  background-color:#96F;
+}
+
+.tag-exclusive {
+  font-size:12px;
+  font-weight:normal;
+  color:#FFF;
+  background-color:#960;
+  padding:0;
+  display:inline-block;
+  line-height:18px;
+  height:18px;
+  width:18px;
+  text-align:center;
+  vertical-align:0;
+  border-radius:100%;
 }
 
 

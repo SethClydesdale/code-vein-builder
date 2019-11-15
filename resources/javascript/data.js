@@ -741,77 +741,92 @@ CodeVeinBuilder.data.passive = {
   // # GENERAL BOOSTS #
   A0 : { // Health Boost
     image : 'health-boost',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A1'
   },
 
   A1 : { // Health Stimulant
     image : 'health-stimulant',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A26'
   },
 
   A2 : { // Stamina Boost
     image : 'stamina-boost',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A2'
   },
   
   A3 : { // Stamina Stimulant
     image : 'stamina-stimulant',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A24'
   },
   
   A4 : { // Sprinter
     image : 'sprinter',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A7'
   },
   
   A5 : { // Sharpened Fangs
     image : 'sharpened-fangs',
-    tree : _lang.tree.dark
+    tree : _lang.tree.dark,
+    origin : 'A11'
   },
   
   A6 : { // Tenacious Fang
     image : 'tenacious-fang',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'rvm101'
   },
   
   A7 : { // Heroic Fang
     image : 'heroic-fang',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A8'
   },
   
   A8 : { // Swift Destruction
     image : 'swift-destruction',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A25'
   },
   
   A9 : { // Survival Instinct
     image : 'survival-instinct',
-    tree : _lang.tree.dark
+    tree : _lang.tree.dark,
+    origin : 'A29'
   },
   
   A10 : { // Savvy Evasion
     image : 'savvy-evasion',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A5'
   },
   
   A11 : { // Resilient Focus
     image : 'resilient-focus',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A10'
   },
   
   A12 : { // Weapon Drain Rating Up
     image : 'weapon-drain-rating-up',
-    tree : _lang.tree.dark
+    tree : _lang.tree.dark,
+    origin : 'A3'
   },
   
   A13 : { // Avarice
     image : 'avarice',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A25'
   },
 
   A14 : { // Vow of Ichor
     image : 'vow-of-ichor',
     tree : _lang.tree.dark,
+    origin : 'A13',
     
     ichor : {
       min : 6,
@@ -822,6 +837,7 @@ CodeVeinBuilder.data.passive = {
   A15 : { // Mac Ichor Boost
     image : 'max-ichor-boost',
     tree : _lang.tree.dark,
+    origin : 'A22',
 
     ichor : {
       min : 4,
@@ -831,87 +847,103 @@ CodeVeinBuilder.data.passive = {
   
   A16 : { // Increased Gift Speed
     image : 'increased-gift-speed',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A21'
   },
   
   A17 : { // Charge Accelerator
     image : 'charge-accelerator',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A24'
   },
   
   A18 : { // Debuff Build-Up
     image : 'debuff-build-up',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'rvm111'
   },
   
   A19 : { // Revenant's Ambition
     image : 'revenants-ambition',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A17'
   },
   
   A20 : { // Opportunism
     image : 'opportunism',
-    tree : _lang.tree.dark
+    tree : _lang.tree.dark,
+    origin : 'rvm116'
   },
   
   
   // # DEFENSE BOOSTS #
   B0 : { // Balance Up
     image : 'balance-up',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A4'
   },
   
   B1 : { // Deft Parry
     image : 'deft-parry',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A5'
   },
   
   B2 : { // Guard Drain Rating Up
     image : 'guard-drain-rating-up',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A10'
   },
   
   B3 : { // Firm Stand
     image : 'firm-stand',
     tree : _lang.tree.light,
+    origin : 'A10',
     blood_code_req : 'A10' // Atlas
   },
   
   B4 : { // Blood Grab
     image : 'blood-grab',
     tree : _lang.tree.dark,
+    origin : 'A12',
     blood_code_req : 'A12' // Artemis
   },
   
   B5 : { // Evasive Snare
     image : 'evasive-snare',
     tree : _lang.tree.dark,
+    origin : 'A25',
     blood_code_req : 'A25' // Hephaestus
   },
   
   B6 : { // Venom Resistance
     image : 'venom-resistance',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A7'
   },
   
   B7 : { // Leak Resistance
     image : 'leak-resistance',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A18'
   },
   
   B8 : { // Stun Resistance
     image : 'stun-resistance',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A8'
   },
   
   B9 : { // Inhibit Resistance
     image : 'inhibit-resistance',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A25'
   },
   
   B10 : { // Slow Resistance
     image : 'slow-resistance',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A7'
   },
   
   
@@ -919,6 +951,7 @@ CodeVeinBuilder.data.passive = {
   C0 : { // Strength Up
     image : 'strength-up',
     tree : _lang.tree.light,
+    origin : 'A8',
 
     stats : {
       str : 1
@@ -928,6 +961,7 @@ CodeVeinBuilder.data.passive = {
   C1 : { // Dexterity Up
     image : 'dexterity-up',
     tree : _lang.tree.light,
+    origin : 'A6',
     
     stats : {
       dex : 1
@@ -937,6 +971,7 @@ CodeVeinBuilder.data.passive = {
   C2 : { // Mind Up
     image : 'mind-up',
     tree : _lang.tree.light,
+    origin : 'A31',
     
     stats : {
       mnd : 1
@@ -946,6 +981,7 @@ CodeVeinBuilder.data.passive = {
   C3 : { // Willpower Up
     image : 'willpower-up',
     tree : _lang.tree.light,
+    origin : 'A28',
     
     stats : {
       wil : 1
@@ -955,6 +991,7 @@ CodeVeinBuilder.data.passive = {
   C4 : { // Vitality Up
     image : 'vitality-up',
     tree : _lang.tree.light,
+    origin : 'A18',
     
     stats : {
       vit : 1
@@ -964,6 +1001,7 @@ CodeVeinBuilder.data.passive = {
   C5 : { // Perseverance Up
     image : 'perseverance-up',
     tree : _lang.tree.light,
+    origin : 'A16',
     
     stats : {
       for : 1
@@ -973,6 +1011,7 @@ CodeVeinBuilder.data.passive = {
   C6 : { // Strength/Dexterity Up
     image : 'strength-dexterity-up',
     tree : _lang.tree.light,
+    origin : 'A5',
     
     stats : {
       str : 1,
@@ -983,6 +1022,7 @@ CodeVeinBuilder.data.passive = {
   C7 : { // Strength/Willpower Up
     image : 'strength-willpower-up',
     tree : _lang.tree.light,
+    origin : 'A20',
     
     stats : {
       str : 1,
@@ -993,6 +1033,7 @@ CodeVeinBuilder.data.passive = {
   C8 : { // Strength/Vitality Up
     image : 'strength-vitality-up',
     tree : _lang.tree.light,
+    origin : 'A10',
 
     stats : {
       str : 1,
@@ -1003,6 +1044,7 @@ CodeVeinBuilder.data.passive = {
   C9 : { // Dexterity/Willpower Up
     image : 'dexterity-willpower-up',
     tree : _lang.tree.light,
+    origin : 'A12',
     
     stats : {
       dex : 1,
@@ -1013,6 +1055,7 @@ CodeVeinBuilder.data.passive = {
   C10 : { // Dexterity/Fortitude Up
     image : 'dexterity-fortitude-up',
     tree : _lang.tree.light,
+    origin : 'A24',
     
     stats : {
       dex : 1,
@@ -1023,6 +1066,7 @@ CodeVeinBuilder.data.passive = {
   C11 : { // Mind/Willpower Up
     image : 'mind-willpower-up',
     tree : _lang.tree.light,
+    origin : 'A22',
     
     stats : {
       mnd : 1,
@@ -1033,6 +1077,7 @@ CodeVeinBuilder.data.passive = {
   C12 : { // Mind/Vitality Up
     image : 'mind-vitality-up',
     tree : _lang.tree.light,
+    origin : 'A15',
     
     stats : {
       mnd : 1,
@@ -1043,6 +1088,7 @@ CodeVeinBuilder.data.passive = {
   C13 : { // Mind/Fortitude Up
     image : 'mind-fortitude-up',
     tree : _lang.tree.light,
+    origin : 'A30',
     
     stats : {
       mnd : 1,
@@ -1054,212 +1100,252 @@ CodeVeinBuilder.data.passive = {
   // # FOCUS BOOSTS #
   D0 : { // Dark Impulse
     image : 'dark-impulse',
-    tree : _lang.tree.dark
+    tree : _lang.tree.dark,
+    origin : 'A3'
   },
   
   D1 : { // Light Impulse
     image : 'light-impulse',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A31'
   },
   
   D2 : { // Guard Stability
     image : 'guard-stability',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A2'
   },
   
   D3 : { // Focused Guard
     image : 'focused-guard',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A16'
   },
   
   D4 : { // Focused Stamina Usage
     image : 'focused-stamina-usage',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A1'
   },
   
   D5 : { // Maintained Focus
     image : 'maintained-focus',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A7'
   },
   
   D6 : { // Focused Carnage
     image : 'focused-carnage',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A8'
   },
   
   D7 : { // Ichor Strikes
     image : 'ichor-strikes',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A6'
   },
   
   D8 : { // Ichor Reduction
     image : 'ichor-reduction',
     tree : _lang.tree.dark,
+    origin : 'A23',
     blood_code_req : 'A23' // Queen's Throat
   },
   
   D9 : { // Drain Boost
     image : 'drain-boost',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A0'
   },
   
   D10 : { // Focused Gift Speed
     image : 'focused-gift-speed',
-    tree : _lang.tree.dark
+    tree : _lang.tree.dark,
+    origin : 'A12'
   },
   
   D11 : { // Blood Buff
     image : 'blood-buff',
-    tree : _lang.tree.dark
+    tree : _lang.tree.dark,
+    origin : 'rvm104'
   },
   
   D12 : { // Fire Buff
     image : 'fire-buff',
-    tree : _lang.tree.dark
+    tree : _lang.tree.dark,
+    origin : 'A20'
   },
   
   D13 : { // Ice Buff
     image : 'ice-buff',
-    tree : _lang.tree.dark
+    tree : _lang.tree.dark,
+    origin : 'rvm102'
   },
   
   D14 : { // Lightning Buff
     image : 'lightning-buff',
-    tree : _lang.tree.dark
+    tree : _lang.tree.dark,
+    origin : 'rvm103'
   },
   
   D15 : { // Venom Buff
     image : 'venom-buff',
-    tree : _lang.tree.dark
+    tree : _lang.tree.dark,
+    origin : 'A9'
   },
   
   D16 : { // Stun Buff
     image : 'stun-buff',
-    tree : _lang.tree.dark
+    tree : _lang.tree.dark,
+    origin : 'A27'
   },
   
   D17 : { // Goddess's Smile
     image : 'goddess-smile',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A31'
   },
   
   
   // # WEAPON MASTERY #
   E0 : { // One-handed Sword Mastery
     image : 'one-handed-sword-mastery',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A5'
   },
   
   E1 : { // Two-handed Sword Mastery
     image : 'two-handed-sword-mastery',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A10'
   },
   
   E2 : { // Halberd Mastery
     image : 'halberd-mastery',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A19'
   },
   
   E3 : { // Hammer Mastery
     image : 'hammer-mastery',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A16'
   },
   
   E4 : { // Bayonet Mastery
     image : 'bayonet-mastery',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A12'
   },
   
   
   // # MISC #
   F0 : { // Regeneration Shift
     image : 'regeneration-shift',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A24'
   },
   
   F1 : { // Improved Regeneration
     image : 'improved-regeneration',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A26'
   },
   
   F2 : { // Augmented Regeneration
     image : 'augmented-regeneration',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A27'
   },
   
   F3 : { // Torchbearer
     image : 'torchbearer',
     tree : _lang.tree.light,
+    origin : 'A33',
     dlc : 1,
     blood_code_req : 'A33' // Astrea
   },
   
   F4 : { // Life Steal
     image : 'life-steal',
-    tree : _lang.tree.dark
+    tree : _lang.tree.dark,
+    origin : 'A18'
   },
   
   F5 : { // Regenerative Drain
     image : 'regenerative-drain',
-    tree : _lang.tree.dark
+    tree : _lang.tree.dark,
+    origin : 'A29'
   },
   
   F6 : { // Eternal Blade Dance
     image : 'eternal-blade-dance',
     tree : _lang.tree.light,
+    origin : 'A5',
     blood_code_req : 'A5' // Prometheus
   },
   
   F7 : { // Blood-draining Venom
     image : 'blood-draining-venom',
     tree : _lang.tree.dark,
+    origin : 'A9',
     blood_code_req : 'A9' // Darkseeker
   },
   
   F8 : { // Revenant's Hunger
     image : 'revenants-hunger',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A7'
   },
   
   F9 : { // Revenant's Greed
     image : 'revenants-greed',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A8'
   },
   
   F10 : { // Pioneer's Guidance
     image : 'pioneers-guidance',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'A25'
   },
   
   F11 : { // Fall Damage Reduction
     image : 'fall-damage-reduction',
-    tree : _lang.tree.dark
+    tree : _lang.tree.dark,
+    origin : 'A9'
   },
   
   F12 : { // Deliverance
     image : 'deliverance',
     tree : _lang.tree.light,
+    origin : 'A31',
     blood_code_req : 'A31' // Ishtar
   },
   
   F13 : { // Tirelessness
     image : 'tirelessness',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'rvm115'
   },
   
   F14 : { // Bolster
     image : 'bolster',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'rvm113'
   },
   
   F15 : { // Revenant Dagger
     image : 'revenant-dagger',
-    tree : _lang.tree.dark
+    tree : _lang.tree.dark,
+    origin : 'rvm117'
   },
   
   F16 : { // Complete Attention
     image : 'complete-attention',
-    tree : _lang.tree.light
+    tree : _lang.tree.light,
+    origin : 'rvm114'
   }
 };
 
@@ -1276,7 +1362,7 @@ CodeVeinBuilder.data.active = {
   A0 : { // Sonic Arrow
     image : 'sonic-arrow',
     tree : _lang.tree.dark,
-    //origin : 'A2',
+    origin : 'A2',
 
     ichor_cost : 1,
     cooldown : 2,
@@ -1286,6 +1372,7 @@ CodeVeinBuilder.data.active = {
   A1 : { // Blood Shot
     image : 'blood-shot',
     tree : _lang.tree.dark,
+    origin : 'A3',
 
     required : {
       wil : 5
@@ -1300,6 +1387,7 @@ CodeVeinBuilder.data.active = {
   A2 : { // Sanguine Roar
     image : 'sanguine-roar',
     tree : _lang.tree.dark,
+    origin : 'A9',
 
     required : {
       wil : 7
@@ -1314,6 +1402,7 @@ CodeVeinBuilder.data.active = {
   A3 : { // Blazing Roar
     image : 'blazing-roar',
     tree : _lang.tree.dark,
+    origin : 'A3',
 
     required : {
       wil : 7
@@ -1328,6 +1417,7 @@ CodeVeinBuilder.data.active = {
   A4 : { // Freezing Roar
     image : 'freezing-roar',
     tree : _lang.tree.dark,
+    origin : 'A12',
 
     required : {
       wil : 7
@@ -1342,6 +1432,7 @@ CodeVeinBuilder.data.active = {
   A5 : { // Plasma Roar
     image : 'plasma-roar',
     tree : _lang.tree.dark,
+    origin : 'A13',
 
     required : {
       wil : 7
@@ -1356,6 +1447,7 @@ CodeVeinBuilder.data.active = {
   A6 : { // Blood Spike
     image : 'blood-spike',
     tree : _lang.tree.light,
+    origin : 'A19',
 
     required : {
       mnd : 5
@@ -1370,7 +1462,8 @@ CodeVeinBuilder.data.active = {
   A7 : { // Flame Spike
     image : 'flame-spike',
     tree : _lang.tree.light,
-
+    origin : 'A6',
+    
     required : {
       mnd : 5
     },
@@ -1384,6 +1477,7 @@ CodeVeinBuilder.data.active = {
   A8 : { // Frost Spike
     image : 'frost-spike',
     tree : _lang.tree.light,
+    origin : 'A8',
 
     required : {
       mnd : 5
@@ -1398,6 +1492,7 @@ CodeVeinBuilder.data.active = {
   A9 : { // Lightning Spike
     image : 'lightning-spike',
     tree : _lang.tree.light,
+    origin : 'A33',
     dlc : 1,
 
     required : {
@@ -1413,6 +1508,7 @@ CodeVeinBuilder.data.active = {
   A10 : { // Blood Barrage
     image : 'blood-barrage',
     tree : _lang.tree.light,
+    origin : 'A27',
 
     required : {
       wil : 4
@@ -1427,6 +1523,7 @@ CodeVeinBuilder.data.active = {
   A11 : { // Flame Barrage
     image : 'flame-barrage',
     tree : _lang.tree.light,
+    origin : 'rvm112',
 
     required : {
       wil : 4
@@ -1441,6 +1538,7 @@ CodeVeinBuilder.data.active = {
   A12 : { // Ice Barrage
     image : 'ice-barrage',
     tree : _lang.tree.light,
+    origin : 'A16',
 
     required : {
       wil : 4
@@ -1455,6 +1553,7 @@ CodeVeinBuilder.data.active = {
   A13 : { // Lightning Barrage
     image : 'lightning-barrage',
     tree : _lang.tree.light,
+    origin : 'rvm105',
 
     required : {
       wil : 4
@@ -1469,6 +1568,7 @@ CodeVeinBuilder.data.active = {
   A14 : { // Vodnik Mass
     image : 'vodnik-mass',
     tree : _lang.tree.dark,
+    origin : 'A14',
 
     required : {
       wil : 9
@@ -1483,6 +1583,7 @@ CodeVeinBuilder.data.active = {
   A15 : { // Walpurgis Fire
     image : 'walpurgis-fire',
     tree : _lang.tree.dark,
+    origin : 'A28',
 
     required : {
       wil : 9
@@ -1497,6 +1598,7 @@ CodeVeinBuilder.data.active = {
   A16 : { // Baba Yaga's Gaze
     image : 'baba-yagas-gaze',
     tree : _lang.tree.dark,
+    origin : 'A28',
 
     required : {
       wil : 9
@@ -1511,6 +1613,7 @@ CodeVeinBuilder.data.active = {
   A17 : { // Rage of Perkunas
     image : 'rage-of-perkunas',
     tree : _lang.tree.dark,
+    origin : 'A28',
 
     required : {
       wil : 9
@@ -1525,6 +1628,7 @@ CodeVeinBuilder.data.active = {
   A18 : { // Dusk Edge
     image : 'dusk-edge',
     tree : _lang.tree.dark,
+    origin : 'A14',
 
     required : {
       wil : 7
@@ -1539,6 +1643,7 @@ CodeVeinBuilder.data.active = {
   A19 : { // Crimson Moon
     image : 'crimson-moon',
     tree : _lang.tree.dark,
+    origin : 'A20',
 
     required : {
       wil : 7
@@ -1553,6 +1658,7 @@ CodeVeinBuilder.data.active = {
   A20 : { // Aurora Flash
     image : 'aurora-flash',
     tree : _lang.tree.dark,
+    origin : 'A17',
 
     required : {
       mnd : 7
@@ -1567,6 +1673,7 @@ CodeVeinBuilder.data.active = {
   A21 : { // Jupiter's Blade
     image : 'jupiters-blade',
     tree : _lang.tree.dark,
+    origin : 'rvm107',
 
     required : {
       wil : 7
@@ -1581,6 +1688,7 @@ CodeVeinBuilder.data.active = {
   A22 : { // Execution
     image : 'execution',
     tree : _lang.tree.dark,
+    origin : 'A29',
 
     required : {
       mnd : 5,
@@ -1596,6 +1704,7 @@ CodeVeinBuilder.data.active = {
   A23 : { // Fire Storm
     image : 'fire-storm',
     tree : _lang.tree.dark,
+    origin : 'A5',
 
     required : {
       wil : 4
@@ -1610,6 +1719,7 @@ CodeVeinBuilder.data.active = {
   A24 : { // Blast Bolt
     image : 'blast-bolt',
     tree : _lang.tree.dark,
+    origin : 'A13',
 
     required : {
       mnd : 5,
@@ -1625,6 +1735,7 @@ CodeVeinBuilder.data.active = {
   A25 : { // Guard of Honor
     image : 'guard-of-honor',
     tree : _lang.tree.dark,
+    origin : 'A12',
 
     required : {
       wil : 7
@@ -1639,6 +1750,7 @@ CodeVeinBuilder.data.active = {
   A26 : { // Dancing Blaze
     image : 'dancing-blaze',
     tree : _lang.tree.dark,
+    origin : 'A25',
 
     required : {
       wil : 5
@@ -1653,6 +1765,7 @@ CodeVeinBuilder.data.active = {
   A27 : { // Draconic Stake
     image : 'draconic-stake',
     tree : _lang.tree.dark,
+    origin : 'A13',
 
     required : {
       mnd : 5,
@@ -1668,6 +1781,7 @@ CodeVeinBuilder.data.active = {
   A28 : { // Indra's Coil
     image : 'indras-coil',
     tree : _lang.tree.dark,
+    origin : 'A13',
 
     required : {
       mnd : 5,
@@ -1683,6 +1797,7 @@ CodeVeinBuilder.data.active = {
   A29 : { // Fourfold Verdict
     image : 'fourfold-verdict',
     tree : _lang.tree.dark,
+    origin : 'A13',
 
     required : {
       mnd : 7,
@@ -1698,6 +1813,7 @@ CodeVeinBuilder.data.active = {
   A30 : { // Elder Contract
     image : 'elder-contract',
     tree : _lang.tree.dark,
+    origin : 'A14',
 
     required : {
       wil : 7
@@ -1712,6 +1828,7 @@ CodeVeinBuilder.data.active = {
   A31 : { // Ichorous Ice
     image : 'ichorous-ice',
     tree : _lang.tree.dark,
+    origin : 'A14',
 
     required : {
       wil : 7
@@ -1726,6 +1843,7 @@ CodeVeinBuilder.data.active = {
   A32 : { // Twilight
     image : 'twilight',
     tree : _lang.tree.dark,
+    origin : 'A14',
 
     ichor_cost : 10,
     cooldown : 20,
@@ -1737,6 +1855,7 @@ CodeVeinBuilder.data.active = {
   A33 : { // Fire Lily
     image : 'fire-lily',
     tree : _lang.tree.dark,
+    origin : 'A21',
 
     required : {
       wil : 5
@@ -1751,7 +1870,8 @@ CodeVeinBuilder.data.active = {
   A34 : { // Sand Edge
     image : 'sand-edge',
     tree : _lang.tree.dark,
-
+    origin : 'A22',
+    
     required : {
       mnd : 5,
       wil : 7
@@ -1765,6 +1885,7 @@ CodeVeinBuilder.data.active = {
   A35 : { // Volatile Storm
     image : 'volatile-storm',
     tree : _lang.tree.dark,
+    origin : 'A22',
 
     required : {
       mnd : 5,
@@ -1779,6 +1900,7 @@ CodeVeinBuilder.data.active = {
   A36 : { // Arm of Set
     image : 'arm-of-set',
     tree : _lang.tree.dark,
+    origin : 'A23',
 
     required : {
       wil : 7
@@ -1792,6 +1914,7 @@ CodeVeinBuilder.data.active = {
   A37 : { // Sands of Depravity
     image : 'sands-of-depravity',
     tree : _lang.tree.dark,
+    origin : 'A23',
 
     required : {
       wil : 7
@@ -1805,6 +1928,7 @@ CodeVeinBuilder.data.active = {
   A38 : { // Chaotic Ash
     image : 'chaotic-ash',
     tree : _lang.tree.dark,
+    origin : 'A28',
 
     required : {
       mnd : 7,
@@ -1818,6 +1942,7 @@ CodeVeinBuilder.data.active = {
   A39 : { // Purging Thorn
     image : 'purging-thorn',
     tree : _lang.tree.dark,
+    origin : 'A28',
 
     required : {
       mnd : 7,
@@ -1833,6 +1958,7 @@ CodeVeinBuilder.data.active = {
   A40 : { // Argent Wolf Cross
     image : 'argent-wolf-cross',
     tree : _lang.tree.dark,
+    origin : 'A29',
 
     required : {
       wil : 5
@@ -1847,6 +1973,7 @@ CodeVeinBuilder.data.active = {
   A41 : { // Shadow Leap
     image : 'shadow-leap',
     tree : _lang.tree.dark,
+    origin : 'A13',
     
     ichor_cost : 3,
     cooldown : 2,
@@ -1858,6 +1985,7 @@ CodeVeinBuilder.data.active = {
   A42 : { // Bloody Impact
     image : 'bloody-impact',
     tree : _lang.tree.light,
+    origin : 'A8',
 
     required : {
       mnd : 5
@@ -1872,6 +2000,7 @@ CodeVeinBuilder.data.active = {
   A43 : { // Cloak of Winter
     image : 'cloak-of-winter',
     tree : _lang.tree.light,
+    origin : 'A17',
 
     required : {
       mnd : 7
@@ -1886,6 +2015,7 @@ CodeVeinBuilder.data.active = {
   A44 : { // Peony Flash
     image : 'peony-flash',
     tree : _lang.tree.dark,
+    origin : 'A20',
 
     ichor_cost : 5,
     cooldown : 10,
@@ -1897,6 +2027,7 @@ CodeVeinBuilder.data.active = {
   A45 : { // Will-o'-the-Wisp
     image : 'will-o-the-wisp',
     tree : _lang.tree.dark,
+    origin : 'A27',
 
     required : {
       dex : 7,
@@ -1912,6 +2043,7 @@ CodeVeinBuilder.data.active = {
   A46 : { // Ember Reversal
     image : 'ember-reversal',
     tree : _lang.tree.dark,
+    origin : 'A20',
 
     required : {
       wil : 5
@@ -1926,6 +2058,7 @@ CodeVeinBuilder.data.active = {
   A47 : { // Desperate Burst
     image : 'desperate-burst',
     tree : _lang.tree.dark,
+    origin : 'A32',
     dlc : 1,
 
     ichor_cost : 20,
@@ -1937,6 +2070,7 @@ CodeVeinBuilder.data.active = {
   A48 : { // Rose Flame
     image : 'rose-flame',
     tree : _lang.tree.dark,
+    origin : 'A21',
 
     required : {
       dex : 7,
@@ -1954,6 +2088,7 @@ CodeVeinBuilder.data.active = {
   B0 : { // Venomous Shot
     image : 'venomous-shot',
     tree : _lang.tree.dark,
+    origin : 'A9',
     
     required : {
       wil : 5
@@ -1967,6 +2102,7 @@ CodeVeinBuilder.data.active = {
   B1 : { // Stun Shot
     image : 'stun-shot',
     tree : _lang.tree.dark,
+    origin : 'rvm106',
     
     required : {
       wil : 5
@@ -1980,6 +2116,7 @@ CodeVeinBuilder.data.active = {
   B2 : { // Slowing Shot
     image : 'slowing-shot',
     tree : _lang.tree.dark,
+    origin : 'A27',
 
     required : {
       wil : 5
@@ -1993,6 +2130,7 @@ CodeVeinBuilder.data.active = {
   B3 : { // Venomous Web
     image : 'venomous-web',
     tree : _lang.tree.dark,
+    origin : 'rvm108',
 
     required : {
       dex : 4,
@@ -2007,6 +2145,7 @@ CodeVeinBuilder.data.active = {
   B4 : { // Stun Web
     image : 'stun-web',
     tree : _lang.tree.dark,
+    origin : 'rvm109',
 
     required : {
       dex : 4,
@@ -2021,6 +2160,7 @@ CodeVeinBuilder.data.active = {
   B5 : { // Slow Web
     image : 'slow-web',
     tree : _lang.tree.dark,
+    origin : 'rvm110',
 
     required : {
       dex : 4,
@@ -2035,6 +2175,7 @@ CodeVeinBuilder.data.active = {
   B6 : { // Shock Web
     image : 'shock-web',
     tree : _lang.tree.dark,
+    origin : 'A12',
 
     required : {
       wil : 7
@@ -2048,6 +2189,7 @@ CodeVeinBuilder.data.active = {
   B7 : { // Flames of Rage
     image : 'flames-of-rage',
     tree : _lang.tree.dark,
+    origin : 'A25',
 
     required : {
       wil : 5
@@ -2062,6 +2204,7 @@ CodeVeinBuilder.data.active = {
   B8 : { // Venom Trap
     image : 'venom-trap',
     tree : _lang.tree.dark,
+    origin : 'A9',
     
     required : {
       wil : 5
@@ -2075,6 +2218,7 @@ CodeVeinBuilder.data.active = {
   B9 : { // Stun Trap
     image : 'stun-trap',
     tree : _lang.tree.dark,
+    origin : 'A11',
     
     required : {
       wil : 5
@@ -2088,6 +2232,7 @@ CodeVeinBuilder.data.active = {
   B10 : { // Slow Trap
     image : 'slow-trap',
     tree : _lang.tree.dark,
+    origin : 'A27',
     
     required : {
       wil : 5
@@ -2101,6 +2246,7 @@ CodeVeinBuilder.data.active = {
   B11 : { // Frenzied Fire
     image : 'frenzied-fire',
     tree : _lang.tree.dark,
+    origin : 'A0',
 
     ichor_cost : 4,
     cooldown : 2
@@ -2111,6 +2257,7 @@ CodeVeinBuilder.data.active = {
   C0 : { // Blood Weapon
     image : 'blood-weapon',
     tree : _lang.tree.light,
+    origin : 'A19',
     
     required : {
       mnd : 4
@@ -2124,6 +2271,7 @@ CodeVeinBuilder.data.active = {
   C1 : { // Flame Weapon
     image : 'flame-weapon',
     tree : _lang.tree.light,
+    origin : 'A5',
     
     required : {
       mnd : 4
@@ -2137,6 +2285,7 @@ CodeVeinBuilder.data.active = {
   C2 : { // Frost Weapon
     image : 'frost-weapon',
     tree : _lang.tree.light,
+    origin : 'A16',
     
     required : {
       mnd : 4
@@ -2150,6 +2299,7 @@ CodeVeinBuilder.data.active = {
   C3 : { // Lightning Weapon
     image : 'lightning-weapon',
     tree : _lang.tree.light,
+    origin : 'A7',
     
     required : {
       mnd : 4
@@ -2163,6 +2313,7 @@ CodeVeinBuilder.data.active = {
   C4 : { // Venom Mark
     image : 'venom-mark',
     tree : _lang.tree.dark,
+    origin : 'A2',
 
     required : {
       dex : 5
@@ -2175,6 +2326,7 @@ CodeVeinBuilder.data.active = {
   C5 : { // Numbing Mark
     image : 'numbing-mark',
     tree : _lang.tree.dark,
+    origin : 'A11',
 
     required : {
       dex : 5
@@ -2187,6 +2339,7 @@ CodeVeinBuilder.data.active = {
   C6 : { // Warding Mark
     image : 'warding-mark',
     tree : _lang.tree.dark,
+    origin : 'A5',
 
     required : {
       dex : 5
@@ -2199,6 +2352,7 @@ CodeVeinBuilder.data.active = {
   C7 : { // Binding Mark
     image : 'binding-mark',
     tree : _lang.tree.dark,
+    origin : 'A6',
 
     required : {
       dex : 5
@@ -2211,6 +2365,7 @@ CodeVeinBuilder.data.active = {
   C8 : { // Adrenaline
     image : 'adrenaline',
     tree : _lang.tree.light,
+    origin : 'A1',
 
     required : {
       str : 7
@@ -2223,6 +2378,7 @@ CodeVeinBuilder.data.active = {
   C9 : { // Bridge to Glory
     image : 'bridge-to-glory',
     tree : _lang.tree.light,
+    origin : 'A15',
 
     required : {
       mnd : 8
@@ -2235,6 +2391,7 @@ CodeVeinBuilder.data.active = {
   C10 : { // Overdrive
     image : 'overdrive',
     tree : _lang.tree.light,
+    origin : 'A11',
 
     required : {
       dex : 5,
@@ -2248,6 +2405,7 @@ CodeVeinBuilder.data.active = {
   C11 : { // Ranged Impact
     image : 'ranged-impact',
     tree : _lang.tree.light,
+    origin : 'A6',
 
     required : {
       dex : 5
@@ -2260,6 +2418,7 @@ CodeVeinBuilder.data.active = {
   C12 : { // Blow of Madness
     image : 'blow-of-madness',
     tree : _lang.tree.light,
+    origin : 'A4',
 
     required : {
       str : 7
@@ -2272,6 +2431,7 @@ CodeVeinBuilder.data.active = {
   C13 : { // Flashing Fang
     image : 'flashing-fang',
     tree : _lang.tree.light,
+    origin : 'A10',
 
     required : {
       str : 9
@@ -2284,6 +2444,7 @@ CodeVeinBuilder.data.active = {
   C14 : { // Merciless Reaper
     image : 'merciless-reaper',
     tree : _lang.tree.light,
+    origin : 'A11',
 
     required : {
       dex : 5,
@@ -2297,6 +2458,7 @@ CodeVeinBuilder.data.active = {
   C15 : { // Dark Shout
     image : 'dark-shout',
     tree : _lang.tree.dark,
+    origin : 'A23',
 
     required : {
       mnd : 5,
@@ -2310,6 +2472,7 @@ CodeVeinBuilder.data.active = {
   C16 : { // Blade Dance
     image : 'blade-dance',
     tree : _lang.tree.light,
+    origin : 'A5',
 
     ichor_cost : 10,
     cooldown : 15,
@@ -2319,6 +2482,7 @@ CodeVeinBuilder.data.active = {
   C17 : { // Sacrificial Edge
     image : 'sacrificial-edge',
     tree : _lang.tree.dark,
+    origin : 'A24',
 
     ichor_cost : 10,
     cooldown : 30,
@@ -2328,6 +2492,7 @@ CodeVeinBuilder.data.active = {
   C18 : { // Somatic Zeal
     image : 'somatic-zeal',
     tree : _lang.tree.light,
+    origin : 'A19',
 
     required : {
       mnd : 4
@@ -2340,6 +2505,7 @@ CodeVeinBuilder.data.active = {
   C19 : { // Cognitive Zeal
     image : 'cognitive-zeal',
     tree : _lang.tree.light,
+    origin : 'cor5',
 
     required : {
       mnd : 4,
@@ -2353,6 +2519,7 @@ CodeVeinBuilder.data.active = {
   C20 : { // Precision
     image : 'precision',
     tree : _lang.tree.light,
+    origin : 'A4',
 
     required : {
       str : 7
@@ -2365,6 +2532,7 @@ CodeVeinBuilder.data.active = {
   C21 : { // Hunting Feast
     image : 'hunting-feast',
     tree : _lang.tree.light,
+    origin : 'A6',
 
     required : {
       mnd : 5
@@ -2377,6 +2545,7 @@ CodeVeinBuilder.data.active = {
   C22 : { // Bloodsucking Blades
     image : 'bloodsucking-blades',
     tree : _lang.tree.dark,
+    origin : 'A12',
 
     required : {
       wil : 7
@@ -2389,6 +2558,7 @@ CodeVeinBuilder.data.active = {
   C23 : { // Gift Prowess
     image : 'gift-prowess',
     tree : _lang.tree.dark,
+    origin : 'A22',
 
     required : {
       mnd : 5,
@@ -2402,6 +2572,7 @@ CodeVeinBuilder.data.active = {
   C24 : { // Gift Extension
     image : 'gift-extension',
     tree : _lang.tree.light,
+    origin : 'A33',
     dlc : 1,
 
     required : {
@@ -2416,6 +2587,7 @@ CodeVeinBuilder.data.active = {
   C25 : { // Hasten
     image : 'hasten',
     tree : _lang.tree.light,
+    origin : 'A5',
 
     required : {
       dex : 5,
@@ -2429,6 +2601,7 @@ CodeVeinBuilder.data.active = {
   C26 : { // Concentration
     image : 'concentration',
     tree : _lang.tree.light,
+    origin : 'A11',
 
     required : {
       for : 5
@@ -2441,6 +2614,7 @@ CodeVeinBuilder.data.active = {
   C27 : { // Red Shoes
     image : 'red-shoes',
     tree : _lang.tree.light,
+    origin : 'A16',
 
     ichor_cost : 10,
     cooldown : 5,
@@ -2450,6 +2624,7 @@ CodeVeinBuilder.data.active = {
   C28 : { // Valiant Heart
     image : 'valiant-heart',
     tree : _lang.tree.light,
+    origin : 'A18',
 
     required : {
       mnd : 5
@@ -2462,6 +2637,7 @@ CodeVeinBuilder.data.active = {
   C29 : { // Morale Boost
     image : 'morale-boost',
     tree : _lang.tree.light,
+    origin : 'A24',
 
     required : {
       dex : 7,
@@ -2476,6 +2652,7 @@ CodeVeinBuilder.data.active = {
   C30 : { // Time Crunch
     image : 'time-crunch',
     tree : _lang.tree.dark,
+    origin : 'A20',
 
     required : {
       dex : 5,
@@ -2489,6 +2666,7 @@ CodeVeinBuilder.data.active = {
   C31 : { // Supernatural Blood
     image : 'supernatural-blood',
     tree : _lang.tree.dark,
+    origin : 'A22',
 
     ichor_cost : 10,
     cooldown : 30,
@@ -2498,6 +2676,7 @@ CodeVeinBuilder.data.active = {
   C32 : { // Impact Wave
     image : 'impact-wave',
     tree : _lang.tree.light,
+    origin : 'A10',
 
     required : {
       str : 7,
@@ -2512,7 +2691,7 @@ CodeVeinBuilder.data.active = {
   C33 : { // Final Journey
     image : 'final-journey',
     tree : _lang.tree.light,
-    //origin : 'A0',
+    origin : 'A0',
     
     ichor_cost : 10,
     cooldown : '0',
@@ -2524,6 +2703,7 @@ CodeVeinBuilder.data.active = {
   D0 : { // Iron Will
     image : 'iron-will',
     tree : _lang.tree.light,
+    origin : 'A4',
     
     required : {
       for : 5
@@ -2536,6 +2716,7 @@ CodeVeinBuilder.data.active = {
   D1 : { // Foulblood Barrier
     image : 'foulblood-barrier',
     tree : _lang.tree.light,
+    origin : 'A10',
     
     required : {
       mnd : 4,
@@ -2549,6 +2730,7 @@ CodeVeinBuilder.data.active = {
   D2 : { // Ablative Blood
     image : 'ablative-blood',
     tree : _lang.tree.light,
+    origin : 'A15',
 
     ichor_cost : 10,
     cooldown : 30,
@@ -2558,6 +2740,7 @@ CodeVeinBuilder.data.active = {
   D3 : { // Juggernaut
     image : 'juggernaut',
     tree : _lang.tree.light,
+    origin : 'A17',
 
     ichor_cost : 6,
     cooldown : 30,
@@ -2567,6 +2750,7 @@ CodeVeinBuilder.data.active = {
   D4 : { // Steady Bulwark
     image : 'steady-bulwark',
     tree : _lang.tree.light,
+    origin : 'A8',
 
     required : {
       mnd : 5
@@ -2579,6 +2763,7 @@ CodeVeinBuilder.data.active = {
   D5 : { // Guard Reversal
     image : 'guard-reversal',
     tree : _lang.tree.light,
+    origin : 'A10',
 
     required : {
       vit : 7
@@ -2591,6 +2776,7 @@ CodeVeinBuilder.data.active = {
   D6 : { // Crushing Might
     image : 'crushing-might',
     tree : _lang.tree.light,
+    origin : 'A16',
 
     required : {
       str : 7
@@ -2603,6 +2789,7 @@ CodeVeinBuilder.data.active = {
   D7 : { // Guard Stability
     image : 'guard-stability',
     tree : _lang.tree.light,
+    origin : 'A18',
 
     required : {
       mnd : 5
@@ -2615,6 +2802,7 @@ CodeVeinBuilder.data.active = {
   D8 : { // Prismatic Veil
     image : 'prismatic-veil',
     tree : _lang.tree.light,
+    origin : 'A30',
 
     required : {
       mnd : 6,
@@ -2628,6 +2816,7 @@ CodeVeinBuilder.data.active = {
   D9 : { // Blood Guard
     image : 'blood-guard',
     tree : _lang.tree.light,
+    origin : 'A1',
 
     ichor_cost : 4,
     cooldown : 5
@@ -2636,6 +2825,7 @@ CodeVeinBuilder.data.active = {
   D10 : { // Flame Protection
     image : 'flame-protection',
     tree : _lang.tree.light,
+    origin : 'A19',
 
     required : {
       mnd : 4
@@ -2649,6 +2839,7 @@ CodeVeinBuilder.data.active = {
   D11 : { // Ice Armor
     image : 'ice-armor',
     tree : _lang.tree.light,
+    origin : 'A12',
 
     ichor_cost : 4,
     cooldown : 5,
@@ -2658,6 +2849,7 @@ CodeVeinBuilder.data.active = {
   D12 : { // Raijin's Veil
     image : 'raijins-veil',
     tree : _lang.tree.light,
+    origin : 'A7',
 
     required : {
       mnd : 4
@@ -2671,6 +2863,7 @@ CodeVeinBuilder.data.active = {
   D13 : { // Elemental Wall
     image : 'elemental-wall',
     tree : _lang.tree.light,
+    origin : 'A15',
 
     required : {
       mnd : 7
@@ -2683,6 +2876,7 @@ CodeVeinBuilder.data.active = {
   D14 : { // Royal Heart
     image : 'royal-heart',
     tree : _lang.tree.light,
+    origin : 'A4',
 
     required : {
       for : 5
@@ -2695,6 +2889,7 @@ CodeVeinBuilder.data.active = {
   D15 : { // Dogged Fighter
     image : 'dogged-fighter',
     tree : _lang.tree.light,
+    origin : 'A10',
 
     required : {
       vit : 7
@@ -2707,6 +2902,7 @@ CodeVeinBuilder.data.active = {
   D16 : { // Perfect Balance
     image : 'perfect-balance',
     tree : _lang.tree.light,
+    origin : 'A26',
 
     required : {
       wil : 5
@@ -2719,7 +2915,8 @@ CodeVeinBuilder.data.active = {
   D17 : { // Antibody Generation
     image : 'antibody-generation',
     tree : _lang.tree.light,
-
+    origin : 'A15',
+    
     required : {
       mnd : 7
     },
@@ -2731,6 +2928,7 @@ CodeVeinBuilder.data.active = {
   D18 : { // Countermeasure
     image : 'countermeasure',
     tree : _lang.tree.dark,
+    origin : 'A25',
 
     required : {
       dex : 7,
@@ -2746,6 +2944,7 @@ CodeVeinBuilder.data.active = {
   D19 : { // Sly Vengeance
     image : 'sly-vengeance',
     tree : _lang.tree.dark,
+    origin : 'A21',
 
     ichor_cost : 10,
     cooldown : 30,
@@ -2757,6 +2956,7 @@ CodeVeinBuilder.data.active = {
   D20 : { // Feral Tenacity
     image : 'feral-tenacity',
     tree : _lang.tree.light,
+    origin : 'A26',
 
     required : {
       wil : 7
@@ -2829,6 +3029,7 @@ CodeVeinBuilder.data.active = {
   F1 : { // Sympathetic Boon
     image : 'sympathetic-boon',
     tree : _lang.tree.light,
+    origin : 'A15',
 
     required : {
       mnd : 7
@@ -2841,6 +3042,7 @@ CodeVeinBuilder.data.active = {
   F2 : { // Auto Heal
     image : 'auto-heal',
     tree : _lang.tree.light,
+    origin : 'A30',
 
     ichor_cost : 10,
     cooldown : 30,
@@ -2850,6 +3052,7 @@ CodeVeinBuilder.data.active = {
   F3 : { // Guardian Aid
     image : 'guardian-aid',
     tree : _lang.tree.light,
+    origin : 'A33',
     dlc : 1,
 
     ichor_cost : 2,
@@ -2860,6 +3063,7 @@ CodeVeinBuilder.data.active = {
   F4 : { // Cleansing Light
     image : 'cleansing-light',
     tree : _lang.tree.light,
+    origin : 'A0',
 
     required : {
       mnd : 5,
@@ -2873,6 +3077,7 @@ CodeVeinBuilder.data.active = {
   F5 : { // Regenerator
     image : 'regenerator',
     tree : _lang.tree.light,
+    origin : 'A15',
 
     required : {
       mnd : 7
@@ -2885,6 +3090,7 @@ CodeVeinBuilder.data.active = {
   F6 : { // Venom Removal
     image : 'venom-removal',
     tree : _lang.tree.light,
+    origin : 'A7',
 
     required : {
       mnd : 4
@@ -2897,6 +3103,7 @@ CodeVeinBuilder.data.active = {
   F7 : { // Stun Removal
     image : 'stun-removal',
     tree : _lang.tree.light,
+    origin : 'A8',
 
     required : {
       mnd : 4
@@ -2909,6 +3116,7 @@ CodeVeinBuilder.data.active = {
   F8 : { // Inhibit Removal
     image : 'inhibit-removal',
     tree : _lang.tree.light,
+    origin : 'A25',
 
     required : {
       mnd : 4
@@ -2921,6 +3129,7 @@ CodeVeinBuilder.data.active = {
   F9 : { // Slow Removal
     image : 'slow-removal',
     tree : _lang.tree.light,
+    origin : 'A7',
 
     required : {
       mnd : 4
@@ -2933,6 +3142,7 @@ CodeVeinBuilder.data.active = {
   F10 : { // Leak Removal
     image : 'leak-removal',
     tree : _lang.tree.light,
+    origin : 'A18',
 
     required : {
       mnd : 4
@@ -2945,6 +3155,7 @@ CodeVeinBuilder.data.active = {
   F11 : { // Panacea's Essence
     image : 'panaceas-essence',
     tree : _lang.tree.light,
+    origin : 'A15',
 
     required : {
       mnd : 7
@@ -2957,6 +3168,7 @@ CodeVeinBuilder.data.active = {
   F12 : { // Blood Sacrifice
     image : 'blood-sacrifice',
     tree : _lang.tree.dark,
+    origin : 'A6',
 
     required : {
       wil : 5
@@ -2969,6 +3181,7 @@ CodeVeinBuilder.data.active = {
   F13 : { // Disremember
     image : 'disremember',
     tree : _lang.tree.light,
+    origin : 'A30',
 
     required : {
       mnd : 5,
@@ -2982,6 +3195,7 @@ CodeVeinBuilder.data.active = {
   F14 : { // Floating Light
     image : 'floating-light',
     tree : _lang.tree.light,
+    origin : 'A8',
 
     ichor_cost : 1,
     cooldown : 2
@@ -2990,6 +3204,7 @@ CodeVeinBuilder.data.active = {
   F15 : { // Vivification
     image : 'vivification',
     tree : _lang.tree.light,
+    origin : 'A7',
 
     required : {
       mnd : 4
@@ -3002,6 +3217,7 @@ CodeVeinBuilder.data.active = {
   F16 : { // Nightstalker
     image : 'nightstalker',
     tree : _lang.tree.light,
+    origin : 'A11',
 
     required : {
       dex : 5,
@@ -3015,6 +3231,7 @@ CodeVeinBuilder.data.active = {
   F17 : { // Night Fog Veil
     image : 'night-fog-veil',
     tree : _lang.tree.light,
+    origin : 'A24',
 
     required : {
       dex : 7,
@@ -3029,6 +3246,7 @@ CodeVeinBuilder.data.active = {
   F18 : { // Spoils Spotter
     image : 'spoils-spotter',
     tree : _lang.tree.light,
+    origin : 'A2',
 
     ichor_cost : 2,
     cooldown : 5
@@ -3037,6 +3255,7 @@ CodeVeinBuilder.data.active = {
   F19 : { // Active IFF
     image : 'active-iff',
     tree : _lang.tree.light,
+    origin : 'A6',
 
     ichor_cost : 1,
     cooldown : 5
@@ -3045,6 +3264,7 @@ CodeVeinBuilder.data.active = {
   F20 : { // Treasure Tracker
     image : 'treasure-tracker',
     tree : _lang.tree.light,
+    origin : 'A18',
 
     ichor_cost : 2,
     cooldown : 5
@@ -3053,6 +3273,7 @@ CodeVeinBuilder.data.active = {
   F21 : { // Prize Perception
     image : 'prize-perception',
     tree : _lang.tree.light,
+    origin : 'A27',
 
     ichor_cost : 4,
     cooldown : 5
@@ -3061,6 +3282,7 @@ CodeVeinBuilder.data.active = {
   F22 : { // Severing Abyss
     image : 'severing-abyss',
     tree : _lang.tree.skill,
+    origin : 'A24',
     
     weapon_req : ['A', 'C', 'E'], // letter refers to weapon group (see weapon list)
     
@@ -3071,6 +3293,7 @@ CodeVeinBuilder.data.active = {
   F23 : { // Phantom Assault
     image : 'phantom-assault',
     tree : _lang.tree.skill,
+    origin : 'A5',
 
     weapon_req : ['A', 'C', 'E'],
 
@@ -3081,6 +3304,7 @@ CodeVeinBuilder.data.active = {
   F24 : { // Circulating Pulse
     image : 'circulating-pulse',
     tree : _lang.tree.skill,
+    origin : 'A0',
 
     weapon_req : ['A', 'C', 'E'],
 
@@ -3091,6 +3315,7 @@ CodeVeinBuilder.data.active = {
   F25 : { // Legion Punisher
     image : 'legion-punisher',
     tree : _lang.tree.skill,
+    origin : 'A17',
 
     weapon_req : ['B', 'D'],
 
@@ -3101,6 +3326,7 @@ CodeVeinBuilder.data.active = {
   F26 : { // Fusillade Rondo
     image : 'fusillade-rondo',
     tree : _lang.tree.skill,
+    origin : 'A12',
 
     weapon_req : ['E'],
 
@@ -3111,6 +3337,7 @@ CodeVeinBuilder.data.active = {
   F27 : { // Triple Annihilator
     image : 'triple-annihilator',
     tree : _lang.tree.skill,
+    origin : 'A1',
 
     weapon_req : ['B', 'D'],
 
@@ -3121,6 +3348,7 @@ CodeVeinBuilder.data.active = {
   F28 : { // Dragon Lunge
     image : 'dragon-lunge',
     tree : _lang.tree.skill,
+    origin : 'A4',
 
     weapon_req : ['B', 'D'],
 
@@ -3131,6 +3359,7 @@ CodeVeinBuilder.data.active = {
   F29 : { // Chariot Rush
     image : 'chariot-rush',
     tree : _lang.tree.skill,
+    origin : 'A19',
 
     weapon_req : ['C'],
 
@@ -3141,6 +3370,7 @@ CodeVeinBuilder.data.active = {
   F30 : { // Shifting Hollow
     image : 'shifting-hollow',
     tree : _lang.tree.skill,
+    origin : 'A2',
 
     weapon_req : ['A', 'B', 'C', 'D', 'E'],
 
@@ -3151,6 +3381,7 @@ CodeVeinBuilder.data.active = {
   F31 : { // Grave Knocker
     image : 'grave-knocker',
     tree : _lang.tree.skill,
+    origin : 'A16',
 
     weapon_req : ['A', 'B', 'C', 'D', 'E'],
 
@@ -3161,6 +3392,7 @@ CodeVeinBuilder.data.active = {
   F32 : { // Swallow Cutter
     image : 'swallow-cutter',
     tree : _lang.tree.skill,
+    origin : 'A8',
 
     weapon_req : ['B', 'D'],
 
@@ -3171,6 +3403,7 @@ CodeVeinBuilder.data.active = {
   F33 : { // Vanishing Hollow
     image : 'vanishing-hollow',
     tree : _lang.tree.skill,
+    origin : 'A25',
 
     weapon_req : ['A', 'B', 'C', 'D', 'E'],
 
@@ -3181,6 +3414,7 @@ CodeVeinBuilder.data.active = {
   F34 : { // Tormenting Blast
     image : 'tormenting-blast',
     tree : _lang.tree.skill,
+    origin : 'A10',
 
     weapon_req : ['B', 'D'],
 
@@ -3191,6 +3425,7 @@ CodeVeinBuilder.data.active = {
   F35 : { // Shadow Assault
     image : 'shadow-assault',
     tree : _lang.tree.skill,
+    origin : 'A11',
 
     weapon_req : ['A', 'C', 'E'],
 

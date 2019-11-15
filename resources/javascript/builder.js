@@ -649,6 +649,7 @@
             bottom = '',
             current,
             stats,
+            origin,
             i;
         
         if (CodeVeinBuilder.selector.active) {
@@ -662,6 +663,8 @@
         // # TOP INFO #
         // shows info on the item
         // top info is name, description and icon
+        origin = id == 0 ? null : CodeVeinBuilder.data[type][id].origin;
+        
         CodeVeinBuilder.cache.selector.infoTop.innerHTML = id == 0 ? 
           '<div class="' + caller.className.replace(' info-active', '') + '"></div>'+
           '<div class="item-info">'+
@@ -672,10 +675,10 @@
         
           '<div class="' + caller.className.replace(' info-active', '') + '" style="background-image:url(' + CodeVeinBuilder.getImage(type, id) + ');"></div>'+
           '<div class="item-info">'+
-            '<div class="item-title">' + CodeVeinBuilder.data[type][id].name + (CodeVeinBuilder.data[type][id].dlc ? '<span class="tag tag-dlc">' + _lang.dlc + '</span>' : '') + '</div>'+
+            '<div class="item-title">' + CodeVeinBuilder.data[type][id].name + (CodeVeinBuilder.data[type][id].dlc ? ' <span class="tag tag-dlc">' + _lang.dlc + '</span>' : '') + '</div>'+
             '<div class="hr"></div>'+
             (CodeVeinBuilder.data[type][id].owner ? '<div class="code-owner"><span class="t-darker">' + _lang.code_owner + '</span> ' + CodeVeinBuilder.data[type][id].owner + '</div>' : '')+
-            (CodeVeinBuilder.data[type][id].origin ? '<div class="gift-origin"><span class="t-darker">' + _lang.origin + '</span> ' + CodeVeinBuilder.data.blood_code[CodeVeinBuilder.data[type][id].origin].name + (CodeVeinBuilder.data[type][id].blood_code_req ? '<span class="tag tag-exclusive" title="' + _lang.exclusive + '"><i class="fa">&#xf005;</i></span>' : '') + '</div>' : '')+
+            (origin ? '<div class="gift-origin"><span class="t-darker">' + _lang.origin + '</span> ' + (/^rvm|^cor/.test(origin) ? _lang[origin.charAt(0) == 'r' ? 'rv_mastery' : 'companion_rank'] + ' (' + origin.slice(3) + ')' : CodeVeinBuilder.data.blood_code[origin].name) + (CodeVeinBuilder.data[type][id].blood_code_req ? ' <span class="tag tag-exclusive" title="' + _lang.exclusive + '"><i class="fa">&#xf005;</i></span>' : '') + '</div>' : '')+
             '<div class="item-desc">' + CodeVeinBuilder.data[type][id].desc + '</div>'+
           '</div>';
         

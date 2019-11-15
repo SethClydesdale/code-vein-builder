@@ -561,7 +561,6 @@
   border-radius:10px;
   vertical-align:middle;
   padding:3px 5px;
-  margin-left:4px;
   cursor:default;
 }
 
@@ -571,19 +570,12 @@
 }
 
 .tag-exclusive {
-  font-size:12px;
-  font-weight:normal;
-  color:#FFF;
-  background-color:#960;
+  color:#FC3;
+  font-size:13px;
   padding:0;
-  display:inline-block;
-  line-height:18px;
-  height:18px;
-  width:18px;
-  text-align:center;
   vertical-align:0;
-  border-radius:100%;
 }
+
 
 
 /* RESPONSIVENESS */

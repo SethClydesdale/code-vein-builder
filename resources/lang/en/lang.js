@@ -18,6 +18,8 @@ window._lang = {
   lang_select : 'Language',
   code_owner : 'Code Owner',
   origin : 'Learned from: ',
+  companion_rank : 'Companion Rank',
+  rv_mastery : 'Rv Mastery',
   exclusive : 'Exclusive',
   dlc : 'DLC',
   

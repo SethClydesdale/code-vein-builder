@@ -39,7 +39,7 @@
   width:40px;
   margin:0;
   border-color:rgba(81, 77, 76, 0.3);
-  background-size:75%;
+  background-size:40px;
   background-repeat:no-repeat;
   background-position:center;
 }
@@ -292,7 +292,13 @@
 .share-build-options .info-value { margin-left:190px; }
 
 /* offsets */
-#options select { margin-top:-5px; }
+#options .info-label { width:100px; }
+#options .info-value { margin-left:110px; }
+#options select {
+  width:97%;
+  margin-top:-5px;
+}
+
 .share-build-options input { margin-top:-3px; }
 
 
@@ -325,7 +331,7 @@
   margin:0 2px 4px 0;
 }
 
-#selector-window .ui-block.ui-transform { background-size:75%; }
+#selector-window .ui-block.ui-transform { background-size:60px; }
 
 .ui-title {
   color:#8D8D8B;
@@ -574,6 +580,16 @@
   font-size:13px;
   padding:0;
   vertical-align:0;
+}
+
+
+/* checkbox zone */
+.checkbox-zone { margin:25px 0 25px 0; }
+.checkbox-zone input[type="checkbox"], .checkbox-zone label[for] {
+  font-size:12px;
+  font-weight:bold;
+  vertical-align:middle;
+  cursor:pointer;
 }
 
 

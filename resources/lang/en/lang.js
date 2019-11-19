@@ -15,7 +15,6 @@ window._lang = {
   passive : 'Passive',
   active : 'Active',
   options : 'Options',
-  lang_select : 'Language',
   code_owner : 'Code Owner',
   origin : 'Learned from: ',
   companion_rank : 'Companion Rank',
@@ -30,9 +29,33 @@ window._lang = {
   modal_title_default : 'Popup',
   
   
-  // translate drop down
+  // preset selector
+  preset_default : 'Select a Preset Build',
+  preset_empty : 'Empty Build',
+  preset_warn : 'Do you want to load the "%{PRESET_NAME}" preset? Your current build will be overwritten.',
+  preset_stop_warning : 'Stop showing this warning',
+  preset_submit : 'Submit a Build',
+  preset_submit_confirm : 'Do you want to submit a build? You will leave the current page. Please make sure to save your build before proceeding.',
+  
+  // preset groups
+  preset_group : {
+    initial : 'Default',
+    '1h' : 'One-handed Sword',
+    '2h' : 'Two-handed Sword',
+    halberd : 'Halberd',
+    hammer : 'Hammer',
+    bayonet : 'Bayonet',
+    light_gifts : 'Light Gifts',
+    dark_gifts : 'Dark Gifts',
+    debuff : 'Debuffs',
+    misc : 'Miscellaneous'
+  },
+  
+  
+  // language selector
+  lang_select : 'Language',
   submit_translation : 'Submit a Translation',
-  submit_translation_confirm : 'Are you sure you want to submit a translation? You will leave the current page. Please make sure to save your build before proceeding.',
+  submit_translation_confirm : 'Do you want to submit a translation? You will leave the current page. Please make sure to save your build before proceeding.',
   
   
   // save build

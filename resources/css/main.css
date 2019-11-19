@@ -47,6 +47,17 @@ a {
 }
 a:hover, a:focus { text-decoration:underline; }
 
+optgroup {color:#CBA;}
+optgroup option {color:#FFF;}
+
+code {
+  color:#E83836;
+  background:#1A1A1A;
+  border:1px solid #333;
+  display:inline-block;
+  padding:3px;
+}
+
 .page-container {
   padding-bottom:15px;
 }

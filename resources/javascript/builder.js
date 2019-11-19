@@ -12,6 +12,58 @@
       '1 - English' : 'en'
     },
     
+    // available presets
+    presets : {
+      // builds based around one-handed swords
+      '0 - 1h' : {
+        'Sacrificial Edge' : 'IIJgLAPsCM0QDBAInUCqoBwQKKIMLQgSEDMEAYuJSMRUTefgJwnQDslkF8QA',
+        'The Yaksha' : 'IIJgrAPsDsEAwQCIEYonmqAOCBRBAwsqgEKSgBsEJsAYgMz0S0gAsEBI6KOnqtcIA'
+      },
+      
+      // builds based around two-handed swords 
+      '1 - 2h' : {
+        'Immortal Blade' : 'IIRgrAPgQiEAwQMICYKnm2wDMEBiIuAorHgCz7IAclke2C9FAIqS43EA',
+        'Swift Blade Dancer' : 'IIZgDAPgQgHBkBECMFiUsATKuBRFAwgOypICcEAYpnNQKxWYmUgAsEBm2BFnKlYIA'
+      },
+      
+      // builds based around the halberd
+      '2 - halberd' : {
+        'Gliding Executioner' : 'IIJg7APgwgbBAMEAiBGCoHrcAHBAoiNCtipAGIgCcElRUAzIpQCzQ1Qj0rPxA',
+        'One Hit Kill' : 'IIBgPgwgnG4CIEYzCeFyAcYCiAmZMEAbGAGK74QIAsZClCAzJAuBI8xFttUA'
+      },
+      
+      // builds based around the hammer
+      '3 - hammer' : {
+        'Shockwave Smasher' : 'IIZgDAPgIgTBlQIwWHSxnABwQKIggGEA2FRAdggDEYdCZJCQ4qQAWImZQgTiPGpggA',
+        'Swift Tyrant' : 'IIZgDAPgIg7BlQIwWJSxnABwQKIggGE4MBOCAMQCYdqBWSquCkAFiKqqPMKuQrBA'
+      },
+      
+      // builds based around the bayonet
+      '4 - bayonet' : {
+        'Sacrificial Ranger' : 'IIJhB8FEE5wBnAEQIzzcVwAcUAs4BhWDAdkIGYFhycAxZCWkANkOQQJHwOVVriA',
+        'Vampiric Ranger' : 'IIJhB8FEE4oRnAEQQBnMALOhwAcUsBhWQuBUtTAZnFIQDEQA2WsWkkBlIA'
+      },
+      
+      // builds that deal with support and sometimes offensive gifts
+      '5 - light_gifts' : {
+        'Deliverance' : 'IIZgjAPgDNECKRjYkBiaBMEDCYvqyVhlQBYcBOCVAVmrCA',
+        'Vampiric Blitzer' : 'IIRgrAPsBsEAwQCIigFnlFwAcECiCAwiFiAEyakWgDMadhZFhAnBIygGJxA'
+      },
+      
+      // builds that deal with offensive gifts which devastate foes
+      '6 - dark_gifts' : {
+        'Sacrificial Storm Mage' : 'IIJgHAPgogDBcBEAs9WgsSwCMA2CAwtthtiqPqAJwYDMJwtkRKAYtiIdjazEA',
+        'Vampiric Mage' : 'IIJgHAPsBsEAwQCIEYoBZ5VcSxkggGFltlZQNgBmAVihAE4oqnCQDDWRUAxOIA'
+      },
+      
+      // builds that deal with applying debuffs to the enemy
+      '7 - debuff' : {
+        'Slow' : 'IIRgzAPsBsEAwQCIggYUg0UAcECimIuoATBAEJnkCsFICAYiQCxoCcaJZqA7BA3CA',
+        'Stun' : 'IIRgzAPsBsEAwQCIggYRQ0UAcECimIuoATBAEIrkAsFAnBAGIm2oOolmoCsTcQA',
+        'Venom' : 'IITgPsCMlgDGARGBhe8oQBxgKLstgGIDsYAQvGQMzlEBMALGMuMnXc04bEA'
+      }
+    },
+    
     // node cache + any other cached data
     cache : {
       buildList : document.getElementById('build-list'),
@@ -1013,6 +1065,73 @@
     },
     
     
+    // preset functionality
+    preset : {
+      // shows a prompt before applying the preset (skips prompt if preferred)
+      change : function (select) {
+        var build = select.options[select.selectedIndex];
+
+        if (build.value != 'default') {
+          
+          // redirect to submission page if "submit a build" was selected
+          if (build.value == 'submit') {
+            GenkiModal.open({
+              title : build.innerHTML,
+              content : _lang.preset_submit_confirm,
+
+              callback : function () {
+                var fileSys = window.location.protocol == 'file:',
+                    href = window.location.href.replace(/\?.*?$/, '');
+
+                window.location.href = fileSys ? href.replace('index.html', 'submit-build/index.html') : href + 'submit-build/';
+              },
+
+              close : function () {
+                select.selectedIndex = 0;
+              }
+            });
+
+            return;
+          }
+          
+          if (window.localStorage && localStorage.noPresetWarning == 'true') {
+            CodeVeinBuilder.preset.load(select, build.value);
+            
+          } else {
+            GenkiModal.open({
+              title : 'Load Preset?',
+              content : _lang.preset_warn.replace('%{PRESET_NAME}', build.innerHTML)+
+              '<div class="checkbox-zone">'+
+                '<label for="preset_warning"><input id="preset_warning" type="checkbox" onchange="localStorage.noPresetWarning = this.checked;"> ' + _lang.preset_stop_warning + '</label>'+
+              '</div>',
+
+              callback : function () {
+                CodeVeinBuilder.preset.load(select, build.value);
+              },
+
+              close : function () {
+                select.selectedIndex = 0;
+              }
+            });
+          }
+          
+        }
+      },
+      
+      
+      // loads the selected preset
+      load : function (select, build) {
+        CodeVeinBuilder.build = LZString.decompressFromEncodedURIComponent(build).split('|');
+        CodeVeinBuilder.updateURL();
+        CodeVeinBuilder.status.reset();
+        CodeVeinBuilder.loadBuild();
+        CodeVeinBuilder.scrollTo('#build-list');
+
+        select.selectedIndex = 0;
+      }
+    },
+    
+    
     // changes the selected language
     changeLanguage : function (select) {
       var lang = select.options[select.selectedIndex].value, fileSys, href;
@@ -1116,6 +1235,7 @@
               CodeVeinBuilder.status.reset();
               CodeVeinBuilder.loadBuild();
               GenkiModal.close();
+              CodeVeinBuilder.scrollTo('#build-list');
               
             } catch (error) {
               alert(error);
@@ -1164,7 +1284,14 @@
       
       
       // setup options window
-      var options = '', key, i;
+      var options = '',
+          presets = '<option value="default" selected>' + _lang.preset_default + '</option>'+
+                    '<option value="submit">' + _lang.preset_submit + '</option>'+
+                    '<optgroup label="'+ _lang.preset_group.initial +'">'+
+                      '<option value="AwH17SOrZ4g">' + _lang.preset_empty + '</option>'+
+                    '</optgroup>',
+          key,
+          i, k;
       
       // compile language list with the actively selected language
       for (i in CodeVeinBuilder.languages) {
@@ -1172,14 +1299,32 @@
         options += '<option value="' + CodeVeinBuilder.languages[i] + '"' + (((lang && lang == CodeVeinBuilder.languages[i]) || !lang && CodeVeinBuilder.languages[i] == 'en') ? ' id="default-selected" selected' : '') + '>' + (key == 'submit_translation' ? _lang[key] : key) + '</option>';
       }
       
+      // compile presets
+      for (i in CodeVeinBuilder.presets) {
+        presets += '<optgroup label="' + _lang.preset_group[i.replace(/^\d+ - /, '')] + '">';
+        
+        for (k in CodeVeinBuilder.presets[i]) {
+          presets += '<option value="' + CodeVeinBuilder.presets[i][k] + '">' + k + '</option>';
+        }
+        
+        presets += '</optgroup>';
+      }
+      
+      // options section
       CodeVeinBuilder.cache.infoColumn.options.innerHTML = 
         '<div class="ui-window">'+
           '<div class="ui-title">' + _lang.options + '</div>'+
           '<div class="ui-window-inner">'+
             // share/load build buttons
             '<div class="info-group center">'+
-              '<button class="button" onclick="CodeVeinBuilder.code.save();"><i class="fa">&#xf0c7;</i>' + _lang.save_build + '</button>'+
-              '<button class="button" onclick="CodeVeinBuilder.code.load();"><i class="fa">&#xf019;</i>' + _lang.load_build + '</button>'+
+              '<div class="info-row">'+
+                '<button class="button" onclick="CodeVeinBuilder.code.save();"><i class="fa">&#xf0c7;</i>' + _lang.save_build + '</button>'+
+                '<button class="button" onclick="CodeVeinBuilder.code.load();"><i class="fa">&#xf019;</i>' + _lang.load_build + '</button>'+
+              '</div>'+
+              // preset build selector
+              '<div class="info-row">'+
+                '<select onchange="CodeVeinBuilder.preset.change(this);">' + presets + '</select>'+
+              '</div>'+
             '</div>'+
         
             // language selector

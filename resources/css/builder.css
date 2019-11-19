@@ -104,6 +104,13 @@
 #stats-window .spacer { height:355px; }
 #options .spacer { height:143px; }
 
+/* offsets */
+#options .info-label { width:120px; }
+#options .info-value { margin-left:130px; }
+
+#options select { width:80%; }
+#options .info-value select { margin-top:-5px; }
+
 #passives, #blood-code {
   margin-right:25px;
   vertical-align:115px;
@@ -290,14 +297,6 @@
 }
 
 .share-build-options .info-value { margin-left:190px; }
-
-/* offsets */
-#options .info-label { width:100px; }
-#options .info-value { margin-left:110px; }
-#options select {
-  width:97%;
-  margin-top:-5px;
-}
 
 .share-build-options input { margin-top:-3px; }
 

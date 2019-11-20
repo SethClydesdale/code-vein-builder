@@ -16,6 +16,7 @@
     presets : {
       // builds based around one-handed swords
       '0 - 1h' : {
+        'Knight of Ishtar' : 'IIZgjAPsCcWc8QQAxVQUVcAHHATHAGwQBiIArKXgCxVJmoDCujeSjsjYyQA', // github.com/SethClydesdale/code-vein-builder/issues/5
         'Sacrificial Edge' : 'IIJgLAPsCM0QDBAInUCqoBwQKKIMLQgSEDMEAYuJSMRUTefgJwnQDslkF8QA',
         'The Yaksha' : 'IIJgrAPsDsEAwQCIEYonmqAOCBRBAwsqgEKSgBsEJsAYgMz0S0gAsEBI6KOnqtcIA'
       },
@@ -44,16 +45,17 @@
         'Vampiric Ranger' : 'IIJhB8FEE4oRnAEQQBnMALOhwAcUsBhWQuBUtTAZnFIQDEQA2WsWkkBlIA'
       },
       
-      // builds that deal with support and sometimes offensive gifts
-      '5 - light_gifts' : {
-        'Deliverance' : 'IIZgjAPgDNECKRjYkBiaBMEDCYvqyVhlQBYcBOCVAVmrCA',
-        'Vampiric Blitzer' : 'IIRgrAPsBsEAwQCIigFnlFwAcECiCAwiFiAEyakWgDMadhZFhAnBIygGJxA'
-      },
-      
       // builds that deal with offensive gifts which devastate foes
-      '6 - dark_gifts' : {
+      '5 - dark_gifts' : {
+        'Blade Mage' : 'IIJgHAPsBsEKIE4oGYoBYoEYtdQYSTwHYpJhMlQQoRsAxABgj0wxcJAFYUwg', // reddit.com/r/codevein/comments/dyrpbu/c/f84ratz
         'Sacrificial Storm Mage' : 'IIJgHAPgogDBcBEAs9WgsSwCMA2CAwtthtiqPqAJwYDMJwtkRKAYtiIdjazEA',
         'Vampiric Mage' : 'IIJgHAPsBsEAwQCIEYoBZ5VcSxkggGFltlZQNgBmAVihAE4oqnCQDDWRUAxOIA'
+      },
+      
+      // builds that deal with support and sometimes offensive gifts
+      '6 - light_gifts' : {
+        'Deliverance' : 'IIZgjAPgDNECKRjYkBiaBMEDCYvqyVhlQBYcBOCVAVmrCA',
+        'Vampiric Blitzer' : 'IIRgrAPsBsEAwQCIigFnlFwAcECiCAwiFiAEyakWgDMadhZFhAnBIygGJxA'
       },
       
       // builds that deal with applying debuffs to the enemy

@@ -976,7 +976,7 @@
           newMax = newWeight.max * (newWeight.max_multiplier || 1);
 
           mobility = {
-            current : [CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.getMobility(mobility_1)] || -1, CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.getMobility(mobility_2)] || -1],
+            current : [CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.getMobility(mobility_1)], CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.getMobility(mobility_2)]],
             hover : [CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.getMobility(mobility_1, newWeight, code)], CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.getMobility(mobility_2, newWeight, code)]]
           };
 

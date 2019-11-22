@@ -2196,6 +2196,7 @@ window._lang = {
 
 // mobility key
 // converts the translated string into a comparable value
+CodeVeinBuilder.status.mobiKey[_lang.na]          = -1;
 CodeVeinBuilder.status.mobiKey[_lang.mobi.slow]   = 0;
 CodeVeinBuilder.status.mobiKey[_lang.mobi.normal] = 1;
 CodeVeinBuilder.status.mobiKey[_lang.mobi.quick]  = 2;

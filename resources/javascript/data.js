@@ -866,7 +866,9 @@ CodeVeinBuilder.data.passive = {
   A19 : { // Revenant's Ambition
     image : 'revenants-ambition',
     tree : _lang.tree.light,
-    origin : 'A17'
+    origin : 'A17',
+    
+    inc_max_weight : 1.30
   },
   
   A20 : { // Opportunism
@@ -3445,6 +3447,8 @@ CodeVeinBuilder.data.weapon = {
   // # ONE-HANDED SWORDS #
   A0 : { // Queenslayer Blade
     image : 'queenslayer-blade',
+    
+    weight : 35,
 
     scaling : {
       str : 6,
@@ -3459,6 +3463,8 @@ CodeVeinBuilder.data.weapon = {
 
   A1 : { // Pipe of Thralldom
     image : 'pipe-of-thralldom',
+    
+    weight : 5,
 
     scaling : {
       str : 6,
@@ -3473,6 +3479,8 @@ CodeVeinBuilder.data.weapon = {
   
   A2 : { // Broadsword
     image : 'broadsword',
+    
+    weight : 43,
 
     scaling : {
       str : 6,
@@ -3486,6 +3494,8 @@ CodeVeinBuilder.data.weapon = {
   
   A3 : { // Hanemukuro
     image : 'hanemukuro',
+    
+    weight : 32,
 
     scaling : {
       str : 5,
@@ -3500,6 +3510,8 @@ CodeVeinBuilder.data.weapon = {
   
   A4 : { // Enduring Crimson
     image : 'enduring-crimson',
+    
+    weight : 34,
 
     scaling : {
       str : 7,
@@ -3514,6 +3526,8 @@ CodeVeinBuilder.data.weapon = {
   
   A5 : { // Machete
     image : 'machete',
+    
+    weight : 46,
 
     scaling : {
       str : 7,
@@ -3528,6 +3542,8 @@ CodeVeinBuilder.data.weapon = {
   
   A6 : { // Argent Wolf Blade
     image : 'argent-wolf-blade',
+    
+    weight : 35,
 
     scaling : {
       str : 5,
@@ -3544,6 +3560,8 @@ CodeVeinBuilder.data.weapon = {
   
   A7 : { // Blazing Claw
     image : 'blazing-claw',
+    
+    weight : 28,
 
     scaling : {
       str : 5,
@@ -3562,6 +3580,8 @@ CodeVeinBuilder.data.weapon = {
   
   A8 : { // Iceblood
     image : 'iceblood',
+    
+    weight : 17,
 
     scaling : {
       str : 6,
@@ -3580,6 +3600,8 @@ CodeVeinBuilder.data.weapon = {
   
   A9 : { // Sunset Sword
     image : 'sunset-sword',
+    
+    weight : 30,
 
     scaling : {
       str : 5,
@@ -3593,6 +3615,8 @@ CodeVeinBuilder.data.weapon = {
   
   A10 : { // Black Saber
     image : 'black-saber',
+    
+    weight : 48,
 
     scaling : {
       str : 9,
@@ -3606,6 +3630,8 @@ CodeVeinBuilder.data.weapon = {
   
   A11 : { // Executioner
     image : 'executioner',
+    
+    weight : 38,
 
     scaling : {
       str : 6,
@@ -3624,6 +3650,8 @@ CodeVeinBuilder.data.weapon = {
   
   A12 : { // Lost Broadsword
     image : 'lost-broadsword',
+    
+    weight : 40,
 
     scaling : {
       str : 6,
@@ -3639,6 +3667,8 @@ CodeVeinBuilder.data.weapon = {
   A13 : { // Crimson Longsword
     image : 'crimson-longsword',
     dlc : 1,
+    
+    weight : 30,
 
     scaling : {
       str : 5,
@@ -3659,6 +3689,8 @@ CodeVeinBuilder.data.weapon = {
   // # TWO-HANDED SWORDS #
   B0 : { // Queenslayer Greatsword
     image : 'queenslayer-greatsword',
+    
+    weight : 73,
 
     scaling : {
       str : 7,
@@ -3672,6 +3704,8 @@ CodeVeinBuilder.data.weapon = {
   
   B1 : { // Zweihander
     image : 'zweihander',
+    
+    weight : 87,
 
     scaling : {
       str : 7,
@@ -3685,6 +3719,8 @@ CodeVeinBuilder.data.weapon = {
   
   B2 : { // Nagimukuro
     image : 'nagimukuro',
+    
+    weight : 75,
 
     scaling : {
       str : 6,
@@ -3699,6 +3735,8 @@ CodeVeinBuilder.data.weapon = {
   
   B3 : { // Oni Bane
     image : 'oni-bane',
+    
+    weight : 78,
 
     scaling : {
       str : 9,
@@ -3712,6 +3750,8 @@ CodeVeinBuilder.data.weapon = {
   
   B4 : { // Warped Blade
     image : 'warped-blade',
+    
+    weight : 72,
 
     scaling : {
       str : 7,
@@ -3727,6 +3767,8 @@ CodeVeinBuilder.data.weapon = {
   
   B5 : { // Black Great Sword
     image : 'black-great-sword',
+    
+    weight : 70,
 
     scaling : {
       str : 8,
@@ -3743,6 +3785,8 @@ CodeVeinBuilder.data.weapon = {
   
   B6 : { // Argent Wolf King's Blade
     image : 'argent-wolf-kings-blade',
+    
+    weight : 88,
 
     scaling : {
       str : 9,
@@ -3758,6 +3802,8 @@ CodeVeinBuilder.data.weapon = {
   
   B7 : { // Judgement Edge
     image : 'judgement-edge',
+    
+    weight : 86,
 
     scaling : {
       str : 9,
@@ -3771,6 +3817,8 @@ CodeVeinBuilder.data.weapon = {
   
   B8 : { // Sunset Great Sword
     image : 'sunset-great-sword',
+    
+    weight : 65,
 
     scaling : {
       str : 6,
@@ -3784,6 +3832,8 @@ CodeVeinBuilder.data.weapon = {
   
   B9 : { // Lost Zweihander
     image : 'lost-zweihander',
+    
+    weight : 80,
 
     scaling : {
       str : 6,
@@ -3797,6 +3847,8 @@ CodeVeinBuilder.data.weapon = {
   
   B10 : { // Argent Wolf Brand
     image : 'argent-wolf-brand',
+    
+    weight : 82,
 
     scaling : {
       str : 9,
@@ -3811,6 +3863,8 @@ CodeVeinBuilder.data.weapon = {
   B11 : { // Blanched Greatsword
     image : 'blanched-greatsword',
     dlc : 1,
+    
+    weight : 90,
 
     scaling : {
       str : 9
@@ -3825,6 +3879,8 @@ CodeVeinBuilder.data.weapon = {
   // # HALBERDS #
   C0 : { // Queenslayer Halberd
     image : 'queenslayer-halberd',
+    
+    weight : 60,
 
     scaling : {
       str : 5,
@@ -3839,6 +3895,8 @@ CodeVeinBuilder.data.weapon = {
   
   C1 : { // Bardiche
     image : 'bardiche',
+    
+    weight : 52,
 
     scaling : {
       str : 6,
@@ -3853,6 +3911,8 @@ CodeVeinBuilder.data.weapon = {
   
   C2 : { // Impaler
     image : 'impaler',
+    
+    weight : 47,
 
     scaling : {
       str : 4,
@@ -3866,6 +3926,8 @@ CodeVeinBuilder.data.weapon = {
   
   C3 : { // Garnet Splitter
     image : 'garnet-splitter',
+    
+    weight : 54,
 
     scaling : {
       str : 5,
@@ -3883,6 +3945,8 @@ CodeVeinBuilder.data.weapon = {
   
   C4 : { // Dammerung
     image : 'dammerung',
+    
+    weight : 57,
 
     scaling : {
       str : 7,
@@ -3902,6 +3966,8 @@ CodeVeinBuilder.data.weapon = {
   
   C5 : { // Black Halberd
     image : 'black-halberd',
+    
+    weight : 48,
 
     scaling : {
       str : 3,
@@ -3919,6 +3985,8 @@ CodeVeinBuilder.data.weapon = {
   
   C6 : { // Assassin's Sickle
     image : 'assassins-sickle',
+    
+    weight : 42,
 
     scaling : {
       str : 5,
@@ -3936,6 +4004,8 @@ CodeVeinBuilder.data.weapon = {
   
   C7 : { // Sunset Halberd
     image : 'sunset-halberd',
+    
+    weight : 58,
 
     scaling : {
       str : 4,
@@ -3949,6 +4019,8 @@ CodeVeinBuilder.data.weapon = {
   
   C8 : { // Lost Bardiche
     image : 'lost-bardiche',
+    
+    weight : 50,
 
     scaling : {
       str : 5,
@@ -3962,6 +4034,8 @@ CodeVeinBuilder.data.weapon = {
   
   C9 : { // Obliterator Axe
     image : 'obliterator-axe',
+    
+    weight : 70,
 
     scaling : {
       str : 9,
@@ -3975,6 +4049,8 @@ CodeVeinBuilder.data.weapon = {
   
   C10 : { // Argent Wolf Poleaxe
     image : 'argent-wolf-poleaxe',
+    
+    weight : 66,
 
     scaling : {
       str : 1,
@@ -3989,6 +4065,8 @@ CodeVeinBuilder.data.weapon = {
   C11 : { // Cerulean Spear
     image : 'cerulean-spear',
     dlc : 1,
+    
+    weight : 45,
 
     scaling : {
       str : 5,
@@ -4008,6 +4086,8 @@ CodeVeinBuilder.data.weapon = {
   // # HAMMERS #
   D0 : { // Queenslayer Hammer
     image : 'queenslayer-hammer',
+    
+    weight : 74,
 
     scaling : {
       str : 8,
@@ -4021,6 +4101,8 @@ CodeVeinBuilder.data.weapon = {
   
   D1 : { // Hammer of Thralldom
     image : 'hammer-of-thralldom',
+    
+    weight : 95,
 
     scaling : {
       str : 8,
@@ -4034,6 +4116,8 @@ CodeVeinBuilder.data.weapon = {
   
   D2 : { // Juggernaut Sledgehammer
     image : 'juggernaut-sledgehammer',
+    
+    weight : 76,
 
     scaling : {
       str : 9,
@@ -4047,6 +4131,8 @@ CodeVeinBuilder.data.weapon = {
   
   D3 : { // Heavy Axe
     image : 'heavy-axe',
+    
+    weight : 55,
 
     scaling : {
       str : 7,
@@ -4060,6 +4146,8 @@ CodeVeinBuilder.data.weapon = {
   
   D4 : { // Impulse Anchor
     image : 'impulse-anchor',
+    
+    weight : 78,
 
     scaling : {
       str : 6,
@@ -4073,6 +4161,8 @@ CodeVeinBuilder.data.weapon = {
   
   D5 : { // Huge Hammer
     image : 'huge-hammer',
+    
+    weight : 87,
 
     scaling : {
       str : 9,
@@ -4086,6 +4176,8 @@ CodeVeinBuilder.data.weapon = {
   
   D6 : { // Argent Wolf Warhammer
     image : 'argent-wolf-warhammer',
+    
+    weight : 84,
 
     scaling : {
       str : 9,
@@ -4100,6 +4192,8 @@ CodeVeinBuilder.data.weapon = {
   
   D7 : { // Tyrant's Labrys
     image : 'tyrants-labrys',
+    
+    weight : 58,
 
     scaling : {
       str : 9,
@@ -4115,6 +4209,8 @@ CodeVeinBuilder.data.weapon = {
   
   D8 : { // Sunset Hammer
     image : 'sunset-hammer',
+    
+    weight : 68,
 
     scaling : {
       str : 6,
@@ -4128,6 +4224,8 @@ CodeVeinBuilder.data.weapon = {
   
   D9 : { // Burned Warhammer
     image : 'burned-warhammer',
+    
+    weight : 72,
 
     scaling : {
       str : 8,
@@ -4144,6 +4242,8 @@ CodeVeinBuilder.data.weapon = {
   
   D10 : { // Lost Heavy Axe
     image : 'lost-heavy-axe',
+    
+    weight : 50,
 
     scaling : {
       str : 9,
@@ -4160,6 +4260,8 @@ CodeVeinBuilder.data.weapon = {
   // # BAYONETS #
   E0 : { // Queenslayer Bayonet
     image : 'queenslayer-bayonet',
+    
+    weight : 15,
 
     scaling : {
       dex : 9,
@@ -4176,6 +4278,8 @@ CodeVeinBuilder.data.weapon = {
   
   E1 : { // Brodiaea
     image : 'brodiaea',
+    
+    weight : 10,
 
     scaling : {
       dex : 9,
@@ -4192,6 +4296,8 @@ CodeVeinBuilder.data.weapon = {
   
   E2 : { // Riot Breaker
     image : 'riot-breaker',
+    
+    weight : 22,
 
     scaling : {
       str : 7,
@@ -4210,6 +4316,8 @@ CodeVeinBuilder.data.weapon = {
   
   E3 : { // Bayonet
     image : 'bayonet',
+    
+    weight : 14,
 
     scaling : {
       dex : 9,
@@ -4226,6 +4334,8 @@ CodeVeinBuilder.data.weapon = {
   
   E4 : { // Rubellite Piercer
     image : 'rubellite-piercer',
+    
+    weight : 18,
 
     scaling : {
       dex : 9,
@@ -4242,6 +4352,8 @@ CodeVeinBuilder.data.weapon = {
   
   E5 : { // Argent Wolf Bayonet
     image : 'argent-wolf-bayonet',
+    
+    weight : 27,
 
     scaling : {
       dex : 7,
@@ -4257,6 +4369,8 @@ CodeVeinBuilder.data.weapon = {
   
   E6 : { // Burning Disaster
     image : 'burning-disaster',
+    
+    weight : 33,
 
     scaling : {
       str : 8,
@@ -4274,6 +4388,8 @@ CodeVeinBuilder.data.weapon = {
   
   E7 : { // Sunset Bayonet
     image : 'sunset-bayonet',
+    
+    weight : 8,
 
     scaling : {
       dex : 6,
@@ -4289,6 +4405,8 @@ CodeVeinBuilder.data.weapon = {
   
   E8 : { // Black Bayonet
     image : 'black-bayonet',
+    
+    weight : 24,
 
     scaling : {
       dex : 8,
@@ -4304,6 +4422,8 @@ CodeVeinBuilder.data.weapon = {
   
   E9 : { // Libertador
     image : 'libertador',
+    
+    weight : 20,
 
     scaling : {
       dex : 6,
@@ -4320,6 +4440,8 @@ CodeVeinBuilder.data.weapon = {
   
   E10 : { // Lost Bayonet
     image : 'lost-bayonet',
+    
+    weight : 11,
 
     scaling : {
       dex : 5,
@@ -4343,6 +4465,8 @@ CodeVeinBuilder.data.blood_veil = {
   // # OGRE #
   A0 : { // Night Claw
     image : 'night-claw',
+    
+    weight : 30,
 
     scaling : {
       dex : 9,
@@ -4359,6 +4483,8 @@ CodeVeinBuilder.data.blood_veil = {
   
   A1 : { // Noble Silver
     image : 'noble-silver',
+    
+    weight : 22,
 
     scaling : {
       str : 4,
@@ -4374,6 +4500,8 @@ CodeVeinBuilder.data.blood_veil = {
 
   A2 : { // GXM Variant
     image : 'gxm-variant',
+    
+    weight : 63,
 
     scaling : {
       str : 6,
@@ -4390,6 +4518,8 @@ CodeVeinBuilder.data.blood_veil = {
   
   A3 : { // Blackblood Liberator
     image : 'blackblood-liberator',
+    
+    weight : 49,
 
     scaling : {
       str : 3,
@@ -4404,6 +4534,8 @@ CodeVeinBuilder.data.blood_veil = {
   
   A4 : { // Queenslayer Claw
     image : 'queenslayer-claw',
+    
+    weight : 55,
 
     scaling : {
       dex : 5,
@@ -4421,6 +4553,8 @@ CodeVeinBuilder.data.blood_veil = {
   A5 : { // Venous Claw
     image : 'venous-claw',
     dlc : 1,
+    
+    weight : 18,
 
     scaling : {
       str : 5,
@@ -4441,6 +4575,8 @@ CodeVeinBuilder.data.blood_veil = {
   // # STINGER #
   B0 : { // Night Spear
     image : 'night-spear',
+    
+    weight : 65,
 
     scaling : {
       str : 2,
@@ -4457,6 +4593,8 @@ CodeVeinBuilder.data.blood_veil = {
   
   B1 : { // Raven Fatigues
     image : 'raven-fatigues',
+    
+    weight : 38,
 
     scaling : {
       str : 5,
@@ -4473,6 +4611,8 @@ CodeVeinBuilder.data.blood_veil = {
   
   B2 : { // Winter Mantle
     image : 'winter-mantle',
+    
+    weight : 74,
 
     scaling : {
       str : 1,
@@ -4488,6 +4628,8 @@ CodeVeinBuilder.data.blood_veil = {
   
   B3 : { // Silver Garb
     image : 'silver-garb',
+    
+    weight : 80,
 
     scaling : {
       str : 6,
@@ -4504,6 +4646,8 @@ CodeVeinBuilder.data.blood_veil = {
   
   B4 : { // Queenslayer Thorn
     image : 'queenslayer-thorn',
+    
+    weight : 47,
 
     scaling : {
       str : 3,
@@ -4521,6 +4665,8 @@ CodeVeinBuilder.data.blood_veil = {
   // # HOUNDS #
   C0 : { // Night Fang
     image : 'night-fang',
+    
+    weight : 60,
 
     scaling : {
       str : 6,
@@ -4536,6 +4682,8 @@ CodeVeinBuilder.data.blood_veil = {
   
   C1 : { // Blue Hounds
     image : 'blue-hounds',
+    
+    weight : 53,
 
     scaling : {
       dex : 6,
@@ -4552,6 +4700,8 @@ CodeVeinBuilder.data.blood_veil = {
   
   C2 : { // GXL Defender
     image : 'gxl-defender',
+    
+    weight : 88,
 
     scaling : {
       str : 2,
@@ -4568,6 +4718,8 @@ CodeVeinBuilder.data.blood_veil = {
   
   C3 : { // Hedgehog Fort
     image : 'hedgehog-fort',
+    
+    weight : 80,
 
     scaling : {
       str : 6,
@@ -4585,6 +4737,8 @@ CodeVeinBuilder.data.blood_veil = {
   
   C4 : { // 
     image : 'white-vestment',
+    
+    weight : 65,
 
     scaling : {
       dex : 5,
@@ -4603,6 +4757,8 @@ CodeVeinBuilder.data.blood_veil = {
   // # IVY #
   D0 : { // Night Thorn
     image : 'night-thorn',
+    
+    weight : 24,
 
     scaling : {
       str : 4,
@@ -4619,6 +4775,8 @@ CodeVeinBuilder.data.blood_veil = {
   
   D1 : { // Ivory Grace
     image : 'ivory-grace',
+    
+    weight : 12,
 
     scaling : {
       dex : 5,
@@ -4635,6 +4793,8 @@ CodeVeinBuilder.data.blood_veil = {
   
   D2 : { // GXH Assault
     image : 'gxh-assault',
+    
+    weight : 40,
 
     scaling : {
       str : 7,
@@ -4652,6 +4812,8 @@ CodeVeinBuilder.data.blood_veil = {
   
   D3 : { // Prayer Shawl
     image : 'prayer-shawl',
+    
+    weight : 48,
 
     scaling : {
       str : 4,
@@ -4667,6 +4829,8 @@ CodeVeinBuilder.data.blood_veil = {
   
   D4 : { // Suicide Spur
     image : 'suicide-spur',
+    
+    weight : 35,
 
     scaling : {
       str : 4,
@@ -4690,11 +4854,16 @@ CodeVeinBuilder.data.blood_veil = {
 CodeVeinBuilder.data.transform = {
   // # PHYSICAL #
   A0 : { // Alleviation
-    image : 'alleviation'
+    image : 'alleviation',
+    dec_weight : 1.25
   },
 
   A1 : { // Fortification
-    image : 'fortification'
+    image : 'fortification',
+    inc_weight : {
+      weapon : 1.15,
+      blood_veil : 1.10
+    }
   },
   
   A2 : { // Intensification

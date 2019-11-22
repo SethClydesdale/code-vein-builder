@@ -43,6 +43,7 @@
   background-repeat:no-repeat;
   background-position:center;
 }
+#equipment .ui-block.ui-transform:hover { border-color:rgba(255, 255, 255, 0.9); }
 
 #passives .ui-block {
   height:66px;
@@ -147,7 +148,6 @@
   border-color:#FFF;
   box-shadow:0px 0px 5px rgba(255, 255, 255, 0.5), 0px 0px 5px inset rgba(255, 255, 255, 0.5);
 }
-#equipment .ui-block.ui-transform:hover { border-color:#FFF; }
 
 
 /* TEXT COLORS */
@@ -272,6 +272,10 @@
   padding-left:30px;
 }
 
+.required-stats {
+  height:160px;
+}
+
 /* weapon requirements */
 .weapon-requirement { height:20px; }
 .weapon-requirement img {
@@ -348,6 +352,23 @@
 
 .selector-column:first-child .ui-window { margin-right:12px; }
 .selector-column:last-child .ui-window { margin-left:12px; }
+
+/* transform icons */
+#selector-options .ui-block { position:relative; }
+#selector-options .ui-block .ui-transform {
+  background:transparent;
+  position:absolute;
+  top:0;
+  left:0;
+  height:40px;
+  width:40px;
+  margin:0;
+  border-color:transparent;
+  box-shadow:none;
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-position:center;
+}
 
 
 /* SELECTION WINDOW SCROLL BAR */
@@ -443,6 +464,8 @@
   content:url(../images/ui/equipped-active.png);
 }
 
+#selector-options .ui-stats-bad:before { z-index:1 }
+#selector-options .ui-equipped:after { z-index:2 }
 
 /* CLOSE BUTTON */
 #selector-window #selector-close {

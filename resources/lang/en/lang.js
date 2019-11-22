@@ -32,7 +32,7 @@ window._lang = {
   // preset selector
   preset_default : 'Select a Preset Build',
   preset_empty : 'Empty Build',
-  preset_warn : 'Do you want to load the "%{PRESET_NAME}" preset? Your current build will be overwritten.',
+  preset_warn : 'Do you want to load the "%{PRESET_NAME}" build? Your current build will be overwritten.',
   preset_stop_warning : 'Stop showing this warning',
   preset_submit : 'Submit a Build',
   preset_submit_confirm : 'Do you want to submit a build? You will leave the current page. Please make sure to save your build before proceeding.',

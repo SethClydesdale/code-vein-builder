@@ -1211,14 +1211,14 @@
         }
         
         // update weight
-        if ({0:1, 1:1, 2:1, 3:1, 4:1, 5:1, 6:1, 7:1, 8:1, 9:1, 10:1}[caller] && (id != current)) {
+        if ({0:1, 1:1, 2:1, 3:1, 4:1, 5:1, 6:1, 7:1, 8:1, 9:1, 10:1}[caller] && (!selected.dataset.slot || {1:1, 2:1}[caller]) && (id != current)) {
           CodeVeinBuilder.status.updateWeight({
             type : caller,
             id : id,
             oldId : current
           });
           
-          if (selected.dataset.slot && /1|2/.test(caller)) {
+          if (selected.dataset.slot && {1:1, 2:1}[caller]) {
             weapon = caller == 1 ? 2 : 1;
             
             CodeVeinBuilder.status.updateWeight({

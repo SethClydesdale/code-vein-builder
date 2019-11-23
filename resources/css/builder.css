@@ -102,8 +102,8 @@
 }
 
 #stats-window { margin:-80px 0 20px 0; }
-#stats-window .spacer { height:355px; }
-#options .spacer { height:143px; }
+#stats-window .spacer { height:444px; }
+#options .spacer { height:185px; }
 
 /* offsets */
 #options .info-label { width:120px; }

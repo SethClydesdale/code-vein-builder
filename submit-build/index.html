@@ -55,17 +55,19 @@
         <div class="columns-2 center clear">
           <div>
             <strong>Plain Text</strong><br>
-<textarea onclick="this.select();" style="width:90%;height:75px;">Build Name: 
-Build Category:
-Build Link/Code:
-Additional Comments (optional): </textarea>
+<textarea id="plain-template" onclick="this.select();" style="width:90%;height:75px;resize:none;" readonly>Build Name: 
+Build Category: 
+Build Link/Code: 
+Additional Comments (optional): </textarea><br>
+            <button class="button copy-button" data-clipboard-target="#plain-template" data-success="Copied!" data-original="Copy">Copy</button>
           </div>
           <div>
             <strong>Markdown (Github)</strong><br>
-<textarea onclick="this.select();" style="width:90%;height:75px;">**Build Name:** 
+<textarea id="rich-template" onclick="this.select();" style="width:90%;height:75px;resize:none;" readonly>**Build Name:** 
 **Build Category:** 
 **Build Link/Code:** 
-**Additional Comments (optional):** </textarea>
+**Additional Comments (optional):** </textarea><br>
+            <button class="button copy-button" data-clipboard-target="#rich-template" data-success="Copied!" data-original="Copy">Copy</button>
           </div>
         </div>
         <p>Here is an example build:</p>
@@ -93,5 +95,21 @@ Additional Comments (optional): </textarea>
     </footer>
     
     <script src="../resources/javascript/main.min.js"></script>
+    <script src="../resources/javascript/tools/clipboard.min.js"></script>
+    <script>
+      (function() {
+        new ClipboardJS('.copy-button').on('success', function (e) {
+          var trigger = e.trigger;
+
+          if (trigger.innerHTML != trigger.dataset.success) {
+            trigger.innerHTML = trigger.dataset.success;
+
+            window.setTimeout(function() {
+              trigger.innerHTML = trigger.dataset.original;
+            }, 1000);
+          }
+        });
+      }());
+    </script>
   </body>
 </html>

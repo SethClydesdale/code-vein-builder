@@ -28,6 +28,10 @@ You can use these shortcuts to undo/redo changes. (you can use the back/forward 
 If you have any suggestions, feedback, or bugs to report, feel free to [open a new issue](https://github.com/SethClydesdale/code-vein-builder/issues) in this repository to let me know. For more information, please check out the [report page](https://sethclydesdale.github.io/code-vein-builder/report/) for Code Vein Builder.
 
 
+### Submit a Build
+Would you like to submit your build to Code Vein Builder and share it with others? If so, please read the information provided on the [Submit a Build page](https://sethclydesdale.github.io/code-vein-builder/submit-build/) to learn how to submit your build!
+
+
 ### Submit a Translation
 Would you like to submit a translation to Code Vein Builder and help extend the available languages? If so, please read the information provided on the [Submit a Translation page](https://sethclydesdale.github.io/code-vein-builder/translate/) to find out how to submit one!
 

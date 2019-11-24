@@ -43,18 +43,21 @@
       // builds based around the bayonet
       '4 - bayonet' : {
         'Sacrificial Ranger' : 'IIJhB8FEE5wBnAEQIzzcVwAcUAs4BhWDAdkIGYFhycAxZCWkANkOQQJHwOVVriA',
+        'Molten Cannoneer' : 'IIRgzAPgogbBAMEAiILAEwLa4AOaALBAMIDs25xYiwB+AYiJgEKUiLHpHEir3xA',
         'Vampiric Ranger' : 'IIJhB8FEE4oRnAEQQBnMALOhwAcUsBhWQuBUtTAZnFIQDEQA2WsWkkBlIA'
       },
       
       // builds that deal with offensive gifts which devastate foes
       '5 - dark_gifts' : {
         'Blade Mage' : 'IIJgHAPsBsEKIE4oGYoBYoEYtdQYSTwHYpJhMlQQoRsAxABgj0wxcJAFYUwg', // reddit.com/r/codevein/comments/dyrpbu/c/f84ratz
+        'Frigid Blade Bearer' : 'IIJgHAPskAwQIgRiiCdjOhAonAwgJxSKqjogCsxAbFACwDMEeIqhzIyAYjEA',
         'Sacrificial Storm Mage' : 'IIJgHAPgogDBcBEAs9WgsSwCMA2CAwtthtiqPqAJwYDMJwtkRKAYtiIdjazEA',
         'Vampiric Mage' : 'IIJgHAPsBsEAwQCIEYoBZ5VcSxkggGFltlZQNgBmAVihAE4oqnCQDDWRUAxOIA'
       },
       
       // builds that deal with support and sometimes offensive gifts
       '6 - light_gifts' : {
+        'BB&C Countermeasure' : 'IIRgzAPgDNs-FQCY62EgLBAIuHIR8YBhJFYgTglMIDEog',
         'Deliverance' : 'IIZgjAPgDNECKRjYkBiaBMEDCYvqyVhlQBYcBOCVAVmrCA',
         'Vampiric Blitzer' : 'IIRgrAPsBsEAwQCIigFnlFwAcECiCAwiFiAEyakWgDMadhZFhAnBIygGJxA'
       },
@@ -328,29 +331,17 @@
       // gets the weight of an item along with it's transformations
       getWeight : function (type, clone) {
         var weight = (clone || CodeVeinBuilder.status.weight)[type],
-            transform;
+            transform = type == 'blood_veil' ? 6 : +type.replace('weapon_', '') + 3;
         
-        if (type == 'blood_veil') {
-          weight = CodeVeinBuilder.build[6] == 'A0' ?
-            weight / (clone || CodeVeinBuilder.status.weight).transform_6 : // alleviation
-            weight = weight * ((clone || CodeVeinBuilder.status.weight).transform_6 || 1); // default/fortification
-          
-        } else {
-          transform = +type.replace('weapon_', '') + 3;
-          weight = CodeVeinBuilder.build[transform] == 'A0' ?
-            weight / (clone || CodeVeinBuilder.status.weight)['transform_' + transform] : // alleviation
-            weight * ((clone || CodeVeinBuilder.status.weight)['transform_' + transform] || 1); // default/fortification
-        }
-        
-        return weight;
+        return CodeVeinBuilder.build[transform] == 'A0' ?
+          weight / (clone || CodeVeinBuilder.status.weight)['transform_' + transform] : // alleviation
+          weight * ((clone || CodeVeinBuilder.status.weight)['transform_' + transform] || 1); // default/fortification
       },
       
       // gets the current mobility
       getMobility : function (weight, clone, code) {
         var blood_code = code || CodeVeinBuilder.data.blood_code[CodeVeinBuilder.build[0]],
-            max,
-            base,
-            mobility;
+            max, base, mobility;
         
         if (blood_code) {
           max = (clone || CodeVeinBuilder.status.weight).max * ((clone || CodeVeinBuilder.status.weight).max_multiplier || 1);

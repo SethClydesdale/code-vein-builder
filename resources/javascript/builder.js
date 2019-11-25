@@ -193,7 +193,7 @@
         max_multiplier : 0
       },
       
-      // array used for changing the above stats
+      // array used for changing stats linked to the data object
       // add to this array to make stats functional (stats must be identical to those in status and data[blood_code||passive||etc])
       values : ['stats', 'ichor'],
       
@@ -224,49 +224,31 @@
       
       // updates internal stats
       update : function (o) {
-        var type = o.type == 0 ? 'blood_code' : 'passive',
-            oldValue = o.id == 0 || (o.oldId && o.oldId != 0) ? CodeVeinBuilder.data[type][o.oldId] : null,
-            newValue = o.id != 0 ? CodeVeinBuilder.data[type][o.id] : null,
-            val = CodeVeinBuilder.status.values, // stats to add/subtract
-            j = val.length,
-            i, k;
-
-        // remove old stats
-        if (oldValue) {
-          for (i = 0; i < j; i++) {
-            if (oldValue[val[i]]) {
-              for (k in oldValue[val[i]]) {
-                CodeVeinBuilder.status[val[i]][k] -= oldValue[val[i]][k];
-              }
-            }
-          }
-        }
-
-        // add new stats
-        if (newValue) {
-          for (i = 0; i < j; i++) {
-            if (newValue[val[i]]) {
-              for (k in newValue[val[i]]) {
-                CodeVeinBuilder.status[val[i]][k] += newValue[val[i]][k];
-              }
-            }
-          }
-        }
-      },
-      
-      
-      // updates weight/mobility values
-      updateWeight : function (o) {
         var type = o.type == 0 ? 'blood_code' :
                    o.type == 1 || o.type == 2 ? 'weapon' :
                    o.type == 3 ? 'blood_veil' :
                    o.type == 4 || o.type == 5 || o.type == 6 ? 'transform' : 'passive',
             
             oldValue = o.id == 0 || (o.oldId && o.oldId != 0) ? CodeVeinBuilder.data[type][o.oldId] : null,
-            newValue = o.id != 0 ? CodeVeinBuilder.data[type][o.id] : null;
+            newValue = o.id != 0 ? CodeVeinBuilder.data[type][o.id] : null,
+            
+            val = CodeVeinBuilder.status.values, // stats to add/subtract
+            j = val.length,
+            i, k;
         
-        // remove old weight
         if (oldValue) {
+          // remove old stats for passives/blood codes
+          if (/blood_code|passive/.test(type)) {
+            for (i = 0; i < j; i++) {
+              if (oldValue[val[i]]) {
+                for (k in oldValue[val[i]]) {
+                  CodeVeinBuilder.status[val[i]][k] -= oldValue[val[i]][k];
+                }
+              }
+            }
+          }
+          
+          // remove old weight for the following types
           switch (type) {
             case 'blood_code' :
               CodeVeinBuilder.status.weight.max -= oldValue.weight;
@@ -296,8 +278,19 @@
           }
         }
 
-        // add new weight
         if (newValue) {
+          // add new stats for passives/blood codes
+          if (/blood_code|passive/.test(type)) {
+            for (i = 0; i < j; i++) {
+              if (newValue[val[i]]) {
+                for (k in newValue[val[i]]) {
+                  CodeVeinBuilder.status[val[i]][k] += newValue[val[i]][k];
+                }
+              }
+            }
+          }
+          
+          // add new weight for the following types
           switch (type) {
             case 'blood_code' :
               CodeVeinBuilder.status.weight.max += newValue.weight;
@@ -328,38 +321,44 @@
         }
       },
       
-      // gets the weight of an item along with it's transformations
-      getWeight : function (type, clone) {
-        var weight = (clone || CodeVeinBuilder.status.weight)[type],
-            transform = type == 'blood_veil' ? 6 : +type.replace('weapon_', '') + 3;
-        
-        return CodeVeinBuilder.build[transform] == 'A0' ?
-          weight / (clone || CodeVeinBuilder.status.weight)['transform_' + transform] : // alleviation
-          weight * ((clone || CodeVeinBuilder.status.weight)['transform_' + transform] || 1); // default/fortification
-      },
       
-      // gets the current mobility
-      getMobility : function (weight, clone, code) {
-        var blood_code = code || CodeVeinBuilder.data.blood_code[CodeVeinBuilder.build[0]],
-            max, base, mobility;
+      // getters for various status values
+      get : {
         
-        if (blood_code) {
-          max = (clone || CodeVeinBuilder.status.weight).max * ((clone || CodeVeinBuilder.status.weight).max_multiplier || 1);
-          base = CodeVeinBuilder.status.mobiKey[blood_code.mobility];
-          
-          switch (base) { // base mobility
-            case 0 : // slow
-              return weight > max / 2 ? _lang.mobi.slow : weight <= max / 2 && weight > max / 5 ? _lang.mobi.normal : _lang.mobi.quick;
-            
-            case 1 : // normal
-              return weight >= max ? _lang.mobi.slow : weight < max && weight > max / 2 ? _lang.mobi.normal : _lang.mobi.quick;
-            
-            case 2 : // quick
-              return weight > max * 1.35 ? _lang.mobi.slow : weight <= max * 1.35 && weight >= max ? _lang.mobi.normal : _lang.mobi.quick;
+        // gets the weight of an item along with it's transformations
+        weight : function (type, clone) {
+          var weight = (clone || CodeVeinBuilder.status.weight)[type],
+              transform = type == 'blood_veil' ? 6 : +type.replace('weapon_', '') + 3;
+
+          return CodeVeinBuilder.build[transform] == 'A0' ?
+            weight / (clone || CodeVeinBuilder.status.weight)['transform_' + transform] : // alleviation
+            weight * ((clone || CodeVeinBuilder.status.weight)['transform_' + transform] || 1); // default/fortification
+        },
+        
+        
+        // gets the current mobility by comparing the passed weight value against the maximum carrying weight
+        mobility : function (weight, clone, code) {
+          var blood_code = code || CodeVeinBuilder.data.blood_code[CodeVeinBuilder.build[0]],
+              max, base, mobility;
+
+          if (blood_code) {
+            max = (clone || CodeVeinBuilder.status.weight).max * ((clone || CodeVeinBuilder.status.weight).max_multiplier || 1);
+            base = CodeVeinBuilder.status.mobiKey[blood_code.mobility];
+
+            switch (base) { // base mobility
+              case 0 : // slow
+                return weight > max / 2 ? _lang.mobi.slow : weight <= max / 2 && weight > max / 5 ? _lang.mobi.normal : _lang.mobi.quick;
+
+              case 1 : // normal
+                return weight >= max ? _lang.mobi.slow : weight < max && weight > max / 2 ? _lang.mobi.normal : _lang.mobi.quick;
+
+              case 2 : // quick
+                return weight > max * 1.35 ? _lang.mobi.slow : weight <= max * 1.35 && weight >= max ? _lang.mobi.normal : _lang.mobi.quick;
+            }
+
+          } else {
+            return _lang.na;
           }
-          
-        } else {
-          return _lang.na;
         }
       },
       
@@ -375,9 +374,9 @@
         
         // weight values
         max_weight = CodeVeinBuilder.status.weight.max * (CodeVeinBuilder.status.weight.max_multiplier || 1),
-        veil_weight = CodeVeinBuilder.status.getWeight('blood_veil'),
-        mobility_1 = CodeVeinBuilder.status.getWeight('weapon_1') + veil_weight,
-        mobility_2 = CodeVeinBuilder.status.getWeight('weapon_2') + veil_weight;
+        veil_weight = CodeVeinBuilder.status.get.weight('blood_veil'),
+        mobility_1 = CodeVeinBuilder.status.get.weight('weapon_1') + veil_weight,
+        mobility_2 = CodeVeinBuilder.status.get.weight('weapon_2') + veil_weight;
         
         // loop through the stats and compile them into an easy to read list
         for (i in CodeVeinBuilder.status.stats) {
@@ -417,12 +416,12 @@
               '<div class="info-group">'+
                 '<div class="info-row">'+
                   '<span class="info-label">' + _lang.mobility + ' 1</span>'+
-                  '<span class="info-value">' + CodeVeinBuilder.status.getMobility(mobility_1) + ' (' + parseFloat(mobility_1.toFixed(2)) + '/' + parseFloat(max_weight.toFixed(2)) + ')</span>'+
+                  '<span class="info-value">' + CodeVeinBuilder.status.get.mobility(mobility_1) + ' (' + parseFloat(mobility_1.toFixed(2)) + '/' + parseFloat(max_weight.toFixed(2)) + ')</span>'+
                 '</div>'+
           
                 '<div class="info-row">'+
                   '<span class="info-label">' + _lang.mobility + ' 2</span>'+
-                  '<span class="info-value">' + CodeVeinBuilder.status.getMobility(mobility_2) + ' (' + parseFloat(mobility_2.toFixed(2)) + '/' + parseFloat(max_weight.toFixed(2)) + ')</span>'+
+                  '<span class="info-value">' + CodeVeinBuilder.status.get.mobility(mobility_2) + ' (' + parseFloat(mobility_2.toFixed(2)) + '/' + parseFloat(max_weight.toFixed(2)) + ')</span>'+
                 '</div>'+
               '</div>'+
             '</div>'+
@@ -954,9 +953,9 @@
           bottom += '</div>';
           
           // weight/mobility
-          var currentVeil = CodeVeinBuilder.status.getWeight('blood_veil'),
-              mobility_1 = CodeVeinBuilder.status.getWeight('weapon_1') + currentVeil,
-              mobility_2 = CodeVeinBuilder.status.getWeight('weapon_2') + currentVeil,
+          var currentVeil = CodeVeinBuilder.status.get.weight('blood_veil'),
+              mobility_1 = CodeVeinBuilder.status.get.weight('weapon_1') + currentVeil,
+              mobility_2 = CodeVeinBuilder.status.get.weight('weapon_2') + currentVeil,
               newWeight = {}, newMax, mobility;
 
           // make a clone of the current weight data and add the hovered code's weight to it
@@ -967,19 +966,19 @@
           newMax = newWeight.max * (newWeight.max_multiplier || 1);
 
           mobility = {
-            current : [CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.getMobility(mobility_1)], CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.getMobility(mobility_2)]],
-            hover : [CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.getMobility(mobility_1, newWeight, code)], CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.getMobility(mobility_2, newWeight, code)]]
+            current : [CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.get.mobility(mobility_1)], CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.get.mobility(mobility_2)]],
+            hover : [CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.get.mobility(mobility_1, newWeight, code)], CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.get.mobility(mobility_2, newWeight, code)]]
           };
 
           bottom += '<div class="info-group">'+
             '<div class="info-row">'+
               '<span class="info-label">' + _lang.mobility + ' 1</span>'+
-              '<span class="info-value"><span class="' + (mobility.hover[0] > mobility.current[0] ? 'stat-good' : mobility.hover[0] < mobility.current[0] ? 'stat-bad' : '') + '">' + CodeVeinBuilder.status.getMobility(mobility_1, newWeight, code) + '</span> (' + parseFloat(mobility_1.toFixed(2)) + '/' + parseFloat(newMax.toFixed(2)) + ')</span>'+
+              '<span class="info-value"><span class="' + (mobility.hover[0] > mobility.current[0] ? 'stat-good' : mobility.hover[0] < mobility.current[0] ? 'stat-bad' : '') + '">' + CodeVeinBuilder.status.get.mobility(mobility_1, newWeight, code) + '</span> (' + parseFloat(mobility_1.toFixed(2)) + '/' + parseFloat(newMax.toFixed(2)) + ')</span>'+
             '</div>'+
 
             '<div class="info-row">'+
               '<span class="info-label">' + _lang.mobility + ' 2</span>'+
-              '<span class="info-value"><span class="' + (mobility.hover[1] > mobility.current[1] ? 'stat-good' : mobility.hover[1] < mobility.current[1] ? 'stat-bad' : '') + '">' + CodeVeinBuilder.status.getMobility(mobility_2, newWeight, code) + '</span> (' + parseFloat(mobility_2.toFixed(2)) + '/' + parseFloat(newMax.toFixed(2)) + ')</span>'+
+              '<span class="info-value"><span class="' + (mobility.hover[1] > mobility.current[1] ? 'stat-good' : mobility.hover[1] < mobility.current[1] ? 'stat-bad' : '') + '">' + CodeVeinBuilder.status.get.mobility(mobility_2, newWeight, code) + '</span> (' + parseFloat(mobility_2.toFixed(2)) + '/' + parseFloat(newMax.toFixed(2)) + ')</span>'+
             '</div>'+
           '</div>';
         }
@@ -1021,9 +1020,9 @@
             
             // weight/mobility
             var selected = CodeVeinBuilder.selector.activeCaller,
-                currentVeil = CodeVeinBuilder.status.getWeight('blood_veil'),
-                currentWeapon_1 = CodeVeinBuilder.status.getWeight('weapon_1'),
-                currentWeapon_2 = CodeVeinBuilder.status.getWeight('weapon_2'),
+                currentVeil = CodeVeinBuilder.status.get.weight('blood_veil'),
+                currentWeapon_1 = CodeVeinBuilder.status.get.weight('weapon_1'),
+                currentWeapon_2 = CodeVeinBuilder.status.get.weight('weapon_2'),
                 currentMobility_1 = currentWeapon_1 + currentVeil,
                 currentMobility_2 = currentWeapon_2 + currentVeil,
                 
@@ -1036,15 +1035,15 @@
             }
             
             newMax = newWeight.max * (newWeight.max_multiplier || 1);
-            newVeil = CodeVeinBuilder.status.getWeight('blood_veil', newWeight);
-            newWeapon_1 = CodeVeinBuilder.status.getWeight('weapon_1', newWeight);
-            newWeapon_2 = CodeVeinBuilder.status.getWeight('weapon_2', newWeight);
+            newVeil = CodeVeinBuilder.status.get.weight('blood_veil', newWeight);
+            newWeapon_1 = CodeVeinBuilder.status.get.weight('weapon_1', newWeight);
+            newWeapon_2 = CodeVeinBuilder.status.get.weight('weapon_2', newWeight);
             newMobility_1 = newWeapon_1 + newVeil;
             newMobility_2 = newWeapon_2 + newVeil;
             
             mobility = {
-              current : [CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.getMobility(currentMobility_1)], CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.getMobility(currentMobility_2)]],
-              hover : [CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.getMobility(newMobility_1, newWeight)], CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.getMobility(newMobility_2, newWeight)]]
+              current : [CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.get.mobility(currentMobility_1)], CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.get.mobility(currentMobility_2)]],
+              hover : [CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.get.mobility(newMobility_1, newWeight)], CodeVeinBuilder.status.mobiKey[CodeVeinBuilder.status.get.mobility(newMobility_2, newWeight)]]
             };
             
             weight_1 = selected == 1 ? currentWeapon_1 : selected == 2 ? currentWeapon_2 : currentVeil;
@@ -1058,12 +1057,12 @@
               
               ((selected == 1 || selected == 3) ? '<div class="info-row">'+
                 '<span class="info-label">' + _lang.mobility + ' 1</span>'+
-                '<span class="info-value"><span class="' + (mobility.hover[0] > mobility.current[0] ? 'stat-good' : mobility.hover[0] < mobility.current[0] ? 'stat-bad' : '') + '">' + CodeVeinBuilder.status.getMobility(newMobility_1, newWeight) + '</span> (' + parseFloat(newMobility_1.toFixed(2)) + '/' + parseFloat(newMax.toFixed(2)) + ')</span>'+
+                '<span class="info-value"><span class="' + (mobility.hover[0] > mobility.current[0] ? 'stat-good' : mobility.hover[0] < mobility.current[0] ? 'stat-bad' : '') + '">' + CodeVeinBuilder.status.get.mobility(newMobility_1, newWeight) + '</span> (' + parseFloat(newMobility_1.toFixed(2)) + '/' + parseFloat(newMax.toFixed(2)) + ')</span>'+
               '</div>' : '')+
 
               ((selected == 2 || selected == 3) ? '<div class="info-row">'+
                 '<span class="info-label">' + _lang.mobility + ' 2</span>'+
-                '<span class="info-value"><span class="' + (mobility.hover[1] > mobility.current[1] ? 'stat-good' : mobility.hover[1] < mobility.current[1] ? 'stat-bad' : '') + '">' + CodeVeinBuilder.status.getMobility(newMobility_2, newWeight) + '</span> (' + parseFloat(newMobility_2.toFixed(2)) + '/' + parseFloat(newMax.toFixed(2)) + ')</span>'+
+                '<span class="info-value"><span class="' + (mobility.hover[1] > mobility.current[1] ? 'stat-good' : mobility.hover[1] < mobility.current[1] ? 'stat-bad' : '') + '">' + CodeVeinBuilder.status.get.mobility(newMobility_2, newWeight) + '</span> (' + parseFloat(newMobility_2.toFixed(2)) + '/' + parseFloat(newMax.toFixed(2)) + ')</span>'+
               '</div>' : '')+
             '</div>';
           }
@@ -1191,28 +1190,18 @@
         // update stats
         // object refers to caller id for blood code and passives 1-4, and returns "1" aka "true" when matched
         // this is so stat removal can be processed, because type is set as "remove" when removing something
-        if ({0:1, 7:1, 8:1, 9:1, 10:1}[caller] && !selected.dataset.slot && (id != current)) {
+        if ({0:1, 1:1, 2:1, 3:1, 4:1, 5:1, 6:1, 7:1, 8:1, 9:1, 10:1}[caller] && (!selected.dataset.slot || {1:1, 2:1}[caller]) && id != current) {
           CodeVeinBuilder.status.update({
             type : caller,
             id : id,
             oldId : current
           });
           
-          statsChanged = true;
-        }
-        
-        // update weight
-        if ({0:1, 1:1, 2:1, 3:1, 4:1, 5:1, 6:1, 7:1, 8:1, 9:1, 10:1}[caller] && (!selected.dataset.slot || {1:1, 2:1}[caller]) && (id != current)) {
-          CodeVeinBuilder.status.updateWeight({
-            type : caller,
-            id : id,
-            oldId : current
-          });
-          
+          // used for swapping weapon weight from one slot to the other
           if (selected.dataset.slot && {1:1, 2:1}[caller]) {
             weapon = caller == 1 ? 2 : 1;
             
-            CodeVeinBuilder.status.updateWeight({
+            CodeVeinBuilder.status.update({
               type : weapon,
               id : current,
               oldId : id
@@ -1281,16 +1270,8 @@
             block.style.backgroundImage = build[k] == 0 ? '' : 'url(' + CodeVeinBuilder.getImage(type, build[k]) + ')';
 
             // update stats
-            if (build[k] != 0 && /blood_code|passive/.test(type)) {
-              CodeVeinBuilder.status.update({
-                type : k,
-                id : build[k]
-              });
-            }
-            
-            // update weight
             if (build[k] != 0 && /blood_code|passive|weapon|blood_veil|transform/.test(type)) {
-              CodeVeinBuilder.status.updateWeight({
+              CodeVeinBuilder.status.update({
                 type : k,
                 id : build[k]
               });

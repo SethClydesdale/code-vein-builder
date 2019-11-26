@@ -94,4 +94,10 @@
     }
   };
   
+  
+  // fixes and parses floats
+  window._parseVal = function (n) {
+    return parseFloat(n.toFixed(2));
+  };
+  
 }(window, document));

@@ -56,8 +56,7 @@
         
         'One Hit Kill' : [
           'IIBgPgwgnG4CIEYzCeFyAcYCiAmZMEAbGAGK74QIAsZClCAzJAuBI8xFttUA',
-          'A build that can kill bosses in one hit, at least on NG. Use all buffs before a fight with Jack as a partner and use Fatal Surge last. Once ready, enter the boss room and activate Severing Abyss near the boss to destroy them.',
-          'SethClydesdale'
+          'A build that can kill bosses in one hit, at least on NG. Use all buffs before a fight with Jack as a partner and use Fatal Surge last. Once ready, enter the boss room and activate Severing Abyss near the boss to destroy them.'
         ],
         
         'Queenslayer Halberdier' : [
@@ -105,8 +104,7 @@
         'BBC Countermeasure' : [
           'IIRgzAPgDNs-FQCY62EgLBAIuHIR8YBhJFYgTglMIDEog',
           'A template build for countering Blade Bearer and Cannoneer. Utilize the elemental resist Gifts in conjunction with the elemental resist items to render their attacks useless. You can also go the extra mile and transform your Blood Veil with Fire or Ice resist.<br><br>'+
-          'Lastly, high ichor drain will help you maintain ichor for casting your resist gifts and offensive spells. Fill out the rest of the slots with whatever you prefer!',
-          'SethClydesdale'
+          'Lastly, high ichor drain will help you maintain ichor for casting your resist gifts and offensive spells. Fill out the rest of the slots with whatever you prefer!'
         ],
         
         'Deliverance' : 'IIZgjAPgDNECKRjYkBiaBMEDCYvqyVhlQBYcBOCVAVmrCA',
@@ -1359,7 +1357,7 @@
           CodeVeinBuilder.updateDesc({
             title : context[1],
             desc : buildData[1],
-            author : buildData[2].split('|')
+            author : buildData[2] ? buildData[2].split('|') : ''
           });
         }
       }
@@ -1509,7 +1507,7 @@
           CodeVeinBuilder.updateDesc({
             title : context[1],
             desc : buildData[1],
-            author : buildData[2].split('|')
+            author : buildData[2] ? buildData[2].split('|') : ''
           });
           
 

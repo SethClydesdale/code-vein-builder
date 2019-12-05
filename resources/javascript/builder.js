@@ -63,6 +63,12 @@
           'IIBgPgwgrGwIzgnWz63AMTgZjAUQCZIjhcIBOSADjAwMo2xgm1w0ziKziA',
           'This is basically a really reliable halberd build. The Black Halberd has a reliable move set compared to almost every other in its class, and with a Halberd passive, brings the damage up to at least 1519. With any Mind passive, you can get Bridge To Glory and Adrenaline can be used naturally. Shadow Assault is reliable for fast damage compared to Circulating Pulse, and Chariot Rush can be used in boss fights to really dish out damage. I recommend any veil with high Light Gift stats, but Dark Hounds is ok. Final Journey with both Adrenaline and Bridge to Glory combined with Shadow Assault and Chariot Rush gives some high damage numbers in a bosses down phase. And Panaceas Essence or Elemental Wall for whatever you need.',
           'u/Slowhellob|f8bpj0t'
+        ],
+        
+        'The First Successor' : [
+          'IIBgPuDCCsbAjHATGS5zABxgKIsgGyrwoBiSAnKlZNpAMz1ikAsqSb4pJQA',
+          'A somewhat flexible build that could be used with most Halberds so long they have Venom, Intensification, or Fortification applied to them. A free slot is there for any elemental/status buff depending on enemy or boss weaknesses.',
+          'u/TwistedDarkCloud|f9qt2e1'
         ]
       },
       
@@ -1351,14 +1357,20 @@
           }
           
         } else if (/context/i.test(pair[0])) {
-          context = LZString.decompressFromEncodedURIComponent(pair[1]).split('|');
-          buildData = CodeVeinBuilder.presets[context[0]][context[1]];
-          
-          CodeVeinBuilder.updateDesc({
-            title : context[1],
-            desc : buildData[1],
-            author : buildData[2] ? buildData[2].split('|') : ''
-          });
+          try {
+            context = LZString.decompressFromEncodedURIComponent(pair[1]).split('|');
+            buildData = CodeVeinBuilder.presets[context[0]][context[1]];
+
+            CodeVeinBuilder.updateDesc({
+              title : context[1],
+              desc : buildData[1],
+              author : buildData[2] ? buildData[2].split('|') : ''
+            });
+            
+          } catch (e) {
+            console.error(e);
+            CodeVeinBuilder.updateDesc(0);
+          }
         }
       }
       

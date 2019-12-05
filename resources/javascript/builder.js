@@ -13,10 +13,24 @@
     },
     
     // available presets
+    /* # SYNTAX #
+    * generic = 'BUILD_NAME' : 'BUILD_CODE'
+    * detailed = 
+    * 'BUILD_NAME' : [
+    *   'BUILD_CODE',
+    *   'BUILD_DESCRIPTION',
+    *   'AUTHOR|[OPTIONAL]AUTHOR_SOURCE'
+    * ]
+    */
     presets : {
       // builds based around one-handed swords
       '0 - 1h' : {
-        'Knight of Ishtar' : 'IIZgjAPsCcWc8QQAxVQUVcAHHATHAGwQBiIArKXgCxVJmoDCujeSjsjYyQA', // github.com/SethClydesdale/code-vein-builder/issues/5
+        'Knight of Ishtar' : [
+          'IIZgjAPsCcWc8QQAxVQUVcAHHATHAGwQBiIArKXgCxVJmoDCujeSjsjYyQA',
+          "In certain situations one of the skills can be swapped for elemental damage or Gift Speed passive for Stamina,Health steal etc, build is very fast and depends on how good you are dodging but can kill anything Don't use spacebar to dodge with this build, your dodge is Swifting Hallow, ALWAYS keep your stamina for swings, cleared ng+6 with this, Increased Gift Speed will help you execute skills way faster and greatly redurce your risk of getting hit while using a skill",
+          'calypsoup|5'
+        ],
+        
         'Sacrificial Edge' : 'IIJgLAPsCM0QDBAInUCqoBwQKKIMLQgSEDMEAYuJSMRUTefgJwnQDslkF8QA',
         'The Yaksha' : 'IIJgrAPsDsEAwQCIEYonmqAOCBRBAwsqgEKSgBsEJsAYgMz0S0gAsEBI6KOnqtcIA'
       },
@@ -24,15 +38,33 @@
       // builds based around two-handed swords 
       '1 - 2h' : {
         'Immortal Blade' : 'IIRgrAPgQiEAwQMICYKnm2wDMEBiIuAorHgCz7IAclke2C9FAIqS43EA',
-        'Improvise, Adapt, Overcome' : 'IIZgjAPgQgrBCiBOCw7ACwssS9P2wA4IBhANggDERNgAmOE5UZEuzNuSyNuoA', // http://reddit.com/r/codevein/comments/dyrpbu/c/f9odlyi/
+        
+        'Improvise, Adapt, Overcome' : [
+          'IIZgjAPgQgrBCiBOCw7ACwssS9P2wA4IBhANggDERNgAmOE5UZEuzNuSyNuoA',
+          'As the name suggests, it is a build to overcome any obstacle with many options as your disposal. You can simply buff yourself and go ham with the 2H, or have a hard hitting bayonet shot or spells as ranged options. If you manage to land a backstab, parry or charged drain, the extra attack from Venous comes in handy as well.<br><br>'+
+          'To recharge Ichor to keep up spells/buffs, the Devour mod in conjunction with Bloodsucking blade is enough.<br><br>'+
+          "Not really optimized for boss fights, but it still manages to be somewhat viable in them. Just don't get careless with your Thorn of Judgement casts.",
+          'u/Kzar96|f9odlyi'
+        ],
+        
         'Swift Blade Dancer' : 'IIZgDAPgQgHBkBECMFiUsATKuBRFAwgOypICcEAYpnNQKxWYmUgAsEBm2BFnKlYIA'
       },
       
       // builds based around the halberd
       '2 - halberd' : {
         'Gliding Executioner' : 'IIJg7APgwgbBAMEAiBGCoHrcAHBAoiNCtipAGIgCcElRUAzIpQCzQ1Qj0rPxA',
-        'One Hit Kill' : 'IIBgPgwgnG4CIEYzCeFyAcYCiAmZMEAbGAGK74QIAsZClCAzJAuBI8xFttUA',
-        'Queenslayer Halberdier' : 'IIBgPgwgrGwIzgnWz63AMTgZjAUQCZIjhcIBOSADjAwMo2xgm1w0ziKziA' // reddit.com/r/codevein/comments/dyrpbu/c/f8bpj0t
+        
+        'One Hit Kill' : [
+          'IIBgPgwgnG4CIEYzCeFyAcYCiAmZMEAbGAGK74QIAsZClCAzJAuBI8xFttUA',
+          'A build that can kill bosses in one hit, at least on NG. Use all buffs before a fight with Jack as a partner and use Fatal Surge last. Once ready, enter the boss room and activate Severing Abyss near the boss to destroy them.',
+          'SethClydesdale'
+        ],
+        
+        'Queenslayer Halberdier' : [
+          'IIBgPgwgrGwIzgnWz63AMTgZjAUQCZIjhcIBOSADjAwMo2xgm1w0ziKziA',
+          'This is basically a really reliable halberd build. The Black Halberd has a reliable move set compared to almost every other in its class, and with a Halberd passive, brings the damage up to at least 1519. With any Mind passive, you can get Bridge To Glory and Adrenaline can be used naturally. Shadow Assault is reliable for fast damage compared to Circulating Pulse, and Chariot Rush can be used in boss fights to really dish out damage. I recommend any veil with high Light Gift stats, but Dark Hounds is ok. Final Journey with both Adrenaline and Bridge to Glory combined with Shadow Assault and Chariot Rush gives some high damage numbers in a bosses down phase. And Panaceas Essence or Elemental Wall for whatever you need.',
+          'u/Slowhellob|f8bpj0t'
+        ]
       },
       
       // builds based around the hammer
@@ -50,15 +82,33 @@
       
       // builds that deal with offensive gifts which devastate foes
       '5 - dark_gifts' : {
-        'Blade Mage' : 'IIJgHAPsBsEKIE4oGYoBYoEYtdQYSTwHYpJhMlQQoRsAxABgj0wxcJAFYUwg', // reddit.com/r/codevein/comments/dyrpbu/c/f84ratz
+        'Blade Mage' : [
+          'IIJgHAPsBsEKIE4oGYoBYoEYtdQYSTwHYpJhMlQQoRsAxABgj0wxcJAFYUwg',
+          'It allows you to use three elemental blades on cooldown rotation after using the three buffs (hasten to enhance swift destruction). To use this build effectively you must never attack with your physical weapon to keep merciless reaper in effect. Recharge ichor with chaotic ash and backstabs as you travel through dungeons. Though this build can be used in boss fights it is not optimized for them. Weapon is transformed to drain weapon as a backup in case you run out of ichor and you are unable to backstab. Alternatively you can remove a blade attack and use blood sacrifice if you dont mind the loss of hp for ichor. Gun is just an ideal long range solution but not necessary for the build to function.',
+          'u/doppledanger21|f84ratz'
+        ],
+        
         'Frigid Blade Bearer' : 'IIJgHAPskAwQIgRiiCdjOhAonAwgJxSKqjogCsxAbFACwDMEeIqhzIyAYjEA',
         'Sacrificial Storm Mage' : 'IIJgHAPgogDBcBEAs9WgsSwCMA2CAwtthtiqPqAJwYDMJwtkRKAYtiIdjazEA',
+        
+        'Sandstorm Lancer' : [
+          'IIRgLAPgDBDCBMEAiJoWDYjQDYIFFsRsAOCAMXgGZ1VgqB2deSWATjnkXOM6qA',
+          "Impaler polearm has amazing light attack chain vs single target but poor tracking and almost no crowd control, so I cover it with AoE dark gift. The idea is to blast the enemies' face with Sand of Depravity to get rid of the fodder and finish the bigger one in melee, you should get all ichor back at the end of each fight. Add some long ranged spell like Blast bolt & blood shot to snipe bayonet lost from a distance. Bridge to glory & Swift destruction will keep melee damage very respectable.",
+          'u/srlynowwhat|f9otaxj'
+        ],
+        
         'Vampiric Mage' : 'IIJgHAPsBsEAwQCIEYoBZ5VcSxkggGFltlZQNgBmAVihAE4oqnCQDDWRUAxOIA'
       },
       
       // builds that deal with support and sometimes offensive gifts
       '6 - light_gifts' : {
-        'BB&C Countermeasure' : 'IIRgzAPgDNs-FQCY62EgLBAIuHIR8YBhJFYgTglMIDEog',
+        'BBC Countermeasure' : [
+          'IIRgzAPgDNs-FQCY62EgLBAIuHIR8YBhJFYgTglMIDEog',
+          'A template build for countering Blade Bearer and Cannoneer. Utilize the elemental resist Gifts in conjunction with the elemental resist items to render their attacks useless. You can also go the extra mile and transform your Blood Veil with Fire or Ice resist.<br><br>'+
+          'Lastly, high ichor drain will help you maintain ichor for casting your resist gifts and offensive spells. Fill out the rest of the slots with whatever you prefer!',
+          'SethClydesdale'
+        ],
+        
         'Deliverance' : 'IIZgjAPgDNECKRjYkBiaBMEDCYvqyVhlQBYcBOCVAVmrCA',
         'Vampiric Blitzer' : 'IIRgrAPsBsEAwQCIigFnlFwAcECiCAwiFiAEyakWgDMadhZFhAnBIygGJxA'
       },
@@ -74,6 +124,7 @@
     // node cache + any other cached data
     cache : {
       buildList : document.getElementById('build-list'),
+      buildDesc : document.getElementById('build-desc'),
       build : [
         document.getElementById('blood-code'),
         
@@ -1258,6 +1309,11 @@
         // only update the URL if there was a change to prevent identical states
         if (id != current) {
           CodeVeinBuilder.updateURL();
+          
+          // empty description if the build changes
+          if (CodeVeinBuilder.cache.buildDesc.firstChild) {
+            CodeVeinBuilder.updateDesc(0);
+          }
         }
       }
     },
@@ -1269,7 +1325,7 @@
       var params = window.location.search.slice(1).split('&'),
           i = 0,
           j = params.length,
-          pair, build;
+          pair, build, context, buildData;
       
       // loop through url params and apply the values
       for (; i < j; i++) {
@@ -1296,8 +1352,21 @@
             }
           }
           
-          break;
+        } else if (/context/i.test(pair[0])) {
+          context = LZString.decompressFromEncodedURIComponent(pair[1]).split('|');
+          buildData = CodeVeinBuilder.presets[context[0]][context[1]];
+          
+          CodeVeinBuilder.updateDesc({
+            title : context[1],
+            desc : buildData[1],
+            author : buildData[2].split('|')
+          });
         }
+      }
+      
+      // hide description if no context found
+      if (!context && CodeVeinBuilder.cache.buildDesc.firstChild) {
+        CodeVeinBuilder.updateDesc(0);
       }
       
       // update status display after everything has been applied
@@ -1309,7 +1378,7 @@
     
     
     // updates the URL with the build
-    updateURL : function () {
+    updateURL : function (context) {
       // check compatibility before pushing a new history state with the build change
       if (window.history && window.history.pushState) {
         
@@ -1324,7 +1393,40 @@
         }
         
         // push new history state
-        window.history.pushState({}, document.title, window.location.href.replace(window.location.search, '') + '?build=' + LZString.compressToEncodedURIComponent(CodeVeinBuilder.build.join('|')) + (/devmode=true/i.test(window.location.search) ? '&devmode=true' : '') + lang);
+        window.history.pushState({}, document.title, window.location.href.replace(window.location.search, '') + '?build=' + LZString.compressToEncodedURIComponent(CodeVeinBuilder.build.join('|')) + (/devmode=true/i.test(window.location.search) ? '&devmode=true' : '') + lang + (context ? '&context=' + LZString.compressToEncodedURIComponent(context.join('|')) : ''));
+      }
+    },
+    
+    
+    // update build description
+    updateDesc : function (data) {
+      if (!data) {
+        CodeVeinBuilder.cache.buildDesc.innerHTML = '';
+        
+      } else {
+        var reddit = /u\//.test(data.author[0]);
+
+        CodeVeinBuilder.cache.buildDesc.innerHTML = '<div class="ui-window">'+
+          '<div class="ui-title">' + data.title + '</div>'+
+          '<div class="ui-window-inner">'+
+            '<div class="info-group">'+
+              (data.author[0] ? '<div class="info-row">'+
+                '<div class="info-label">' + _lang.preset_author + '</div>'+
+                '<div class="info-value"><a href="' + (reddit ? 'https://reddit.com/' : 'https://github.com/') + data.author[0] + '" target="_blank">'+ data.author[0] + '</a></div>'+
+              '</div>' : '')+
+
+              (data.author[1] ? '<div class="info-row">'+
+                '<div class="info-label">' + _lang.preset_origin + '</div>'+
+                '<div class="info-value"><a href="' + (reddit ? 'https://reddit.com/r/codevein/comments/dyrpbu/c/' : 'https://github.com/SethClydesdale/code-vein-builder/issues/') + data.author[1] + '" target="_blank">' + (reddit ? 'reddit' : 'github') + '</a></div>'+
+              '</div>' : '')+
+
+              (data.desc ? '<div class="info-row">'+
+                '<div class="info-label">' + _lang.preset_desc + '</div>'+
+                '<div class="info-value">'+ data.desc + '</div>'+
+              '</div>' : '')+
+            '</div>'+
+          '</div>'+
+        '</div>';
       }
     },
     
@@ -1370,7 +1472,7 @@
           }
           
           if (window.localStorage && localStorage.noPresetWarning == 'true') {
-            CodeVeinBuilder.preset.load(select, build.value);
+            CodeVeinBuilder.preset.load(select, build);
             
           } else {
             GenkiModal.open({
@@ -1381,7 +1483,7 @@
               '</div>',
 
               callback : function () {
-                CodeVeinBuilder.preset.load(select, build.value);
+                CodeVeinBuilder.preset.load(select, build);
               },
 
               close : function () {
@@ -1396,8 +1498,26 @@
       
       // loads the selected preset
       load : function (select, build) {
-        CodeVeinBuilder.build = LZString.decompressFromEncodedURIComponent(build).split('|');
-        CodeVeinBuilder.updateURL();
+        var context = build.dataset.group ? [build.dataset.group, build.innerHTML] : null,
+            buildData = context ? CodeVeinBuilder.presets[context[0]][context[1]] : '';
+        
+        CodeVeinBuilder.build = LZString.decompressFromEncodedURIComponent(build.value).split('|');
+        
+        // build descriptions
+        if (typeof buildData != 'string') {
+          CodeVeinBuilder.updateURL(context);
+          CodeVeinBuilder.updateDesc({
+            title : context[1],
+            desc : buildData[1],
+            author : buildData[2].split('|')
+          });
+          
+
+        } else {
+          CodeVeinBuilder.updateURL();
+          CodeVeinBuilder.updateDesc(0);
+        }
+        
         CodeVeinBuilder.status.reset();
         CodeVeinBuilder.loadBuild();
         CodeVeinBuilder.scrollTo('#build-list');
@@ -1579,7 +1699,7 @@
         presets += '<optgroup label="' + _lang.preset_group[i.replace(/^\d+ - /, '')] + '">';
         
         for (k in CodeVeinBuilder.presets[i]) {
-          presets += '<option value="' + CodeVeinBuilder.presets[i][k] + '">' + k + '</option>';
+          presets += '<option value="' + (typeof CodeVeinBuilder.presets[i][k] === 'string' ? CodeVeinBuilder.presets[i][k] : CodeVeinBuilder.presets[i][k][0]) + '" data-group="' + i + '">' + k + '</option>';
         }
         
         presets += '</optgroup>';

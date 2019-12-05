@@ -11,6 +11,12 @@
   background-position:center;
 }
 
+#build-desc { width:100%; }
+#build-desc .ui-window {
+  width:95%;
+  margin:20px auto 20px auto;
+}
+
 #equipment {
   position:relative;
   top:36px;
@@ -622,7 +628,7 @@
     padding:0 10px;
   }
 
-  #build-column, #info-column {
+  #build-column, #info-column, #build-desc .ui-window {
     float:none;
     width:100%;
   }

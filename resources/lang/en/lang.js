@@ -36,6 +36,9 @@ window._lang = {
   preset_stop_warning : 'Stop showing this warning',
   preset_submit : 'Submit a Build',
   preset_submit_confirm : 'Do you want to submit a build? You will leave the current page. Please make sure to save your build before proceeding.',
+  preset_author : 'Author',
+  preset_origin : 'Source',
+  preset_desc : 'Description',
   
   // preset groups
   preset_group : {

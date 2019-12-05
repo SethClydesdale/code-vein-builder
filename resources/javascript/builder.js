@@ -24,6 +24,7 @@
       // builds based around two-handed swords 
       '1 - 2h' : {
         'Immortal Blade' : 'IIRgrAPgQiEAwQMICYKnm2wDMEBiIuAorHgCz7IAclke2C9FAIqS43EA',
+        'Improvise, Adapt, Overcome' : 'IIZgjAPgQgrBCiBOCw7ACwssS9P2wA4IBhANggDERNgAmOE5UZEuzNuSyNuoA', // http://reddit.com/r/codevein/comments/dyrpbu/c/f9odlyi/
         'Swift Blade Dancer' : 'IIZgDAPgQgHBkBECMFiUsATKuBRFAwgOypICcEAYpnNQKxWYmUgAsEBm2BFnKlYIA'
       },
       

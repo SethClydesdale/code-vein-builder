@@ -512,7 +512,7 @@
       check : {
         
         // check if the stat requirements are met for a skill/item and returns a class or empty string
-        stats : function (type, id) {
+        stats : function (type, id, clone) {
           if (CodeVeinBuilder.data[type][id]) {
             var build = CodeVeinBuilder.build,
                 required = CodeVeinBuilder.data[type][id].required,
@@ -537,7 +537,7 @@
               // loop and compare the requirements to the current builds stats
               for (i in required) {
                 // return a bad classname if the stats are insufficient
-                if (CodeVeinBuilder.status.stats[i] < required[i]) {
+                if ((clone || CodeVeinBuilder.status.stats)[i] < required[i]) {
                   className = bad;
                   break;
                 }
@@ -1356,7 +1356,10 @@
             }
           }
           
-        } else if (/context/i.test(pair[0])) {
+        } 
+        
+        // loads context data for preset builds
+        else if (/context/i.test(pair[0])) {
           try {
             context = LZString.decompressFromEncodedURIComponent(pair[1]).split('|');
             buildData = CodeVeinBuilder.presets[context[0]][context[1]];
@@ -1384,6 +1387,87 @@
       
       // checks if equipped items/skills meet their requirements
       CodeVeinBuilder.status.check.equipped();
+    },
+    
+    
+    // applies a random build
+    randBuild : function () {
+      var i = 0,
+          j = CodeVeinBuilder.build.length, key, stats, code_req,
+          selected = {
+            weapon : [],
+            passive : [],
+            active : []
+          };
+
+      for (; i < j; i++) {
+        // blood code
+        if (i == 0) {
+          CodeVeinBuilder.build[i] = _randKey(CodeVeinBuilder.data.blood_code);
+
+          // this is used to apply Gifts/Equipment within the blood code's parameters
+          stats = CodeVeinBuilder.data.blood_code[CodeVeinBuilder.build[0]].stats;
+        }
+
+
+        // weapon
+        else if (i == 1 || i == 2) {             
+          while (true) {
+            key = _randKey(CodeVeinBuilder.data.weapon);
+
+            if (selected.weapon.indexOf(key) == -1 && CodeVeinBuilder.status.check.stats('weapon', key, stats) == '') {
+              CodeVeinBuilder.build[i] = key;
+              selected.weapon.push(key);
+              break;
+            }
+          }
+        }
+
+        // blood_veil
+        else if (i == 3) {
+          while (true) {
+            key = _randKey(CodeVeinBuilder.data.blood_veil);
+
+            if (CodeVeinBuilder.status.check.stats('blood_veil', key, stats) == '') {
+              CodeVeinBuilder.build[i] = key;
+              break;
+            }
+          }
+        }
+
+        // transform
+        else if (i == 4 || i == 5 || i == 6) {
+          CodeVeinBuilder.build[i] = Math.floor(Math.random() * 2) == 0 ? 0 : _randKey(CodeVeinBuilder.data.transform);
+        }
+        
+        // passive
+        else if (i == 7 || i == 8 || i == 9 || i == 10) {
+          while (true) {
+            key = _randKey(CodeVeinBuilder.data.passive);
+            code_req = CodeVeinBuilder.data.passive[key].blood_code_req;
+
+            if (selected.passive.indexOf(key) == -1 && (!code_req || code_req == CodeVeinBuilder.build[0])) {
+              CodeVeinBuilder.build[i] = key;
+              selected.passive.push(key);
+              break;
+            }
+          }
+        }
+
+        // active
+        else if (i == 11 || i == 12 || i == 13 || i == 14 || i == 15 || i == 16 || i == 17 || i == 18) {
+          while (true) {
+            key = _randKey(CodeVeinBuilder.data.active);
+            code_req = CodeVeinBuilder.data.active[key].blood_code_req;
+
+            if (selected.active.indexOf(key) == -1 && CodeVeinBuilder.status.check.stats('active', key, stats) == '' && (!code_req || code_req == CodeVeinBuilder.build[0])) {
+              CodeVeinBuilder.build[i] = key;
+              selected.active.push(key);
+              break;
+            }
+          }
+        }
+      }
     },
     
     
@@ -1511,7 +1595,15 @@
         var context = build.dataset.group ? [build.dataset.group, build.innerHTML] : null,
             buildData = context ? CodeVeinBuilder.presets[context[0]][context[1]] : '';
         
-        CodeVeinBuilder.build = LZString.decompressFromEncodedURIComponent(build.value).split('|');
+        // puts together a random build, if selected
+        if (build.value == 'random') {
+          CodeVeinBuilder.randBuild();
+        }
+        
+        // standard preset build application
+        else {
+          CodeVeinBuilder.build = LZString.decompressFromEncodedURIComponent(build.value).split('|');
+        }
         
         // build descriptions
         if (typeof buildData != 'string') {
@@ -1681,6 +1773,13 @@
       if (/build=/i.test(window.location.search)) {
         CodeVeinBuilder.loadBuild();
       }
+      
+      // applies a random build on the first visit, if ?random is the first param appended to the URL
+      else if (/^\?random/.test(window.location.search)) {
+        CodeVeinBuilder.randBuild();
+        CodeVeinBuilder.updateURL();
+        CodeVeinBuilder.loadBuild();
+      }
 
       // otherwise do an initial status display setup
       else {
@@ -1694,6 +1793,7 @@
                     '<option value="submit">' + _lang.preset_submit + '</option>'+
                     '<optgroup label="'+ _lang.preset_group.initial +'">'+
                       '<option value="AwH17SOrZ4g">' + _lang.preset_empty + '</option>'+
+                      '<option value="random">' + _lang.preset_random + '</option>'+
                     '</optgroup>',
           key,
           i, k;

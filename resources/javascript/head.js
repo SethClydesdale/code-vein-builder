@@ -100,4 +100,11 @@
     return parseFloat(n.toFixed(2));
   };
   
+  
+  // return a random object key
+  window._randKey = function (o) {
+    var keys = Object.keys(o);
+    return keys[keys.length * Math.random() << 0];
+  };
+  
 }(window, document));

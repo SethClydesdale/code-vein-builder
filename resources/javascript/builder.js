@@ -31,13 +31,24 @@
           'calypsoup|5'
         ],
         
-        'Sacrificial Edge' : 'IIJgLAPsCM0QDBAInUCqoBwQKKIMLQgSEDMEAYuJSMRUTefgJwnQDslkF8QA',
-        'The Yaksha' : 'IIJgrAPsDsEAwQCIEYonmqAOCBRBAwsqgEKSgBsEJsAYgMz0S0gAsEBI6KOnqtcIA'
+        'Sacrificial Edge' : [
+          'IIJgLAPsCM0QDBAInUCqoBwQKKIMLQgSEDMEAYuJSMRUTefgJwnQDslkF8QA',
+          'A build that utilizes Sacrificial Edge and Bridge to Glory to greatly increase damage. Cleansing light is used to help reduce the effects of Sacrificial Edge, whereas Blood Sacrifice is used to restore ichor after buffing so you can spam your attack Gifts.'
+        ],
+        
+        'The Yaksha' : [
+          'IIJgrAPsDsEAwQCIEYonmqAOCBRBAwsqgEKSgBsEJsAYgMz0S0gAsEBI6KOnqtcIA',
+          'A build based on The Yaksha, Rin Murasame.<br><br>'+
+          'Utilizes Evasive Snare and Countermeasure to burn enemies when you dodge them. Flames of Rage can be used to set traps or as a combo finisher. Dancing Blaze should be used in tandem with Circulating Pulse to deliver a devastating combo attack. Lastly, make sure to buff with Blood Sucking Blades and Hunting Feast to help maintain your ichor for Evasive Snare and your active Gifts.'
+        ]
       },
       
       // builds based around two-handed swords 
       '1 - 2h' : {
-        'Immortal Blade' : 'IIRgrAPgQiEAwQMICYKnm2wDMEBiIuAorHgCz7IAclke2C9FAIqS43EA',
+        'Immortal Blade' : [
+          'IIRgrAPgQiEAwQMICYKnm2wDMEBiIuAorHgCz7IAclke2C9FAIqS43EA',
+          'The fortified Zweihander has 100% defense when blocking, allowing you to withstand almost any attack. Throw on Iron Will and Cleansing Light to further boost your survivability, and save Foulblood Barrier for attacks that may one-shot you. For bosses, Life Steal can be swapped out for more health, balance, or a focus passive that boosts your defense.'
+        ],
         
         'Improvise, Adapt, Overcome' : [
           'IIZgjAPgQgrBCiBOCw7ACwssS9P2wA4IBhANggDERNgAmOE5UZEuzNuSyNuoA',
@@ -47,12 +58,18 @@
           'u/Kzar96|f9odlyi'
         ],
         
-        'Swift Blade Dancer' : 'IIZgDAPgQgHBkBECMFiUsATKuBRFAwgOypICcEAYpnNQKxWYmUgAsEBm2BFnKlYIA'
+        'Swift Blade Dancer' : [
+          'IIZgDAPgQgHBkBECMFiUsATKuBRFAwgOypICcEAYpnNQKxWYmUgAsEBm2BFnKlYIA',
+          'A two-handed sword build focused on quick mobility and attack spam. Buff up with Bridge to Glory and the two drain rating buffs to deal good damage while also draining tons of ichor. Due to this high drain rating, you should be able to spam all your attack Gifts, then following up with regular attacks to regain your ichor. Rinse and repeat for a decisive victory.'
+        ]
       },
       
       // builds based around the halberd
       '2 - halberd' : {
-        'Gliding Executioner' : 'IIJg7APgwgbBAMEAiBGCoHrcAHBAoiNCtipAGIgCcElRUAzIpQCzQ1Qj0rPxA',
+        'Gliding Executioner' : [
+          'IIJg7APgwgbBAMEAiBGCoHrcAHBAoiNCtipAGIgCcElRUAzIpQCzQ1Qj0rPxA',
+          "This build focuses on spamming the Assassin's Sickle special heavy charged attack. Apply all the buffs, especially Time Crunch to speed up the charge attack. Then harness the power of the Invading Executioner's glide attack to devastate your foes."
+        ],
         
         'One Hit Kill' : [
           'IIBgPgwgnG4CIEYzCeFyAcYCiAmZMEAbGAGK74QIAsZClCAzJAuBI8xFttUA',
@@ -74,15 +91,33 @@
       
       // builds based around the hammer
       '3 - hammer' : {
-        'Shockwave Smasher' : 'IIZgDAPgIgTBlQIwWHSxnABwQKIggGEA2FRAdggDEYdCZJCQ4qQAWImZQgTiPGpggA',
-        'Swift Tyrant' : 'IIZgDAPgIg7BlQIwWJSxnABwQKIggGE4MBOCAMQCYdqBWSquCkAFiKqqPMKuQrBA'
+        'Shockwave Smasher' : [
+          'IIZgDAPgIgTBlQIwWHSxnABwQKIggGEA2FRAdggDEYdCZJCQ4qQAWImZQgTiPGpggA',
+          'This build uses Precision and Impact Wave in an attempt to keep enemies stunlocked. Make sure to buff up with the prior Gifts along with Time Crunch, then spam the heavy charged attack with the Juggernaut Sledgehammer to unleash three rapid shockwave attacks. If paired with Bridge to Glory, this should do a lot of damage and stunlock the enemy a few times.'
+        ],
+        
+        'Swift Tyrant' : [
+          'IIZgDAPgIg7BlQIwWJSxnABwQKIggGE4MBOCAMQCYdqBWSquCkAFiKqqPMKuQrBA',
+          'A hammer build focused on quick mobility and attack spam. Buffing up with all the buffs will allow you to spam your attack Gifts along with draining tons of ichor with regular attacks to maintain this spam. Quick mobility will ensure you can easily dodge attacks with that sweet quick dodge.'
+        ]
       },
       
       // builds based around the bayonet
       '4 - bayonet' : {
-        'Sacrificial Ranger' : 'IIJhB8FEE5wBnAEQIzzcVwAcUAs4BhWDAdkIGYFhycAxZCWkANkOQQJHwOVVriA',
-        'Molten Cannoneer' : 'IIRgzAPgogbBAMEAiILAEwLa4AOaALBAMIDs25xYiwB+AYiJgEKUiLHpHEir3xA',
-        'Vampiric Ranger' : 'IIJhB8FEE4oRnAEQQBnMALOhwAcUsBhWQuBUtTAZnFIQDEQA2WsWkkBlIA'
+        'Sacrificial Ranger' : [
+          'IIJhB8FEE5wBnAEQIzzcVwAcUAs4BhWDAdkIGYFhycAxZCWkANkOQQJHwOVVriA',
+          'A bayonet build primarily focued on shot attacks. Ranged Impact and Overdrive should be used to boost your shot damage, and Gift Extension to help extend these skills. If no DLC, you can supplement GE with Cognitive Zeal for a little extra damage. Blood Sacrifice will ensure you can regain your ichor without having to get close to enemies, so you can stand back and shoot all day!'
+        ],
+        
+        'Molten Cannoneer' : [
+          'IIRgzAPgogbBAMEAiILAEwLa4AOaALBAMIDs25xYiwB+AYiJgEKUiLHpHEir3xA',
+          "A build based on everyone's favorite Cannoneer. Focuses on devastating enemies with the flamethrower and fire Gifts. Use Ranged Impact, Overdrive, and Time Crunch, then spam Burning Disaster's flamethrower attack to your heart's content as you set the world on fire."
+        ],
+        
+        'Vampiric Ranger' : [
+          'IIJhB8FEE4oRnAEQQBnMALOhwAcUsBhWQuBUtTAZnFIQDEQA2WsWkkBlIA',
+          'A bayonet build primarily focued on shot attacks. Ranged Impact and Overdrive should be used to boost your shot damage, and Gift Extension to help extend these skills. If no DLC, you can supplement GE with Cognitive Zeal for a little extra damage. Unlike the Sacrificial version, this one uses Brodiaea in close combat to restore ichor. Allowing you to save those tasty regenerations.'
+        ]
       },
       
       // builds that deal with offensive gifts which devastate foes
@@ -93,8 +128,15 @@
           'u/doppledanger21|f84ratz'
         ],
         
-        'Frigid Blade Bearer' : 'IIJgHAPskAwQIgRiiCdjOhAonAwgJxSKqjogCsxAbFACwDMEeIqhzIyAYjEA',
-        'Sacrificial Storm Mage' : 'IIJgHAPgogDBcBEAs9WgsSwCMA2CAwtthtiqPqAJwYDMJwtkRKAYtiIdjazEA',
+        'Frigid Blade Bearer' : [
+          'IIJgHAPskAwQIgRiiCdjOhAonAwgJxSKqjogCsxAbFACwDMEeIqhzIyAYjEA',
+          "A build based on the lovely Blade Bearer. It uses frigid Gifts to freeze your foes solid along with high draing rating buffs to unleash an endless stream of icy hell that's sure to trigger some bad memories."
+        ],
+        
+        'Sacrificial Storm Mage' : [
+          'IIJgHAPgogDBcBEAs9WgsSwCMA2CAwtthtiqPqAJwYDMJwtkRKAYtiIdjazEA',
+          'A build that uses the three elements to bring ruin upon the lost. To boost your spell damage, make sure to buff up with Merciless Reaper and Cognitive Zeal, after this you may destory the lost. To restore ichor, utilize either Chaotic Ash or Blood Sacrifice. You want to avoid attacking with this build as to maintain Merciless Reaper.'
+        ],
         
         'Sandstorm Lancer' : [
           'IIRgLAPgDBDCBMEAiJoWDYjQDYIFFsRsAOCAMXgGZ1VgqB2deSWATjnkXOM6qA',
@@ -102,7 +144,10 @@
           'u/srlynowwhat|f9otaxj'
         ],
         
-        'Vampiric Mage' : 'IIJgHAPsBsEAwQCIEYoBZ5VcSxkggGFltlZQNgBmAVihAE4oqnCQDDWRUAxOIA'
+        'Vampiric Mage' : [
+          'IIJgHAPsBsEAwQCIEYoBZ5VcSxkggGFltlZQNgBmAVihAE4oqnCQDDWRUAxOIA',
+          'This build focuses on attacking with both physical and magical attacks. Use your ichor spells to devastate the lost and your buffs to regenerate your lost ichor with melee attacks.'
+        ]
       },
       
       // builds that deal with support and sometimes offensive gifts
@@ -113,15 +158,33 @@
           'Lastly, high ichor drain will help you maintain ichor for casting your resist gifts and offensive spells. Fill out the rest of the slots with whatever you prefer!'
         ],
         
-        'Deliverance' : 'IIZgjAPgDNECKRjYkBiaBMEDCYvqyVhlQBYcBOCVAVmrCA',
-        'Vampiric Blitzer' : 'IIRgrAPsBsEAwQCIigFnlFwAcECiCAwiFiAEyakWgDMadhZFhAnBIygGJxA'
+        'Deliverance' : [
+          'IIZgjAPgDNECKRjYkBiaBMEDCYvqyVhlQBYcBOCVAVmrCA',
+          'This is a support build for co-op that helps keep the host alive at the cost of your own life. Use Cleansing Light in tandem with Regenerator to ensure you can quickly recover your health while the host is being thrown around.'
+        ],
+        
+        'Vampiric Blitzer' : [
+          'IIRgrAPsBsEAwQCIigFnlFwAcECiCAwiFiAEyakWgDMadhZFhAnBIygGJxA',
+          'This build focuses on close range elemental barrage spells and high drain rating melee attacks. Simply run up to any boss, spam your barrage spells, then if it is still alive, attack it with melee to regain your ichor and repeat. BLITZKRIEG!'
+        ]
       },
       
       // builds that deal with applying debuffs to the enemy
       '7 - debuff' : {
-        'Slow' : 'IIRgzAPsBsEAwQCIggYUg0UAcECimIuoATBAEJnkCsFICAYiQCxoCcaJZqA7BA3CA',
-        'Stun' : 'IIRgzAPsBsEAwQCIggYRQ0UAcECimIuoATBAEIrkAsFAnBAGIm2oOolmoCsTcQA',
-        'Venom' : 'IITgPsCMlgDGARGBhe8oQBxgKLstgGIDsYAQvGQMzlEBMALGMuMnXc04bEA'
+        'Lost Binder' : [
+          'IIRgzAPsBsEAwQCIggYUg0UAcECimIuoATBAEJnkCsFICAYiQCxoCcaJZqA7BA3CA',
+          'A build for slowing enemies. Apply your buffs, with Binding Mark being used last. Then run up to an enemy/boss and activate Circulating Pulse to quickly build up Slow. If the enemy is not yet afflicted, you can finish the build up off with another Circulating Pulse or a projectile/trap gift.'
+        ],
+        
+        'Paralytic Blade' : [
+          'IIRgzAPsBsEAwQCIggYRQ0UAcECimIuoATBAEIrkAsFAnBAGIm2oOolmoCsTcQA',
+          'A build for stunning enemies. Apply your buffs, with Numbing Mark being used last. Then run up to an enemy/boss and activate Circulating Pulse to quickly build up Stun. If the enemy is not yet afflicted, you can finish the build up off with another Circulating Pulse or a projectile/trap gift.'
+        ],
+        
+        'Venomous Serpent' : [
+          'IITgPsCMlgDGARGBhe8oQBxgKLstgGIDsYAQvGQMzlEBMALGMuMnXc04bEA',
+          'A build for poisoning enemies. Apply your buffs, with Venom Mark being used last. Then run up to an enemy/boss and activate Circulating Pulse to quickly build up Venom. If the enemy is not yet afflicted, you can finish the build up off with another Circulating Pulse or a projectile/trap gift.'
+        ]
       }
     },
     

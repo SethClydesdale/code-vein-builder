@@ -1425,7 +1425,6 @@
               });
             }
           }
-          
         } 
         
         // loads context data for preset builds
@@ -1842,6 +1841,7 @@
       // checks if a build is present in the URL and loads it
       if (/build=/i.test(window.location.search)) {
         CodeVeinBuilder.loadBuild();
+        CodeVeinBuilder.scrollTo('#build-list');
       }
       
       // applies a random build on the first visit, if ?random is the first param appended to the URL
@@ -1849,6 +1849,7 @@
         CodeVeinBuilder.randBuild();
         CodeVeinBuilder.updateURL();
         CodeVeinBuilder.loadBuild();
+        CodeVeinBuilder.scrollTo('#build-list');
       }
 
       // otherwise do an initial status display setup

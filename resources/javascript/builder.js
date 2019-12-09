@@ -58,6 +58,13 @@
           'u/Kzar96|f9odlyi'
         ],
         
+        'Queen Knight Countermeasure' : [
+          'IIBgPuBCCMYMICYJmLVYCis7ScAHCtAGxgBiChAIgKznThm7wCc8hcAzJ+QCxA',
+          'Queen Knight / Queen Knight Reborn are especially weak to Guard Reversal as a lot of their attack are blockable and it took them longer to recover than other bosses. Each stun from Guard reversal allow player to land 2 Zweihander hits. His shield push (3rd hit of their normal combo) and his teleport are unblockable and therefore have to be dodged instead.<br><br>'+
+          'For gear, using Fortified Zweihander for 100% block. Since a lot of his attack can 1shot player in lighter veil like Noble silver; a high defensive veil like the GXL is recommended to minimize the risk.',
+          'u/srlynowwhat|fa9jsba'
+        ],
+        
         'Swift Blade Dancer' : [
           'IIZgDAPgQgHBkBECMFiUsATKuBRFAwgOypICcEAYpnNQKxWYmUgAsEBm2BFnKlYIA',
           'A two-handed sword build focused on quick mobility and attack spam. Buff up with Bridge to Glory and the two drain rating buffs to deal good damage while also draining tons of ichor. Due to this high drain rating, you should be able to spam all your attack Gifts, then following up with regular attacks to regain your ichor. Rinse and repeat for a decisive victory.'

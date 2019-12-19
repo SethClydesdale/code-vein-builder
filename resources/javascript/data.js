@@ -728,6 +728,42 @@ CodeVeinBuilder.data.blood_code = {
     }
   }
 };
+CodeVeinBuilder.data.order.blood_code = [
+  'A0', // Queenslayer
+  'A1', // Fighter
+  'A2', // Ranger
+  'A3', // Caster
+  'A4', // Berserker
+  'A5', // Prometheus
+  'A6', // Hunter
+  'A7', // Mercury
+  'A8', // Hermes
+  'A9', // Darkseeker
+  'A10', // Atlas
+  'A11', // Assassin
+  'A12', // Artemis
+  'A13', // Isis
+  'A14', // Queen's Ribcage
+  'A15', // Eos
+  'A16', // Fionn
+  'A17', // Queen's Breath
+  'A18', // Survivor
+  'A19', // Dark Knight
+  'A20', // Scathach
+  'A21', // Queen's Claw
+  'A22', // Harmonia
+  'A23', // Queen's Throat
+  'A24', // Heimdall
+  'A25', // Hephaestus
+  'A26', // Warrior
+  'A27', // Scout
+  'A28', // Queen
+  'A29', // Hades
+  'A30', // Demeter
+  'A31', // Ishtar
+  'A32', // Harbinger
+  'A33' // Astrea
+];
 
 
 // # 2. PASSIVE SKILLS #
@@ -1348,8 +1384,103 @@ CodeVeinBuilder.data.passive = {
     image : 'complete-attention',
     tree : _lang.tree.light,
     origin : 'rvm114'
+  },
+  
+  F17 : { // Charisma
+    image : 'charisma',
+    tree : _lang.tree.light,
+    origin : 'rvm124' // Tower of Trials I
   }
 };
+CodeVeinBuilder.data.order.passive = [
+  'A0', // Health Boost
+  'A1', // Health Stimulant
+  'A2', // Stamina Boost
+  'A3', // Stamina Stimulant
+  'A4', // Sprinter
+  'A5', // Sharpened Fangs
+  'A6', // Tenacious Fang
+  'A7', // Heroic Fang
+  'A8', // Swift Destruction
+  'A9', // Survival Instinct
+  'A10', // Savvy Evasion
+  'A11', // Resilient Focus
+  'A12', // Weapon Drain Rating Up
+  'A13', // Avarice
+  'A14', // Vow of Ichor
+  'A15', // Max Ichor Boost
+  'A16', // Increased Gift Speed
+  'A17', // Charge Accelerator
+  'A18', // Debuff Build-Up
+  'A19', // Revenant's Ambition
+  'A20', // Opportunism
+  'B0', // Balance Up
+  'B1', // Deft Parry
+  'B2', // Guard Drain Rating Up
+  'B3', // Firm Stand
+  'B4', // Blood Grab
+  'B5', // Evasive Snare
+  'B6', // Venom Resistance
+  'B7', // Leak Resistance
+  'B8', // Stun Resistance
+  'B9', // Inhibit Resistance
+  'B10', // Slow Resistance
+  'C0', // Strength Up
+  'C1', // Dexterity Up
+  'C2', // Mind Up
+  'C3', // Willpower Up
+  'C4', // Vitality Up
+  'C5', // Perseverance Up
+  'C6', // Strength/Dexterity Up
+  'C7', // Strength/Willpower Up
+  'C8', // Strength/Vitality Up
+  'C9', // Dexterity/Willpower Up
+  'C10', // Dexterity/Fortitude Up
+  'C11', // Mind/Willpower Up
+  'C12', // Mind/Vitality Up
+  'C13', // Mind/Fortitude Up
+  'D0', // Dark Impulse
+  'D1', // Light Impulse
+  'D2', // Guard Stability
+  'D3', // Focused Guard
+  'D4', // Focused Stamina Usage
+  'D5', // Maintained Focus
+  'D6', // Focused Carnage
+  'D7', // Ichor Strikes
+  'D8', // Ichor Reduction
+  'D9', // Drain Boost
+  'D10', // Focused Gift Speed
+  'D11', // Blood Buff
+  'D12', // Fire Buff
+  'D13', // Ice Buff
+  'D14', // Lightning Buff
+  'D15', // Venom Buff
+  'D16', // Stun Buff
+  'D17', // Goddess's Smile
+  'E0', // One-handed Sword Mastery
+  'E1', // Two-handed Sword Mastery
+  'E2', // Halberd Mastery
+  'E3', // Hammer Mastery
+  'E4', // Bayonet Mastery
+  'F0', // Regeneration Shift
+  'F1', // Improved Regeneration
+  'F2', // Augmented Regeneration
+  'F3', // Torchbearer
+  'F4', // Life Steal
+  'F5', // Regenerative Drain
+  'F6', // Eternal Blade Dance
+  'F7', // Blood-draining Venom
+  'F8', // Revenant's Hunger
+  'F9', // Revenant's Greed
+  'F10', // Pioneer's Guidance
+  'F11', // Fall Damage Reduction
+  'F12', // Deliverance
+  'F13', // Tirelessness
+  'F14', // Bolster
+  'F15', // Revenant Dagger
+  'F16', // Complete Attention
+  'F17' // Charisma
+];
 
 
 // # 3. ACTIVE SKILLS #
@@ -2700,6 +2831,19 @@ CodeVeinBuilder.data.active = {
     blood_code_req : 'A0' // Queenslayer
   },
   
+  C34 : { // Vigorous Zeal
+    image : 'vigorous-zeal',
+    tree : _lang.tree.light,
+    origin : 'rvm123', // Tower of Trials II
+
+    required : {
+      mnd : 4
+    },
+
+    ichor_cost : 4,
+    cooldown : 5
+  },
+  
   
   // # DEFENSE BUFFS #
   D0 : { // Iron Will
@@ -3433,8 +3577,179 @@ CodeVeinBuilder.data.active = {
 
     ichor_cost : 4,
     cooldown : 6
+  },
+  
+  F36 : { // Modest Offering
+    image : 'modest-offering',
+    tree : _lang.tree.light,
+    origin : 'rvm122', // Tower of Trials III
+    
+    ichor_cost : 2,
+    cooldown : 12
   }
 };
+CodeVeinBuilder.data.order.active = [
+  'A0', // Sonic Arrow
+  'A1', // Blood Shot
+  'A2', // Sanguine Roar
+  'A3', // Blazing Roar
+  'A4', // Freezing Roar
+  'A5', // Plasma Roar
+  'A6', // Blood Spike
+  'A7', // Flame Spike
+  'A8', // Frost Spike
+  'A9', // Lightning Spike
+  'A10', // Blood Barrage
+  'A11', // Flame Barrage
+  'A12', // Ice Barrage
+  'A13', // Lightning Barrage
+  'A14', // Vodnik Mass
+  'A15', // Walpurgis Fire
+  'A16', // Baba Yaga's Gaze
+  'A17', // Rage of Perkunas
+  'A18', // Dusk Edge
+  'A19', // Crimson Moon
+  'A20', // Aurora Flash
+  'A21', // Jupiter's Blade
+  'A22', // Execution
+  'A23', // Fire Storm
+  'A24', // Blast Bolt
+  'A25', // Guard of Honor
+  'A26', // Dancing Blaze
+  'A27', // Draconic Stake
+  'A28', // Indra's Coil
+  'A29', // Fourfold Verdict
+  'A30', // Elder Contract
+  'A31', // Ichorous Ice
+  'A32', // Twilight
+  'A33', // Fire Lily
+  'A34', // Sand Edge
+  'A35', // Volatile Storm
+  'A36', // Arm of Set
+  'A37', // Sands of Depravity
+  'A38', // Chaotic Ash
+  'A39', // Purging Thorn
+  'A40', // Argent Wolf Cross
+  'A41', // Shadow Leap
+  'A42', // Bloody Impact
+  'A43', // Cloak of Winter
+  'A44', // Peony Flash
+  'A45', // Will-o'-the-Wisp
+  'A46', // Ember Reversal
+  'A47', // Desperate Burst
+  'A48', // Rose Flame
+  'B0', // Venomous Shot
+  'B1', // Stun Shot
+  'B2', // Slowing Shot
+  'B3', // Venomous Web
+  'B4', // Stun Web
+  'B5', // Slow Web
+  'B6', // Shock Web
+  'B7', // Flames of Rage
+  'B8', // Venom Trap
+  'B9', // Stun Trap
+  'B10', // Slow Trap
+  'B11', // Frenzied Fire
+  'C0', // Blood Weapon
+  'C1', // Flame Weapon
+  'C2', // Frost Weapon
+  'C3', // Lightning Weapon
+  'C4', // Venom Mark
+  'C5', // Numbing Mark
+  'C6', // Warding Mark
+  'C7', // Binding Mark
+  'C8', // Adrenaline
+  'C9', // Bridge to Glory
+  'C10', // Overdrive
+  'C11', // Ranged Impact
+  'C12', // Blow of Madness
+  'C13', // Flashing Fang
+  'C14', // Merciless Reaper
+  'C15', // Dark Shout
+  'C16', // Blade Dance
+  'C17', // Sacrificial Edge
+  'C18', // Somatic Zeal
+  'C19', // Cognitive Zeal
+  'C34', // Vigorous Zeal
+  'C20', // Precision
+  'C21', // Hunting Feast
+  'C22', // Bloodsucking Blades
+  'C23', // Gift Prowess
+  'C24', // Gift Extension
+  'C25', // Hasten
+  'C26', // Concentration
+  'C27', // Red Shoes
+  'C28', // Valiant Heart
+  'C29', // Morale Boost
+  'C30', // Time Crunch
+  'C31', // Supernatural Blood
+  'C32', // Impact Wave
+  'C33', // Final Journey
+  'D0', // Iron Will
+  'D1', // Foulblood Barrier
+  'D2', // Ablative Blood
+  'D3', // Juggernaut
+  'D4', // Steady Bulwark
+  'D5', // Guard Reversal
+  'D6', // Crushing Might
+  'D7', // Guard Stability
+  'D8', // Prismatic Veil
+  'D9', // Blood Guard
+  'D10', // Flame Protection
+  'D11', // Ice Armor
+  'D12', // Raijin's Veil
+  'D13', // Elemental Wall
+  'D14', // Royal Heart
+  'D15', // Dogged Fighter
+  'D16', // Perfect Balance
+  'D17', // Antibody Generation
+  'D18', // Countermeasure
+  'D19', // Sly Vengeance
+  'D20', // Feral Tenacity
+  'E0', // Reckless Abandon
+  'E1', // Lupinus Vita
+  'E2', // Conviction Spike
+  'E3', // Blood Awakening
+  'E4', // Fatal Surge
+  'E5', // Ephemeral Refrain
+  'F0', // Restorative Offering
+  'F1', // Sympathetic Boon
+  'F36', // Modest Offering
+  'F2', // Auto Heal
+  'F3', // Guardian Aid
+  'F4', // Cleansing Light
+  'F5', // Regenerator
+  'F6', // Venom Removal
+  'F7', // Stun Removal
+  'F8', // Inhibit Removal
+  'F9', // Slow Removal
+  'F10', // Leak Removal
+  'F11', // Panacea's Essence
+  'F12', // Blood Sacrifice
+  'F13', // Disremember
+  'F14', // Floating Light
+  'F15', // Vivification
+  'F16', // Nightstalker
+  'F17', // Night Fog Veil
+  'F18', // Spoils Spotter
+  'F19', // Active IFF
+  'F20', // Treasure Tracker
+  'F21', // Prize Perception
+  'F22', // Severing Abyss
+  'F23', // Phantom Assault
+  'F24', // Circulating Pulse
+  'F25', // Legion Punisher
+  'F26', // Fusillade Rondo
+  'F27', // Triple Annihilator
+  'F28', // Dragon Lunge
+  'F29', // Chariot Rush
+  'F30', // Shifting Hollow
+  'F31', // Grave Knocker
+  'F32', // Swallow Cutter
+  'F33', // Vanishing Hollow
+  'F34', // Tormenting Blast
+  'F35' // Shadow Assault
+];
 
 
 // # 4. WEAPONS #
@@ -4454,6 +4769,68 @@ CodeVeinBuilder.data.weapon = {
     }
   }
 };
+CodeVeinBuilder.data.order.weapon = [
+  'A0', // Queenslayer Blade
+  'A1', // Pipe of Thralldom
+  'A2', // Broadsword
+  'A3', // Hanemukuro
+  'A4', // Enduring Crimson
+  'A5', // Machete
+  'A6', // Argent Wolf Blade
+  'A7', // Blazing Claw
+  'A8', // Iceblood
+  'A9', // Sunset Sword
+  'A10', // Black Saber
+  'A11', // Executioner
+  'A12', // Lost Broadsword
+  'A13', // Crimson Longsword
+  'B0', // Queenslayer Greatsword
+  'B1', // Zweihander
+  'B2', // Nagimukuro
+  'B3', // Oni Bane
+  'B4', // Warped Blade
+  'B5', // Black Great Sword
+  'B6', // Argent Wolf King's Blade
+  'B7', // Judgement Edge
+  'B8', // Sunset Great Sword
+  'B9', // Lost Zweihander
+  'B10', // Argent Wolf Brand
+  'B11', // Blanched Greatsword
+  'C0', // Queenslayer Halberd
+  'C1', // Bardiche
+  'C2', // Impaler
+  'C3', // Garnet Splitter
+  'C4', // Dammerung
+  'C5', // Black Halberd
+  'C6', // Assassin's Sickle
+  'C7', // Sunset Halberd
+  'C8', // Lost Bardiche
+  'C9', // Obliterator Axe
+  'C10', // Argent Wolf Poleaxe
+  'C11', // Cerulean Spear
+  'D0', // Queenslayer Hammer
+  'D1', // Hammer of Thralldom
+  'D2', // Juggernaut Sledgehammer
+  'D3', // Heavy Axe
+  'D4', // Impulse Anchor
+  'D5', // Huge Hammer
+  'D6', // Argent Wolf Warhammer
+  'D7', // Tyrant's Labrys
+  'D8', // Sunset Hammer
+  'D9', // Burned Warhammer
+  'D10', // Lost Heavy Axe
+  'E0', // Queenslayer Bayonet
+  'E1', // Brodiaea
+  'E2', // Riot Breaker
+  'E3', // Bayonet
+  'E4', // Rubellite Piercer
+  'E5', // Argent Wolf Bayonet
+  'E6', // Burning Disaster
+  'E7', // Sunset Bayonet
+  'E8', // Black Bayonet
+  'E9', // Libertador
+  'E10' // Lost Bayonet
+];
 
 
 // # 5. BLOOD VEILS #
@@ -4845,6 +5222,29 @@ CodeVeinBuilder.data.blood_veil = {
     }
   }
 };
+CodeVeinBuilder.data.order.blood_veil = [
+  'A0', // Night Claw
+  'A1', // Noble Silver
+  'A2', // GXM Variant
+  'A3', // Blackblood Liberator
+  'A4', // Queenslayer Claw
+  'A5', // Venous Claw
+  'B0', // Night Spear
+  'B1', // Raven Fatigues
+  'B2', // Winter Mantle
+  'B3', // Silver Garb
+  'B4', // Queenslayer Thorn
+  'C0', // Night Fang
+  'C1', // Blue Hounds
+  'C2', // GXL Defender
+  'C3', // Hedgehog Fort
+  'C4', // White Vestment
+  'D0', // Night Thorn
+  'D1', // Ivory Grace
+  'D2', // GXH Assault
+  'D3', // Prayer Shawl
+  'D4' // Suicide Spur
+];
 
 
 // # 6. TRANSFORMATIONS #
@@ -4910,6 +5310,20 @@ CodeVeinBuilder.data.transform = {
     image : 'slow'
   }
 };
+CodeVeinBuilder.data.order.transform = [
+  'A0', // Alleviation
+  'A1', // Fortification
+  'A2', // Intensification
+  'A3', // Gifts
+  'A4', // Devour
+  'B0', // Fire
+  'B1', // Ice
+  'B2', // Lightning
+  'C0', // Venom
+  'C1', // Stun
+  'C2', // Inhibit
+  'C3' // Slow
+];
 
 
 // # 7. DATA SETUP #
@@ -4918,7 +5332,7 @@ CodeVeinBuilder.data.transform = {
   var i, k, data, lang, scaling;
   
   for (i in CodeVeinBuilder.data) {
-    if (i != 'dummy') { // ignore dummy data
+    if (i != 'dummy' && i != 'order') { // ignore dummy data
       for (k in CodeVeinBuilder.data[i]) {
         data = CodeVeinBuilder.data[i][k];
         lang = _lang.data[i][k];

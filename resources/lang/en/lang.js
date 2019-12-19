@@ -866,6 +866,11 @@ window._lang = {
       F16 : {
         name : 'Complete Attention',
         desc : 'Hitting with a charged drain will grant focus.'
+      },
+      
+      F17 : {
+        name : 'Charisma',
+        desc : "Increases your partner's stats."
       }
     },
 
@@ -1360,6 +1365,11 @@ window._lang = {
         usage_req : 'Queenslayer Blood Code'
       },
 
+      C34 : {
+        name : 'Vigorous Zeal',
+        desc : 'Temporarily increases fortitude and vitality.'
+      },
+
 
       // # DEFENSE BUFFS #
       D0 : {
@@ -1692,6 +1702,12 @@ window._lang = {
       F35 : {
         name : 'Shadow Assault',
         desc : 'Perform a fast, short-range charge. An offensive skill performed with One-handed sword/Halberd/Bayonet.'
+      },
+
+      F36 : {
+        name : 'Modest Offering',
+        desc : "Spends a small amount of your own HP to restore a small amount of your companions'.",
+        usage_req : 'HP is at 2 or higher'
       }
     },
     

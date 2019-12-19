@@ -241,6 +241,9 @@
     // various data on weapons, skills, etc...
     // see file in resources/javascript/data.js
     data : {
+      // contains arrays for the order of gifts, equipment, etc..
+      order : {},
+      
       // dummy data used for default values, mostly during comparisons
       dummy : {
         blood_code : {
@@ -774,10 +777,14 @@
                 'onmouseover="CodeVeinBuilder.selector.showInfo(this);" '+
                 'onclick="CodeVeinBuilder.selector.change(this, ' + caller + ');" '+
                 'title="remove"'+
-              '></div>';
+              '></div>',
+            k = 0,
+            j = CodeVeinBuilder.data.order[type].length,
+            i;
         
         // loop through all options and add them to the options list
-        for (i in CodeVeinBuilder.data[type]) {
+        for (; k < j; k++) {
+          i = CodeVeinBuilder.data.order[type][k];
           equipped = CodeVeinBuilder.selector.isEquipped(type, i, block.dataset.id);
           statCheck = CodeVeinBuilder.status.check.stats(type, i);
           

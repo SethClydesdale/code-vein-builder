@@ -45,6 +45,12 @@
       
       // builds based around two-handed swords 
       '1 - 2h' : {
+        'Hyper-aggressive heavy caster' : [
+          'IIJgbAPgQg7BAMEAiILEY4BGCBRHAwljtgKwREDMEAYiABxojmgCctlqBjwALNUVQ14QA',
+          "A two handed build focused on mobility, heavy weapons and magic. The plan is simple, don't get hit, the spells are chosen so you can do a lot of damage with minimal cast time, or to cover you when surrounded. Use swallow cutter after an attack or two to drop large enemies to the ground giving you free hits, spells are used to chip down enemies at range and sweep in for the kill, and the rest is for you to do a lot of damage. You can swap out judgement edge for any 2 handed weapon that takes your fancy, I prefer it for the large amount of damage from the charged heavy attack combined with blow of madness.",
+          'u/justicetree|fbfv950'
+        ],
+        
         'Immortal Blade' : [
           'IIRgrAPgQiEAwQMICYKnm2wDMEBiIuAorHgCz7IAclke2C9FAIqS43EA',
           'The fortified Zweihander has 100% defense when blocking, allowing you to withstand almost any attack. Throw on Iron Will and Cleansing Light to further boost your survivability, and save Foulblood Barrier for attacks that may one-shot you. For bosses, Life Steal can be swapped out for more health, balance, or a focus passive that boosts your defense.'
@@ -138,6 +144,16 @@
         'Frigid Blade Bearer' : [
           'IIJgHAPskAwQIgRiiCdjOhAonAwgJxSKqjogCsxAbFACwDMEeIqhzIyAYjEA',
           "A build based on the lovely Blade Bearer. It uses frigid Gifts to freeze your foes solid along with high draing rating buffs to unleash an endless stream of icy hell that's sure to trigger some bad memories."
+        ],
+        
+        "Queen's Chaos" : [
+          'IIJgHAPsBsEAwQCIEYoBZ5VcSxkggGFltlZQNgBmAViwHYorJCQDCBOIkVAMTiA',
+          "This is a magic build with a heavy focus on ichor restoration. Use your ichor spells to destroy the lost, then to regenerate your ichor, simply use Chaotic Ash or attack with all drain rating buffs active. Use Bridge to Glory to do extra damage while draining ichor with melee attacks OR swap it out for Gift Extension for longer drain rating buffs or Dark Shout to increase dark Gift damage. Aside from Lightning, you can use the following spell sets for exploiting weaknesses or when the element you're using isn't viable.<br><br>"+
+          '<b>Blood:</b> Sanguine Roar + Vodnik Mass OR Purging Thorn<br>'+
+          '<b>Fire:</b> Fire Storm OR Blazing Roar + Walpurgis Fire<br>'+
+          "<b>Ice:</b> Guard of Honor + Baba Yaga's Gaze<br>"+
+          "<b>Physical:</b> Arm of Set + Sands of Depravity<br><br>"+
+          'Volatile Storm is primarily used for large groups, so for bosses, you can swap it out for a single-target spell, a buff, resistance removal, etc.'
         ],
         
         'Sacrificial Storm Mage' : [

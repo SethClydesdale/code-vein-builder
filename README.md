@@ -51,3 +51,6 @@ You can help support my work in the following ways.
 
 - [Paypal](https://paypal.me/sethc95/3)
 - [Amazon Wishlist](https://www.amazon.com/hz/wishlist/ls/S7YILFHYK0IZ)
+
+#### Goals
+Currently, I'd like to get the Code Vein Season Pass, so that I can update Code Vein Builder with DLC content in a timely manner. You can help out by pitching in a $1 or by buying it as a gift from my amazon wishlist. Whatever support you can offer, I greatly appreciate it!

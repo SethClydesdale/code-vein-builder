@@ -164,6 +164,83 @@ a#fork-me:hover, a#fork-me:focus {
   background:#FFF;
 }
 
+
+/* announcement */
+#announcement {
+  color:#bab7b0;
+  background:rgba(0, 0, 0, 0.4);
+}
+
+#announce-inner {
+  max-width:1000px;
+  margin:0 auto;
+}
+
+#announcement .fa {
+  font-size:24px;
+  vertical-align:middle;
+}
+
+#announcement a {
+  color:#E83836;
+  font-weight:bold;
+}
+
+#announcement h3 { margin:5px 0 5px 0; }
+
+#announcement .announcement {
+  font-size:14px;
+  height:70px;
+  box-sizing:border-box;
+  padding:3px 6px;
+  overflow-y:auto;
+}
+
+#announcement .announcement.announce-hidden {
+  display:none;
+}
+
+#announcement .announcement .date {
+  color:#FFF;
+  font-size:11px;
+  font-weight:normal;
+  background:#E33;
+  border:1px solid #D22;
+  border-radius:3px;
+  padding:1px;
+  margin-right:3px;
+}
+
+#announce-list {
+  position:relative;
+  margin:0 20px;
+}
+
+#announcement .announce-controls {
+  color:#FFF;
+  background:#E83836;
+  text-align:center;
+  position:absolute;
+  top:50%;
+  margin:-15px 0 0 0;
+  height:30px;
+  width:20px;
+  padding:0;
+  opacity:0.5;
+}
+
+#announcement .announce-controls i.fa {
+  font-size:16px;
+  line-height:26px;
+  margin:0;
+}
+
+#announcement .announce-controls:hover { opacity:1; }
+
+#announcement .announce-controls.button-left { left:-20px; }
+#announcement .announce-controls.button-right { right:-20px; }
+
+
 /* content */
 #content { flex:1 0 auto; }
 

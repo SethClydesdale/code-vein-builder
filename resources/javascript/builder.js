@@ -128,6 +128,18 @@
           'A bayonet build primarily focued on shot attacks. Ranged Impact and Overdrive should be used to boost your shot damage, and Gift Extension to help extend these skills. If no DLC, you can supplement GE with Cognitive Zeal for a little extra damage. Blood Sacrifice will ensure you can regain your ichor without having to get close to enemies, so you can stand back and shoot all day!'
         ],
         
+        'Supernatural Sniper' : [
+          'IIJhB8FEE52WAiBGOLgBZXgMJIsADlQHYpNgVsBmFABhyvtyZEwDFNckg',
+          'This build focuses on Supernatural blood from the Hermonia blood code so you can shoot your bayonet even after you run out of ichor.<br><br>'+
+          'Time crunch and charge accelerator helps with the speed of your charged shots while Overdrive and ranged impact helps with the overall damage.<br><br>'+
+          "Cleansing light helps with the health loss of supernatural blood. The shots don't take much away though so you can benefit nicely from it. You can also use spells with this build although I recommend low cost ichor gifts like blood shot.<br><br>"+
+          'You also have a free slot that you can equip anything you may need for certain situations, making this build very adaptable.<br><br>'+
+          'When I buff, I often start with gift extension then Cleansing light and supernatural blood then follow up with the rest.<br>'+
+          'Using your heals is necessary for this build so no damage runs are not recommended.<br><br>'+
+          "Overall this build focuses on shooting enemies from afar and continual shooting even after you're out of ichor so you don't need to be near enemies to regain it. You need to be good at dodging as your defenses aren't the best and always have pure blood on hand. Although Supernatural Blood lasts a while and gets extended further with gift extension, it will run out as you progress to higher difficulties where enemies have a higher health pool and higher defenses so keep that in mind.",
+          'u/IC_Ivory280|fdrl6ua'
+        ],
+        
         'Molten Cannoneer' : [
           'IIRgzAPgogbBAMEAiILAEwLa4AOaALBAMIDs25xYiwB+AYiJgEKUiLHpHEir3xA',
           "A build based on everyone's favorite Cannoneer. Focuses on devastating enemies with the flamethrower and fire Gifts. Use Ranged Impact, Overdrive, and Time Crunch, then spam Burning Disaster's flamethrower attack to your heart's content as you set the world on fire."

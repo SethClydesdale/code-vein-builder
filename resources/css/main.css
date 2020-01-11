@@ -122,7 +122,7 @@ input[type="text"]:focus, input[type="number"]:focus, textarea:focus, select:foc
 header {
   color:#FFF;
   background:url(../images/bg-head.png) bottom center no-repeat/*url(../images/code-vein.png) no-repeat 10px 50%*/ #222;
-  padding:30px 20px 30px 140px;
+  padding:20px 20px 20px 140px;
   position:relative;
   overflow:hidden;
 }
@@ -130,6 +130,8 @@ header {
 #home-link:before { /* makes the above background image clickable */
   content:url(../images/cv-logo.png);
   position:absolute;
+  height:120px;
+  width:120px;
   left:14px;
   top:50%;
   margin-top:-60px;
@@ -169,6 +171,7 @@ a#fork-me:hover, a#fork-me:focus {
 #announcement {
   color:#bab7b0;
   background:rgba(0, 0, 0, 0.4);
+  border-bottom:1px solid #222;
 }
 
 #announce-inner {
@@ -186,7 +189,7 @@ a#fork-me:hover, a#fork-me:focus {
   font-weight:bold;
 }
 
-#announcement h3 { margin:5px 0 5px 0; }
+#announcement h3 { margin:10px 0 0 0; }
 
 #announcement .announcement {
   font-size:14px;
@@ -479,7 +482,7 @@ footer li:first-child:before { display:none; }
 
   #home-link:before {
     position:absolute;
-    height:100px;
+    height:120px;
     width:120px;
     top:60px;
     left:50%;

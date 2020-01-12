@@ -186,6 +186,15 @@
           'u/srlynowwhat|f9otaxj'
         ],
         
+        'The Twilight Mage' : [
+          'IIRgLAPsAcEAwQCKWJBDQDYq2ATihAFZCB2KAZgCYoqRbIBhKiiR4pKhZqoA',
+          "This mage heavily focuses on dark gifts. Specifically lightning based spells. With Jupiter's Blade for close range to Perkunas for long range power, this mage is capable of casting very strong spells. Although Twilight is bugged, it's still nice to cast it and see it in action in my opinion. <a href='https://youtu.be/ENGzvxUcWek' target='_blank'>https://youtu.be/ENGzvxUcWek</a><br><br>"+
+          "This build uses survival instincts as it powers up your spells so having feral tenacity allows you to better use that passive while you also have a powerup from swift destruction and dark shout, though dark shout only works for one attack. I prefer to use it on Perkunas but it also works well on Twilight. Feral Tenacity also lasts until you take fatal damage so I always have it activated before I start any run with this build.<br><br>"+
+          "Iceblood is very light and allows you to be quick so you can benefit completely from swift destruction. It may not do the highest damage and the Argent Wolf out classes it but it's moveset still gets the job done as far as ichor collecting goes and it has a powerful regular strong attack, which is something I use often.<br><br>"+
+          "Overall this build has great damage, good survivability, and reliable mobility.",
+          'u/IC_Ivory280|fe38zz9'
+        ],
+        
         'Vampiric Mage' : [
           'IIJgHAPsBsEAwQCIEYoBZ5VcSxkggGFltlZQNgBmAVihAE4oqnCQDDWRUAxOIA',
           'This build focuses on attacking with both physical and magical attacks. Use your ichor spells to devastate the lost and your buffs to regenerate your lost ichor with melee attacks.'

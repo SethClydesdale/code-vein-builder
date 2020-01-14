@@ -46,6 +46,16 @@
           'IIJgrAPsDsEAwQCIEYonmqAOCBRBAwsqgEKSgBsEJsAYgMz0S0gAsEBI6KOnqtcIA',
           'A build based on The Yaksha, Rin Murasame.<br><br>'+
           'Utilizes Evasive Snare and Countermeasure to burn enemies when you dodge them. Flames of Rage can be used to set traps or as a combo finisher. Dancing Blaze should be used in tandem with Circulating Pulse to deliver a devastating combo attack. Lastly, make sure to buff with Blood Sucking Blades and Hunting Feast to help maintain your ichor for Evasive Snare and your active Gifts.'
+        ],
+        
+        'Venom Thorn' : [
+          'IITgPsCMlgDGARGBhe8oXMAHBATPAGIDsmEAzKYXgCxgBCuy4ye5iBYyNQA',
+          "This build has a strong emphasis on damage while still being able to poison effectively.<br><br>"+
+          "With the venom buff and circulating pulse, you can poison enemies very effectively and you even get a damage boost from opportunism once enemies are afflicted with venom.<br><br>"+
+          "This build can efficiently use Light and Dark gifts so equip whatever spell suits you and your situation. You also have feral tenacity that helps survival instincts as well as gift prowess for cast speed. Bridge to Glory also does wonders for the build while venom trap can make for interesting strategy setups as well as having a very good poison build up.<br><br>"+
+          "Survival instinct and swift destruction powers up your spells so you can expect to do respectable damage while being able to poison the enemies and most bosses.<br><br>"+
+          "Overall this build has damage, great mobility, and decent survivability.",
+          'u/IC_Ivory280|feesklf'
         ]
       },
       

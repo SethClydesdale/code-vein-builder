@@ -196,6 +196,18 @@
           'u/srlynowwhat|f9otaxj'
         ],
         
+        'Successor of the Queen' : [
+          'IIJgHAPgogLBBCIIBE7AAwWGpwCMAbFpAMJ55Z654CslA7JUcAMwCcEJISAYni5zxoWYIA',
+          "Emphasizing the Code's native Gifts, this build uses those Dark Gifts to deal a lot of damage quickly, with a quick Disremember to one cast out with max Ichor. Even if you don't get the elemental weakness of the enemy, it can deal a LOT of damage to them.<br><br>"+
+          "Before you get into a fight, always remember to have the Merciless Reaper buff active. As of the current Patch (1.20), it only goes away when any melee attack is used, but the Spell Gifts are free reign which does help damage more (about 4800 more damage with the buff active, from my personal testing in the Training Area)<br><br>"+
+          "When Ichor is low, Bloodsucking Blades with a high Drain-transformed weapon and the Weapon Drain Up allows you to quickly recover Ichor. Normal Attacks build around 4-5 Ichor, where a fully charged Heavy Attack can grant close to 19-20 if it can connect with all appicable buffs. Chaotic Ash's primary use is to cover for both Bloodsucking Blades' and Merciless Reaper's Ichor costs. Even with 0 Ichor, a quick swing of the Drain weapon can quickly allow you to use Chaotic Ash to apply Bloodsucking Blades and recover more Ichor quickly. Though if you prefer, you can switch out Chaotic Ash for a different active Gift of your choice.<br><br>"+
+          "The biggest weakness of this build is its relatively low defenses. This build can be described as a bit of a \"Glass Cannon.\" Eating attacks isn't really recommended. Especially if you choose a different Drain weapon with the Slow mobility. If you feel you're not too good with dodging in general, you can swap out Chaotic Ash for Cleansing Light to offset possible damage taken.<br><br>"+
+          "Side note, the weapons listed were primarily chosen for the \"Fashion\" sense while also being practical. For a little more effectiveness for the weapon damage and Drain rating, a Queenslayer Bayonet (no Transformation) and a hammer with the Drain transformation serve as better alternatives if you want to maximise weapon damage (for lower mobs) and Drain Rating respectively. However, keep in mind that one weapon MUST be of the Quick mobility to ensure Swift Destruction's damage is at its max. Plus, it does cover a lot of ground when dodging, so it doesn't hurt having the extra mobility.<br><br>"+
+          "The Veil being of Intensification transformation, if only barely, allows weapon Mobility to be better while also giving more damage (even if it's only 4 points), so it is important.<br><br>"+
+          "Nagimukro Drain is legit a personal choice. It's the best blend of style, drain, and damage at the cost of Mobility. But it has managed to serve well. If you want a Normal-mobility high-Drain weapon, your choices are either Sunset Greatsword, or Heavy Axe.",
+          'u/arachnidsGrip88|fejk3r6'
+        ],
+        
         'The Twilight Mage' : [
           'IIRgLAPsAcEAwQCKWJBDQDYq2ATihAFZCB2KAZgCYoqRbIBhKiiR4pKhZqoA',
           "This mage heavily focuses on dark gifts. Specifically lightning based spells. With Jupiter's Blade for close range to Perkunas for long range power, this mage is capable of casting very strong spells. Although Twilight is bugged, it's still nice to cast it and see it in action in my opinion. <a href='https://youtu.be/ENGzvxUcWek' target='_blank'>https://youtu.be/ENGzvxUcWek</a><br><br>"+

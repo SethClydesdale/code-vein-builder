@@ -42,6 +42,13 @@
           'A build that utilizes Sacrificial Edge and Bridge to Glory to greatly increase damage. Cleansing light is used to help reduce the effects of Sacrificial Edge, whereas Blood Sacrifice is used to restore ichor after buffing so you can spam your attack Gifts.'
         ],
         
+        'Sacrificial Pipe' : [
+          'IIJgLAPsCMEAwQCK2AZnlFAOCBRBwAnBAMLQgQBi4p0xl5VqClkJxZCZA7EA',
+          "The trick to this build is buff swapping, if anyone has ever told you the Zeal skills are useless show them this. Don't get hit and your damage potential is insane even with the pipe!<br><br>"+
+          "Side Note: I haven't beaten the game to test this but if you are lv1 I'm pretty positive this is the strongest build in the game for a pipe run! Also any sword works with this you just have to transform them properly for quick mobility and also Gift mod Ivory Grace might be better because it will only have B scaling for mind instead of B+ when cognitive zeal runs out.",
+          'u/ProScopeZ|fey540j'
+        ],
+        
         'The Yaksha' : [
           'IIJgrAPsDsEAwQCIEYonmqAOCBRBAwsqgEKSgBsEJsAYgMz0S0gAsEBI6KOnqtcIA',
           'A build based on The Yaksha, Rin Murasame.<br><br>'+

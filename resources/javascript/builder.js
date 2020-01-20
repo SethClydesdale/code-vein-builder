@@ -147,6 +147,17 @@
         'Swift Tyrant' : [
           'IIZgDAPgIg7BlQIwWJSxnABwQKIggGE4MBOCAMQCYdqBWSquCkAFiKqqPMKuQrBA',
           'A hammer build focused on quick mobility and attack spam. Buffing up with all the buffs will allow you to spam your attack Gifts along with draining tons of ichor with regular attacks to maintain this spam. Quick mobility will ensure you can easily dodge attacks with that sweet quick dodge.'
+        ],
+        
+        'The Staggering Juggernaut' : [
+          'IIRg7APgIgDBcGEBMFT1SCCCcWAcEAogMyq4BixALFknOUgQsSggVKcjTkA',
+          "Have you ever wanted to establish complete immunity from damage in Code Vein? Do you want to stagger enemies with ease? Well this is the build for you. <a href='https://youtu.be/iCSHXmgIbQA' target='_blank'>https://youtu.be/iCSHXmgIbQA</a><br><br>"+
+          "With Guardian aid from the Alternate Mia Ai, Juggernaut, and the defender veil, you can get 100% damage immunity from all enemies and, when you stack your gift extension with Mia's gift extension, you can achieve this for up to 90 seconds.<br><br>"+
+          "Make sure your health is below half so you get the buff from survival instinct and with Adrenaline and Bridge to Glory, your damage is tolerable.<br><br>"+
+          "There is also precision and impact wave so you can stagger enemies more efficiently.<br><br>"+
+          "Overall this build is a total beast and would be almost game breaking if not for the hammer class being the worst in the game and the Ai being unpredictable at times.<br><br>"+
+          "Have fun.",
+          'u/IC_Ivory280|ff1evjd'
         ]
       },
       

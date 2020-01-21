@@ -37,16 +37,16 @@
           'calypsoup|5'
         ],
         
+        'Pipe Meister' : [
+          'IIJgLAPsCMEAxVgYVg4BmKAOCBRNAnBCiBAGLjGRnSlnoJmRJFICsx0A7EA',
+          "The trick to this build is buff swapping, most importantly Passive abilities. Don't get hit and your damage potential is insane even with the pipe!<br><br>"+
+          "Side Note: If you plan on using the pipe GIFT NOBLE SILVER is stronger but if you plan on using any other sword GIFT IVORY GRACE is the way to go! Adrenaline and Overdrive are absolutely useless on this set so I took them off and added Stun Weapon. Your free to swap blood sacrifice and Poison Weapon with an elemental weapon if the boss is weak to certain elements. I'm going to let you figure out how to activate bridge to grace use the Description to help you! I would have a video of me killing Queen's Knight Reborn with this set on a +0 stun Pipe taking no damage but when I tried to save the clip it didn't save it. :(",
+          'u/ProScopeZ|fey540j'
+        ],
+        
         'Sacrificial Edge' : [
           'IIJgLAPsCM0QDBAInUCqoBwQKKIMLQgSEDMEAYuJSMRUTefgJwnQDslkF8QA',
           'A build that utilizes Sacrificial Edge and Bridge to Glory to greatly increase damage. Cleansing light is used to help reduce the effects of Sacrificial Edge, whereas Blood Sacrifice is used to restore ichor after buffing so you can spam your attack Gifts.'
-        ],
-        
-        'Sacrificial Pipe' : [
-          'IIJgLAPsCMEAwQCK2AZnlFAOCBRBwAnBAMLQgQBi4p0xl5VqClkJxZCZA7EA',
-          "The trick to this build is buff swapping, if anyone has ever told you the Zeal skills are useless show them this. Don't get hit and your damage potential is insane even with the pipe!<br><br>"+
-          "Side Note: I haven't beaten the game to test this but if you are lv1 I'm pretty positive this is the strongest build in the game for a pipe run! Also any sword works with this you just have to transform them properly for quick mobility and also Gift mod Ivory Grace might be better because it will only have B scaling for mind instead of B+ when cognitive zeal runs out.",
-          'u/ProScopeZ|fey540j'
         ],
         
         'The Yaksha' : [

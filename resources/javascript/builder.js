@@ -38,7 +38,7 @@
         ],
         
         'Pipe Meister' : [
-          'IIJgLAPsCMEAxVgYVg4BmKAOCBRNAnBCiBAGLjGRnSlnoJmRJFICsx0A7EA',
+          'IIJgLAPsCMEAxVgYVg4BmKAOKI0E4IUQIAxcIyU6E09BUyJQpAViOgHYg',
           "The trick to this build is buff swapping, most importantly Passive abilities. Don't get hit and your damage potential is insane even with the pipe!<br><br>"+
           "Side Note: If you plan on using the pipe GIFT NOBLE SILVER is stronger but if you plan on using any other sword GIFT IVORY GRACE is the way to go! Adrenaline and Overdrive are absolutely useless on this set so I took them off and added Stun Weapon. Your free to swap blood sacrifice and Poison Weapon with an elemental weapon if the boss is weak to certain elements. I'm going to let you figure out how to activate bridge to grace use the Description to help you! I would have a video of me killing Queen's Knight Reborn with this set on a +0 stun Pipe taking no damage but when I tried to save the clip it didn't save it. :(",
           'u/ProScopeZ|fey540j'

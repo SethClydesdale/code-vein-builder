@@ -413,6 +413,24 @@ window._lang = {
         name : 'Astrea',
         desc : 'Provides balance and stability in combat, and features Gifts useful during exploration.',
         owner : 'Mia Karnstein'
+      },
+      
+      A34 : {
+        name : 'Asclepius',
+        desc : 'Utilizes bountiful HP and stamina to aid partners with support Gifts.',
+        owner : 'Valerio'
+      },
+      
+      A35 : {
+        name : 'Achilles',
+        desc : 'Allows for dynamic combat with high dexterity and stamina.',
+        owner : 'Unknown'
+      },
+      
+      A36 : {
+        name : 'Surt',
+        desc : 'Features high stamina perfect for mobile combat. Low HP, but high strength and fortitude.',
+        owner : 'Hellfire Knight'
       }
     },
     

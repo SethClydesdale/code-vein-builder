@@ -726,6 +726,75 @@ CodeVeinBuilder.data.blood_code = {
       min : 30,
       max : 60
     }
+  },
+  
+  // hellfire knight
+
+  
+  A34 : { // Asclepius
+    image : 'asclepius',
+    dlc : 1,
+
+    mobility : _lang.mobi.normal,
+    weight : 110,
+
+    stats : {
+      str : 5,
+      dex : 5,
+      mnd : 5,
+      wil : 4,
+      vit : 12,
+      for : 12
+    },
+
+    ichor : {
+      min : 24,
+      max : 48
+    }
+  },
+  
+  A35 : { // Achilles
+    image : 'achilles',
+    dlc : 1,
+
+    mobility : _lang.mobi.quick,
+    weight : 56,
+
+    stats : {
+      str : 4,
+      dex : 12,
+      mnd : 4,
+      wil : 3,
+      vit : 3,
+      for : 12
+    },
+
+    ichor : {
+      min : 14,
+      max : 34
+    }
+  },
+  
+  A36 : { // Surt
+    image : 'surt',
+    dlc : 1,
+
+    mobility : _lang.mobi.quick,
+    weight : 59,
+
+    stats : {
+      str : 11,
+      dex : 5,
+      mnd : 6,
+      wil : 6,
+      vit : 3,
+      for : 11
+    },
+
+    ichor : {
+      min : 16,
+      max : 40
+    }
   }
 };
 CodeVeinBuilder.data.order.blood_code = [
@@ -761,6 +830,9 @@ CodeVeinBuilder.data.order.blood_code = [
   'A29', // Hades
   'A30', // Demeter
   'A31', // Ishtar
+  'A34', // Asclepius
+  'A35', // Achilles
+  'A36', // Surt
   'A32', // Harbinger
   'A33' // Astrea
 ];

@@ -1206,6 +1206,19 @@ CodeVeinBuilder.data.passive = {
     }
   },
   
+  // Hellfire Knight DLC
+  C14 : { // Strength/Fortitude Up
+    image : 'strength-fortitude-up',
+    tree : _lang.tree.light,
+    origin : 'A36',
+    dlc : 1,
+    
+    stats : {
+      str : 1,
+      for : 1
+    }
+  },
+  
   
   // # FOCUS BOOSTS #
   D0 : { // Dark Impulse
@@ -1506,6 +1519,7 @@ CodeVeinBuilder.data.order.passive = [
   'C6', // Strength/Dexterity Up
   'C7', // Strength/Willpower Up
   'C8', // Strength/Vitality Up
+  'C14', // Strength/Fortitude Up
   'C9', // Dexterity/Willpower Up
   'C10', // Dexterity/Fortitude Up
   'C11', // Mind/Willpower Up
@@ -2285,6 +2299,39 @@ CodeVeinBuilder.data.active = {
     ichor_cost : 5,
     cooldown : 5,
     physical : _lang.attr.crush,
+    elemental : _lang.attr.fire
+  },
+  
+  // Hellfire Knight DLC
+  A49 : { // Homing Hellfire
+    image : 'homing-hellfire',
+    tree : _lang.tree.dark,
+    origin : 'A36',
+    dlc : 1,
+
+    required : {
+      wil : 6
+    },
+
+    ichor_cost : 8,
+    cooldown : 10,
+    physical : _lang.attr.crush,
+    elemental : _lang.attr.fire
+  },
+  
+  A50 : { // Dancing Fireblade
+    image : 'dancing-fireblade',
+    tree : _lang.tree.dark,
+    origin : 'A36',
+    dlc : 1,
+
+    required : {
+      wil : 6
+    },
+
+    ichor_cost : 5,
+    cooldown : 10,
+    physical : _lang.attr.slash,
     elemental : _lang.attr.fire
   },
   
@@ -3658,6 +3705,99 @@ CodeVeinBuilder.data.active = {
     
     ichor_cost : 2,
     cooldown : 12
+  },
+  
+  // Hellfire Knight DLC
+  F37 : { // Ichor Resonance (Receive)
+    image : 'ichor-resonance-receive',
+    tree : _lang.tree.light,
+    origin : 'A34',
+    dlc : 1,
+    
+    required : {
+      vit : 11
+    },
+    
+    ichor_cost : 5,
+    cooldown : 60
+  },
+  
+  F38 : { // Ichor Resonance (Send)
+    image : 'ichor-resonance-send',
+    tree : _lang.tree.light,
+    origin : 'A34',
+    dlc : 1,
+    
+    required : {
+      for : 11
+    },
+    
+    ichor_cost : 5,
+    cooldown : 60
+  },
+  
+  F39 : { // Serene Stance
+    image : 'serene-stance',
+    tree : _lang.tree.light,
+    origin : 'A35',
+    dlc : 1,
+    
+    required : {
+      for : 11
+    },
+    
+    ichor_cost : 5,
+    cooldown : 10
+  },
+  
+  F40 : { // Invigorating Rush
+    image : 'invigorating-rush',
+    tree : _lang.tree.light,
+    origin : 'A35',
+    dlc : 1,
+    
+    required : {
+      for : 11
+    },
+    
+    ichor_cost : 6,
+    cooldown : 10
+  },
+  
+  F41 : { // Tranquil Slice
+    image : 'tranquil-slice',
+    tree : _lang.tree.skill,
+    origin : 'A35',
+    dlc : 1,
+    
+    weapon_req : ['A'],
+    
+    ichor_cost : 7,
+    cooldown : 12
+  },
+  
+  F42 : { // Circular Cleaver
+    image : 'circular-cleaver',
+    tree : _lang.tree.skill,
+    origin : 'A35',
+    dlc : 1,
+    
+    weapon_req : ['A', 'C', 'E'],
+    
+    ichor_cost : 6,
+    cooldown : 10
+  },
+  
+  F43 : { // Savage Dive
+    image : 'savage-dive',
+    tree : _lang.tree.skill,
+    origin : 'A36',
+    dlc : 1,
+    
+    weapon_req : ['A', 'C'],
+    
+    ichor_cost : 4,
+    cooldown : 15
   }
 };
 CodeVeinBuilder.data.order.active = [
@@ -3697,6 +3837,7 @@ CodeVeinBuilder.data.order.active = [
   'A33', // Fire Lily
   'A34', // Sand Edge
   'A35', // Volatile Storm
+  'A49', // Homing Hellfire
   'A36', // Arm of Set
   'A37', // Sands of Depravity
   'A38', // Chaotic Ash
@@ -3708,6 +3849,7 @@ CodeVeinBuilder.data.order.active = [
   'A44', // Peony Flash
   'A45', // Will-o'-the-Wisp
   'A46', // Ember Reversal
+  'A50', // Dancing Fireblade
   'A47', // Desperate Burst
   'A48', // Rose Flame
   'B0', // Venomous Shot
@@ -3799,6 +3941,10 @@ CodeVeinBuilder.data.order.active = [
   'F11', // Panacea's Essence
   'F12', // Blood Sacrifice
   'F13', // Disremember
+  'F39', // Serene Stance
+  'F40', // Invigorating Rush
+  'F37', // Ichor Resonance (Receive)
+  'F38', // Ichor Resonance (Send)
   'F14', // Floating Light
   'F15', // Vivification
   'F16', // Nightstalker
@@ -3820,7 +3966,10 @@ CodeVeinBuilder.data.order.active = [
   'F32', // Swallow Cutter
   'F33', // Vanishing Hollow
   'F34', // Tormenting Blast
-  'F35' // Shadow Assault
+  'F35', // Shadow Assault
+  'F41', // Tranquil Slice
+  'F42', // Circular Cleaver
+  'F43' // Savage Dive
 ];
 
 
@@ -4072,6 +4221,39 @@ CodeVeinBuilder.data.weapon = {
     }
   },
   
+  // Hellfire Knight DLC
+  A14 : { // Hellfire Pipe
+    image : 'hellfire-pipe',
+    dlc : 1,
+    
+    weight : 5,
+
+    scaling : {
+      str : 6,
+      dex : 5
+    },
+
+    required : {
+      str : 4,
+      dex : 4
+    }
+  },
+  
+  A15 : { // Inferno Blade
+    image : 'inferno-blade',
+    dlc : 1,
+    
+    weight : 33,
+
+    scaling : {
+      str : 10
+    },
+
+    required : {
+      str : 9
+    }
+  },
+  
   
   // # TWO-HANDED SWORDS #
   B0 : { // Queenslayer Greatsword
@@ -4259,6 +4441,22 @@ CodeVeinBuilder.data.weapon = {
 
     required : {
       str : 7
+    }
+  },
+  
+  // Hellfire Knight DLC
+  B12 : { // Wrathful Balmung
+    image : 'wrathful-balmung',
+    dlc : 1,
+    
+    weight : 80,
+
+    scaling : {
+      dex : 10
+    },
+
+    required : {
+      dex : 9
     }
   },
   
@@ -4643,6 +4841,23 @@ CodeVeinBuilder.data.weapon = {
     }
   },
   
+  // Hellfire Knight DLC
+  D11 : { // Hellfire Hammer
+    image : 'hellfire-hammer',
+    dlc : 1,
+    
+    weight : 56,
+
+    scaling : {
+      dex : 9
+    },
+
+    required : {
+      dex : 7,
+      mnd : 5
+    }
+  },
+  
   
   // # BAYONETS #
   E0 : { // Queenslayer Bayonet
@@ -4844,6 +5059,7 @@ CodeVeinBuilder.data.weapon = {
 CodeVeinBuilder.data.order.weapon = [
   'A0', // Queenslayer Blade
   'A1', // Pipe of Thralldom
+  'A14', // Hellfire Pipe
   'A2', // Broadsword
   'A3', // Hanemukuro
   'A4', // Enduring Crimson
@@ -4852,6 +5068,7 @@ CodeVeinBuilder.data.order.weapon = [
   'A7', // Blazing Claw
   'A8', // Iceblood
   'A9', // Sunset Sword
+  'A15', // Inferno Blade
   'A10', // Black Saber
   'A11', // Executioner
   'A12', // Lost Broadsword
@@ -4865,6 +5082,7 @@ CodeVeinBuilder.data.order.weapon = [
   'B6', // Argent Wolf King's Blade
   'B7', // Judgement Edge
   'B8', // Sunset Great Sword
+  'B12', // Wrathful Balmung
   'B9', // Lost Zweihander
   'B10', // Argent Wolf Brand
   'B11', // Blanched Greatsword
@@ -4890,6 +5108,7 @@ CodeVeinBuilder.data.order.weapon = [
   'D7', // Tyrant's Labrys
   'D8', // Sunset Hammer
   'D9', // Burned Warhammer
+  'D11', // Hellfire Hammer
   'D10', // Lost Heavy Axe
   'E0', // Queenslayer Bayonet
   'E1', // Brodiaea
@@ -5020,6 +5239,24 @@ CodeVeinBuilder.data.blood_veil = {
     }
   },
   
+  // Hellfire Knight DLC
+  A6 : { // Ruinous Chevalier
+    image : 'ruinous-chevalier',
+    dlc : 1,
+    
+    weight : 60,
+
+    scaling : {
+      str : 7,
+      wil : 9
+    },
+
+    required : {
+      str : 4,
+      wil : 7
+    }
+  },
+  
   
   // # STINGER #
   B0 : { // Night Spear
@@ -5110,6 +5347,23 @@ CodeVeinBuilder.data.blood_veil = {
     }
   },
   
+  // Hellfire Knight DLC
+  B5 : { // Graceful Prominence
+    image : 'graceful-prominence',
+    dlc : 1,
+    
+    weight : 34,
+
+    scaling : {
+      str : 6,
+      dex : 8
+    },
+
+    required : {
+      dex : 8
+    }
+  },
+  
   
   // # HOUNDS #
   C0 : { // Night Fang
@@ -5184,7 +5438,7 @@ CodeVeinBuilder.data.blood_veil = {
     }
   },
   
-  C4 : { // 
+  C4 : { // White Vestment
     image : 'white-vestment',
     
     weight : 65,
@@ -5199,6 +5453,23 @@ CodeVeinBuilder.data.blood_veil = {
       dex : 3,
       mnd : 6,
       wil : 3
+    }
+  },
+  
+  // Hellfire Knight DLC
+  C5 : { // Violet Gear
+    image : 'violet-gear',
+    dlc : 1,
+    
+    weight : 43,
+
+    scaling : {
+      str : 8,
+      dex : 3
+    },
+
+    required : {
+      str : 8
     }
   },
   
@@ -5299,15 +5570,18 @@ CodeVeinBuilder.data.order.blood_veil = [
   'A1', // Noble Silver
   'A2', // GXM Variant
   'A3', // Blackblood Liberator
+  'A6', // Ruinous Chevalier
   'A4', // Queenslayer Claw
   'A5', // Venous Claw
   'B0', // Night Spear
   'B1', // Raven Fatigues
+  'B5', // Graceful Prominence
   'B2', // Winter Mantle
   'B3', // Silver Garb
   'B4', // Queenslayer Thorn
   'C0', // Night Fang
   'C1', // Blue Hounds
+  'C5', // Violet Gear
   'C2', // GXL Defender
   'C3', // Hedgehog Fort
   'C4', // White Vestment

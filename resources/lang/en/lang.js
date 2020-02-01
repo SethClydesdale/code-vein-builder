@@ -415,6 +415,7 @@ window._lang = {
         owner : 'Mia Karnstein'
       },
       
+      // Hellfire Knight DLC
       A34 : {
         name : 'Asclepius',
         desc : 'Utilizes bountiful HP and stamina to aid partners with support Gifts.',
@@ -674,7 +675,18 @@ window._lang = {
         name : 'Mind/Fortitude Up',
         desc : 'Increases mind and fortitude.'
       },
-
+      
+      C13 : {
+        name : 'Mind/Fortitude Up',
+        desc : 'Increases mind and fortitude.'
+      },
+      
+      // Hellfire Knight DLC
+      C14 : {
+        name : 'Strength/Fortitude Up',
+        desc : 'Increases strength and fortitude.'
+      },
+      
 
       // # FOCUS BOOSTS #
       D0 : {
@@ -1142,6 +1154,17 @@ window._lang = {
       A48 : {
         name : 'Rose Flame',
         desc : 'Scatters fire bombs that explode after a short time, damaging anything in the area.'
+      },
+      
+      // Hellfire Knight DLC
+      A49 : {
+        name : 'Homing Hellfire',
+        desc : 'Unleashes an ominous vortex of flame that pursues the target.'
+      },
+      
+      A50 : {
+        name : 'Dancing Fireblade',
+        desc : 'Summons a fiery blade that spins around your body.'
       },
 
 
@@ -1726,6 +1749,42 @@ window._lang = {
         name : 'Modest Offering',
         desc : "Spends a small amount of your own HP to restore a small amount of your companions'.",
         usage_req : 'HP is at 2 or higher'
+      },
+      
+      // Hellfire Knight DLC
+      F37 : {
+        name : 'Ichor Resonance (Receive)',
+        desc : 'Grants you ichor when your partner (not the player) gains ichor.<br>Cannot be used with "Ichor Resonance (Send)".'
+      },
+      
+      F38 : {
+        name : 'Ichor Resonance (Send)',
+        desc : 'Grants your partner ichor when you gain ichor (does not apply to player).<br>Cannot be used with "Ichor Resonance (Receive)".'
+      },
+      
+      F39 : {
+        name : 'Serene Stance',
+        desc : 'Immediately take up a stance that calms your mind and restores all stamina.'
+      },
+      
+      F40 : {
+        name : 'Invigorating Rush',
+        desc : 'Restores stamina when you successfully dodge enemy attacks while the effect is active.'
+      },
+      
+      F41 : {
+        name : 'Tranquil Slice',
+        desc : 'Perform an unperceivable attack from a still stance. An offensive skill performed with a one-handed sword.'
+      },
+      
+      F42 : {
+        name : 'Circular Cleaver',
+        desc : 'Leap while performing a spinning slash. An offensive skill performed with a one-handed sword/halberd/bayonet.'
+      },
+      
+      F43 : {
+        name : 'Savage Dive',
+        desc : 'Launch an assault from midair and mow down the enemy. An offensive skill performed with a one-handed sword/halberd.'
       }
     },
     
@@ -1803,6 +1862,17 @@ window._lang = {
         desc : 'A one-handed sword patterned after a long blade wielded by a devourer of gods with steely self-control.'
       },
       
+      // Hellfire Knight DLC
+      A14 : {
+        name : 'Hellfire Pipe',
+        desc : 'A club-like weapon warped by hellfire.'
+      },
+      
+      A15 : {
+        name : 'Inferno Blade',
+        desc : 'A single-edged sword scorched by hellfire. Light, with high strength scaling.'
+      },
+      
       // # TWO-HANDED SWORDS #
       B0 : {
         name : 'Queenslayer Greatsword',
@@ -1862,6 +1932,12 @@ window._lang = {
       B11 : {
         name : 'Blanched Greatsword',
         desc : 'A two-handed sword patterned after a giant saw wielded by a devourer of gods.'
+      },
+      
+      // Hellfire Knight DLC
+      B12 : {
+        name : 'Wrathful Balmung',
+        desc : 'A two-handed sword scorched by hellfire, featuring high attack power and weapon defense.'
       },
       
       
@@ -1983,6 +2059,12 @@ window._lang = {
         desc : 'An axe used by revenants who have fallen and joined the Lost.'
       },
       
+      // Hellfire Knight DLC
+      D11 : {
+        name : 'Hellfire Hammer',
+        desc : 'A warhammer scorched by hellfire. Has exceptionally high dexterity scaling.'
+      },
+      
       
       // # BAYONETS #
       E0 : {
@@ -2075,6 +2157,12 @@ window._lang = {
         desc : 'An Ogre-type Blood Veil used by the Lost. Low durability, but extremely lightweight.'
       },
       
+      // Hellfire Knight DLC
+      A6 : {
+        name : 'Ruinous Chevalier',
+        desc : 'A Blood Veil tattered by hellfire. Boasts high defense and enhances dark Gifts.'
+      },
+      
       
       // # STINGER #
       B0 : {
@@ -2102,6 +2190,12 @@ window._lang = {
         desc : 'A Blood Veil used by forces in Operation Queenslayer. Enhances all types of Gifts.'
       },
       
+      // Hellfire Knight DLC
+      B5 : {
+        name : 'Graceful Prominence',
+        desc : 'A lightweight Blood Veil tattered by hellfire, featuring high dexterity scaling.'
+      },
+      
       
       // # HOUNDS #
       C0 : {
@@ -2127,6 +2221,12 @@ window._lang = {
       C4 : {
         name : 'White Vestment',
         desc : 'A Blood Veil reminiscent of a monastic robe. Greatly enhances support Gifts.'
+      },
+      
+      // Hellfire Knight DLC
+      C5 : {
+        name : 'Violet Gear',
+        desc : 'A Blood Veil tattered by hellfire, boasting light weight and high strength.'
       },
       
       

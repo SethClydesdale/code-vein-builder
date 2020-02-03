@@ -1602,7 +1602,7 @@
           keepOpen : 1,
           
           callback : function () {
-            var code = document.getElementById('build_code').value;
+            var code = document.getElementById('build_code').value, context;
             
             // error if no code/url
             if (!code) {
@@ -1611,17 +1611,24 @@
             
             // finds the build code in an url
             if (/build=/i.test(code)) {
+              context = code.match(/context=(.*?)(?:&|$)/i);
               code = code.match(/build=(.*?)(?:&|$)/i);
               
+              // build code
               if (code && code[1]) {
-                code = code[1]
+                code = code[1];
+              }
+              
+              // build context (e.g. author, description..)
+              if (context && context[1]) {
+                context = context[1];
               }
             }
             
             // try loading the build
             try {
               CodeVeinBuilder.build = LZString.decompressFromEncodedURIComponent(code).split('|');
-              CodeVeinBuilder.updateURL();
+              CodeVeinBuilder.updateURL(context ? LZString.decompressFromEncodedURIComponent(context).split('|') : '');
               CodeVeinBuilder.status.reset();
               CodeVeinBuilder.loadBuild();
               GenkiModal.close();

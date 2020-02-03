@@ -9,6 +9,7 @@
 * ]
 */
 CodeVeinBuilder.presets = {
+  // # ONE-HANDED SWORD #
   // builds based around one-handed swords
   '0 - 1h' : {
     'High Scepter' : [
@@ -58,6 +59,8 @@ CodeVeinBuilder.presets = {
     ]
   },
 
+  
+  // # TWO-HANDED SWORD #
   // builds based around two-handed swords 
   '1 - 2h' : {
     'Hasty Combo Fighter' : [
@@ -104,6 +107,8 @@ CodeVeinBuilder.presets = {
     ]
   },
 
+  
+  // # HALBERD #
   // builds based around the halberd
   '2 - halberd' : {
     'Gliding Executioner' : [
@@ -129,6 +134,8 @@ CodeVeinBuilder.presets = {
     ]
   },
 
+  
+  // # HAMMER #
   // builds based around the hammer
   '3 - hammer' : {
     'Shockwave Smasher' : [
@@ -153,6 +160,8 @@ CodeVeinBuilder.presets = {
     ]
   },
 
+  
+  // # BAYONET #
   // builds based around the bayonet
   '4 - bayonet' : {
     'Sacrificial Ranger' : [
@@ -184,6 +193,8 @@ CodeVeinBuilder.presets = {
     ]
   },
 
+  
+  // # DARK GIFTS #
   // builds that deal with offensive gifts which devastate foes
   '5 - dark_gifts' : {
     'Blade Mage' : [
@@ -245,6 +256,8 @@ CodeVeinBuilder.presets = {
     ]
   },
 
+  
+  // # LIGHT GIFTS #
   // builds that deal with support and sometimes offensive gifts
   '6 - light_gifts' : {
     'BBC Countermeasure' : [
@@ -264,6 +277,8 @@ CodeVeinBuilder.presets = {
     ]
   },
 
+  
+  // # DEBUFF #
   // builds that deal with applying debuffs to the enemy
   '7 - debuff' : {
     'Lost Binder' : [

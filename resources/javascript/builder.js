@@ -1254,7 +1254,10 @@
         // loads context data for preset builds
         else if (/context/i.test(pair[0])) {
           try {
-            context = LZString.decompressFromEncodedURIComponent(pair[1]).split('|');
+            context = LZString.decompressFromEncodedURIComponent(pair[1])
+                      .replace(/^\d+ - /, '') // removes number prefix on legacy links (this ordering system was deprecated on 2/4/20)
+                      .split('|');
+            
             buildData = CodeVeinBuilder.presets[context[0]][context[1]];
 
             CodeVeinBuilder.updateDesc({
@@ -1705,8 +1708,8 @@
                       '<option value="AwH17SOrZ4g">' + _lang.preset_empty + '</option>'+
                       '<option value="random">' + _lang.preset_random + '</option>'+
                     '</optgroup>',
-          key,
-          i, k;
+          key, preset,
+          i, j, k;
       
       // compile language list with the actively selected language
       for (i in CodeVeinBuilder.languages) {
@@ -1715,11 +1718,13 @@
       }
       
       // compile presets
-      for (i in CodeVeinBuilder.presets) {
-        presets += '<optgroup label="' + _lang.preset_group[i.replace(/^\d+ - /, '')] + '">';
+      for (i = 0, j = CodeVeinBuilder.presetsOrder.length; i < j; i++) {
+        key = CodeVeinBuilder.presetsOrder[i],
+        preset = CodeVeinBuilder.presets[key];
+        presets += '<optgroup label="' + _lang.preset_group[key] + '">';
         
-        for (k in CodeVeinBuilder.presets[i]) {
-          presets += '<option value="' + (typeof CodeVeinBuilder.presets[i][k] === 'string' ? CodeVeinBuilder.presets[i][k] : CodeVeinBuilder.presets[i][k][0]) + '" data-group="' + i + '">' + k + '</option>';
+        for (k in preset) {
+          presets += '<option value="' + (typeof preset[k] === 'string' ? preset[k] : preset[k][0]) + '" data-group="' + key + '">' + k + '</option>';
         }
         
         presets += '</optgroup>';

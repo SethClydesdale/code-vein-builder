@@ -11,7 +11,7 @@
 CodeVeinBuilder.presets = {
   // # ONE-HANDED SWORD #
   // builds based around one-handed swords
-  '0 - 1h' : {
+  '1h' : {
     'High Scepter' : [
       'IIJgDAPsDsUBxQKxQCyopAwgTnhAolgIxEQBiAzMsEbsBaWSCBDqyGmVs0A',
       'A build focused on high sustained damage from close and medium range with a variety of cc options and quick movement',
@@ -62,7 +62,7 @@ CodeVeinBuilder.presets = {
   
   // # TWO-HANDED SWORD #
   // builds based around two-handed swords 
-  '1 - 2h' : {
+  '2h' : {
     'Hasty Combo Fighter' : [
       'IIZgjAPgQgLBAMFiUY5SwCYkA4kE4IBRSYANiRDwDEQ5hCARTRAYT1cNcwFYg',
       "This Build enables you to have quick Mobility while still having a two handed sword. On top of that it also has a good combo that is potentially a true combo. Not completely sure about it but it does have consistency.<br><br>"+
@@ -110,7 +110,7 @@ CodeVeinBuilder.presets = {
   
   // # HALBERD #
   // builds based around the halberd
-  '2 - halberd' : {
+  'halberd' : {
     'Gliding Executioner' : [
       'IIJg7APgwgbBAMEAiBGCoHrcAHBAoiNCtipAGIgCcElRUAzIpQCzQ1Qj0rPxA',
       "This build focuses on spamming the Assassin's Sickle special heavy charged attack. Apply all the buffs, especially Time Crunch to speed up the charge attack. Then harness the power of the Invading Executioner's glide attack to devastate your foes."
@@ -137,7 +137,7 @@ CodeVeinBuilder.presets = {
   
   // # HAMMER #
   // builds based around the hammer
-  '3 - hammer' : {
+  'hammer' : {
     'Shockwave Smasher' : [
       'IIZgDAPgIgTBlQIwWHSxnABwQKIggGEA2FRAdggDEYdCZJCQ4qQAWImZQgTiPGpggA',
       'This build uses Precision and Impact Wave in an attempt to keep enemies stunlocked. Make sure to buff up with the prior Gifts along with Time Crunch, then spam the heavy charged attack with the Juggernaut Sledgehammer to unleash three rapid shockwave attacks. If paired with Bridge to Glory, this should do a lot of damage and stunlock the enemy a few times.'
@@ -163,7 +163,7 @@ CodeVeinBuilder.presets = {
   
   // # BAYONET #
   // builds based around the bayonet
-  '4 - bayonet' : {
+  'bayonet' : {
     'Sacrificial Ranger' : [
       'IIJhB8FEE5wBnAEQIzzcVwAcUAs4BhWDAdkIGYFhycAxZCWkANkOQQJHwOVVriA',
       'A bayonet build primarily focued on shot attacks. Ranged Impact and Overdrive should be used to boost your shot damage, and Gift Extension to help extend these skills. If no DLC, you can supplement GE with Cognitive Zeal for a little extra damage. Blood Sacrifice will ensure you can regain your ichor without having to get close to enemies, so you can stand back and shoot all day!'
@@ -196,7 +196,7 @@ CodeVeinBuilder.presets = {
   
   // # DARK GIFTS #
   // builds that deal with offensive gifts which devastate foes
-  '5 - dark_gifts' : {
+  'dark_gifts' : {
     'Blade Mage' : [
       'IIJgHAPsBsEKIE4oGYoBYoEYtdQYSTwHYpJhMlQQoRsAxABgj0wxcJAFYUwg',
       'It allows you to use three elemental blades on cooldown rotation after using the three buffs (hasten to enhance swift destruction). To use this build effectively you must never attack with your physical weapon to keep merciless reaper in effect. Recharge ichor with chaotic ash and backstabs as you travel through dungeons. Though this build can be used in boss fights it is not optimized for them. Weapon is transformed to drain weapon as a backup in case you run out of ichor and you are unable to backstab. Alternatively you can remove a blade attack and use blood sacrifice if you dont mind the loss of hp for ichor. Gun is just an ideal long range solution but not necessary for the build to function.',
@@ -259,7 +259,7 @@ CodeVeinBuilder.presets = {
   
   // # LIGHT GIFTS #
   // builds that deal with support and sometimes offensive gifts
-  '6 - light_gifts' : {
+  'light_gifts' : {
     'BBC Countermeasure' : [
       'IIRgzAPgDNs-FQCY62EgLBAIuHIR8YBhJFYgTglMIDEog',
       'A template build for countering Blade Bearer and Cannoneer. Utilize the elemental resist Gifts in conjunction with the elemental resist items to render their attacks useless. You can also go the extra mile and transform your Blood Veil with Fire or Ice resist.<br><br>'+
@@ -280,7 +280,7 @@ CodeVeinBuilder.presets = {
   
   // # DEBUFF #
   // builds that deal with applying debuffs to the enemy
-  '7 - debuff' : {
+  'debuff' : {
     'Lost Binder' : [
       'IIRgzAPsBsEAwQCIggYUg0UAcECimIuoATBAEJnkCsFICAYiQCxoCcaJZqA7BA3CA',
       'A build for slowing enemies. Apply your buffs, with Binding Mark being used last. Then run up to an enemy/boss and activate Circulating Pulse to quickly build up Slow. If the enemy is not yet afflicted, you can finish the build up off with another Circulating Pulse or a projectile/trap gift.'
@@ -297,3 +297,15 @@ CodeVeinBuilder.presets = {
     ]
   }
 };
+
+// preset list order
+CodeVeinBuilder.presetsOrder = [
+  '1h',
+  '2h',
+  'halberd',
+  'hammer',
+  'bayonet',
+  'dark_gifts',
+  'light_gifts',
+  'debuff'
+];

@@ -1708,7 +1708,7 @@
                       '<option value="AwH17SOrZ4g">' + _lang.preset_empty + '</option>'+
                       '<option value="random">' + _lang.preset_random + '</option>'+
                     '</optgroup>',
-          key, preset,
+          key, group,
           i, j, k;
       
       // compile language list with the actively selected language
@@ -1720,11 +1720,11 @@
       // compile presets
       for (i = 0, j = CodeVeinBuilder.presetsOrder.length; i < j; i++) {
         key = CodeVeinBuilder.presetsOrder[i],
-        preset = CodeVeinBuilder.presets[key];
+        group = CodeVeinBuilder.presets[key];
         presets += '<optgroup label="' + _lang.preset_group[key] + '">';
         
-        for (k in preset) {
-          presets += '<option value="' + (typeof preset[k] === 'string' ? preset[k] : preset[k][0]) + '" data-group="' + key + '">' + k + '</option>';
+        for (k in group) {
+          presets += '<option value="' + (typeof group[k] === 'string' ? group[k] : group[k][0]) + '" data-group="' + key + '">' + k + '</option>';
         }
         
         presets += '</optgroup>';

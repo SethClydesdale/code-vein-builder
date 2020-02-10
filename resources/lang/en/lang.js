@@ -900,7 +900,7 @@ window._lang = {
       
       F17 : {
         name : 'Charisma',
-        desc : "Increases your partner's stats."
+        desc : "Increases your partner's stats (does not apply to player)."
       }
     },
 

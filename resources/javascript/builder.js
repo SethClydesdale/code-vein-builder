@@ -316,11 +316,11 @@
                     break;
 
                   case 1 : // normal
-                    data[key[i]] = weight >= max ? _lang.mobi.slow : weight < max && weight > max / 2 ? _lang.mobi.normal : _lang.mobi.quick;
+                    data[key[i]] = weight > max ? _lang.mobi.slow : weight <= max && weight > max / 2 ? _lang.mobi.normal : _lang.mobi.quick;
                     break;
 
                   case 2 : // quick
-                    data[key[i]] = weight > max * 1.35 ? _lang.mobi.slow : weight <= max * 1.35 && weight >= max ? _lang.mobi.normal : _lang.mobi.quick;
+                    data[key[i]] = weight > max * 1.35 ? _lang.mobi.slow : weight <= max * 1.35 && weight > max ? _lang.mobi.normal : _lang.mobi.quick;
                     break;
                 }
               } else {

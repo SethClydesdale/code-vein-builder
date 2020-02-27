@@ -39,8 +39,8 @@ Would you like to submit a translation to Code Vein Builder and help extend the 
 ### Made Possible Thanks to...
 - Bandai Namco and everyone who helped create Code Vein.
 - [Fextralife](https://codevein.wiki.fextralife.com/), [Code Vein Wiki](https://codevein.fandom.com/wiki/Code_Vein_Wiki), and [Another Code Vein Wiki](https://cvein.fandom.com/wiki/), for images, and data on DLC skills/codes I was missing.
-- [u/Hebephryo](https://www.reddit.com/user/Hebephryo/), [u/ABCcombos](https://www.reddit.com/user/ABCcombos/), [u/antara33](https://www.reddit.com/user/antara33), and Kaizer for their help with filling in the Hellfire Knight DLC content.
-- [u/Hebephryo](https://www.reddit.com/user/Hebephryo/) for their help with filling in the Frozen Empress DLC content.
+- :fire: Hellfire Knight contributors: [u/Hebephryo](https://www.reddit.com/user/Hebephryo/), [u/ABCcombos](https://www.reddit.com/user/ABCcombos/), [u/antara33](https://www.reddit.com/user/antara33), and Kaizer.
+- :snowflake: Frozen Empress contributors: [u/Hebephryo](https://www.reddit.com/user/Hebephryo/).
 
 The following resources were used in this project. Check them out!
 - [Font-Awesome](https://github.com/FortAwesome/Font-Awesome) for the awesome icons.

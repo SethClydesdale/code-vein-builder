@@ -432,6 +432,19 @@ window._lang = {
         name : 'Surt',
         desc : 'Features high stamina perfect for mobile combat. Low HP, but high strength and fortitude.',
         owner : 'Hellfire Knight'
+      },
+      
+      // Frozen Empress DLC
+      A37 : {
+        name : 'Pollux',
+        desc : 'Features high strength and HP. Optimal for cleaving through the battlefield with powerful attacks.',
+        owner : 'Unknown'
+      },
+      
+      A38 : {
+        name : 'Ymir',
+        desc : 'Features high strength and HP for dark Gifts. Low dexterity, but high willpower and vitality.',
+        owner : 'Frozen Empress'
       }
     },
     
@@ -687,6 +700,12 @@ window._lang = {
         desc : 'Increases strength and fortitude.'
       },
       
+      // Frozen Empress DLC
+      C15 : {
+        name : 'Willpower/Vitality Up',
+        desc : 'Increases willpower and vitality.'
+      },
+      
 
       // # FOCUS BOOSTS #
       D0 : {
@@ -778,6 +797,12 @@ window._lang = {
       D17 : {
         name : "Goddess's Smile",
         desc : 'Restores HP when you enter a focused state.'
+      },
+      
+      // Frozen Empress DLC
+      D18 : {
+        name : 'Ichor Focus',
+        desc : 'Restores ichor when you enter a focused state.'
       },
 
 
@@ -1166,6 +1191,17 @@ window._lang = {
         name : 'Dancing Fireblade',
         desc : 'Summons a fiery blade that spins around your body.'
       },
+      
+      // Frozen Empress
+      A51 : {
+        name : 'Hoarfrost Stream',
+        desc : 'Shoots freezing beams of light in all directions, sweeping down any foes in their way.'
+      },
+      
+      A52 : {
+        name : 'Frost Turret',
+        desc : 'Creates a frozen condensed mass that periodically shoots out ice shards.'
+      },
 
 
       // # DEBUFFS #
@@ -1411,6 +1447,12 @@ window._lang = {
         desc : 'Temporarily increases fortitude and vitality.'
       },
 
+      // Frozen Empress DLC
+      C35 : {
+        name : 'Offensive Order',
+        desc : 'Temporarily lowers your defense and increases attack power for both you and your partner.'
+      },
+
 
       // # DEFENSE BUFFS #
       D0 : {
@@ -1519,6 +1561,17 @@ window._lang = {
       D20 : {
         name : 'Feral Tenacity',
         desc : 'Receiving fatal damage when your HP is over a certain amount will leave you with 1 HP.'
+      },
+      
+      // Frozen Empress DLC
+      D21 : {
+        name : 'Sturdy Body',
+        desc : 'Lowers your Gift effectiveness while temporarily increasing your max HP.'
+      },
+      
+      D22 : {
+        name : 'Circular Guard',
+        desc : 'Allows you to guard from all sides, rather than only the front.'
       },
 
 
@@ -1785,6 +1838,17 @@ window._lang = {
       F43 : {
         name : 'Savage Dive',
         desc : 'Launch an assault from midair and mow down the enemy. An offensive skill performed with a one-handed sword/halberd.'
+      },
+      
+      // Frozen Empress DLC
+      F44 : {
+        name : 'Steadfast Strike',
+        desc : 'Delivers a single strike that is highly resistant to staggering. An offensive skill performed with a two-handed sword/hammer.'
+      },
+      
+      F45 : {
+        name : "Usurper's Blade",
+        desc : 'Slash at an enemy and recover HP. An offensive skill performed with a halberd.'
       }
     },
     
@@ -1873,6 +1937,13 @@ window._lang = {
         desc : 'A single-edged sword scorched by hellfire. Light, with high strength scaling.'
       },
       
+      // Frozen Empress DLC
+      A16 : {
+        name : 'Hoarfrost Pipe',
+        desc : 'A club-like weapon warped by hoarfrost.'
+      },
+      
+      
       // # TWO-HANDED SWORDS #
       B0 : {
         name : 'Queenslayer Greatsword',
@@ -1940,6 +2011,12 @@ window._lang = {
         desc : 'A two-handed sword scorched by hellfire, featuring high attack power and weapon defense.'
       },
       
+      // Frozen Empress DLC
+      B13 : {
+        name : 'Azure Greatsword',
+        desc : 'A two-handed sword chilled by hoarfrost, featuring high weapon defense and ichor gain.'
+      },
+      
       
       // # HALBERDS #
       C0 : {
@@ -2000,6 +2077,12 @@ window._lang = {
       C11 : {
         name : 'Cerulean Spear',
         desc : 'A halberd patterned after a spear wielded by a devourer of gods who held a deep aspiration.'
+      },
+      
+      // Frozen Empress DLC
+      C12 : {
+        name : 'Blood Mist Halberd',
+        desc : 'A lightweight halberd chilled by hoarfrost, featuring high strength scaling.'
       },
       
       
@@ -2065,6 +2148,12 @@ window._lang = {
         desc : 'A warhammer scorched by hellfire. Has exceptionally high dexterity scaling.'
       },
       
+      // Frozen Empress DLC
+      D12 : {
+        name : 'Snowdrift Sharur',
+        desc : 'A warhammer chilled by hoarfrost. It excels in defense and strength scaling.'
+      },
+      
       
       // # BAYONETS #
       E0 : {
@@ -2120,6 +2209,12 @@ window._lang = {
       E10 : {
         name : 'Lost Bayonet',
         desc : 'A bayonet used by revenants who have fallen and joined the Lost.'
+      },
+      
+      // Frozen Empress DLC
+      E11 : {
+        name : 'Bloody Snow',
+        desc : 'A bayonet chilled by hoarfrost. It excels in ranged fights with its high ichor gain.'
       }
     },
     
@@ -2196,6 +2291,12 @@ window._lang = {
         desc : 'A lightweight Blood Veil tattered by hellfire, featuring high dexterity scaling.'
       },
       
+      // Frozen Empress DLC
+      B6 : {
+        name : 'Subzero Shroud',
+        desc : 'A Blood Veil tattered by hoarfrost, optimized for defense and dark Gifts.'
+      },
+      
       
       // # HOUNDS #
       C0 : {
@@ -2254,6 +2355,12 @@ window._lang = {
       D4 : {
         name : 'Suicide Spur',
         desc : 'A Blood Veil that looks like a collar made of thorns. Greatly enhances offensive Gifts.'
+      },
+      
+      // Frozen Empress DLC
+      D5 : {
+        name : 'Bewitching Thorn',
+        desc : 'A Blood Veil tattered by hoarfrost. Although heavy, it offers high dexterity scaling.'
       }
     },
     

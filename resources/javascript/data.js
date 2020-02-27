@@ -728,9 +728,7 @@ CodeVeinBuilder.data.blood_code = {
     }
   },
   
-  // hellfire knight
-
-  
+  // Hellfire Knight DLC
   A34 : { // Asclepius
     image : 'asclepius',
     dlc : 1,
@@ -795,6 +793,51 @@ CodeVeinBuilder.data.blood_code = {
       min : 16,
       max : 40
     }
+  },
+  
+  // Frozen Empress DLC
+  A37 : { // Pollux
+    image : 'pollux',
+    dlc : 1,
+
+    mobility : _lang.mobi.slow,
+    weight : 246,
+
+    stats : {
+      str : 12,
+      dex : 3,
+      mnd : 4,
+      wil : 4,
+      vit : 12,
+      for : 3
+    },
+
+    ichor : {
+      min : 12,
+      max : 32
+    }
+  },
+  
+  A38 : { // Ymir
+    image : 'ymir',
+    dlc : 1,
+
+    mobility : _lang.mobi.slow,
+    weight : 244,
+
+    stats : {
+      str : 6,
+      dex : 3,
+      mnd : 5,
+      wil : 11,
+      vit : 11,
+      for : 6
+    },
+
+    ichor : {
+      min : 30,
+      max : 60
+    }
   }
 };
 CodeVeinBuilder.data.order.blood_code = [
@@ -833,6 +876,8 @@ CodeVeinBuilder.data.order.blood_code = [
   'A34', // Asclepius
   'A35', // Achilles
   'A36', // Surt
+  'A37', // Pollux
+  'A38', // Ymir
   'A32', // Harbinger
   'A33' // Astrea
 ];
@@ -1219,6 +1264,19 @@ CodeVeinBuilder.data.passive = {
     }
   },
   
+  // Frozen Empress DLC
+  C15 : { // Willpower/Vitality Up
+    image : 'willpower-vitality-up',
+    tree : _lang.tree.light,
+    origin : 'A38',
+    dlc : 1,
+    
+    stats : {
+      wil : 1,
+      vit : 1
+    }
+  },
+  
   
   // # FOCUS BOOSTS #
   D0 : { // Dark Impulse
@@ -1328,6 +1386,14 @@ CodeVeinBuilder.data.passive = {
     image : 'goddess-smile',
     tree : _lang.tree.light,
     origin : 'A31'
+  },
+  
+  // Frozen Empress DLC
+  D18 : { // Ichor Focus
+    image : 'ichor-focus',
+    tree : _lang.tree.light,
+    origin : 'A38',
+    dlc : 1
   },
   
   
@@ -1525,6 +1591,7 @@ CodeVeinBuilder.data.order.passive = [
   'C11', // Mind/Willpower Up
   'C12', // Mind/Vitality Up
   'C13', // Mind/Fortitude Up
+  'C15', // Willpower/Vitality Up
   'D0', // Dark Impulse
   'D1', // Light Impulse
   'D2', // Guard Stability
@@ -1543,6 +1610,7 @@ CodeVeinBuilder.data.order.passive = [
   'D15', // Venom Buff
   'D16', // Stun Buff
   'D17', // Goddess's Smile
+  'D18', // Ichor Focus
   'E0', // One-handed Sword Mastery
   'E1', // Two-handed Sword Mastery
   'E2', // Halberd Mastery
@@ -2335,6 +2403,39 @@ CodeVeinBuilder.data.active = {
     elemental : _lang.attr.fire
   },
   
+  // Frozen Empress DLC
+  A51 : { // Hoarfrost Stream
+    image : 'hoarfrost-stream',
+    tree : _lang.tree.dark,
+    origin : 'A38',
+    dlc : 1,
+
+    required : {
+      wil : 9
+    },
+
+    ichor_cost : 10,
+    cooldown : 20,
+    physical : _lang.attr.pierce,
+    elemental : _lang.attr.ice
+  },
+  
+  A52 : { // Frost Turret
+    image : 'frost-turret',
+    tree : _lang.tree.dark,
+    origin : 'A38',
+    dlc : 1,
+
+    required : {
+      wil : 9
+    },
+
+    ichor_cost : 7,
+    cooldown : 20,
+    physical : _lang.attr.crush,
+    elemental : _lang.attr.ice
+  },
+  
   
   // # DEBUFFS #
   B0 : { // Venomous Shot
@@ -2963,6 +3064,21 @@ CodeVeinBuilder.data.active = {
     cooldown : 5
   },
   
+  // Frozen Empress DLC
+  C35 : { // Offensive Order
+    image : 'offensive-order',
+    tree : _lang.tree.light,
+    dlc : 1,
+    origin : 'A34', // Asclepius
+
+    required : {
+      for : 11
+    },
+
+    ichor_cost : 5,
+    cooldown : 30
+  },
+  
   
   // # DEFENSE BUFFS #
   D0 : { // Iron Will
@@ -3229,6 +3345,35 @@ CodeVeinBuilder.data.active = {
 
     ichor_cost : 10,
     cooldown : 30
+  },
+  
+  // Frozen Empress DLC
+  D21 : { // Sturdy Body
+    image : 'sturdy-body',
+    tree : _lang.tree.light,
+    origin : 'A37',
+    dlc : 1,
+
+    required : {
+      vit : 11
+    },
+
+    ichor_cost : 5,
+    cooldown : 30
+  },
+  
+  D22 : { // Circular Guard
+    image : 'circular-guard',
+    tree : _lang.tree.light,
+    origin : 'A37',
+    dlc : 1,
+
+    required : {
+      vit : 11
+    },
+
+    ichor_cost : 5,
+    cooldown : 15
   },
   
   
@@ -3798,6 +3943,31 @@ CodeVeinBuilder.data.active = {
     
     ichor_cost : 4,
     cooldown : 15
+  },
+  
+  // Frozen Empress DLC
+  F44 : { // Steadfast Strike
+    image : 'steadfast-strike',
+    tree : _lang.tree.skill,
+    origin : 'A37',
+    dlc : 1,
+    
+    weapon_req : ['B', 'D'],
+    
+    ichor_cost : 6,
+    cooldown : 15
+  },
+  
+  F45 : { // Usurper's Blade
+    image : 'usurpers-blade',
+    tree : _lang.tree.skill,
+    origin : 'A37',
+    dlc : 1,
+    
+    weapon_req : ['C'],
+    
+    ichor_cost : 6,
+    cooldown : 20
   }
 };
 CodeVeinBuilder.data.order.active = [
@@ -3834,6 +4004,7 @@ CodeVeinBuilder.data.order.active = [
   'A30', // Elder Contract
   'A31', // Ichorous Ice
   'A32', // Twilight
+  'A51', // Hoarfrost Stream
   'A33', // Fire Lily
   'A34', // Sand Edge
   'A35', // Volatile Storm
@@ -3852,6 +4023,7 @@ CodeVeinBuilder.data.order.active = [
   'A50', // Dancing Fireblade
   'A47', // Desperate Burst
   'A48', // Rose Flame
+  'A52', // Frost Turret
   'B0', // Venomous Shot
   'B1', // Stun Shot
   'B2', // Slowing Shot
@@ -3875,6 +4047,7 @@ CodeVeinBuilder.data.order.active = [
   'C8', // Adrenaline
   'C9', // Bridge to Glory
   'C10', // Overdrive
+  'C35', // Offensive Order
   'C11', // Ranged Impact
   'C12', // Blow of Madness
   'C13', // Flashing Fang
@@ -3899,11 +4072,13 @@ CodeVeinBuilder.data.order.active = [
   'C31', // Supernatural Blood
   'C32', // Impact Wave
   'C33', // Final Journey
+  'D21', // Sturdy Body
   'D0', // Iron Will
   'D1', // Foulblood Barrier
   'D2', // Ablative Blood
   'D3', // Juggernaut
   'D4', // Steady Bulwark
+  'D22', // Circular Guard
   'D5', // Guard Reversal
   'D6', // Crushing Might
   'D7', // Guard Stability
@@ -3969,7 +4144,9 @@ CodeVeinBuilder.data.order.active = [
   'F35', // Shadow Assault
   'F41', // Tranquil Slice
   'F42', // Circular Cleaver
-  'F43' // Savage Dive
+  'F43', // Savage Dive
+  'F44', // Steadfast Strike
+  'F45' // Usurper's Blade
 ];
 
 
@@ -4254,6 +4431,24 @@ CodeVeinBuilder.data.weapon = {
     }
   },
   
+  // Frozen Empress DLC
+  A16 : { // Hoarfrost Pipe
+    image : 'hoarfrost-pipe',
+    dlc : 1,
+    
+    weight : 5,
+
+    scaling : {
+      str : 6,
+      dex : 5
+    },
+
+    required : {
+      str : 4,
+      dex : 4
+    }
+  },
+  
   
   // # TWO-HANDED SWORDS #
   B0 : { // Queenslayer Greatsword
@@ -4457,6 +4652,23 @@ CodeVeinBuilder.data.weapon = {
 
     required : {
       dex : 9
+    }
+  },
+  
+  // Frozen Empress DLC
+  B13 : { // Azure Greatsword
+    image : 'azure-greatsword',
+    dlc : 1,
+    
+    weight : 85,
+
+    scaling : {
+      str : 7
+    },
+
+    required : {
+      str : 5,
+      wil : 7
     }
   },
   
@@ -4667,6 +4879,22 @@ CodeVeinBuilder.data.weapon = {
     }
   },
   
+  // Frozen Empress DLC
+  C12 : { // Blood Mist Halberd
+    image : 'blood-mist-halberd',
+    dlc : 1,
+    
+    weight : 50,
+
+    scaling : {
+      str : 10
+    },
+
+    required : {
+      str : 9
+    }
+  },
+  
   
   // # HAMMERS #
   D0 : { // Queenslayer Hammer
@@ -4855,6 +5083,22 @@ CodeVeinBuilder.data.weapon = {
     required : {
       dex : 7,
       mnd : 5
+    }
+  },
+  
+  // Frozen Empress DLC
+  D12 : { // Snowdrift Sharur
+    image : 'snowdrift-sharur',
+    dlc : 1,
+    
+    weight : 58,
+
+    scaling : {
+      str : 10
+    },
+
+    required : {
+      str : 9
     }
   },
   
@@ -5054,12 +5298,31 @@ CodeVeinBuilder.data.weapon = {
     required : {
       wil : 3
     }
+  },
+  
+  // Frozen Empress DLC
+  E11 : { // Bloody Snow
+    image : 'bloody-snow',
+    dlc : 1,
+    
+    weight : 12,
+
+    scaling : {
+      dex : 9,
+      wil : 10
+    },
+
+    required : {
+      dex : 7,
+      wil : 9
+    }
   }
 };
 CodeVeinBuilder.data.order.weapon = [
   'A0', // Queenslayer Blade
   'A1', // Pipe of Thralldom
   'A14', // Hellfire Pipe
+  'A16', // Hoarfrost Pipe
   'A2', // Broadsword
   'A3', // Hanemukuro
   'A4', // Enduring Crimson
@@ -5085,6 +5348,7 @@ CodeVeinBuilder.data.order.weapon = [
   'B12', // Wrathful Balmung
   'B9', // Lost Zweihander
   'B10', // Argent Wolf Brand
+  'B13', // Azure Greatsword
   'B11', // Blanched Greatsword
   'C0', // Queenslayer Halberd
   'C1', // Bardiche
@@ -5097,6 +5361,7 @@ CodeVeinBuilder.data.order.weapon = [
   'C8', // Lost Bardiche
   'C9', // Obliterator Axe
   'C10', // Argent Wolf Poleaxe
+  'C12', // Blood Mist Halberd
   'C11', // Cerulean Spear
   'D0', // Queenslayer Hammer
   'D1', // Hammer of Thralldom
@@ -5105,6 +5370,7 @@ CodeVeinBuilder.data.order.weapon = [
   'D4', // Impulse Anchor
   'D5', // Huge Hammer
   'D6', // Argent Wolf Warhammer
+  'D12', // Snowdrift Sharur
   'D7', // Tyrant's Labrys
   'D8', // Sunset Hammer
   'D9', // Burned Warhammer
@@ -5116,6 +5382,7 @@ CodeVeinBuilder.data.order.weapon = [
   'E3', // Bayonet
   'E4', // Rubellite Piercer
   'E5', // Argent Wolf Bayonet
+  'E11', // Bloody Snow
   'E6', // Burning Disaster
   'E7', // Sunset Bayonet
   'E8', // Black Bayonet
@@ -5364,6 +5631,22 @@ CodeVeinBuilder.data.blood_veil = {
     }
   },
   
+  // Frozen Empress DLC
+  B6 : { // Subzero Shroud
+    image : 'subzero-shroud',
+    dlc : 1,
+    
+    weight : 78,
+
+    scaling : {
+      wil : 10
+    },
+
+    required : {
+      wil : 9
+    }
+  },
+  
   
   // # HOUNDS #
   C0 : { // Night Fang
@@ -5563,6 +5846,22 @@ CodeVeinBuilder.data.blood_veil = {
       mnd : 4,
       wil : 7
     }
+  },
+  
+  // Frozen Empress DLC
+  D5 : { // Bewitching Thorn
+    image : 'bewitching-thorn',
+    dlc : 1,
+    
+    weight : 23,
+
+    scaling : {
+      dex : 9
+    },
+
+    required : {
+      dex : 9
+    }
   }
 };
 CodeVeinBuilder.data.order.blood_veil = [
@@ -5577,6 +5876,7 @@ CodeVeinBuilder.data.order.blood_veil = [
   'B1', // Raven Fatigues
   'B5', // Graceful Prominence
   'B2', // Winter Mantle
+  'B6', // Subzero Shroud
   'B3', // Silver Garb
   'B4', // Queenslayer Thorn
   'C0', // Night Fang
@@ -5589,6 +5889,7 @@ CodeVeinBuilder.data.order.blood_veil = [
   'D1', // Ivory Grace
   'D2', // GXH Assault
   'D3', // Prayer Shawl
+  'D5', // Bewitching Thorn
   'D4' // Suicide Spur
 ];
 

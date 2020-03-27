@@ -445,6 +445,25 @@ window._lang = {
         name : 'Ymir',
         desc : 'Features high strength and HP for dark Gifts. Low dexterity, but high willpower and vitality.',
         owner : 'Frozen Empress'
+      },
+      
+      // Lord of Thunder DLC
+      A39 : {
+        name : 'Perseus',
+        desc : 'Strikes a balance between offensive and support Gifts, featuring high willpower and mind.',
+        owner : 'Unknown'
+      },
+      
+      A40 : {
+        name : 'Váli',
+        desc : 'Specializes in power-enhancing light Gifts. Low strength, but high dexterity and mind.',
+        owner : 'Lord of Thunder'
+      },
+      
+      A41 : {
+        name : 'Orion',
+        desc : 'Optimized for ranged combat, featuring high willpower and dexterity.',
+        owner : 'Unknown'
       }
     },
     
@@ -555,6 +574,12 @@ window._lang = {
       A20 : {
         name : 'Opportunism',
         desc : 'Increases weapon damage dealt against enemies with status ailments.'
+      },
+      
+      // Lord of Thunder DLC
+      A21 : {
+        name : 'Rush of Blood',
+        desc : 'Greatly increases max ichor limit, but greatly lowers Gift power and stamina recovery rate.'
       },
 
 
@@ -706,6 +731,12 @@ window._lang = {
         desc : 'Increases willpower and vitality.'
       },
       
+      // Lord of Thunder DLC
+      C16 : {
+        name : 'Dexterity/Mind Up',
+        desc : 'Increases dexterity and mind.'
+      },
+      
 
       // # FOCUS BOOSTS #
       D0 : {
@@ -803,6 +834,17 @@ window._lang = {
       D18 : {
         name : 'Ichor Focus',
         desc : 'Restores ichor when you enter a focused state.'
+      },
+      
+      // Lord of Thunder DLC
+      D19 : {
+        name : 'All Stats Up',
+        desc : 'Increases all stats while you are focused.'
+      },
+      
+      D20 : {
+        name : 'Stopping Power',
+        desc : 'Increases the extent enemies lose balance from your bayonet shots while you are focused.'
       },
 
 
@@ -1192,7 +1234,7 @@ window._lang = {
         desc : 'Summons a fiery blade that spins around your body.'
       },
       
-      // Frozen Empress
+      // Frozen Empress DLC
       A51 : {
         name : 'Hoarfrost Stream',
         desc : 'Shoots freezing beams of light in all directions, sweeping down any foes in their way.'
@@ -1201,6 +1243,27 @@ window._lang = {
       A52 : {
         name : 'Frost Turret',
         desc : 'Creates a frozen condensed mass that periodically shoots out ice shards.'
+      },
+      
+      // Lord of Thunder DLC
+      A53 : {
+        name : 'Meteor Crush',
+        desc : 'Creates burning boulders above your head and rains them down on the enemy like a meteor shower.'
+      },
+      
+      A54 : {
+        name : 'Frost Wave',
+        desc : 'Calls forth a frigid cold that spreads across the ground.'
+      },
+      
+      A55 : {
+        name : 'Field of Thirst',
+        desc : 'Creates a field that periodically drains ichor from foes inside it.'
+      },
+      
+      A56 : {
+        name : 'Thunderbolt Impact',
+        desc : 'Spring up from the ground before landing in an explosion of lightning.'
       },
 
 
@@ -1451,6 +1514,12 @@ window._lang = {
       C35 : {
         name : 'Offensive Order',
         desc : 'Temporarily lowers your defense and increases attack power for both you and your partner.'
+      },
+
+      // Lord of Thunder DLC
+      C36 : {
+        name : 'Ichor Efficiency',
+        desc : 'Reduces the ichor cost of weapon attacks for a limited time.'
       },
 
 
@@ -1849,6 +1918,32 @@ window._lang = {
       F45 : {
         name : "Usurper's Blade",
         desc : 'Slash at an enemy and recover HP. An offensive skill performed with a halberd.'
+      },
+      
+      // Lord of Thunder DLC
+      F46 : {
+        name : 'Zero Recast',
+        desc : "Resets your partner's Gift cooldown time."
+      },
+      
+      F47 : {
+        name : 'Ichor Regeneration',
+        desc : 'Gradually restores ichor in exchange for a decrease in weapon attack power and defense.'
+      },
+      
+      F48 : {
+        name : 'Lightning Charge',
+        desc : 'Rush toward foes at lightning speed and unleash a palm strike.'
+      },
+      
+      F49 : {
+        name : 'Focus Recovery',
+        desc : 'Partially increases the focus gauge upon use.'
+      },
+      
+      F50 : {
+        name : 'Radiant Barrel',
+        desc : 'Shoots powerful projectiles that deal piercing damage. An offensive skill performed with a bayonet.'
       }
     },
     
@@ -1941,6 +2036,22 @@ window._lang = {
       A16 : {
         name : 'Hoarfrost Pipe',
         desc : 'A club-like weapon warped by hoarfrost.'
+      },
+      
+      // Lord of Thunder DLC
+      A17 : {
+        name : 'Thunderbolt Pipe',
+        desc : 'A club-like weapon bestowed upon those who desire to become the greatest.'
+      },
+      
+      A18 : {
+        name : 'Pipe of the Unrivaled',
+        desc : 'A club-like weapon warped by thunderbolt.'
+      },
+      
+      A19 : {
+        name : 'Fulmen Blade',
+        desc : 'A one-handed sword galvanized by a thunderbolt. Heavy, but with high dexterity and mind scaling.'
       },
       
       
@@ -2085,6 +2196,12 @@ window._lang = {
         desc : 'A lightweight halberd chilled by hoarfrost, featuring high strength scaling.'
       },
       
+      // Lord of Thunder DLC
+      C13 : {
+        name : 'Lightning Brionac',
+        desc : 'A halberd galvanized by a thunderbolt. It is lightweight with great ichor drain.'
+      },
+      
       
       // # HAMMERS #
       D0 : {
@@ -2215,6 +2332,12 @@ window._lang = {
       E11 : {
         name : 'Bloody Snow',
         desc : 'A bayonet chilled by hoarfrost. It excels in ranged fights with its high ichor gain.'
+      },
+      
+      // Lord of Thunder DLC
+      E12 : {
+        name : 'Thunderbolt',
+        desc : 'A bayonet galvanized by a thunderbolt. It is light and geared for dynamic ranged combat.'
       }
     },
     
@@ -2256,6 +2379,12 @@ window._lang = {
       A6 : {
         name : 'Ruinous Chevalier',
         desc : 'A Blood Veil tattered by hellfire. Boasts high defense and enhances dark Gifts.'
+      },
+      
+      // Lord of Thunder DLC
+      A7 : {
+        name : 'Twilight Claw',
+        desc : 'A Blood Veil tattered by a roaring thunderbolt. Although heavy, it offers high strength scaling.'
       },
       
       
@@ -2330,6 +2459,12 @@ window._lang = {
         desc : 'A Blood Veil tattered by hellfire, boasting light weight and high strength.'
       },
       
+      // Lord of Thunder DLC
+      C6 : {
+        name : 'Daybreak Thunderfang',
+        desc : 'A Blood Veil tattered by a roaring thunderbolt, optimized for defense and light Gifts.'
+      },
+      
       
       // # IVY #
       D0 : {
@@ -2361,6 +2496,12 @@ window._lang = {
       D5 : {
         name : 'Bewitching Thorn',
         desc : 'A Blood Veil tattered by hoarfrost. Although heavy, it offers high dexterity scaling.'
+      },
+      
+      // Lord of Thunder DLC
+      D6 : {
+        name : 'Master Spines',
+        desc : 'A Blood Veil tattered by a roaring thunderbolt. Light, with high dexterity and willpower scaling.'
       }
     },
     

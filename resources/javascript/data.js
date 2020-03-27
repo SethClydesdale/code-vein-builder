@@ -838,6 +838,73 @@ CodeVeinBuilder.data.blood_code = {
       min : 30,
       max : 60
     }
+  },
+  
+  // Lord of Thunder DLC
+  A39 : { // Perseus
+    image : 'perseus',
+    dlc : 1,
+
+    mobility : _lang.mobi.normal,
+    weight : 72,
+
+    stats : {
+      str : 3,
+      dex : 4,
+      mnd : 12,
+      wil : 12,
+      vit : 4,
+      for : 3
+    },
+
+    ichor : {
+      min : 30,
+      max : 60
+    }
+  },
+  
+  A40 : { // Váli
+    image : 'vali',
+    dlc : 1,
+
+    mobility : _lang.mobi.normal,
+    weight : 101,
+
+    stats : {
+      str : 3,
+      dex : 11,
+      mnd : 11,
+      wil : 6,
+      vit : 6,
+      for : 5
+    },
+
+    ichor : {
+      min : 26,
+      max : 56
+    }
+  },
+  
+  A41 : { // Orion
+    image : 'orion',
+    dlc : 1,
+
+    mobility : _lang.mobi.normal,
+    weight : 78,
+
+    stats : {
+      str : 3,
+      dex : 12,
+      mnd : 4,
+      wil : 12,
+      vit : 3,
+      for : 4
+    },
+
+    ichor : {
+      min : 26,
+      max : 46
+    }
   }
 };
 CodeVeinBuilder.data.order.blood_code = [
@@ -878,6 +945,9 @@ CodeVeinBuilder.data.order.blood_code = [
   'A36', // Surt
   'A37', // Pollux
   'A38', // Ymir
+  'A39', // Perseus
+  'A40', // Váli
+  'A41', // Orion
   'A32', // Harbinger
   'A33' // Astrea
 ];
@@ -1028,6 +1098,14 @@ CodeVeinBuilder.data.passive = {
     image : 'opportunism',
     tree : _lang.tree.dark,
     origin : 'rvm116'
+  },
+  
+  // Lord of Thunder DLC
+  A21 : { // Rush of Blood
+    image : 'rush-of-blood',
+    tree : _lang.tree.dark,
+    origin : 'A41',
+    dlc : 1
   },
   
   
@@ -1277,6 +1355,19 @@ CodeVeinBuilder.data.passive = {
     }
   },
   
+  // Lord of Thunder DLC
+  C16 : { // Dexterity/Mind Up
+    image : 'dexterity-mind-up',
+    tree : _lang.tree.light,
+    origin : 'A40',
+    dlc : 1,
+    
+    stats : {
+      dex : 1,
+      mnd : 1
+    }
+  },
+  
   
   // # FOCUS BOOSTS #
   D0 : { // Dark Impulse
@@ -1393,6 +1484,21 @@ CodeVeinBuilder.data.passive = {
     image : 'ichor-focus',
     tree : _lang.tree.light,
     origin : 'A38',
+    dlc : 1
+  },
+  
+  // Lord of Thunder DLC
+  D19 : { // All Stats Up
+    image : 'all-stats-up',
+    tree : _lang.tree.light,
+    origin : 'A40',
+    dlc : 1
+  },
+  
+  D20 : { // Stopping Power
+    image : 'stopping-power',
+    tree : _lang.tree.dark,
+    origin : 'A41',
     dlc : 1
   },
   
@@ -1560,6 +1666,7 @@ CodeVeinBuilder.data.order.passive = [
   'A13', // Avarice
   'A14', // Vow of Ichor
   'A15', // Max Ichor Boost
+  'A21', // Rush of Blood
   'A16', // Increased Gift Speed
   'A17', // Charge Accelerator
   'A18', // Debuff Build-Up
@@ -1588,12 +1695,14 @@ CodeVeinBuilder.data.order.passive = [
   'C14', // Strength/Fortitude Up
   'C9', // Dexterity/Willpower Up
   'C10', // Dexterity/Fortitude Up
+  'C16', // Dexterity/Mind Up
   'C11', // Mind/Willpower Up
   'C12', // Mind/Vitality Up
   'C13', // Mind/Fortitude Up
   'C15', // Willpower/Vitality Up
   'D0', // Dark Impulse
   'D1', // Light Impulse
+  'D20', // Stopping Power
   'D2', // Guard Stability
   'D3', // Focused Guard
   'D4', // Focused Stamina Usage
@@ -1611,6 +1720,7 @@ CodeVeinBuilder.data.order.passive = [
   'D16', // Stun Buff
   'D17', // Goddess's Smile
   'D18', // Ichor Focus
+  'D19', // All Stats Up
   'E0', // One-handed Sword Mastery
   'E1', // Two-handed Sword Mastery
   'E2', // Halberd Mastery
@@ -2436,6 +2546,69 @@ CodeVeinBuilder.data.active = {
     elemental : _lang.attr.ice
   },
   
+  // Lord of Thunder DLC
+  A53 : { // Meteor Crush
+    image : 'meteor-crush',
+    tree : _lang.tree.dark,
+    origin : 'A39',
+    dlc : 1,
+
+    required : {
+      wil : 11
+    },
+
+    ichor_cost : 10,
+    cooldown : 10,
+    physical : _lang.attr.crush,
+    elemental : _lang.attr.fire
+  },
+  
+  A54 : { // Frost Wave
+    image : 'frost-wave',
+    tree : _lang.tree.light,
+    origin : 'A39',
+    dlc : 1,
+
+    required : {
+      mnd : 11
+    },
+
+    ichor_cost : 5,
+    cooldown : 10,
+    physical : _lang.attr.pierce,
+    elemental : _lang.attr.ice
+  },
+  
+  A55 : { // Field of Thirst
+    image : 'field-of-thirst',
+    tree : _lang.tree.dark,
+    origin : 'A39',
+    dlc : 1,
+
+    required : {
+      wil : 11
+    },
+
+    ichor_cost : 2,
+    cooldown : 20
+  },
+  
+  A56 : { // Thunderbolt Impact
+    image : 'thunderbolt-impact',
+    tree : _lang.tree.light,
+    origin : 'A40',
+    dlc : 1,
+
+    required : {
+      wil : 9
+    },
+
+    ichor_cost : 6,
+    cooldown : 15,
+    physical : _lang.attr.crush,
+    elemental : _lang.attr.lightning
+  },
+  
   
   // # DEBUFFS #
   B0 : { // Venomous Shot
@@ -3068,11 +3241,26 @@ CodeVeinBuilder.data.active = {
   C35 : { // Offensive Order
     image : 'offensive-order',
     tree : _lang.tree.light,
-    dlc : 1,
     origin : 'A34', // Asclepius
+    dlc : 1,
 
     required : {
       for : 11
+    },
+
+    ichor_cost : 5,
+    cooldown : 30
+  },
+  
+  // Lord of Thunder DLC
+  C36 : { // Ichor Efficiency
+    image : 'ichor-efficiency',
+    tree : _lang.tree.light,
+    origin : 'A41',
+    dlc : 1,
+
+    required : {
+      wil : 11
     },
 
     ichor_cost : 5,
@@ -3968,6 +4156,74 @@ CodeVeinBuilder.data.active = {
     
     ichor_cost : 6,
     cooldown : 20
+  },
+  
+  // Lord of Thunder DLC
+  F46 : { // Zero Recast
+    image : 'zero-recast',
+    tree : _lang.tree.light,
+    origin : 'A34',
+    dlc : 1,
+
+    required : {
+      vit : 6,
+      for : 6
+    },
+    
+    ichor_cost : 10,
+    cooldown : 90
+  },
+  
+  F47 : { // Ichor Regeneration
+    image : 'ichor-regeneration',
+    tree : _lang.tree.dark,
+    origin : 'A39',
+    dlc : 1,
+
+    required : {
+      wil : 11
+    },
+    
+    ichor_cost : 4,
+    cooldown : 60
+  },
+  
+  F48 : { // Lightning Charge
+    image : 'lightning-charge',
+    tree : _lang.tree.skill,
+    origin : 'A40',
+    dlc : 1,
+    
+    weapon_req : ['A', 'B', 'C', 'D', 'E'],
+    
+    ichor_cost : 2,
+    cooldown : 10
+  },
+  
+  F49 : { // Focus Recovery
+    image : 'focus-recovery',
+    tree : _lang.tree.light,
+    origin : 'A41',
+    dlc : 1,
+
+    required : {
+      dex : 11
+    },
+    
+    ichor_cost : 5,
+    cooldown : 20
+  },
+  
+  F50 : { // Radiant Barrel
+    image : 'radiant-barrel',
+    tree : _lang.tree.skill,
+    origin : 'A41',
+    dlc : 1,
+    
+    weapon_req : ['E'],
+    
+    ichor_cost : 10,
+    cooldown : 15
   }
 };
 CodeVeinBuilder.data.order.active = [
@@ -4006,12 +4262,16 @@ CodeVeinBuilder.data.order.active = [
   'A32', // Twilight
   'A51', // Hoarfrost Stream
   'A33', // Fire Lily
+  'A53', // Meteor Crush
   'A34', // Sand Edge
+  'A54', // Frost Wave
   'A35', // Volatile Storm
   'A49', // Homing Hellfire
   'A36', // Arm of Set
   'A37', // Sands of Depravity
   'A38', // Chaotic Ash
+  'A55', // Field of Thirst
+  'A56', // Thunderbolt Impact
   'A39', // Purging Thorn
   'A40', // Argent Wolf Cross
   'A41', // Shadow Leap
@@ -4049,6 +4309,7 @@ CodeVeinBuilder.data.order.active = [
   'C10', // Overdrive
   'C35', // Offensive Order
   'C11', // Ranged Impact
+  'C36', // Ichor Efficiency
   'C12', // Blow of Madness
   'C13', // Flashing Fang
   'C14', // Merciless Reaper
@@ -4115,6 +4376,9 @@ CodeVeinBuilder.data.order.active = [
   'F10', // Leak Removal
   'F11', // Panacea's Essence
   'F12', // Blood Sacrifice
+  'F47', // Ichor Regeneration
+  'F46', // Zero Recast
+  'F49', // Focus Recovery
   'F13', // Disremember
   'F39', // Serene Stance
   'F40', // Invigorating Rush
@@ -4146,7 +4410,9 @@ CodeVeinBuilder.data.order.active = [
   'F42', // Circular Cleaver
   'F43', // Savage Dive
   'F44', // Steadfast Strike
-  'F45' // Usurper's Blade
+  'F45', // Usurper's Blade
+  'F48', // Lightning Charge
+  'F50' // Radiant Barrel
 ];
 
 
@@ -4446,6 +4712,57 @@ CodeVeinBuilder.data.weapon = {
     required : {
       str : 4,
       dex : 4
+    }
+  },
+  
+  // Lord of Thunder DLC
+  A17 : { // Thunderbolt Pipe
+    image : 'thunderbolt-pipe',
+    dlc : 1,
+    
+    weight : 5,
+
+    scaling : {
+      str : 6,
+      dex : 5
+    },
+
+    required : {
+      str : 4,
+      dex : 4
+    }
+  },
+  
+  A18 : { // Pipe of the Unrivaled
+    image : 'pipe-of-the-unrivaled',
+    dlc : 1,
+    
+    weight : 5,
+
+    scaling : {
+      str : 6,
+      dex : 5
+    },
+
+    required : {
+      str : 4,
+      dex : 4
+    }
+  },
+  
+  A19 : { // Fulmen Blade
+    image : 'fulmen-blade',
+    dlc : 1,
+    
+    weight : 45,
+
+    scaling : {
+      dex : 10
+    },
+
+    required : {
+      dex : 9,
+      mnd : 7
     }
   },
   
@@ -4895,6 +5212,23 @@ CodeVeinBuilder.data.weapon = {
     }
   },
   
+  // Lord of Thunder DLC
+  C13 : { // Lightning Brionac
+    image : 'lightning-brionac',
+    dlc : 1,
+    
+    weight : 30,
+
+    scaling : {
+      str : 4,
+      dex : 4,
+    },
+
+    required : {
+      wil : 9
+    }
+  },
+  
   
   // # HAMMERS #
   D0 : { // Queenslayer Hammer
@@ -5316,6 +5650,24 @@ CodeVeinBuilder.data.weapon = {
       dex : 7,
       wil : 9
     }
+  },
+  
+  // Lord of Thunder DLC
+  E12 : { // Thunderbolt
+    image : 'thunderbolt',
+    dlc : 1,
+    
+    weight : 14,
+
+    scaling : {
+      dex : 6,
+      wil : 9
+    },
+
+    required : {
+      dex : 7,
+      wil : 8
+    }
   }
 };
 CodeVeinBuilder.data.order.weapon = [
@@ -5323,6 +5675,8 @@ CodeVeinBuilder.data.order.weapon = [
   'A1', // Pipe of Thralldom
   'A14', // Hellfire Pipe
   'A16', // Hoarfrost Pipe
+  'A17', // Thunderbolt Pipe
+  'A18', // Pipe of the Unrivaled
   'A2', // Broadsword
   'A3', // Hanemukuro
   'A4', // Enduring Crimson
@@ -5335,6 +5689,7 @@ CodeVeinBuilder.data.order.weapon = [
   'A10', // Black Saber
   'A11', // Executioner
   'A12', // Lost Broadsword
+  'A19', // Fulmen Blade
   'A13', // Crimson Longsword
   'B0', // Queenslayer Greatsword
   'B1', // Zweihander
@@ -5359,6 +5714,7 @@ CodeVeinBuilder.data.order.weapon = [
   'C6', // Assassin's Sickle
   'C7', // Sunset Halberd
   'C8', // Lost Bardiche
+  'C13', // Lightning Brionac
   'C9', // Obliterator Axe
   'C10', // Argent Wolf Poleaxe
   'C12', // Blood Mist Halberd
@@ -5387,7 +5743,8 @@ CodeVeinBuilder.data.order.weapon = [
   'E7', // Sunset Bayonet
   'E8', // Black Bayonet
   'E9', // Libertador
-  'E10' // Lost Bayonet
+  'E10', // Lost Bayonet
+  'E12' // Thunderbolt
 ];
 
 
@@ -5521,6 +5878,22 @@ CodeVeinBuilder.data.blood_veil = {
     required : {
       str : 4,
       wil : 7
+    }
+  },
+  
+  // Lord of Thunder DLC
+  A7 : { // Twilight Claw
+    image : 'twilight-claw',
+    dlc : 1,
+    
+    weight : 32,
+
+    scaling : {
+      str : 10
+    },
+
+    required : {
+      str : 9
     }
   },
   
@@ -5756,6 +6129,24 @@ CodeVeinBuilder.data.blood_veil = {
     }
   },
   
+  // Lord of Thunder DLC
+  C6 : { // Daybreak Thunderfang
+    image : 'daybreak-thunderfang',
+    dlc : 1,
+    
+    weight : 77,
+
+    scaling : {
+      dex : 6,
+      mnd : 10
+    },
+
+    required : {
+      dex : 6,
+      mnd : 8
+    }
+  },
+  
   
   // # IVY #
   D0 : { // Night Thorn
@@ -5862,10 +6253,29 @@ CodeVeinBuilder.data.blood_veil = {
     required : {
       dex : 9
     }
+  },
+  
+  // Lord of Thunder DLC
+  D6 : { // Master Spines
+    image : 'master-spines',
+    dlc : 1,
+    
+    weight : 12,
+
+    scaling : {
+      dex : 8,
+      wil : 8
+    },
+
+    required : {
+      dex : 8,
+      wil : 8
+    }
   }
 };
 CodeVeinBuilder.data.order.blood_veil = [
   'A0', // Night Claw
+  'A7', // Twilight Claw
   'A1', // Noble Silver
   'A2', // GXM Variant
   'A3', // Blackblood Liberator
@@ -5880,12 +6290,14 @@ CodeVeinBuilder.data.order.blood_veil = [
   'B3', // Silver Garb
   'B4', // Queenslayer Thorn
   'C0', // Night Fang
+  'C6', // Daybreak Thunderfang
   'C1', // Blue Hounds
   'C5', // Violet Gear
   'C2', // GXL Defender
   'C3', // Hedgehog Fort
   'C4', // White Vestment
   'D0', // Night Thorn
+  'D6', // Master Spines
   'D1', // Ivory Grace
   'D2', // GXH Assault
   'D3', // Prayer Shawl

@@ -41,6 +41,7 @@ Would you like to submit a translation to Code Vein Builder and help extend the 
 - [Fextralife](https://codevein.wiki.fextralife.com/), [Code Vein Wiki](https://codevein.fandom.com/wiki/Code_Vein_Wiki), and [Another Code Vein Wiki](https://cvein.fandom.com/wiki/), for images, and data on DLC skills/codes I was missing.
 - :fire: Hellfire Knight contributors: [u/Hebephryo](https://www.reddit.com/user/Hebephryo/), [u/ABCcombos](https://www.reddit.com/user/ABCcombos/), [u/antara33](https://www.reddit.com/user/antara33), and Kaizer.
 - :snowflake: Frozen Empress contributors: [u/Hebephryo](https://www.reddit.com/user/Hebephryo/).
+- :zap: Lord of Thunder contributors: [u/4G3NT_0R4NG3](https://www.reddit.com/user/4G3NT_0R4NG3/), [u/dustdragoon3](https://www.reddit.com/user/dustdragoon3/), [u/Hartlocke_Xero](https://www.reddit.com/user/Hartlocke_Xero/).
 
 The following resources were used in this project. Check them out!
 - [Font-Awesome](https://github.com/FortAwesome/Font-Awesome) for the awesome icons.

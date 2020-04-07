@@ -2600,7 +2600,7 @@ CodeVeinBuilder.data.active = {
     dlc : 1,
 
     required : {
-      wil : 9
+      mnd : 9
     },
 
     ichor_cost : 6,

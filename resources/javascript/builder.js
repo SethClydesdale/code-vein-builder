@@ -9,7 +9,8 @@
     // available languages
     languages : {
       '0 - submit_translation' : 'submit',
-      '1 - English' : 'en'
+      '1 - English' : 'en',
+      '2 - 繁體中文' : 'zh-hant'
     },
     
     // node cache + any other cached data
@@ -1374,11 +1375,11 @@
         
         // check and get the lang query if present in location search
         var lang = '';
-        if (/lang=/i.test(window.location.search)) {
-          lang = window.location.search.match(/lang=.*?(?:&|$)/i);
+        if (/lang=/i.test(window.location.search) || (window.localStorage && localStorage.cvbLang)) {
+          lang = /lang=/i.test(window.location.search) ? window.location.search.match(/lang=.*?(?:&|$)/i) : 'lang=' + localStorage.cvbLang;
           
           if (lang && lang[0]) {
-            lang = '&' + lang[0];
+            lang = '&' + (/lang=/i.test(window.location.search) ? lang[0] : lang);
           }
         }
         
@@ -1562,8 +1563,12 @@
           window.location.search = '?lang=' + lang;
         }
         
-      } else if (/lang=/i.test(window.location.search)) {
+      } else {
         window.location.href = window.location.href.replace(/(&|\?|)lang=.*?(?:&|$)/, '');
+      }
+      
+      if (window.localStorage) {
+        window.localStorage.cvbLang = lang;
       }
     },
     
@@ -1667,6 +1672,7 @@
 
         document.body.appendChild(script);
         document.body.className += ' lang-' + lang; // add special class to body for language specific modifications
+        document.documentElement.lang = lang;
       };
       
       // load default english language if the selected language cannot be found
@@ -1859,11 +1865,11 @@
   
   
   // load language data if a language is specified in location.search
-  if (/lang=/i.test(window.location.search)) {
-    var lang = window.location.search.match(/lang=(.*?)(?:&|$)/i), script;
+  if (/lang=/i.test(window.location.search) || (window.localStorage && localStorage.cvbLang != 'en')) {
+    var lang = /lang=/i.test(window.location.search) ? window.location.search.match(/lang=(.*?)(?:&|$)/i) : localStorage.cvbLang, script;
 
     if (lang && lang[1]) {
-      CodeVeinBuilder.setupData(lang[1].toLowerCase());
+      CodeVeinBuilder.setupData((/lang=/i.test(window.location.search) ? lang[1] : lang).toLowerCase());
     } 
     // load default if lang code cannot be obtained
     else {

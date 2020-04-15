@@ -1665,7 +1665,11 @@
         script.onload = function () {
           script = document.createElement('SCRIPT');
           script.src = 'resources/javascript/presets.min.js';
-          script.onload = CodeVeinBuilder.init; // run initial setup after background data is loaded
+          
+          // run initial setup after background data is loaded
+          script.onload = function () {
+            CodeVeinBuilder.init(lang);
+          }; 
           
           document.body.appendChild(script);
         };
@@ -1685,7 +1689,7 @@
     
     
     // initial setup of the user interface and it's functionality
-    init : function () {
+    init : function (lang) {
       // checks if a build is present in the URL and loads it
       if (/build=/i.test(window.location.search)) {
         CodeVeinBuilder.loadBuild();

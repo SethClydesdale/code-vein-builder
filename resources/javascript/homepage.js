@@ -36,8 +36,8 @@
       
       // reset rotation if messages were moved manually
       if (manual) {
-        window.clearInterval(GenkiAnn.rotator);
-        GenkiAnn.rotate();
+        //window.clearInterval(GenkiAnn.rotator);
+        //GenkiAnn.rotate();
       }
     },
     
@@ -50,7 +50,7 @@
   // commence rotation if more than 1 announcement
   if (GenkiAnn.msg.length > 1) {
     document.getElementById('announcement-controls').style.display = '';
-    GenkiAnn.rotate();
+    //GenkiAnn.rotate();
   }
   
 }(window, document));

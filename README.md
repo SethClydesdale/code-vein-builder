@@ -42,6 +42,7 @@ Would you like to submit a translation to Code Vein Builder and help extend the 
 - :fire: Hellfire Knight contributors: [u/Hebephryo](https://www.reddit.com/user/Hebephryo/), [u/ABCcombos](https://www.reddit.com/user/ABCcombos/), [u/antara33](https://www.reddit.com/user/antara33), and Kaizer.
 - :snowflake: Frozen Empress contributors: [u/Hebephryo](https://www.reddit.com/user/Hebephryo/).
 - :zap: Lord of Thunder contributors: [u/4G3NT_0R4NG3](https://www.reddit.com/user/4G3NT_0R4NG3/), [u/dustdragoon3](https://www.reddit.com/user/dustdragoon3/), [u/Hartlocke_Xero](https://www.reddit.com/user/Hartlocke_Xero/).
+- Translators: [Qingyu510](https://github.com/Qingyu510).
 
 The following resources were used in this project. Check them out!
 - [Font-Awesome](https://github.com/FortAwesome/Font-Awesome) for the awesome icons.

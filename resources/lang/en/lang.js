@@ -2041,12 +2041,12 @@ window._lang = {
       // Lord of Thunder DLC
       A17 : {
         name : 'Thunderbolt Pipe',
-        desc : 'A club-like weapon bestowed upon those who desire to become the greatest.'
+        desc : 'A club-like weapon warped by thunderbolt.'
       },
       
       A18 : {
         name : 'Pipe of the Unrivaled',
-        desc : 'A club-like weapon warped by thunderbolt.'
+        desc : 'A club-like weapon bestowed upon those who desire to become the greatest.'
       },
       
       A19 : {

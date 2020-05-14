@@ -170,6 +170,12 @@ CodeVeinBuilder.presets = {
   // # BAYONET #
   // builds based around the bayonet
   'bayonet' : {
+    'Gunner' : [
+      'IIFgjAPgognBAMEAiA2CwBMD1aRxSYAHNCBAMJgDMEAYhmrQKyLkY2EmVyWS0gB2OiBhA',
+      'A build for someone wanting to run a pure gun only run. Use focus recovery along with ichor regeneration to keep ichor flowing.',
+      'u/Soluden|fqjk7rp'
+    ],
+    
     'Sacrificial Ranger' : [
       'IIJhB8FEE5wBnAEQIzzcVwAcUAs4BhWDAdkIGYFhycAxZCWkANkOQQJHwOVVriA',
       'A bayonet build primarily focued on shot attacks. Ranged Impact and Overdrive should be used to boost your shot damage, and Gift Extension to help extend these skills. If no DLC, you can supplement GE with Cognitive Zeal for a little extra damage. Blood Sacrifice will ensure you can regain your ichor without having to get close to enemies, so you can stand back and shoot all day!'

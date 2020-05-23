@@ -176,6 +176,13 @@ CodeVeinBuilder.presets = {
       'u/Soluden|fqjk7rp'
     ],
     
+    'Revenant Thunder Gunner' : [
+      'IIRgTAPgou0hwAMFmgcgwgTghk8oAWBADggDExjyBWZSgNgQGYy9N9cxmEaag',
+      "This build focuses on sustained ranged damage with the bayonet using Chaotic Ash and Field of Thirst. The added ichor management both provide allows you to use normal shots freely, without sacrificing health. You will only need to melee enough to get one or two ichor for Chaotic Ash or Field of Thirst. Thunderbolt's excellent shotgun normal shots mow through groups of close range enemies while Brodiaea has better melee damage and long range capability. Overdrive and Ranged Impact will dramatically boost your damage as long as you don't get hit, and pairs well with Louis since his Overdrive buff stacks. Gift Prowess will help speed up the burst of Circulating Pulse and Fusillade Rondo making them less dangerous to use. Radiant Barrel will delete almost anything from afar, and can take out multiple enemies if positioned well. Night Claw can be switched out for Master Spines with devour if you desire more ichor gain but less damage resistance. Circulating Pulse is optional and can be switched out for anything you want. I include it because it has good damage for 3 ichor and completes my soldier aesthetic.<br><br>"+
+      "Overall this build works well clearing areas, completing trials of blood, and in boss fights too. Open with Field of Thirst then a spam of charged lightning balls followed by a Radiant Barrel shot. This is especially useful against bosses that charge directly at you, as they will charge through your line of lightning balls to do it.",
+      'Misterspanky|8'
+    ],
+    
     'Sacrificial Ranger' : [
       'IIJhB8FEE5wBnAEQIzzcVwAcUAs4BhWDAdkIGYFhycAxZCWkANkOQQJHwOVVriA',
       'A bayonet build primarily focued on shot attacks. Ranged Impact and Overdrive should be used to boost your shot damage, and Gift Extension to help extend these skills. If no DLC, you can supplement GE with Cognitive Zeal for a little extra damage. Blood Sacrifice will ensure you can regain your ichor without having to get close to enemies, so you can stand back and shoot all day!'

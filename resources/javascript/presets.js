@@ -221,6 +221,12 @@ CodeVeinBuilder.presets = {
       'It allows you to use three elemental blades on cooldown rotation after using the three buffs (hasten to enhance swift destruction). To use this build effectively you must never attack with your physical weapon to keep merciless reaper in effect. Recharge ichor with chaotic ash and backstabs as you travel through dungeons. Though this build can be used in boss fights it is not optimized for them. Weapon is transformed to drain weapon as a backup in case you run out of ichor and you are unable to backstab. Alternatively you can remove a blade attack and use blood sacrifice if you dont mind the loss of hp for ichor. Gun is just an ideal long range solution but not necessary for the build to function.',
       'u/doppledanger21|f84ratz'
     ],
+    
+    'Dark Fighter' : [
+      'IIRgTAPgoiHAbBAIrUcAsdUA4IGEBOLIvEVVSUI4AZgFYIAxTR8JmgBnzKA',
+      'Just a simple build using Artemis and with ability to have strong dark gifts, bayonet usage and cqc with one handed sword. A jack of all trades!',
+      'cooldudeachyut|9'
+    ],
 
     'Frigid Blade Bearer' : [
       'IIJgHAPskAwQIgRiiCdjOhAonAwgJxSKqjogCsxAbFACwDMEeIqhzIyAYjEA',

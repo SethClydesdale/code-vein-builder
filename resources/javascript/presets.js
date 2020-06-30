@@ -231,7 +231,7 @@ CodeVeinBuilder.presets = {
     ],
     
     'Dark Fighter' : [
-      'IIRgTAPgoiHAbBAIrUcAsdUA4IGEBOLIvEVVSUI4AZgFYIAxTR8JmgBnzKA',
+      'IIRgTAPgognBwHYIBETwCwfpYAOCAwiAMzQAMhIaAYsRcGPSHA2gXEWsMUgWGEA',
       'Just a simple build using Artemis and with ability to have strong dark gifts, bayonet usage and cqc with one handed sword. A jack of all trades!',
       'cooldudeachyut|9'
     ],

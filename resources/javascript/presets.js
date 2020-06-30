@@ -12,6 +12,14 @@ CodeVeinBuilder.presets = {
   // # ONE-HANDED SWORD #
   // builds based around one-handed swords
   '1h' : {
+    'Comfy Prometheus' : [
+      'IIVgPsCMkQ7BNgAYwGFEuADjAURejOgMxgBixBAnOQEwAsaOF46AbGrbWiEA',
+      "Good damaging build maining Jack's sword Executioner, and meant to use 3 buffs: Adrenaline, Bridge to Glory and Blade Dance which don't have any negative effects unlike Sacrificial Edge and Final Journey, or being somewhat conditional like Overdrive if you get hit often.<br><br>"+
+      "When all hits connect, Pulsating Light quickly adds up 25% damage bonus on a single usage with Blade Dance active, making it an excellent damage racking tool. Bloodsucking Blades is an awesome support skill to execute the combat skills readily.<br><br>"+
+      "Can also add Numbing Mark to a light Stun transformed weapon like Blazing Claw or Iceblood, maintaining quick mobility against bosses that can be stunned for an easier fight, or just add the corresponding elemental weakness weapon buff to the Executioner. However, since this requires player to manage 4 buffs simultaneously, which is obviously not very comfy, the general strategy should be to apply an elemental weapon buff only when Blade Dance runs out, giving it enough time for cooldown for the next usage.",
+      'cooldudeachyut|10'
+    ],
+    
     'High Scepter' : [
       'IIJgDAPsDsUBxQKxQCyopAwgTnhAolgIxEQBiAzMsEbsBaWSCBDqyGmVs0A',
       'A build focused on high sustained damage from close and medium range with a variety of cc options and quick movement',

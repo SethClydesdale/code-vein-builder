@@ -298,6 +298,14 @@ CodeVeinBuilder.presets = {
       'A template build for countering Blade Bearer and Cannoneer. Utilize the elemental resist Gifts in conjunction with the elemental resist items to render their attacks useless. You can also go the extra mile and transform your Blood Veil with Fire or Ice resist.<br><br>'+
       'Lastly, high ichor drain will help you maintain ichor for casting your resist gifts and offensive spells. Fill out the rest of the slots with whatever you prefer!'
     ],
+    
+    'Blade Bearer' : [
+      'IIBgPsAcYMICwQIwQExPVJaaIGxgFFwdoYVkzttEBOWOnYyIA',
+      "this build is essentially stacking buffs on each other. the bridge to glory being the best of them. if you can avoid being hit, overdrive is also a major buff. tested at +9 (both weapon and blood veil) and with all the buffs active, it does around 2.5k damage per hit with the ice blood.<br><br>"+
+      "The Dammerung is there in case something is resistant to ice and the ice buff can be changed for another element if needed.<br><br>"+
+      "bloodsucking blades says it cant be used but if you use Cognitive Zeal before, it becomes available due to the increase to willpower and with all the drain upgrades, you can do strong attacks with the ice blood and still regen ichor making it a viable option in a fight without risking the ichor you need back to make sure to keep the buffs up and running.",
+      'anidarkk|11'
+    ],
 
     'Deliverance' : [
       'IIZgjAPgDNECKRjYkBiaBMEDCYvqyVhlQBYcBOCVAVmrCA',

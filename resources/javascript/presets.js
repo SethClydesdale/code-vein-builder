@@ -332,6 +332,12 @@ CodeVeinBuilder.presets = {
       'A build for stunning enemies. Apply your buffs, with Numbing Mark being used last. Then run up to an enemy/boss and activate Circulating Pulse to quickly build up Stun. If the enemy is not yet afflicted, you can finish the build up off with another Circulating Pulse or a projectile/trap gift.'
     ],
 
+    'Swift Stunner' : [
+      'IIBgPsAcYMICwXDAjLAzBBwBMTkDYwBRcKWAdlgFZ0MYBOCbaYZVFMAMWziA',
+      "This build allows you to stun and slow with the Interesting weapons like the Damerung and Iceblood. These weapons aren't the best, but they do give versatility and damage reduction. It also comes with magic so you can space out your enemy if needed. You will do amazing damage with slow, stun, and swift destruction. It also comes with a Devour night to get ichor up as fast as possible. Comes with One Handed mastery for ultimate damage. Can be used for bosses but switch out the stun, slow, and magic spells to the right weaknesses of the boss.",
+      'ReignDestroys|12'
+    ],
+
     'Venomous Serpent' : [
       'IITgPsCMlgDGARGBhe8oQBxgKLstgGIDsYAQvGQMzlEBMALGMuMnXc04bEA',
       'A build for poisoning enemies. Apply your buffs, with Venom Mark being used last. Then run up to an enemy/boss and activate Circulating Pulse to quickly build up Venom. If the enemy is not yet afflicted, you can finish the build up off with another Circulating Pulse or a projectile/trap gift.'

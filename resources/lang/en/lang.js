@@ -1643,6 +1643,10 @@ window._lang = {
         desc : 'Allows you to guard from all sides, rather than only the front.'
       },
 
+      D23 : {
+        name : 'Defensive Order',
+        desc : 'Temporarily lowers your attack and increases defense for both you and your partner.'
+      },
 
       // # COMMUNAL GIFTS #
       E0 : {

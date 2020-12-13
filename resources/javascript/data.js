@@ -3564,7 +3564,20 @@ CodeVeinBuilder.data.active = {
     cooldown : 15
   },
   
-  
+  D23 : { // Defensive Order
+    image : 'defensive-order',
+    tree : _lang.tree.light,
+    origin : 'A34',
+    dlc : 1,
+
+    required : {
+      vit : 11
+    },
+
+    ichor_cost : 5,
+    cooldown : 30
+  },
+
   // # COMMUNAL GIFTS #
   E0 : { // Reckless Abandon
     image : 'reckless-abandon',
@@ -4336,6 +4349,7 @@ CodeVeinBuilder.data.order.active = [
   'D21', // Sturdy Body
   'D0', // Iron Will
   'D1', // Foulblood Barrier
+  'D23', // Defensive Order
   'D2', // Ablative Blood
   'D3', // Juggernaut
   'D4', // Steady Bulwark

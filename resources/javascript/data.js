@@ -1155,28 +1155,28 @@ CodeVeinBuilder.data.passive = {
     origin : 'A7'
   },
   
-  B7 : { // Leak Resistance
-    image : 'leak-resistance',
-    tree : _lang.tree.light,
-    origin : 'A18'
-  },
-  
-  B8 : { // Stun Resistance
+  B7 : { // Stun Resistance
     image : 'stun-resistance',
     tree : _lang.tree.light,
     origin : 'A8'
   },
   
-  B9 : { // Inhibit Resistance
+  B8 : { // Inhibit Resistance
     image : 'inhibit-resistance',
     tree : _lang.tree.light,
     origin : 'A25'
   },
   
-  B10 : { // Slow Resistance
+  B9 : { // Slow Resistance
     image : 'slow-resistance',
     tree : _lang.tree.light,
     origin : 'A7'
+  },
+  
+  B10 : { // Leak Resistance
+    image : 'leak-resistance',
+    tree : _lang.tree.light,
+    origin : 'A18'
   },
   
   
@@ -1679,10 +1679,10 @@ CodeVeinBuilder.data.order.passive = [
   'B4', // Blood Grab
   'B5', // Evasive Snare
   'B6', // Venom Resistance
-  'B7', // Leak Resistance
-  'B8', // Stun Resistance
-  'B9', // Inhibit Resistance
-  'B10', // Slow Resistance
+  'B7', // Stun Resistance
+  'B8', // Inhibit Resistance
+  'B9', // Slow Resistance
+  'B10', // Leak Resistance
   'C0', // Strength Up
   'C1', // Dexterity Up
   'C2', // Mind Up
@@ -3564,7 +3564,20 @@ CodeVeinBuilder.data.active = {
     cooldown : 15
   },
   
-  
+  D23 : { // Defensive Order
+    image : 'defensive-order',
+    tree : _lang.tree.light,
+    origin : 'A34',
+    dlc : 1,
+
+    required : {
+      vit : 11
+    },
+
+    ichor_cost : 5,
+    cooldown : 30
+  },
+
   // # COMMUNAL GIFTS #
   E0 : { // Reckless Abandon
     image : 'reckless-abandon',
@@ -4336,6 +4349,7 @@ CodeVeinBuilder.data.order.active = [
   'D21', // Sturdy Body
   'D0', // Iron Will
   'D1', // Foulblood Barrier
+  'D23', // Defensive Order
   'D2', // Ablative Blood
   'D3', // Juggernaut
   'D4', // Steady Bulwark

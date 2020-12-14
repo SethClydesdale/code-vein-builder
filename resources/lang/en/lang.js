@@ -621,25 +621,25 @@ window._lang = {
         name : 'Venom Resistance',
         desc : 'Increases venom resistance.'
       },
-      
+            
       B7 : {
-        name : 'Leak Resistance',
-        desc : 'Increases leak resistance.'
-      },
-      
-      B8 : {
         name : 'Stun Resistance',
         desc : 'Increases stun resistance.'
       },
       
-      B9 : {
+      B8 : {
         name : 'Inhibit Resistance',
         desc : 'Increases inhibit resistance.'
       },
       
-      B10 : {
+      B9 : {
         name : 'Slow Resistance',
         desc : 'Increases slow resistance.'
+      },
+
+      B10 : {
+        name : 'Leak Resistance',
+        desc : 'Increases leak resistance.'
       },
 
 

@@ -286,7 +286,13 @@ CodeVeinBuilder.presets = {
     'Vampiric Mage' : [
       'IIJgHAPsBsEAwQCIEYoBZ5VcSxkggGFltlZQNgBmAVihAE4oqnCQDDWRUAxOIA',
       'This build focuses on attacking with both physical and magical attacks. Use your ichor spells to devastate the lost and your buffs to regenerate your lost ichor with melee attacks.'
-    ]
+    ],
+    
+    '极致吸血' : [
+      'IIZgHAPgwgjCEAYICEBsFgCZEe8GekSxOJUmM0m2SAogKxA',
+      "一个可以拉满自身吸血能力的配装，在此配装下推图可以达到一刀7冥血的吸血效率，在boss战时，这个数值可以翻倍，极限之歌可以增加自身50%的法术伤害和吸血，由于吸血能力也进行了强化，极限之歌下的法术消耗增加将会被抵消，且冥血会更为充足。绝对零度铠可以提供高额的防御和伤害。该配装也是法系配装最为通用的。空出来的技能可根据地图特性以及自身偏好进行携带",
+      'YoumuMoe|14'
+    ],
   },
 
   

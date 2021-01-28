@@ -31,7 +31,7 @@ window._lang = {
   
   // 預設選擇器
   preset_default : '選擇一個預設配装',
-  preset_empty : '空配裝',
+  preset_empty : '清空配裝',
   preset_random : '隨機配裝',
   preset_warn : '您是否要加載這個“%{PRESET_NAME}”配裝？您正在創建的配裝將會被覆蓋。',
   preset_stop_warning : '停止顯示此警告。',

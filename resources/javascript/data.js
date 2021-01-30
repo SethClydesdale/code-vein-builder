@@ -1671,7 +1671,6 @@ CodeVeinBuilder.data.order.passive = [
   'A17', // Charge Accelerator
   'A18', // Debuff Build-Up
   'A19', // Revenant's Ambition
-  'A20', // Opportunism
   'B0', // Balance Up
   'B1', // Deft Parry
   'B2', // Guard Drain Rating Up
@@ -1702,13 +1701,13 @@ CodeVeinBuilder.data.order.passive = [
   'C15', // Willpower/Vitality Up
   'D0', // Dark Impulse
   'D1', // Light Impulse
-  'D20', // Stopping Power
   'D2', // Guard Stability
   'D3', // Focused Guard
   'D4', // Focused Stamina Usage
   'D5', // Maintained Focus
   'D6', // Focused Carnage
   'D7', // Ichor Strikes
+  'D20', // Stopping Power
   'D8', // Ichor Reduction
   'D9', // Drain Boost
   'D10', // Focused Gift Speed
@@ -1742,6 +1741,7 @@ CodeVeinBuilder.data.order.passive = [
   'F13', // Tirelessness
   'F14', // Bolster
   'F15', // Revenant Dagger
+  'A20', // Opportunism
   'F16', // Complete Attention
   'F17' // Charisma
 ];
@@ -4270,12 +4270,12 @@ CodeVeinBuilder.data.order.active = [
   'A27', // Draconic Stake
   'A28', // Indra's Coil
   'A29', // Fourfold Verdict
+  'A53', // Meteor Crush
   'A30', // Elder Contract
   'A31', // Ichorous Ice
   'A32', // Twilight
   'A51', // Hoarfrost Stream
   'A33', // Fire Lily
-  'A53', // Meteor Crush
   'A34', // Sand Edge
   'A54', // Frost Wave
   'A35', // Volatile Storm
@@ -4284,13 +4284,13 @@ CodeVeinBuilder.data.order.active = [
   'A37', // Sands of Depravity
   'A38', // Chaotic Ash
   'A55', // Field of Thirst
-  'A56', // Thunderbolt Impact
   'A39', // Purging Thorn
   'A40', // Argent Wolf Cross
   'A41', // Shadow Leap
   'A42', // Bloody Impact
   'A43', // Cloak of Winter
   'A44', // Peony Flash
+  'A56', // Thunderbolt Impact
   'A45', // Will-o'-the-Wisp
   'A46', // Ember Reversal
   'A50', // Dancing Fireblade
@@ -4345,13 +4345,13 @@ CodeVeinBuilder.data.order.active = [
   'C30', // Time Crunch
   'C31', // Supernatural Blood
   'C32', // Impact Wave
-  'C33', // Final Journey
   'D21', // Sturdy Body
+  'C33', // Final Journey
   'D0', // Iron Will
   'D1', // Foulblood Barrier
-  'D23', // Defensive Order
   'D2', // Ablative Blood
   'D3', // Juggernaut
+  'D23', // Defensive Order
   'D4', // Steady Bulwark
   'D22', // Circular Guard
   'D5', // Guard Reversal
@@ -4370,17 +4370,11 @@ CodeVeinBuilder.data.order.active = [
   'D18', // Countermeasure
   'D19', // Sly Vengeance
   'D20', // Feral Tenacity
-  'E0', // Reckless Abandon
-  'E1', // Lupinus Vita
-  'E2', // Conviction Spike
-  'E3', // Blood Awakening
-  'E4', // Fatal Surge
-  'E5', // Ephemeral Refrain
   'F0', // Restorative Offering
   'F1', // Sympathetic Boon
-  'F36', // Modest Offering
   'F2', // Auto Heal
   'F3', // Guardian Aid
+  'F36', // Modest Offering
   'F4', // Cleansing Light
   'F5', // Regenerator
   'F6', // Venom Removal
@@ -4391,9 +4385,9 @@ CodeVeinBuilder.data.order.active = [
   'F11', // Panacea's Essence
   'F12', // Blood Sacrifice
   'F47', // Ichor Regeneration
+  'F13', // Disremember
   'F46', // Zero Recast
   'F49', // Focus Recovery
-  'F13', // Disremember
   'F39', // Serene Stance
   'F40', // Invigorating Rush
   'F37', // Ichor Resonance (Receive)
@@ -4406,6 +4400,12 @@ CodeVeinBuilder.data.order.active = [
   'F19', // Active IFF
   'F20', // Treasure Tracker
   'F21', // Prize Perception
+  'E0', // Reckless Abandon
+  'E1', // Lupinus Vita
+  'E2', // Conviction Spike
+  'E3', // Blood Awakening
+  'E4', // Fatal Surge
+  'E5', // Ephemeral Refrain
   'F22', // Severing Abyss
   'F23', // Phantom Assault
   'F24', // Circulating Pulse

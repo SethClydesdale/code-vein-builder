@@ -11,6 +11,7 @@
       '0 - submit_translation' : 'submit',
       '1 - English' : 'en',
       '2 - 繁體中文' : 'zh-hant'
+	  '3 - 日本語' : 'ja'
     },
     
     // node cache + any other cached data

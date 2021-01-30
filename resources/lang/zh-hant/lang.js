@@ -8,9 +8,9 @@ window._lang = {
   
   // 標題/標簽
   weapon : '武器',
-  blood_veil : 'Blood Veil',
+  blood_veil : '吸血牙裝',
   transform : '蛻變',
-  blood_code : 'Blood Code',
+  blood_code : '血碼',
   gift_type : '鍊血類型',
   passive : '被動',
   active : '主動',
@@ -19,7 +19,7 @@ window._lang = {
   origin : '獲取途徑：',
   companion_rank : '共戰者的功績',
   rv_mastery : 'Rv Mastery',
-  exclusive : 'Exclusive',
+  exclusive : '其它',
   dlc : 'DLC',
   
   
@@ -31,7 +31,7 @@ window._lang = {
   
   // 預設選擇器
   preset_default : '選擇一個預設配装',
-  preset_empty : '清空配裝',
+  preset_empty : '空配裝',
   preset_random : '隨機配裝',
   preset_warn : '您是否要加載這個“%{PRESET_NAME}”配裝？您正在創建的配裝將會被覆蓋。',
   preset_stop_warning : '停止顯示此警告。',
@@ -98,18 +98,18 @@ window._lang = {
   
   // 攻擊狀態
   attack : '攻擊力',
-  drain_attack : 'Drain Attack',
+  drain_attack : '吸血攻擊力',
   physical : '物理', // weapon damage
   base : '基本', // base damage
   scaling : '加成', // damage from scaling
-  drain_rating : 'Drain Rating',
+  drain_rating : '吸血能力',
   
   
   // 防禦狀態
   defense : '防禦力',
   stamina_reduction : '減少精力消耗',
-  balance : 'Balance',
-  base_balance : 'Base Balance',
+  balance : '堅韌度',
+  base_balance : '基本堅韌度',
   
   
   // 異常狀態抗性
@@ -1486,7 +1486,7 @@ window._lang = {
       C31 : {
         name : '超能之血',
         desc : '在冥血耗盡時<br>可以轉而消耗體力，發動鍊血<br><br>所謂吸血鬼的睿智，特別是強大的鍊血<br>會直接迷惑使用者的心智<br>因此，如果決定不惜犧牲身體發動鍊血<br>就必須小心自取滅亡',
-        usage_req : '哈爾莫妮亞'
+        usage_req : '哈爾莫妮亞血碼'
       },
       
       C32 : {
@@ -1629,7 +1629,7 @@ window._lang = {
       
       // 冰花女皇 DLC
       D21 : {
-        name : '强化體力',
+        name : '強化體力',
         desc : '降低鍊血能力，暫時增加體力上限<br><br>以降低鍊血能力為代價<br>進而得到的充足體力<br>該如何運用，端看使用者的決定'
       },
       
@@ -2586,5 +2586,3 @@ CodeVeinBuilder.status.mobiKey[_lang.na]          = -1;
 CodeVeinBuilder.status.mobiKey[_lang.mobi.slow]   = 0;
 CodeVeinBuilder.status.mobiKey[_lang.mobi.normal] = 1;
 CodeVeinBuilder.status.mobiKey[_lang.mobi.quick]  = 2;
-
-

@@ -713,12 +713,7 @@ window._lang = {
         name : 'Mind/Fortitude Up',
         desc : 'Increases mind and fortitude.'
       },
-      
-      C13 : {
-        name : 'Mind/Fortitude Up',
-        desc : 'Increases mind and fortitude.'
-      },
-      
+
       // Hellfire Knight DLC
       C14 : {
         name : 'Strength/Fortitude Up',

@@ -251,6 +251,12 @@ CodeVeinBuilder.presets = {
       'Volatile Storm is primarily used for large groups, so for bosses, you can swap it out for a single-target spell, a buff, resistance removal, etc.'
     ],
 
+    "Raijin, God of Lightning" : [
+      'IIFgDAPsBsGQIgRiiOVnEQJggYQJwQCikuiyAYiABxQCsswWGWquWOBezEFAzNCA',
+      "This Build is highly based around lightning and fast cooldowns and high damage, you should always buff up before entering a fight, then you can just use all of your abilities as much as you want because they do high damage and are very cheap so you can always have a lot of ichor thanks to you drain buffs and as long as the enemy isn't immune to lughtning then they should go down pretty fast, even if they are resistant!",
+      'dmkellison|17'
+    ],
+
     'Sacrificial Storm Mage' : [
       'IIJgHAPgogDBcBEAs9WgsSwCMA2CAwtthtiqPqAJwYDMJwtkRKAYtiIdjazEA',
       'A build that uses the three elements to bring ruin upon the lost. To boost your spell damage, make sure to buff up with Merciless Reaper and Cognitive Zeal, after this you may destory the lost. To restore ichor, utilize either Chaotic Ash or Blood Sacrifice. You want to avoid attacking with this build as to maintain Merciless Reaper.'

@@ -12,6 +12,12 @@ CodeVeinBuilder.presets = {
   // # ONE-HANDED SWORD #
   // builds based around one-handed swords
   '1h' : {
+    'Blademaster' : [
+      'IIBgPsDMECwQjApxEGEBsYCi5UE4xV5Ms4AxAJgrEvMl0miMIA5C8g',
+      "Your basic one-handed sword non-dlc build. Good to use if you are heading into the DLC's.",
+      'DarkWarrior7534|18'
+    ],
+    
     'Comfy Prometheus' : [
       'IIVgPsCMkQ7BNgAYwGFEuADjAURejOgMxgBixBAnOQEwAsaOF46AbGrbWiEA',
       "Good damaging build maining Jack's sword Executioner, and meant to use 3 buffs: Adrenaline, Bridge to Glory and Blade Dance which don't have any negative effects unlike Sacrificial Edge and Final Journey, or being somewhat conditional like Overdrive if you get hit often.<br><br>"+
@@ -125,6 +131,15 @@ CodeVeinBuilder.presets = {
   // # HALBERD #
   // builds based around the halberd
   'halberd' : {
+    'Dancing Scythe' : [
+      'IIFgDAPgwgrBwEYCc0Bs9KI-AHBAogEzQIIQBiCAzBYSuSPDOlIXK2VCq461UA',
+      "This build is for those who enjoy a good sparring with bosses rather than attempt to one-shot everything.<br><br>"+
+      "Black Halbert has great move set, but Impaler also works as it has two consecutive piercing strikes and is highly effective in staggering enemies e.g. the Cerberus Troopers. Fulmen Blade Fortified is basically a shield as it has 100 defense all around, especially effective against Gilded Hunter's angry phase and the Virgin Born's massive lightning barrage (you know what I'm talking about).<br><br>"+
+      "Chariot Rush has a rather long casting time, but it can be canceled halfway. Switch for Severing Abyss or other offensive skills to suit your playstyle. Thunderbolt impact is a great light AOE when surrounded by mobs, but consider switching between this and Cloak of Winter to match enemies' elemental weakness (There is no Blood/Fire counterparts sadly). It also deals crush damage which the Halbert class completely lacks. I don't recommend this during boss fights, but it is more than enough during exploring as it can one-shot basic mobs (euphoric soldiers, dogs, monkeys and alike) even in max difficulty using this setup. I personally find them annoying especially when surrounded by them so I always bring this with me, but you can switch to modest offering during boss fights to keep your partner alive or elemental damage buffs if you play solo.<br><br>"+
+      "Special notes: In the city of falling flame, switch out Gift Accelerator and Hasten for Flame protection and Elemental wall for maximum fire resistance; plus I personally find being quick mobility in this area can sometimes be a hinderance as I constantly dash into the wall, but normal rolls are much more manageable.",
+      'Powaifu|19'
+    ],
+    
     'Gliding Executioner' : [
       'IIJg7APgwgbBAMEAiBGCoHrcAHBAoiNCtipAGIgCcElRUAzIpQCzQ1Qj0rPxA',
       "This build focuses on spamming the Assassin's Sickle special heavy charged attack. Apply all the buffs, especially Time Crunch to speed up the charge attack. Then harness the power of the Invading Executioner's glide attack to devastate your foes."

@@ -209,6 +209,12 @@ CodeVeinBuilder.presets = {
       'u/Soluden|fqjk7rp'
     ],
     
+    'Infinite Dodge' : [
+      'IIFgjAPgomkwTBAIgNgsRH2YJzrAAzJh5JgAcEAwvJTXjYgGICsRZds18aUBQA',
+      '"All stats up", increases all stats by one TIER, when you are focused, so you can use your stamina skills.',
+      'velox-mortem|21'
+    ],
+    
     'Revenant Thunder Gunner' : [
       'IIRgTAPgou0hwAMFmgcgwgTghk8oAWBADggDExjyBWZSgNgQGYy9N9cxmEaag',
       "This build focuses on sustained ranged damage with the bayonet using Chaotic Ash and Field of Thirst. The added ichor management both provide allows you to use normal shots freely, without sacrificing health. You will only need to melee enough to get one or two ichor for Chaotic Ash or Field of Thirst. Thunderbolt's excellent shotgun normal shots mow through groups of close range enemies while Brodiaea has better melee damage and long range capability. Overdrive and Ranged Impact will dramatically boost your damage as long as you don't get hit, and pairs well with Louis since his Overdrive buff stacks. Gift Prowess will help speed up the burst of Circulating Pulse and Fusillade Rondo making them less dangerous to use. Radiant Barrel will delete almost anything from afar, and can take out multiple enemies if positioned well. Night Claw can be switched out for Master Spines with devour if you desire more ichor gain but less damage resistance. Circulating Pulse is optional and can be switched out for anything you want. I include it because it has good damage for 3 ichor and completes my soldier aesthetic.<br><br>"+

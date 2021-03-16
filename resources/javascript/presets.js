@@ -210,7 +210,7 @@ CodeVeinBuilder.presets = {
     ],
     
     'Infinite Dodge' : [
-      'IIFgjAPgomkwTBAIgNgsRH2YJzrAAzJh5JgAcEAwvJTXjYgGICsRZds18aUBQA',
+      'IIFgjAPgomkwTBAIgNgsRH2YJzrAAzJh5JgAcEAwvJVQMxE2IBiArEWXbNfGlASA',
       '"All stats up", increases all stats by one TIER, when you are focused, so you can use your stamina skills.',
       'velox-mortem|21'
     ],

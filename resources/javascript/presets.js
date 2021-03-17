@@ -215,6 +215,14 @@ CodeVeinBuilder.presets = {
       'velox-mortem|21'
     ],
     
+    "Queen's Polka" : [
+      'IIJgHAPgognBAMFgDYkgUgLNbxIGEBGQpQ1AMRAsPSJKMXxAFYJzsnsoBmIA',
+      "Why would a Queen sully her status and hands by melee? Bring along your little servant Mia (or White Mia) and start dancing to the sound of your enemies dying from afar.<br><br>"+
+      "If you don't have DLC use Ivory Grace Devour since it has the 2nd highest drain rating of all blood veils. In that case, you don't have to use Hasten and are free to use whatever support gift or buff you see fit. If you have to melee, use drain attacks and backstab as much as you can.<br><br>"+
+      "The build should be pretty self-explanatory, the main DPS is Fusillade Rondo and you can melt most enemies (not boss) in the game with one burst. It also serves as an \"AOE\" since you can switch target during casting, enabling you to take down up to 4 enemies per burst. Though this is a bossing setup, you can switch out Gift Accelerator passive for Life Steal during exploration. Oh and get good with dodging. Queen doesn't get hit :p",
+      'Powaifu|22'
+    ],
+    
     'Revenant Thunder Gunner' : [
       'IIRgTAPgou0hwAMFmgcgwgTghk8oAWBADggDExjyBWZSgNgQGYy9N9cxmEaag',
       "This build focuses on sustained ranged damage with the bayonet using Chaotic Ash and Field of Thirst. The added ichor management both provide allows you to use normal shots freely, without sacrificing health. You will only need to melee enough to get one or two ichor for Chaotic Ash or Field of Thirst. Thunderbolt's excellent shotgun normal shots mow through groups of close range enemies while Brodiaea has better melee damage and long range capability. Overdrive and Ranged Impact will dramatically boost your damage as long as you don't get hit, and pairs well with Louis since his Overdrive buff stacks. Gift Prowess will help speed up the burst of Circulating Pulse and Fusillade Rondo making them less dangerous to use. Radiant Barrel will delete almost anything from afar, and can take out multiple enemies if positioned well. Night Claw can be switched out for Master Spines with devour if you desire more ichor gain but less damage resistance. Circulating Pulse is optional and can be switched out for anything you want. I include it because it has good damage for 3 ichor and completes my soldier aesthetic.<br><br>"+

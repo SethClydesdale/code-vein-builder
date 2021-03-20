@@ -12,6 +12,16 @@ CodeVeinBuilder.presets = {
   // # ONE-HANDED SWORD #
   // builds based around one-handed swords
   '1h' : {
+    'Argent Wolf Captain' : [
+      'IIRgrAPsBsECKwMK2AFiiKAGKAOCAojoiLAGKTBjpk0DMscATBIk5ogJytPpthA',
+      "A very balanced build with decent utility, damage, and defense. If you like to play with some strategy and are good with positioning yourself in a fight, this build is for you. Though the damage is decent, you won't be melting bosses by any mean.<br><br>"+
+      "For those who doesn't have DLC, use Noble Silver in place of Daybreak Thunderfang, and a Barrage gift in place of Frost Wave.<br><br>"+
+      "During exploring, make sure to backstab and use drain attacks to recover HP and raise your ichor count, as you will be needing it during boss fights. Switch out Regenerative Drain for Stamina Boost or Tirelessness as you need to keep swinging to gain ichor to keep ablative blood active. You can also bring White Mia along for double gift extension, but it is not mandatory.<br><br>"+
+      "When facing a group of mobs like during an invasion, try to get them into a single file line so you can take down multiple enemies using the Frost Wave. Make sure you have ichor all the time so you can utilize Ablative Blood, and when paired with Cleansing Light, you can take some serious beatings. High Mind stats and Daybreak Thunderfang make Bridge to Glory very potent, but try to keep this active all the time as this is the where 90% of the damage comes out of.<br><br>"+
+      "You can switch the secondary weapon to Dammerung for its Iron Will buff (for those who doesn't know but I seriously doubt it), but I just like to bring a shield with me and block my way through in some situations. Zweihander works too, I chose Argent Wolf Warhammer because I prefer the look of it :p",
+      'Powaifu|20'
+    ],
+    
     'Blademaster' : [
       'IIBgPsDMECwQjApxEGEBsYCi5UE4xV5Ms4AxAJgrEvMl0miMIA5C8g',
       "Your basic one-handed sword non-dlc build. Good to use if you are heading into the DLC's.",
@@ -197,6 +207,20 @@ CodeVeinBuilder.presets = {
       'IIFgjAPgognBAMEAiA2CwBMD1aRxSYAHNCBAMJgDMEAYhmrQKyLkY2EmVyWS0gB2OiBhA',
       'A build for someone wanting to run a pure gun only run. Use focus recovery along with ichor regeneration to keep ichor flowing.',
       'u/Soluden|fqjk7rp'
+    ],
+    
+    'Infinite Dodge' : [
+      'IIFgjAPgomkwTBAIgNgsRH2YJzrAAzJh5JgAcEAwvJVQMxE2IBiArEWXbNfGlASA',
+      '"All stats up", increases all stats by one TIER, when you are focused, so you can use your stamina skills.',
+      'velox-mortem|21'
+    ],
+    
+    "Queen's Polka" : [
+      'IIJgHAPgognBAMFgDYkgUgLNbxIGEBGQpQ1AMRAsPSJKMXxAFYJzsnsoBmIA',
+      "Why would a Queen sully her status and hands by melee? Bring along your little servant Mia (or White Mia) and start dancing to the sound of your enemies dying from afar.<br><br>"+
+      "If you don't have DLC use Ivory Grace Devour since it has the 2nd highest drain rating of all blood veils. In that case, you don't have to use Hasten and are free to use whatever support gift or buff you see fit. If you have to melee, use drain attacks and backstab as much as you can.<br><br>"+
+      "The build should be pretty self-explanatory, the main DPS is Fusillade Rondo and you can melt most enemies (not boss) in the game with one burst. It also serves as an \"AOE\" since you can switch target during casting, enabling you to take down up to 4 enemies per burst. Though this is a bossing setup, you can switch out Gift Accelerator passive for Life Steal during exploration. Oh and get good with dodging. Queen doesn't get hit :p",
+      'Powaifu|22'
     ],
     
     'Revenant Thunder Gunner' : [

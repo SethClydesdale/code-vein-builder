@@ -28,6 +28,12 @@ CodeVeinBuilder.presets = {
       'DarkWarrior7534|18'
     ],
     
+    'Bridge to Tranquility' : [
+      'IIFgDAPsCM0QQtATBAInYKZSwTitJOvugBwQDCS5F0N+AYiHGZYZUgGwQCiYQA',
+      'The damage of "Tranquil Slice" scales with the mind/willpower stat of your weapon, as well as the mind/willpower stat of your Bloodcode. If you want to go for a pure one-hit Build, you could/should use "Ranged Impact" as well (as it also affects the damage).',
+      'velox-mortem|23'
+    ],
+    
     'Comfy Prometheus' : [
       'IIVgPsCMkQ7BNgAYwGFEuADjAURejOgMxgBixBAnOQEwAsaOF46AbGrbWiEA',
       "Good damaging build maining Jack's sword Executioner, and meant to use 3 buffs: Adrenaline, Bridge to Glory and Blade Dance which don't have any negative effects unlike Sacrificial Edge and Final Journey, or being somewhat conditional like Overdrive if you get hit often.<br><br>"+

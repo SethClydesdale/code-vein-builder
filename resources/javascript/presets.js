@@ -93,6 +93,12 @@ CodeVeinBuilder.presets = {
   // # TWO-HANDED SWORD #
   // builds based around two-handed swords 
   '2h' : {
+    'Flexible Tanker' : [
+      'IIJgnAPgQgbBAMEDCjgEYEXRAohqiScSAHBAGIgDsEAIgKzIiLkDMIyG5ALE5KUA',
+      "Just tank your way around enemies with amazing weapon range, when heavily surrounded use Cleansing Light and Tripple Annihilator. It's a hybrid build of strength with dex.",
+      'sivvy4402|24'
+    ],
+    
     'Giantdad: The Legend is a Waifu' : [
       'IIRgDAPgQiGVBmCo7NlSBhAbBTAOCAUVk1MIBFIAxAJkpAFYJqmXISg',
       "Maximum balance. Maximum raw damage. Maximum DR. Swing hard, block anything, and rolling is for chumps. This is a meme build, yes, based on the well known Dark Souls meme build, but it is highly effective for all the same reasons as that build. Heavy Attack > Light Attack > Repeat is a combo that lasts as long as your stamina does, swinging from right to left and back again in wide arcs. The heavy attack grants a lot of hyper armor, and landing both hits will stagger most enemies, so you can tank through hits and cleave down mobs. Zweihander Fortification also has 100% physical DR when blocking.",

@@ -166,6 +166,12 @@ CodeVeinBuilder.presets = {
       'IIJg7APgwgbBAMEAiBGCoHrcAHBAoiNCtipAGIgCcElRUAzIpQCzQ1Qj0rPxA',
       "This build focuses on spamming the Assassin's Sickle special heavy charged attack. Apply all the buffs, especially Time Crunch to speed up the charge attack. Then harness the power of the Invading Executioner's glide attack to devastate your foes."
     ],
+    
+    'Hybrid Battle Mage' : [
+      'IIZgDAPgwgLBnAIwWHByCiAmaA2FAnCojgGJZFRbJRGlxIjHJJklA',
+      "Close melee build based on light gifts along with good weapon attack.",
+      'sivvy4402|25'
+    ],
 
     'One Hit Kill' : [
       'IIBgPgwgnG4CIEYzCeFyAcYCiAmZMEAbGAGK74QIAsZClCAzJAuBI8xFttUA',

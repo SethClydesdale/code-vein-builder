@@ -116,6 +116,12 @@ CodeVeinBuilder.presets = {
       "This build can be used with the Black Great Sword but due to the animation of its normal heavy attack, it isn't as safe so I wouldn't recommend it. Alternatively you can stack charge accelerator and time crunch to increase your charge speed so you can combo into the heavy charged attack but investing a passive and active slot is just not worth it in my opinion.",
       'u/IC_Ivory280|feq338w'
     ],
+    
+    'HP Mania' : [
+      'IIZg7APgDBBCCsEDCJkEZqeB4MBiALBHhgKJHYwAiATBijRFfWo7W-EA',
+      "N/A",
+      'luckysexyqueen|26'
+    ],
 
     'Hyper-aggressive heavy caster' : [
       'IIJgbAPgQg7BAMEAiILEY4BGCBRHAwljtgKwREDMEAYiABxojmgCctlqBjwALNUVQ14QA',

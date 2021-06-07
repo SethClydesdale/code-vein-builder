@@ -304,6 +304,12 @@ CodeVeinBuilder.presets = {
       "A build based on the lovely Blade Bearer. It uses frigid Gifts to freeze your foes solid along with high draing rating buffs to unleash an endless stream of icy hell that's sure to trigger some bad memories."
     ],
 
+    "Gwynevere's Flame" : [
+      'IIRgLAPsDsECKTiKzQqgDigTggYVz1mAGYAmfEAVggDEAGFGvZPMitrOM+oA',
+      "Dark Mage Hybrid",
+      "StuCat215|28"
+    ],
+
     "Queen's Chaos" : [
       'IIJgHAPsBsEAwQCIEYoBZ5VcSxkggGFltlZQNgBmAViwHYorJCQDCBOIkVAMTiA',
       "This is a magic build with a heavy focus on ichor restoration. Use your ichor spells to destroy the lost, then to regenerate your ichor, simply use Chaotic Ash or attack with all drain rating buffs active. Use Bridge to Glory to do extra damage while draining ichor with melee attacks OR swap it out for Gift Extension for longer drain rating buffs or Dark Shout to increase dark Gift damage. Aside from Lightning, you can use the following spell sets for exploiting weaknesses or when the element you're using isn't viable.<br><br>"+

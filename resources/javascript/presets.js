@@ -227,6 +227,12 @@ CodeVeinBuilder.presets = {
   // # BAYONET #
   // builds based around the bayonet
   'bayonet' : {
+    'Bayonet One-Shot' : [
+      'IIBgPgognG7AbGYBGWTUGEDsSAckAWJGAMQFZwNkBmME5AJjCqKsutqtQgKA',
+      "This build is a more reliable one shot, and in some cases is actually more effective than the traditional halberd one shot build. You can do the standard trick of swapping between mind and strength passives to use bridge to glory in addition to everything else, but in a lot of cases it is unnecessary, especially since the standard build uses Ruinous Chevalier instead of Noble Silver or Ivory Grace due to the higher stat scaling. feel free to run this the same way you would a standard halberd one-shot build if you want to, I'm sure it'll be just as effective. And here's the original video showing off the build: <a href=\"www.youtube.com/watch?v=kWUAD54IfVM&t=0s\">www.youtube.com/watch?v=kWUAD54IfVM&t=0s</a>",
+      'MCCLM001|29'
+    ],
+    
     'Gunner' : [
       'IIFgjAPgognBAMEAiA2CwBMD1aRxSYAHNCBAMJgDMEAYhmrQKyLkY2EmVyWS0gB2OiBhA',
       'A build for someone wanting to run a pure gun only run. Use focus recovery along with ichor regeneration to keep ichor flowing.',

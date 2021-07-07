@@ -194,6 +194,12 @@ CodeVeinBuilder.presets = {
       'IIBgPuDCCsbAjHATGS5zABxgKIsgGyrwoBiSAnKlZNpAMz1ikAsqSb4pJQA',
       'A somewhat flexible build that could be used with most Halberds so long they have Venom, Intensification, or Fortification applied to them. A free slot is there for any elemental/status buff depending on enemy or boss weaknesses.',
       'u/TwistedDarkCloud|f9qt2e1'
+    ],
+
+    'Unbreakable Bastion' : [
+      'IIRgrAPgwiEAwQCKwQ0FQCZolgMXxAGYlM0AOabRAFgj0wE57868wg',
+      "This is a support build that takes advantage of the Bardiche's great blocking without totally sacrificing damage and mobility. For maximum tanking, using a Guard Booster in tandem with Steady Bulwark will negate all chip damage.",
+      'Blade-of-Want|30'
     ]
   },
 

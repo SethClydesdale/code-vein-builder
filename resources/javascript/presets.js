@@ -197,8 +197,8 @@ CodeVeinBuilder.presets = {
     ],
 
     'Unbreakable Bastion' : [
-      'IIRgrAPgwiEAwQCKwQ0FQCZolgMXxAGYlM0AOabRAFgj0wE57868wg',
-      "This is a support build that takes advantage of the Bardiche's great blocking without totally sacrificing damage and mobility. For maximum tanking, using a Guard Booster in tandem with Steady Bulwark will negate all chip damage.",
+      'IIRgrAPgwiEAwQCK1PCrQCZolgMXxAGYlMFgAOabRAFgj0wE4H968wg',
+      "This is a support build that takes advantage of the Bardiche's great blocking without totally sacrificing damage and mobility.",
       'Blade-of-Want|30'
     ]
   },

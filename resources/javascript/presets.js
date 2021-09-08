@@ -239,6 +239,12 @@ CodeVeinBuilder.presets = {
       'MCCLM001|29'
     ],
     
+    'Frost Gattler' : [
+      'IIFgjAPgomnAbBAIo4cQTRAwrHBmTADmgwDEBWABhz231QoCYIywXsmOmNOwg',
+      "Build is centered around using Bloody Snow's charged heavy to quickly gattle down medium/big enemies. Both drain skills + an Argent Wold Blade Devour ensures u wont run out of ichor, Ranged Impact to buff your charged heavy, Ichor Efficiency when u run into bosses and will need more than a couple of attacks to take them down, Frost Turret for some extra stopping/stagger power, Radiant Barrel for pesky enemies u dont wanna give a chance to move or to open a boss fight on ranges you otherwise wouldnt be a able to hit from, Gift Extension for obvious reasons, and to top it all off Blood Sacrifice for if there are no enemies nearby to drain from, or if you dont wanna risk getting close and personal.",
+      'Spell2260|31'
+    ],
+    
     'Gunner' : [
       'IIFgjAPgognBAMEAiA2CwBMD1aRxSYAHNCBAMJgDMEAYhmrQKyLkY2EmVyWS0gB2OiBhA',
       'A build for someone wanting to run a pure gun only run. Use focus recovery along with ichor regeneration to keep ichor flowing.',

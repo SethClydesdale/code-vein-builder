@@ -298,6 +298,12 @@ CodeVeinBuilder.presets = {
     'Vampiric Ranger' : [
       'IIJhB8FEE4oRnAEQQBnMALOhwAcUsBhWQuBUtTAZnFIQDEQA2WsWkkBlIA',
       'A bayonet build primarily focued on shot attacks. Ranged Impact and Overdrive should be used to boost your shot damage, and Gift Extension to help extend these skills. If no DLC, you can supplement GE with Cognitive Zeal for a little extra damage. Unlike the Sacrificial version, this one uses Brodiaea in close combat to restore ichor. Allowing you to save those tasty regenerations.'
+    ],
+
+    'A build that may or may not work' : [
+      'IIZgnAPgopAMEBECMFgvsATNALKgHBAMJIZIDsxkAYpgGzGZ4kpEgYiFQgTVKZA',
+      '',
+      'Codeveinbuild|32'
     ]
   },
 

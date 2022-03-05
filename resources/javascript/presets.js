@@ -196,10 +196,10 @@ CodeVeinBuilder.presets = {
       'u/TwistedDarkCloud|f9qt2e1'
     ],
 
-    'Unbreakable Bastion' : [
-      'IIRgrAPgwiEAwQCK1PCrQCZolgMXxAGYlMFgAOabRAFgj0wE4H968wg',
-      "This is a support build that takes advantage of the Bardiche's great blocking without totally sacrificing damage and mobility.",
-      'Blade-of-Want|30'
+    'Unbreakable Bastion 2.0' : [
+      'IIVgPgwgjGAMYBEbBvFYUCZJRgMXygGZEoAWDKATh0Qr0xoU3gLDxCA',
+      "This is a well-balanced, defence-oriented build that combines Steady Bulwark with the fortified Bardiche for zero chip damage. Royal Heart should be used to prevent enemy combos or to finish off weak enemies. The Ivory Grace is chosen for its extremely high drain rating. Crimson Moon’s high damage, high casting speed and wide area-of-effect make it ideal for close-quarters combat.",
+      'Blade-of-Want|33'
     ]
   },
 

@@ -78,6 +78,27 @@ CodeVeinBuilder.presets = {
       'Utilizes Evasive Snare and Countermeasure to burn enemies when you dodge them. Flames of Rage can be used to set traps or as a combo finisher. Dancing Blaze should be used in tandem with Circulating Pulse to deliver a devastating combo attack. Lastly, make sure to buff with Blood Sucking Blades and Hunting Feast to help maintain your ichor for Evasive Snare and your active Gifts.'
     ],
 
+    'Too Slow' : [
+      'IIJgLAPgDBwBwQEIFZq0qCBhAjDYOGCAojAGJgIU4QUDMtYMWIAnI+y1Xa0A',
+      "Utilizes a bunch of stamina-related active Gifts for a neverending assault. Although damage is relatively low, it offers excellent mobility for a pure hack'n'slash action.<br><br>"+
+      "Active Gifts:"+
+      "<ul>"+
+        "<li>A combination of \"Valiant Heart\", \"Morale Boost\" and \"Invigorating Rush\" greatly enhances your stamina and is a core of this build, so they should be active at all times.</li>"+
+        "<li>Both \"Serene Stance\" and \"Focus Recovery\" serve as an emergency stamina restoration.</li>"+
+        "<li>\"Lightning Charge\" and \"Savage Dive\" allow you to be even more mobile and cover long distances in no time.</li>"+
+        "<li>\"Tranquil Slice\" for a burst of damage whenever you need it.</li>"+
+      "</ul>"+
+      "Passive Gifts:"+
+      "<ul>"+
+        "<li>\"Swift Destruction\" and \"One-Handed Sword Mastery\" are self-explanatory.</li>"+
+        "<li>\"Dexterity/Fortitude Up\" is used to gain access to \"Invigorating Rush\", \"Serene Stance\" (both require Fortitude S) and \"Focus Recovery\" (requires Dexterity S).</li>"+
+        "<li>\"Vow of Ichor\" allows you to be a bit more aggressive with active Gifts, but it is not necessary and can be replaced with any passive Gift of your choice (my personal recommendation would be either \"Increased Gift Speed\" or \"Stamina Stimulant\")</li>"+
+      "</ul>"+
+      "Since there's no place for \"Blood Sacrifice\" or the like, rocking a \"Devour\" sword is a must. If used as intended, this build eats Ichor like no tomorrow.<br><br>"+
+      "Additional note: The idea behind using Heimdall is that you can swap either \"Lightning Charge\" or \"Savage Dive\" for \"Sacrificial Edge\" on the fly. Basically, sacrifice some of your mobility options for X2 damage if you feel like the fight is taking too long. Think of it as your personal \"Second Stage\" buff.",
+      'Yodel-Daddy|34'
+    ],
+
     'Venom Thorn' : [
       'IITgPsCMlgDGARGBhe8oXMAHBATPAGIDsmEAzKYXgCxgBCuy4ye5iBYyNQA',
       "This build has a strong emphasis on damage while still being able to poison effectively.<br><br>"+

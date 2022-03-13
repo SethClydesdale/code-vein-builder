@@ -12,6 +12,12 @@ CodeVeinBuilder.presets = {
   // # ONE-HANDED SWORD #
   // builds based around one-handed swords
   '1h' : {
+    'Ahead Flank' : [
+      'IIJgLAPsAMGwIgRis2xnAJwpBAwosgGKIDM+I2oke5BA7BEeBEpPCLCUA',
+      "Named after the emergency speed of my beloved Cyclops from Subnautica, this is an all-out build that demands proper resource management and rewards unceasing offense. Blast Bolt is chosen for its high damage, long range and high ichor efficiency, with the latter being especially critical for Heimdall. Morale Boost increases Heimdall's sky-high stamina to absurd levels and pairs beautifully with Tirelessness. Survival Instinct is paired with Feral Tenacity to safely boost damage at low HP.",
+      'Blade-of-Want|35'
+    ],
+    
     'Argent Wolf Captain' : [
       'IIRgrAPsBsECKwMK2AFiiKAGKAOCAojoiLAGKTBjpk0DMscATBIk5ogJytPpthA',
       "A very balanced build with decent utility, damage, and defense. If you like to play with some strategy and are good with positioning yourself in a fight, this build is for you. Though the damage is decent, you won't be melting bosses by any mean.<br><br>"+

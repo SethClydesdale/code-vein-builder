@@ -317,6 +317,12 @@ CodeVeinBuilder.presets = {
       'u/IC_Ivory280|fdrl6ua'
     ],
 
+    'The Freischuetz' : [
+      'IIRgrAPgogDNBMFQTqpIkA5oBYIGEQMAxeANiQuIGY4bJ9498BOCYuQkIA',
+      "A bayonet build that focuses on mobility and aggression without sacrificing the ability to take the occasional hit, dealing good damage both at range and up close, and able to stagger even most bosses with repeated shots from the Riot Breaker. You can slot in different buffs and even a variety of damaging gifts without much trouble.",
+      'CloudStriker94|36'
+    ],
+
     'Molten Cannoneer' : [
       'IIRgzAPgogbBAMEAiILAEwLa4AOaALBAMIDs25xYiwB+AYiJgEKUiLHpHEir3xA',
       "A build based on everyone's favorite Cannoneer. Focuses on devastating enemies with the flamethrower and fire Gifts. Use Ranged Impact, Overdrive, and Time Crunch, then spam Burning Disaster's flamethrower attack to your heart's content as you set the world on fire."

@@ -367,6 +367,12 @@ CodeVeinBuilder.presets = {
       "StuCat215|28"
     ],
 
+    "Queen's Blade" : [
+      'IIRgzAPsDsEKIggEUQYUcALFADFAHFAEx5x6gBsUIeAYkdsGAJwS3aquoMSoCsvIkA',
+      "A build centered around dealing massive damage from ranged, and not letting your opponent hit you in melee. I recommend using any sword you like, as long as it has quick mobility, with the \"Stun\" transformation. Any bayonet with devour will do, to help get your ichor back, any will work so go with what looks best. A blood veil with high Light and Dark gift damage, and transformed to alleviation will also work well (recommend the ivory grace). Swap out increased Gift Speed (Queen's Claw), with Weapon Drain Rating up (Caster), when swapping to your bayonet. For active gifts, use any ranged elemental gift you want (barrage and purging thorns are recommended), and the same goes for weapon buffs, but keep stun weapon buff to get that sweet sweet debuff quicker. If you don't have access to Gift Extension (DLC Bloodcode), use whatever you see fit. During buffing, use gift extension first, the cleansing light, swap circulating pulse for Blood Sacrifice, then start casting the rest of your buffs accordingly.",
+      "Crossbreed8714|37"
+    ],
+
     "Queen's Chaos" : [
       'IIJgHAPsBsEAwQCIEYoBZ5VcSxkggGFltlZQNgBmAViwHYorJCQDCBOIkVAMTiA',
       "This is a magic build with a heavy focus on ichor restoration. Use your ichor spells to destroy the lost, then to regenerate your ichor, simply use Chaotic Ash or attack with all drain rating buffs active. Use Bridge to Glory to do extra damage while draining ichor with melee attacks OR swap it out for Gift Extension for longer drain rating buffs or Dark Shout to increase dark Gift damage. Aside from Lightning, you can use the following spell sets for exploiting weaknesses or when the element you're using isn't viable.<br><br>"+

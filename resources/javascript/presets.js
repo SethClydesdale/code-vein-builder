@@ -318,7 +318,7 @@ CodeVeinBuilder.presets = {
     ],
 
     'The Freischuetz' : [
-      'IIRgrAPgogTNCcFRLstIkA5oBYIGEQMAxGANgJjmIGYAGCWyfGPfRYhwkIA',
+      'IIRgrAPgogTBoAZ4nnYAWZy0A5qYGEQUCYBmCUuAMTKVslMIE4JqkiQg',
       "A bayonet build that focuses on mobility and aggression without sacrificing the ability to take the occasional hit, dealing good damage both at range and up close, and able to stagger even most bosses with repeated shots from the Riot Breaker. You can slot in different buffs and even a variety of damaging gifts without much trouble.",
       'CloudStriker94|36'
     ],

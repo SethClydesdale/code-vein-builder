@@ -54,6 +54,17 @@ CodeVeinBuilder.presets = {
       'u/KyrianBlackwood|fcbr05h'
     ],
 
+    'Kings Glory' : [
+      'IIBgPsBsbgIgjGAwo8xHABwQEzhYgKLgBiALGCfDpThSTgMzLZICcyArMo40A',
+      "A One-handed build with damage and movement in mind. The stun ability with the Argent Wolf Blade is very useful when fighting bosses who have various attacks when stunned granting you an extra 4-5 seconds to unleash a bombardment of attacks before the enemy has a chance to charge/activate abilities. The Ivory Grace with the Fortification ability grants you a balance of speed, defense, and durability paired with the Cleansing Light gift makes you spend less regeneration items allowing you to progress the current area you're in more. If used correctly this Build should take you through the entire story with ease including all of the depths not including the ones listed in the disclaimer below.<br><br>"+
+      "<b>Disclaimer:</b> This build is NOT recommended for the following areas:<br>"+
+      "Depths: Fiery Oblivion [ DLC ]<br>"+
+      "Depths: Celestial Ice Prison [ DLC ]<br>"+
+      "Depths: Eternal Abyss [ DLC ]<br>"+
+      "Depths: Tower Of Trials 2 & 3",
+      'mrdoodleduck|39'
+    ],
+
     'Knight of Ishtar' : [
       'IIZgjAPsCcWc8QQAxVQUVcAHHATHAGwQBiIArKXgCxVJmoDCujeSjsjYyQA',
       "In certain situations one of the skills can be swapped for elemental damage or Gift Speed passive for Stamina,Health steal etc, build is very fast and depends on how good you are dodging but can kill anything Don't use spacebar to dodge with this build, your dodge is Swifting Hallow, ALWAYS keep your stamina for swings, cleared ng+6 with this, Increased Gift Speed will help you execute skills way faster and greatly redurce your risk of getting hit while using a skill",

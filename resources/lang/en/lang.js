@@ -670,7 +670,7 @@ window._lang = {
       },
       
       C5 : {
-        name : 'Perseverance Up',
+        name : 'Fortitude Up',
         desc : 'Increases fortitude.'
       },
       

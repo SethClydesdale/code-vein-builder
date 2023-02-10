@@ -1231,7 +1231,7 @@ CodeVeinBuilder.data.passive = {
     }
   },
   
-  C5 : { // Perseverance Up
+  C5 : { // Fortitude Up
     image : 'perseverance-up',
     tree : _lang.tree.light,
     origin : 'A16',
@@ -1687,7 +1687,7 @@ CodeVeinBuilder.data.order.passive = [
   'C2', // Mind Up
   'C3', // Willpower Up
   'C4', // Vitality Up
-  'C5', // Perseverance Up
+  'C5', // Fortitude Up
   'C6', // Strength/Dexterity Up
   'C7', // Strength/Willpower Up
   'C8', // Strength/Vitality Up

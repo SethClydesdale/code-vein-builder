@@ -84,6 +84,12 @@ CodeVeinBuilder.presets = {
       'u/ProScopeZ|fey540j'
     ],
 
+    'Raiden' : [
+      'IIFgDAPsCMCcUA4IGEBsEBCAmK0o5h2WnQFFI0oBWdZLKiAMSx0eiKxBXmQGYJSIIA',
+      "A one-handed dlc build focused on light gifts, dodging, and lightning. Use the fulmen blade for damaging opponents and the Iceblood for recovering ichor. If you're in a tough spot for ichor recovery, use blood sacrifice at your own discretion. Make sure to keep your damage buffs active always (or as much as possible) and to use gift extension last. Do your best to dodge enemy attacks, use the dodge buffs in case you have difficulty.",
+      'u/Drakenveil|jcw20g5'
+    ],
+
     'Sacrificial Edge' : [
       'IIJgLAPsCM0QDBAInUCqoBwQKKIMLQgSEDMEAYuJSMRUTefgJwnQDslkF8QA',
       'A build that utilizes Sacrificial Edge and Bridge to Glory to greatly increase damage. Cleansing light is used to help reduce the effects of Sacrificial Edge, whereas Blood Sacrifice is used to restore ichor after buffing so you can spam your attack Gifts.'

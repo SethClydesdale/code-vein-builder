@@ -95,6 +95,12 @@ CodeVeinBuilder.presets = {
       'A build that utilizes Sacrificial Edge and Bridge to Glory to greatly increase damage. Cleansing light is used to help reduce the effects of Sacrificial Edge, whereas Blood Sacrifice is used to restore ichor after buffing so you can spam your attack Gifts.'
     ],
 
+    'Shrouded Assassin' : [
+      'IIJgLAPsDsUIxQAxIs5wAcEDCA2HcIUArBAGKRlyzZxZVG01a3K1hA',
+      "This is a build that takes advantage of Heimdall's Gifts to their maximum extent and allows you to completely one-shot enemies that would give you trouble otherwise. The damage from backstab/parry drain attacks in the training room can be upwards of 20 thousand damage. The build is heavily focused on drain attacks and thus doesn't do a lot of damage without them, making it pretty bad against bosses thought this can be somewhat compensated with by using a strong sword. This build however, despite being weak against bosses allows you to just run through most area's one-shotting everything without being detected assuming you can hit your drains. Sadly the build is also very squishy, so one mistake can get you killed.",
+      'u/DarkSoulsParry|jduax1w'
+    ],
+
     'The Yaksha' : [
       'IIJgrAPsDsEAwQCIEYonmqAOCBRBAwsqgEKSgBsEJsAYgMz0S0gAsEBI6KOnqtcIA',
       'A build based on The Yaksha, Rin Murasame.<br><br>'+

@@ -48,6 +48,38 @@ CodeVeinBuilder.presets = {
       'cooldudeachyut|10'
     ],
     
+    'Fleeting Edge' : [
+      'IIJg7APsAsWcAGKJlSQMQIwGYIGFMVgAOCAUQxFnRFywixTxFII1jwE4g',
+      "I made this build primarily due to my desire to go fast. Requires none of the DLC<br>"+
+      "<h3>General</h3>"+
+      "<ul>"+
+        "<li>Scout is my Blood Code of choice, as it's relatively the same to Queenslayer, but has slightly more ichor and Dexterity, as well as allowing quick Mobility with my weapons of choice.</li>"+
+        "<li>Dawn Claw is my Blood Veil of choice, as it is a pretty good veil for due to it's drain rating and stats as well as fashion, you may choose another similar to it if you want. Make sure to Alleviate it in order to gain quick mobility on your weapon</li>"+
+        "<li>Enduring Crimson and Blazing Edge are both very good weapons and are what I use. Enduring Crimson and Blazing Claw have Intensification on it to make the scaling into dex higher, and so that you can do more damage. You may choose any other One-handed sword if you want, just make sure it can reach quick mobility.</li>"+
+      "</ul>"+
+      
+      "<h3>Active Skills</h3>"+
+      "<ul>"+
+        "<li>Phantom Assault is good for getting in close to the enemy as it has a decent amount if range. Deals a decent amount of damage as well</li>"+
+        "<li>Circating Pulse is usually used when the boss is staggered, recovering from their attack, or after using Phantom Assault. Good amount of damage.</li>"+
+        "<li>Blood Sacrifice is needed due to the buffs that are used, it helps in gaining ichor without the use of items.</li>"+
+        "<li>Sympathetic Boon is there as I primarily use this in coop to revive or heal the host. If you aren't doing coop you can replace it with any buff like Adrenaline, or a damage dealing gift like Shadow Assault.</li>"+
+        "<li>Overdrive is a good buff for this build as you'll probably end up doing your best to not get hit. It specifically gives you a 25% attack buff for 90 seconds, but will end if you get hit. However you may replace it with Bloodsucking Blades for higher drain by removing Tirelessness and replacing it with any Willpower up passives if you desire.</li>"+
+        "<li>Bridge to Glory is one of the best buffs in the game I believe. It scales with the Mind stat and can do over 2x normal damage, lasts a decent amount of time as well at 90 seconds.</li>"+
+        "<li>Valiant Heart is a buff that I like to use at it reduces the stamina consumption of dodges by 40%, and you're gonna be dodging a lot.</li>"+
+        "<li>Cleansing Light is a good gift to use just in case you actually get hit as it recovers 75% of the damage that was dealt to you.</li>"+
+      "</ul>"+
+      
+      "<h3>Passive skills</h3>"+
+      "<ul>"+
+        "<li>Tirelessness is a great passive skill as it increases your stamina regeneration rate by 33.3%, can be replaced with willpower up passives if you want Bloodsucking Blades for an Active Gift</li>"+
+        "<li>Mind/Vitality up is needed in order to use Bridge to Glory, without it you'll be left to choose a different, weaker attack buff.</li>"+
+        "<li>Swift Destruction increases the damage you deal in proportion to your mobility, and because we have quick mobility already you will get a 20% increase.</li>"+
+        "<li>One-Handed Sword Mastery is needed if you eant to be able to do more damage with a One-Handed Sword by 20%</li>"+
+      "</ul>",
+      'KaeTheDandere|41'
+    ],
+    
     'High Scepter' : [
       'IIJgDAPsDsUBxQKxQCyopAwgTnhAolgIxEQBiAzMsEbsBaWSCBDqyGmVs0A',
       'A build focused on high sustained damage from close and medium range with a variety of cc options and quick movement',

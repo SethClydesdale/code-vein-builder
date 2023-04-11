@@ -79,6 +79,25 @@ CodeVeinBuilder.presets = {
       "</ul>",
       'KaeTheDandere|41'
     ],
+
+    'Gift Spam (For DLC Bosses)' : [
+      'IIJhB9gDnAGcAiBGOr4FF4GEkWQdnCwDYiBWcAMQBYrciRasBOREbJbMIA',
+      "I was having trouble getting Eva and Mia's costumes and started playing around with builds to see what worked. This is the result. Works with any companion or solo. Minimal dodging required.<br><br>"+
+      "It's a one-handed sword build for use against the DLC bosses. The basic idea is to safely (or at least as safely as possible) spam the gifts of the Iceblood (against Lord of Thunder) and Blazing Claw (against Frozen Empress) weapons to do a lot of mindless damage. Doesn't work as well with Fulmen Blade but you can swap in Lightning Weapon and whack at it with Executioner/Enduring Crimson (against Hellfire Knight).<br><br>"+
+      "You can probably swap in the active skills Time Crunch (if you prefer to charge the strong attack rather than tap it) or Serene Stance. Speed can be Quick or Normal, though I prefer Quick. Can swap most of the passive gifts if you prefer other Blood Veils or want to boost attack. Tirelessness works well.<br><br>"+
+      "Works with Artemis and most other Blood Codes. Can replace Bridge with most other attack boosting gifts or Venom Mark.<br>"+
+      "<ol>"+
+        "<li>Cleansing Light</li>"+
+        "<li>Feral Tenacity</li>"+
+        "<li>Gift Extension</li>"+
+        "<li>Overdrive</li>"+
+        "<li>Bloodsucking Blades</li>"+
+        "<li>Bridge to Glory</li>"+
+        "<li>Numbing Mark</li>"+
+      "</ol>"+
+      "Blood Sacrifice as needed.",
+      'saliathings|42'
+    ],
     
     'High Scepter' : [
       'IIJgDAPsDsUBxQKxQCyopAwgTnhAolgIxEQBiAzMsEbsBaWSCBDqyGmVs0A',

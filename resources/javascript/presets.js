@@ -194,6 +194,12 @@ CodeVeinBuilder.presets = {
   // # TWO-HANDED SWORD #
   // builds based around two-handed swords 
   '2h' : {
+    'Church of Zwei' : [
+      'IIZgjAPgQpAMHEoi9kFFIGEwBYEE5p4AxEQ0vbeAEXjUsMwA4JMQBWIA',
+      "Utilizes a Zweihander to tear through everyone.",
+      'SentaiRed1|43'
+    ],
+    
     'Flexible Tanker' : [
       'IIJgnAPgQgbBAMEDCjgEYEXRAohqiScSAHBAGIgDsEAIgKzIiLkDMIyG5ALE5KUA',
       "Just tank your way around enemies with amazing weapon range, when heavily surrounded use Cleansing Light and Tripple Annihilator. It's a hybrid build of strength with dex.",
@@ -356,6 +362,13 @@ CodeVeinBuilder.presets = {
       'IIFgjAPgomkwTBAIgNgsRH2YJzrAAzJh5JgAcEAwvJVQMxE2IBiArEWXbNfGlASA',
       '"All stats up", increases all stats by one TIER, when you are focused, so you can use your stamina skills.',
       'velox-mortem|21'
+    ],
+    
+    'One Shot' : [
+      'IIBgPgogHGwOywKywEyvcGEAsYDCCeAjAMz5FHm7FrFkBiRa92yO+JJQA',
+      'I created the build its effective towards story bosses but not against Mido is difficult to counter.<br><br>'+
+      'My discord is ichgofan',
+      'kanekifan|44'
     ],
     
     "Queen's Polka" : [

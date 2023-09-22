@@ -12,6 +12,12 @@ CodeVeinBuilder.presets = {
   // # ONE-HANDED SWORD #
   // builds based around one-handed swords
   '1h' : {
+    'Ahead Flank' : [
+      'IIJgLAPsAMGwIgRis2xnAJwpBAwosgGKIDM+I2oke5BA7BEeBEpPCLCUA',
+      "Named after the emergency speed of my beloved Cyclops from Subnautica, this is an all-out build that demands proper resource management and rewards unceasing offense. Blast Bolt is chosen for its high damage, long range and high ichor efficiency, with the latter being especially critical for Heimdall. Morale Boost increases Heimdall's sky-high stamina to absurd levels and pairs beautifully with Tirelessness. Survival Instinct is paired with Feral Tenacity to safely boost damage at low HP.",
+      'Blade-of-Want|35'
+    ],
+    
     'Argent Wolf Captain' : [
       'IIRgrAPsBsECKwMK2AFiiKAGKAOCAojoiLAGKTBjpk0DMscATBIk5ogJytPpthA',
       "A very balanced build with decent utility, damage, and defense. If you like to play with some strategy and are good with positioning yourself in a fight, this build is for you. Though the damage is decent, you won't be melting bosses by any mean.<br><br>"+
@@ -42,10 +48,72 @@ CodeVeinBuilder.presets = {
       'cooldudeachyut|10'
     ],
     
+    'Fleeting Edge' : [
+      'IIJg7APsAsWcAGKJlSQMQIwGYIGFMVgAOCAUQxFnRFywixTxFII1jwE4g',
+      "I made this build primarily due to my desire to go fast. Requires none of the DLC<br>"+
+      "<h3>General</h3>"+
+      "<ul>"+
+        "<li>Scout is my Blood Code of choice, as it's relatively the same to Queenslayer, but has slightly more ichor and Dexterity, as well as allowing quick Mobility with my weapons of choice.</li>"+
+        "<li>Dawn Claw is my Blood Veil of choice, as it is a pretty good veil for due to it's drain rating and stats as well as fashion, you may choose another similar to it if you want. Make sure to Alleviate it in order to gain quick mobility on your weapon</li>"+
+        "<li>Enduring Crimson and Blazing Edge are both very good weapons and are what I use. Enduring Crimson and Blazing Claw have Intensification on it to make the scaling into dex higher, and so that you can do more damage. You may choose any other One-handed sword if you want, just make sure it can reach quick mobility.</li>"+
+      "</ul>"+
+      
+      "<h3>Active Skills</h3>"+
+      "<ul>"+
+        "<li>Phantom Assault is good for getting in close to the enemy as it has a decent amount if range. Deals a decent amount of damage as well</li>"+
+        "<li>Circating Pulse is usually used when the boss is staggered, recovering from their attack, or after using Phantom Assault. Good amount of damage.</li>"+
+        "<li>Blood Sacrifice is needed due to the buffs that are used, it helps in gaining ichor without the use of items.</li>"+
+        "<li>Sympathetic Boon is there as I primarily use this in coop to revive or heal the host. If you aren't doing coop you can replace it with any buff like Adrenaline, or a damage dealing gift like Shadow Assault.</li>"+
+        "<li>Overdrive is a good buff for this build as you'll probably end up doing your best to not get hit. It specifically gives you a 25% attack buff for 90 seconds, but will end if you get hit. However you may replace it with Bloodsucking Blades for higher drain by removing Tirelessness and replacing it with any Willpower up passives if you desire.</li>"+
+        "<li>Bridge to Glory is one of the best buffs in the game I believe. It scales with the Mind stat and can do over 2x normal damage, lasts a decent amount of time as well at 90 seconds.</li>"+
+        "<li>Valiant Heart is a buff that I like to use at it reduces the stamina consumption of dodges by 40%, and you're gonna be dodging a lot.</li>"+
+        "<li>Cleansing Light is a good gift to use just in case you actually get hit as it recovers 75% of the damage that was dealt to you.</li>"+
+      "</ul>"+
+      
+      "<h3>Passive skills</h3>"+
+      "<ul>"+
+        "<li>Tirelessness is a great passive skill as it increases your stamina regeneration rate by 33.3%, can be replaced with willpower up passives if you want Bloodsucking Blades for an Active Gift</li>"+
+        "<li>Mind/Vitality up is needed in order to use Bridge to Glory, without it you'll be left to choose a different, weaker attack buff.</li>"+
+        "<li>Swift Destruction increases the damage you deal in proportion to your mobility, and because we have quick mobility already you will get a 20% increase.</li>"+
+        "<li>One-Handed Sword Mastery is needed if you eant to be able to do more damage with a One-Handed Sword by 20%</li>"+
+      "</ul>",
+      'KaeTheDandere|41'
+    ],
+
+    'Gift Spam (For DLC Bosses)' : [
+      'IIJhB9gDnAGcAiBGOr4FF4GEkWQdnCwDYiBWcAMQBYrciRasBOREbJbMIA',
+      "I was having trouble getting Eva and Mia's costumes and started playing around with builds to see what worked. This is the result. Works with any companion or solo. Minimal dodging required.<br><br>"+
+      "It's a one-handed sword build for use against the DLC bosses. The basic idea is to safely (or at least as safely as possible) spam the gifts of the Iceblood (against Lord of Thunder) and Blazing Claw (against Frozen Empress) weapons to do a lot of mindless damage. Doesn't work as well with Fulmen Blade but you can swap in Lightning Weapon and whack at it with Executioner/Enduring Crimson (against Hellfire Knight).<br><br>"+
+      "You can probably swap in the active skills Time Crunch (if you prefer to charge the strong attack rather than tap it) or Serene Stance. Speed can be Quick or Normal, though I prefer Quick. Can swap most of the passive gifts if you prefer other Blood Veils or want to boost attack. Tirelessness works well.<br><br>"+
+      "Works with Artemis and most other Blood Codes. Can replace Bridge with most other attack boosting gifts or Venom Mark.<br>"+
+      "<ol>"+
+        "<li>Cleansing Light</li>"+
+        "<li>Feral Tenacity</li>"+
+        "<li>Gift Extension</li>"+
+        "<li>Overdrive</li>"+
+        "<li>Bloodsucking Blades</li>"+
+        "<li>Bridge to Glory</li>"+
+        "<li>Numbing Mark</li>"+
+      "</ol>"+
+      "Blood Sacrifice as needed.",
+      'saliathings|42'
+    ],
+    
     'High Scepter' : [
       'IIJgDAPsDsUBxQKxQCyopAwgTnhAolgIxEQBiAzMsEbsBaWSCBDqyGmVs0A',
       'A build focused on high sustained damage from close and medium range with a variety of cc options and quick movement',
       'u/KyrianBlackwood|fcbr05h'
+    ],
+
+    'Kings Glory' : [
+      'IIBgPsBsbgIgjGAwo8xHABwQEzhYgKLgBiALGCfDpThSTgMzLZICcyArMo40A',
+      "A One-handed build with damage and movement in mind. The stun ability with the Argent Wolf Blade is very useful when fighting bosses who have various attacks when stunned granting you an extra 4-5 seconds to unleash a bombardment of attacks before the enemy has a chance to charge/activate abilities. The Ivory Grace with the Fortification ability grants you a balance of speed, defense, and durability paired with the Cleansing Light gift makes you spend less regeneration items allowing you to progress the current area you're in more. If used correctly this Build should take you through the entire story with ease including all of the depths not including the ones listed in the disclaimer below.<br><br>"+
+      "<b>Disclaimer:</b> This build is NOT recommended for the following areas:<br>"+
+      "Depths: Fiery Oblivion [ DLC ]<br>"+
+      "Depths: Celestial Ice Prison [ DLC ]<br>"+
+      "Depths: Eternal Abyss [ DLC ]<br>"+
+      "Depths: Tower Of Trials 2 & 3",
+      'mrdoodleduck|39'
     ],
 
     'Knight of Ishtar' : [
@@ -67,15 +135,48 @@ CodeVeinBuilder.presets = {
       'u/ProScopeZ|fey540j'
     ],
 
+    'Raiden' : [
+      'IIFgDAPsCMCcUA4IGEBsEBCAmK0o5h2WnQFFI0oBWdZLKiAMSx0eiKxBXmQGYJSIIA',
+      "A one-handed dlc build focused on light gifts, dodging, and lightning. Use the fulmen blade for damaging opponents and the Iceblood for recovering ichor. If you're in a tough spot for ichor recovery, use blood sacrifice at your own discretion. Make sure to keep your damage buffs active always (or as much as possible) and to use gift extension last. Do your best to dodge enemy attacks, use the dodge buffs in case you have difficulty.",
+      'u/Drakenveil|jcw20g5'
+    ],
+
     'Sacrificial Edge' : [
       'IIJgLAPsCM0QDBAInUCqoBwQKKIMLQgSEDMEAYuJSMRUTefgJwnQDslkF8QA',
       'A build that utilizes Sacrificial Edge and Bridge to Glory to greatly increase damage. Cleansing light is used to help reduce the effects of Sacrificial Edge, whereas Blood Sacrifice is used to restore ichor after buffing so you can spam your attack Gifts.'
+    ],
+
+    'Shrouded Assassin' : [
+      'IIJgLAPsDsUIxQAxIs5wAcEDCA2HcIUArBAGKRlyzZxZVG01a3K1hA',
+      "This is a build that takes advantage of Heimdall's Gifts to their maximum extent and allows you to completely one-shot enemies that would give you trouble otherwise. The damage from backstab/parry drain attacks in the training room can be upwards of 20 thousand damage. The build is heavily focused on drain attacks and thus doesn't do a lot of damage without them, making it pretty bad against bosses thought this can be somewhat compensated with by using a strong sword. This build however, despite being weak against bosses allows you to just run through most area's one-shotting everything without being detected assuming you can hit your drains. Sadly the build is also very squishy, so one mistake can get you killed.",
+      'u/DarkSoulsParry|jduax1w'
     ],
 
     'The Yaksha' : [
       'IIJgrAPsDsEAwQCIEYonmqAOCBRBAwsqgEKSgBsEJsAYgMz0S0gAsEBI6KOnqtcIA',
       'A build based on The Yaksha, Rin Murasame.<br><br>'+
       'Utilizes Evasive Snare and Countermeasure to burn enemies when you dodge them. Flames of Rage can be used to set traps or as a combo finisher. Dancing Blaze should be used in tandem with Circulating Pulse to deliver a devastating combo attack. Lastly, make sure to buff with Blood Sucking Blades and Hunting Feast to help maintain your ichor for Evasive Snare and your active Gifts.'
+    ],
+
+    'Too Slow' : [
+      'IIJgLAPgDBwBwQEIFZq0qCBhAjDYOGCAojAGJgIU4QUDMtYMWIAnI+y1Xa0A',
+      "Utilizes a bunch of stamina-related active Gifts for a neverending assault. Although damage is relatively low, it offers excellent mobility for a pure hack'n'slash action.<br><br>"+
+      "Active Gifts:"+
+      "<ul>"+
+        "<li>A combination of \"Valiant Heart\", \"Morale Boost\" and \"Invigorating Rush\" greatly enhances your stamina and is a core of this build, so they should be active at all times.</li>"+
+        "<li>Both \"Serene Stance\" and \"Focus Recovery\" serve as an emergency stamina restoration.</li>"+
+        "<li>\"Lightning Charge\" and \"Savage Dive\" allow you to be even more mobile and cover long distances in no time.</li>"+
+        "<li>\"Tranquil Slice\" for a burst of damage whenever you need it.</li>"+
+      "</ul>"+
+      "Passive Gifts:"+
+      "<ul>"+
+        "<li>\"Swift Destruction\" and \"One-Handed Sword Mastery\" are self-explanatory.</li>"+
+        "<li>\"Dexterity/Fortitude Up\" is used to gain access to \"Invigorating Rush\", \"Serene Stance\" (both require Fortitude S) and \"Focus Recovery\" (requires Dexterity S).</li>"+
+        "<li>\"Vow of Ichor\" allows you to be a bit more aggressive with active Gifts, but it is not necessary and can be replaced with any passive Gift of your choice (my personal recommendation would be either \"Increased Gift Speed\" or \"Stamina Stimulant\")</li>"+
+      "</ul>"+
+      "Since there's no place for \"Blood Sacrifice\" or the like, rocking a \"Devour\" sword is a must. If used as intended, this build eats Ichor like no tomorrow.<br><br>"+
+      "Additional note: The idea behind using Heimdall is that you can swap either \"Lightning Charge\" or \"Savage Dive\" for \"Sacrificial Edge\" on the fly. Basically, sacrifice some of your mobility options for X2 damage if you feel like the fight is taking too long. Think of it as your personal \"Second Stage\" buff.",
+      'Yodel-Daddy|34'
     ],
 
     'Venom Thorn' : [
@@ -93,6 +194,18 @@ CodeVeinBuilder.presets = {
   // # TWO-HANDED SWORD #
   // builds based around two-handed swords 
   '2h' : {
+    'Church of Zwei' : [
+      'IIZgjAPgQpAMHEoi9kFFIGEwBYEE5p4AxEQ0vbeAEXjUsMwA4JMQBWIA',
+      "Utilizes a Zweihander to tear through everyone.",
+      'SentaiRed1|43'
+    ],
+    
+    'Flexible Tanker' : [
+      'IIJgnAPgQgbBAMEDCjgEYEXRAohqiScSAHBAGIgDsEAIgKzIiLkDMIyG5ALE5KUA',
+      "Just tank your way around enemies with amazing weapon range, when heavily surrounded use Cleansing Light and Tripple Annihilator. It's a hybrid build of strength with dex.",
+      'sivvy4402|24'
+    ],
+    
     'Giantdad: The Legend is a Waifu' : [
       'IIRgDAPgQiGVBmCo7NlSBhAbBTAOCAUVk1MIBFIAxAJkpAFYJqmXISg',
       "Maximum balance. Maximum raw damage. Maximum DR. Swing hard, block anything, and rolling is for chumps. This is a meme build, yes, based on the well known Dark Souls meme build, but it is highly effective for all the same reasons as that build. Heavy Attack > Light Attack > Repeat is a combo that lasts as long as your stamina does, swinging from right to left and back again in wide arcs. The heavy attack grants a lot of hyper armor, and landing both hits will stagger most enemies, so you can tank through hits and cleave down mobs. Zweihander Fortification also has 100% physical DR when blocking.",
@@ -109,6 +222,12 @@ CodeVeinBuilder.presets = {
       "The reason why you need the warped blade is for the combo. For smaller enemies, you only need one hit to stagger them, which can allow you to go into the normal heavy attack. For slightly bigger foes, like the Argent wolf enemies, you'll need two hits to stagger them so you can combo into the heavy attack. For even bigger enemies, like the Argent wolf mini boss, you'll need three hits to stagger so you can go into the heavy attack. Boss enemies require more hits to stagger so be warned.<br><br>"+
       "This build can be used with the Black Great Sword but due to the animation of its normal heavy attack, it isn't as safe so I wouldn't recommend it. Alternatively you can stack charge accelerator and time crunch to increase your charge speed so you can combo into the heavy charged attack but investing a passive and active slot is just not worth it in my opinion.",
       'u/IC_Ivory280|feq338w'
+    ],
+    
+    'HP Mania' : [
+      'IIZg7APgDBBCCsEDCJkEZqeB4MBiALBHhgKJHYwAiATBijRFfWo7W-EA',
+      "N/A",
+      'luckysexyqueen|26'
     ],
 
     'Hyper-aggressive heavy caster' : [
@@ -160,6 +279,12 @@ CodeVeinBuilder.presets = {
       'IIJg7APgwgbBAMEAiBGCoHrcAHBAoiNCtipAGIgCcElRUAzIpQCzQ1Qj0rPxA',
       "This build focuses on spamming the Assassin's Sickle special heavy charged attack. Apply all the buffs, especially Time Crunch to speed up the charge attack. Then harness the power of the Invading Executioner's glide attack to devastate your foes."
     ],
+    
+    'Hybrid Battle Mage' : [
+      'IIZgDAPgwgLBnAIwWHByCiAmaA2FAnCojgGJZFRbJRGlxIjHJJklA',
+      "Close melee build based on light gifts along with good weapon attack.",
+      'sivvy4402|25'
+    ],
 
     'One Hit Kill' : [
       'IIBgPgwgnG4CIEYzCeFyAcYCiAmZMEAbGAGK74QIAsZClCAzJAuBI8xFttUA',
@@ -176,6 +301,12 @@ CodeVeinBuilder.presets = {
       'IIBgPuDCCsbAjHATGS5zABxgKIsgGyrwoBiSAnKlZNpAMz1ikAsqSb4pJQA',
       'A somewhat flexible build that could be used with most Halberds so long they have Venom, Intensification, or Fortification applied to them. A free slot is there for any elemental/status buff depending on enemy or boss weaknesses.',
       'u/TwistedDarkCloud|f9qt2e1'
+    ],
+
+    'Unbreakable Bastion 2.0' : [
+      'IIVgPgwgjGAMYBEbBvFYUCZJRgMXygGZEoAWDKATh0Qr0xoU3gLDxCA',
+      "This is a well-balanced, defence-oriented build that combines Steady Bulwark with the fortified Bardiche for zero chip damage. Royal Heart should be used to prevent enemy combos or to finish off weak enemies. The Ivory Grace is chosen for its extremely high drain rating. Crimson Moon’s high damage, high casting speed and wide area-of-effect make it ideal for close-quarters combat.",
+      'Blade-of-Want|33'
     ]
   },
 
@@ -209,6 +340,18 @@ CodeVeinBuilder.presets = {
   // # BAYONET #
   // builds based around the bayonet
   'bayonet' : {
+    'Bayonet One-Shot' : [
+      'IIBgPgognG7AbGYBGWTUGEDsSAckAWJGAMQFZwNkBmME5AJjCqKsutqtQgKA',
+      "This build is a more reliable one shot, and in some cases is actually more effective than the traditional halberd one shot build. You can do the standard trick of swapping between mind and strength passives to use bridge to glory in addition to everything else, but in a lot of cases it is unnecessary, especially since the standard build uses Ruinous Chevalier instead of Noble Silver or Ivory Grace due to the higher stat scaling. feel free to run this the same way you would a standard halberd one-shot build if you want to, I'm sure it'll be just as effective. And here's the original video showing off the build: <a href=\"https://www.youtube.com/watch?v=kWUAD54IfVM&t=0s\">www.youtube.com/watch?v=kWUAD54IfVM&t=0s</a>",
+      'MCCLM001|29'
+    ],
+    
+    'Frost Gattler' : [
+      'IIFgjAPgomnAbBAIo4cQTRAwrHBmTADmgwDEBWABhz231QoCYIywXsmOmNOwg',
+      "Build is centered around using Bloody Snow's charged heavy to quickly gattle down medium/big enemies. Both drain skills + an Argent Wold Blade Devour ensures u wont run out of ichor, Ranged Impact to buff your charged heavy, Ichor Efficiency when u run into bosses and will need more than a couple of attacks to take them down, Frost Turret for some extra stopping/stagger power, Radiant Barrel for pesky enemies u dont wanna give a chance to move or to open a boss fight on ranges you otherwise wouldnt be a able to hit from, Gift Extension for obvious reasons, and to top it all off Blood Sacrifice for if there are no enemies nearby to drain from, or if you dont wanna risk getting close and personal.",
+      'Spell2260|31'
+    ],
+    
     'Gunner' : [
       'IIFgjAPgognBAMEAiA2CwBMD1aRxSYAHNCBAMJgDMEAYhmrQKyLkY2EmVyWS0gB2OiBhA',
       'A build for someone wanting to run a pure gun only run. Use focus recovery along with ichor regeneration to keep ichor flowing.',
@@ -219,6 +362,13 @@ CodeVeinBuilder.presets = {
       'IIFgjAPgomkwTBAIgNgsRH2YJzrAAzJh5JgAcEAwvJVQMxE2IBiArEWXbNfGlASA',
       '"All stats up", increases all stats by one TIER, when you are focused, so you can use your stamina skills.',
       'velox-mortem|21'
+    ],
+    
+    'One Shot' : [
+      'IIBgPgogHGwOywKywEyvcGEAsYDCCeAjAMz5FHm7FrFkBiRa92yO+JJQA',
+      'I created the build its effective towards story bosses but not against Mido is difficult to counter.<br><br>'+
+      'My discord is ichgofan',
+      'kanekifan|44'
     ],
     
     "Queen's Polka" : [
@@ -254,6 +404,12 @@ CodeVeinBuilder.presets = {
       'u/IC_Ivory280|fdrl6ua'
     ],
 
+    'The Freischuetz' : [
+      'IIRgrAPgogTBoAZ4nnYAWZy0A5qYGEQUCYBmCUuAMTKVslMIE4JqkiQg',
+      "A bayonet build that focuses on mobility and aggression without sacrificing the ability to take the occasional hit, dealing good damage both at range and up close, and able to stagger even most bosses with repeated shots from the Riot Breaker. You can slot in different buffs and even a variety of damaging gifts without much trouble.",
+      'CloudStriker94|36'
+    ],
+
     'Molten Cannoneer' : [
       'IIRgzAPgogbBAMEAiILAEwLa4AOaALBAMIDs25xYiwB+AYiJgEKUiLHpHEir3xA',
       "A build based on everyone's favorite Cannoneer. Focuses on devastating enemies with the flamethrower and fire Gifts. Use Ranged Impact, Overdrive, and Time Crunch, then spam Burning Disaster's flamethrower attack to your heart's content as you set the world on fire."
@@ -262,6 +418,12 @@ CodeVeinBuilder.presets = {
     'Vampiric Ranger' : [
       'IIJhB8FEE4oRnAEQQBnMALOhwAcUsBhWQuBUtTAZnFIQDEQA2WsWkkBlIA',
       'A bayonet build primarily focued on shot attacks. Ranged Impact and Overdrive should be used to boost your shot damage, and Gift Extension to help extend these skills. If no DLC, you can supplement GE with Cognitive Zeal for a little extra damage. Unlike the Sacrificial version, this one uses Brodiaea in close combat to restore ichor. Allowing you to save those tasty regenerations.'
+    ],
+
+    'A build that may or may not work' : [
+      'IIZgnAPgopAMEBECMFgvsATNALKgHBAMJIZIDsxkAYpgGzGZ4kpEgYiFQgTVKZA',
+      '',
+      'Codeveinbuild|32'
     ]
   },
 
@@ -284,6 +446,18 @@ CodeVeinBuilder.presets = {
     'Frigid Blade Bearer' : [
       'IIJgHAPskAwQIgRiiCdjOhAonAwgJxSKqjogCsxAbFACwDMEeIqhzIyAYjEA',
       "A build based on the lovely Blade Bearer. It uses frigid Gifts to freeze your foes solid along with high draing rating buffs to unleash an endless stream of icy hell that's sure to trigger some bad memories."
+    ],
+
+    "Gwynevere's Flame" : [
+      'IIRgLAPsDsECKTiKzQqgDigTggYVz1mAGYAmfEAVggDEAGFGvZPMitrOM+oA',
+      "Dark Mage Hybrid",
+      "StuCat215|28"
+    ],
+
+    "Queen's Blade" : [
+      'IIRgzAPsDsEKIggEUQYUcALFADFAHFAEx5x6gBsUIeAYkdsGAJwS3aquoMSoCsvIkA',
+      "A build centered around dealing massive damage from ranged, and not letting your opponent hit you in melee. I recommend using any sword you like, as long as it has quick mobility, with the \"Stun\" transformation. Any bayonet with devour will do, to help get your ichor back, any will work so go with what looks best. A blood veil with high Light and Dark gift damage, and transformed to alleviation will also work well (recommend the ivory grace). Swap out increased Gift Speed (Queen's Claw), with Weapon Drain Rating up (Caster), when swapping to your bayonet. For active gifts, use any ranged elemental gift you want (barrage and purging thorns are recommended), and the same goes for weapon buffs, but keep stun weapon buff to get that sweet sweet debuff quicker. If you don't have access to Gift Extension (DLC Bloodcode), use whatever you see fit. During buffing, use gift extension first, the cleansing light, swap circulating pulse for Blood Sacrifice, then start casting the rest of your buffs accordingly.",
+      "Crossbreed8714|37"
     ],
 
     "Queen's Chaos" : [

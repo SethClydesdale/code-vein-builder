@@ -3,14 +3,14 @@
 window._lang = {
   // general placeholders
   na : 'N/A', // English abbreviation for "Not Available"; Japanese typically use "なし" (so use your equiv.)
-  none : '(None)',
+  none : '(Nenhum)',
   
   
   // titles/labels
   weapon : "Arma",
   blood_veil : "Véu de sangue",
   transform : "Transformar",
-  blood_code : "Códigos de Sangue",
+  blood_code : "Código de Sangue",
   gift_type : "Tipos de Dádiva",
   passive : "Passivo(a)",
   active : "Ativo(a)",
@@ -31,6 +31,7 @@ window._lang = {
   
   // preset selector
   preset_default : 'Select a Preset Build', // Please translate this
+  preset_windows : 'Load Preset?' // Please translate this
   preset_empty : 'Empty Build', // Please translate this
   preset_random : 'Random Build', // Please translate this
   preset_warn : 'Do you want to load the "%{PRESET_NAME}" build? Your current build will be overwritten.', // Please translate this
@@ -735,110 +736,110 @@ window._lang = {
 
       // # FOCUS BOOSTS #
       D0 : {
-        name : " Impulso Sombrio",
+        name : '<span style="font-family:GEZFont;"></span> Impulso Sombrio',
         desc : "Aumenta o efeito de Dádivas escuras enquanto<br>você estiver focado."
       },
       
       D1 : {
-        name : " Impulso Claro",
+        name : '<span style="font-family:GEZFont;"></span> Impulso Claro',
         desc : "Aumenta o efeito de Dádivas da luz enquanto<br>você estiver focado."
       },
       
       D2 : {
-        name : " Estabilidade de Defesa",
+        name : '<span style="font-family:GEZFont;"></span> Estabilidade de Defesa',
         desc : "Reduz o consumo de vigor ao se defender<br>enquanto você está focado."
       },
       
       D3 : {
-        name : " Defesa Focada",
+        name : '<span style="font-family:GEZFont;"></span> Defesa Focada',
         desc : "Aumenta a defesa da arma contra ataques<br>físicos enquanto em foco."
       },
       
       D4 : {
-        name : " Uso de Vigor em Foco",
+        name : '<span style="font-family:GEZFont;"></span> Uso de Vigor em Foco',
         desc : "Reduz o vigor gasto enquanto você está focado."
       },
       
       D5 : {
-        name : " Foco Conservado",
+        name : '<span style="font-family:GEZFont;"></span> Foco Conservado',
         desc : "Reduz a velocidade em que o medidor de foco é<br>consumido com o tempo enquanto você está focado."
       },
       
       D6 : {
-        name : " Carnificina Focada",
+        name : '<span style="font-family:GEZFont;"></span> Carnificina Focada',
         desc : "Reduz a velocidade em que o medidor de foco é<br>consumido pelos ataques enquanto você está focado."
       },
       
       D7 : {
-        name : " Ataques de Sangue Negro",
+        name : '<span style="font-family:GEZFont;"></span> Ataques de Sangue Negro',
         desc : "Reduz o custo em sangue negro dos ataques de arma<br>enquanto você estiver em foco."
       },
       
       D8 : {
-        name : " Redução de Sangue Negro",
+        name : '<span style="font-family:GEZFont;"></span> Redução de Sangue Negro',
         desc : "Reduz o consumo de sangue negro enquanto você está<br>focado.",
         usage_req : "Garganta da Rainha Códigos de Sangue"
       },
       
       D9 : {
-        name : " Impulso de Drenagem",
+        name : '<span style="font-family:GEZFont;"></span> Impulso de Drenagem',
         desc : "Aumenta todas as taxas de drenagem enquanto você está<br>focado."
       },
       
       D10 : {
-        name : " Velocidade de Dádiva em Foco",
+        name : '<span style="font-family:GEZFont;"></span> Velocidade de Dádiva em Foco',
         desc : "Aumenta a velocidade das suas Dádivas enquanto<br>você estiver focado."
       },
       
       D11 : {
-        name : " Vantagem de Sangue",
+        name : '<span style="font-family:GEZFont;"></span> Vantagem de Sangue',
         desc : "Adiciona dano de sangue à sua arma atual<br>enquanto você está focado."
       },
       
       D12 : {
-        name : " Vantagem de Fogo",
+        name : '<span style="font-family:GEZFont;"></span> Vantagem de Fogo',
         desc : "Adiciona dano de fogo à sua arma atual<br>enquanto você está focado."
       },
       
       D13 : {
-        name : " Vantagem de Gelo",
+        name : '<span style="font-family:GEZFont;"></span> Vantagem de Gelo',
         desc : "Adiciona dano de gelo à sua arma atual<br>enquanto você está focado."
       },
       
       D14 : {
-        name : " Vantagem de Eletricidade",
+        name : '<span style="font-family:GEZFont;"></span> Vantagem de Eletricidade',
         desc : "Adiciona dano de eletricidade à sua arma atual<br>enquanto você está focado."
       },
       
       D15 : {
-        name : " Veneno Focado",
+        name : '<span style="font-family:GEZFont;"></span> Veneno Focado',
         desc : "Aplica o efeito de veneno na sua<br>arma atual enquanto focado."
       },
       
       D16 : {
-        name : " Vantagem de Atordoamento",
+        name : '<span style="font-family:GEZFont;"></span> Vantagem de Atordoamento',
         desc : "Aplica um efeito de atordoamento à sua arma<br>atual enquanto você está focado."
       },
       
       D17 : {
-        name : " Sorriso da Deusa",
+        name : '<span style="font-family:GEZFont;"></span> Sorriso da Deusa',
         desc : "Restaura PV quando você entra em estado de foco."
       },
       
       // Frozen Empress DLC
       D18 : {
-        name : " Foco de Sangue Negro",
+        name : '<span style="font-family:GEZFont;"></span> Foco de Sangue Negro',
         desc : "Restaura o sangue negro quando você entra em estado de foco."
       },
       
       // Lord of Thunder DLC
       D19 : {
-        name : " Mais Atributos (Todos)",
+        name : '<span style="font-family:GEZFont;"></span> Mais Atributos (Todos)',
         desc : "Aumenta todos os atributos enquanto você estiver focado."
       },
       
       D20 : {
-        name : " Poder de Parada",
+        name : '<span style="font-family:GEZFont;"></span> Poder de Parada',
         desc : "Aumenta a perda de equilíbrio dos inimigos com<br>os disparos de baioneta enquanto você estiver focado."
       },
 

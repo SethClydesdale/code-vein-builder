@@ -3,14 +3,14 @@
 window._lang = {
   // general placeholders
   na : 'N/A', // English abbreviation for "Not Available"; Japanese typically use "なし" (so use your equiv.)
-  none : '(None)',
+  none : '(조건 없음)',
   
   
   // titles/labels
   weapon : "무기",
   blood_veil : "흡혈아장",
   transform : "성질 변경한다",
-  blood_code : "블러드 코드",
+  blood_code : "BloodCode",
   gift_type : "연혈 타입",
   passive : "패시브",
   active : "액티브",
@@ -31,6 +31,7 @@ window._lang = {
   
   // preset selector
   preset_default : 'Select a Preset Build', // Please translate this
+  preset_windows : 'Load Preset?' // Please translate this
   preset_empty : 'Empty Build', // Please translate this
   preset_random : 'Random Build', // Please translate this
   preset_warn : 'Do you want to load the "%{PRESET_NAME}" build? Your current build will be overwritten.', // Please translate this
@@ -735,110 +736,110 @@ window._lang = {
 
       // # FOCUS BOOSTS #
       D0 : {
-        name : "음의 충동",
+        name : '<span style="font-family:GEZFont;"></span>음의 충동',
         desc : "집중 상태일 때, 연혈[음]의 성능이 증가한다"
       },
       
       D1 : {
-        name : "양의 충동",
+        name : '<span style="font-family:GEZFont;"></span>양의 충동',
         desc : "집중 상태일 때, 연혈[양]의 성능이 증가한다"
       },
       
       D2 : {
-        name : "가드 시 ST경감",
+        name : '<span style="font-family:GEZFont;"></span>가드 시 ST경감',
         desc : "집중 상태일 때, 가드 시의<br>스태미너 소비가 줄어든다"
       },
       
       D3 : {
-        name : "가드 성능 향상",
+        name : '<span style="font-family:GEZFont;"></span>가드 성능 향상',
         desc : "집중 상태일 때, 물리 공격에 대한<br>가드 성능이 증가한다"
       },
       
       D4 : {
-        name : "소비 스태미너 경감",
+        name : '<span style="font-family:GEZFont;"></span>소비 스태미너 경감',
         desc : "집중 상태일 때, 소비 스태미너가 줄어든다"
       },
       
       D5 : {
-        name : "집중 지속",
+        name : '<span style="font-family:GEZFont;"></span>집중 지속',
         desc : "집중 상태일 때, 시간에 따른<br>집중 게이지 감소량이 경감한다"
       },
       
       D6 : {
-        name : "집중 난무",
+        name : '<span style="font-family:GEZFont;"></span>집중 난무',
         desc : "집중 상태일 때, 공격 행동으로 인한<br>집중 게이지 감소량이 경감한다"
       },
       
       D7 : {
-        name : "절약가",
+        name : '<span style="font-family:GEZFont;"></span>절약가',
         desc : "집중 상태일 때, 무기 공격을 사용한<br>명혈의 소비량이 경감한다"
       },
       
       D8 : {
-        name : "소비 명혈 경감",
+        name : '<span style="font-family:GEZFont;"></span>소비 명혈 경감',
         desc : "집중 상태일 때, 명혈의 소비량이 경감한다",
         usage_req : "여왕의 후해 블러드 코드"
       },
       
       D9 : {
-        name : "흡혈 성능 향상",
+        name : '<span style="font-family:GEZFont;"></span>흡혈 성능 향상',
         desc : "집중 상태일 때, 모든 흡혈 성능이 증가한다"
       },
       
       D10 : {
-        name : "연혈 발동 단축",
+        name : '<span style="font-family:GEZFont;"></span>연혈 발동 단축',
         desc : "집중 상태일 때, 연혈의 사용 속도가 빨라진다"
       },
       
       D11 : {
-        name : "피 속성 부여",
+        name : '<span style="font-family:GEZFont;"></span>피 속성 부여',
         desc : "집중 상태일 때, 장비 중인 무기에<br>피 속성의 힘을 부여한다"
       },
       
       D12 : {
-        name : "불 속성 부여",
+        name : '<span style="font-family:GEZFont;"></span>불 속성 부여',
         desc : "집중 상태일 때, 장비 중인 무기에<br>불 속성의 힘을 부여한다"
       },
       
       D13 : {
-        name : "얼음 속성 부여",
+        name : '<span style="font-family:GEZFont;"></span>얼음 속성 부여',
         desc : "집중 상태일 때, 장비 중인 무기에<br>얼음 속성의 힘을 부여한다"
       },
       
       D14 : {
-        name : "전기 속성 부여",
+        name : '<span style="font-family:GEZFont;"></span>전기 속성 부여',
         desc : "집중 상태일 때, 장비 중인 무기에<br>전기 속성의 힘을 부여한다"
       },
       
       D15 : {
-        name : "베놈 속성 부여",
+        name : '<span style="font-family:GEZFont;"></span>베놈 속성 부여',
         desc : "집중 상태일 때, 장비 중인 무기에<br>상태 이상 “베놈”의 힘을 부여한다"
       },
       
       D16 : {
-        name : "스턴 속성 부여",
+        name : '<span style="font-family:GEZFont;"></span>스턴 속성 부여',
         desc : "집중 상태일 때, 장비 중인 무기에<br>상태 이상 “스턴”의 힘을 부여한다"
       },
       
       D17 : {
-        name : "여신의 미소",
+        name : '<span style="font-family:GEZFont;"></span>여신의 미소',
         desc : "집중 상태가 된 순간, HP가 회복한다"
       },
       
       // Frozen Empress DLC
       D18 : {
-        name : "집중시 명혈 회복",
+        name : '<span style="font-family:GEZFont;"></span>집중시 명혈 회복',
         desc : "집중 상태가 된 순간, 명혈이 회복한다"
       },
       
       // Lord of Thunder DLC
       D19 : {
-        name : "집중시 능력 향상",
+        name : '<span style="font-family:GEZFont;"></span>집중시 능력 향상',
         desc : "집중 상태 동안<br>모든 능력치가 증가한다"
       },
       
       D20 : {
-        name : "스토핑 파워",
+        name : '<span style="font-family:GEZFont;"></span>스토핑 파워',
         desc : "집중 상태 시, 총검의 탄환 공격으로<br>깎아내는 적의 견고치가 상승한다"
       },
 

@@ -3,14 +3,14 @@
 window._lang = {
   // general placeholders
   na : 'N/A', // English abbreviation for "Not Available"; Japanese typically use "なし" (so use your equiv.)
-  none : '(None)',
+  none : '(Keine)',
   
   
   // titles/labels
   weapon : "Waffe",
   blood_veil : "Blutschleier",
   transform : "Umwandeln",
-  blood_code : "Blutcodes",
+  blood_code : "Blutcode",
   gift_type : "Talent-Typen",
   passive : "Passiv",
   active : "Aktiv",
@@ -31,6 +31,7 @@ window._lang = {
   
   // preset selector
   preset_default : 'Select a Preset Build', // Please translate this
+  preset_windows : 'Load Preset?' // Please translate this
   preset_empty : 'Empty Build', // Please translate this
   preset_random : 'Random Build', // Please translate this
   preset_warn : 'Do you want to load the "%{PRESET_NAME}" build? Your current build will be overwritten.', // Please translate this
@@ -735,110 +736,110 @@ window._lang = {
 
       // # FOCUS BOOSTS #
       D0 : {
-        name : " Dunkler Impuls",
+        name : '<span style="font-family:GEZFont;"></span> Dunkler Impuls',
         desc : "Erhöht die Wirkung von dunklen Talenten,<br>während du fokussiert bist."
       },
       
       D1 : {
-        name : " Licht-Impuls",
+        name : '<span style="font-family:GEZFont;"></span> Licht-Impuls',
         desc : "Erhöht die Wirkung von Licht-Talenten,<br>während du fokussiert bist."
       },
       
       D2 : {
-        name : " Blockstabilität",
+        name : '<span style="font-family:GEZFont;"></span> Blockstabilität',
         desc : "Reduziert die verbrauchte Ausdauer beim Blocken,<br>während du fokussiert bist."
       },
       
       D3 : {
-        name : " Fokuss. Block",
+        name : '<span style="font-family:GEZFont;"></span> Fokuss. Block',
         desc : "Erhöht die Waffenverteidigung gegen physische<br>Angriffe, während du fokussiert bist."
       },
       
       D4 : {
-        name : " Fokuss. Ausdauerverbrauch",
+        name : '<span style="font-family:GEZFont;"></span> Fokuss. Ausdauerverbrauch',
         desc : "Reduziert die verbrauchte Ausdauer, während<br>du fokussiert bist."
       },
       
       D5 : {
-        name : " Aufrechterhaltener Fokus",
+        name : '<span style="font-family:GEZFont;"></span> Aufrechterhaltener Fokus',
         desc : "Reduziert die Rate, mit der die Fokus-Leiste<br>verbraucht wird, während du fokussiert bist."
       },
       
       D6 : {
-        name : " Fokuss. Blutbad",
+        name : '<span style="font-family:GEZFont;"></span> Fokuss. Blutbad',
         desc : "Reduziert die Rate, mit der die Fokus-Leiste bei Angriffen<br>verbraucht wird, während du fokussiert bist."
       },
       
       D7 : {
-        name : " Ichor-Angriff",
+        name : '<span style="font-family:GEZFont;"></span> Ichor-Angriff',
         desc : "Reduziert die Ichor-Kosten von Waffenangriffen,<br>während du fokussiert bist."
       },
       
       D8 : {
-        name : " Ichor-Reduktion",
+        name : '<span style="font-family:GEZFont;"></span> Ichor-Reduktion',
         desc : "Reduziert den Verbrauch von Ichor, während<br>du fokussiert bist.",
         usage_req : "Kehle der Königin Blutcodes"
       },
       
       D9 : {
-        name : " Entzugsschub",
+        name : '<span style="font-family:GEZFont;"></span> Entzugsschub',
         desc : "Erhöht alle Entzugswerte, während du<br>fokussiert bist."
       },
       
       D10 : {
-        name : " Fokuss. Talent-Tempo",
+        name : '<span style="font-family:GEZFont;"></span> Fokuss. Talent-Tempo',
         desc : "Erhöht die Geschwindigkeit deiner Talente,<br>während du fokussiert bist."
       },
       
       D11 : {
-        name : " Blut-Verstärkung",
+        name : '<span style="font-family:GEZFont;"></span> Blut-Verstärkung',
         desc : "Stattet deine aktuelle Waffe mit dem Blut-Effekt<br>aus, während du fokussiert bist."
       },
       
       D12 : {
-        name : " Feuer-Verstärkung",
+        name : '<span style="font-family:GEZFont;"></span> Feuer-Verstärkung',
         desc : "Stattet deine aktuelle Waffe mit dem Feuer-Effekt<br>aus, während du fokussiert bist."
       },
       
       D13 : {
-        name : " Eis-Verstärkung",
+        name : '<span style="font-family:GEZFont;"></span> Eis-Verstärkung',
         desc : "Stattet deine aktuelle Waffe mit dem Eis-Effekt<br>aus, während du fokussiert bist."
       },
       
       D14 : {
-        name : " Blitz-Verstärkung",
+        name : '<span style="font-family:GEZFont;"></span> Blitz-Verstärkung',
         desc : "Stattet deine aktuelle Waffe mit dem Blitz-Effekt<br>aus, während du fokussiert bist."
       },
       
       D15 : {
-        name : " Gift-Verstärkung",
+        name : '<span style="font-family:GEZFont;"></span> Gift-Verstärkung',
         desc : "Stattet deine aktuelle Waffe mit dem Gift-Effekt<br>aus, während du fokussiert bist."
       },
       
       D16 : {
-        name : " Paralyse-Verstärkung",
+        name : '<span style="font-family:GEZFont;"></span> Paralyse-Verstärkung',
         desc : "Stattet deine aktuelle Waffe mit dem Paralyse-<br>Effekt aus, während du fokussiert bist."
       },
       
       D17 : {
-        name : " Lächeln der Göttin",
+        name : '<span style="font-family:GEZFont;"></span> Lächeln der Göttin',
         desc : "Regeneriert LP, wenn du in einen<br>fokussierten Zustand übergehst."
       },
       
       // Frozen Empress DLC
       D18 : {
-        name : " Ichor-Fokus",
+        name : '<span style="font-family:GEZFont;"></span> Ichor-Fokus',
         desc : "Regeneriert Ichor, wenn du in<br>einen fokussierten Zustand übergehst."
       },
       
       // Lord of Thunder DLC
       D19 : {
-        name : " Alle Werte +",
+        name : '<span style="font-family:GEZFont;"></span> Alle Werte +',
         desc : "Erhöht alle Werte, während du<br>fokussiert bist."
       },
       
       D20 : {
-        name : " Voller Stopp",
+        name : '<span style="font-family:GEZFont;"></span> Voller Stopp',
         desc : "Gegner verlieren mehr Gleichgewicht durch <br>deine Bajonettschüsse, während du fokussiert <br>bist."
       },
 

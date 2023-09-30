@@ -3,14 +3,14 @@
 window._lang = {
   // general placeholders
   na : 'N/A', // English abbreviation for "Not Available"; Japanese typically use "なし" (so use your equiv.)
-  none : '(None)',
+  none : '(Ninguno)',
   
   
   // titles/labels
   weapon : "Arma",
   blood_veil : "Velo de sangre",
   transform : "Transformar",
-  blood_code : "Códigos de sangre",
+  blood_code : "Código de sangre",
   gift_type : "Tipos de don",
   passive : "Pasivo",
   active : "Activo",
@@ -31,6 +31,7 @@ window._lang = {
   
   // preset selector
   preset_default : 'Select a Preset Build', // Please translate this
+  preset_windows : 'Load Preset?' // Please translate this
   preset_empty : 'Empty Build', // Please translate this
   preset_random : 'Random Build', // Please translate this
   preset_warn : 'Do you want to load the "%{PRESET_NAME}" build? Your current build will be overwritten.', // Please translate this
@@ -735,99 +736,99 @@ window._lang = {
 
       // # FOCUS BOOSTS #
       D0 : {
-        name : " Impulso oscuro",
+        name : '<span style="font-family:GEZFont;"></span> Impulso oscuro',
         desc : "Aumenta el efecto de los dones oscuros<br>durante la concentración."
       },
       
       D1 : {
-        name : " Impulso luminoso",
+        name : '<span style="font-family:GEZFont;"></span> Impulso luminoso',
         desc : "Aumenta el efecto de los dones luminosos<br>durante la concentración."
       },
       
       D2 : {
-        name : " Estabilidad de guardia",
+        name : '<span style="font-family:GEZFont;"></span> Estabilidad de guardia',
         desc : "Reduce el aguante gastado<br>en la defensa durante la concentración."
       },
       
       D3 : {
-        name : " Guardia concentrada",
+        name : '<span style="font-family:GEZFont;"></span> Guardia concentrada',
         desc : "Aumenta temporalmente la defensa<br>contra armas contra ataques físicos<br>durante la concentración."
       },
       
       D4 : {
-        name : " Uso de aguante concentrado",
+        name : '<span style="font-family:GEZFont;"></span> Uso de aguante concentrado',
         desc : "Reduce el aguante gastado durante la concentración."
       },
       
       D5 : {
-        name : " Concentración mantenida",
+        name : '<span style="font-family:GEZFont;"></span> Concentración mantenida',
         desc : "Reduce la velocidad de consumo del nivel<br>de concentración cuando estás concentrado."
       },
       
       D6 : {
-        name : " Matanza concentrada",
+        name : '<span style="font-family:GEZFont;"></span> Matanza concentrada',
         desc : "Aminora la velocidad a la que los ataques<br>reducen el nivel de concentración<br>cuando estás concentrado."
       },
       
       D7 : {
-        name : " Golpes de icor",
+        name : '<span style="font-family:GEZFont;"></span> Golpes de icor',
         desc : "Reduce el costo de icor de los ataques<br>con armas durante la concentración."
       },
       
       D8 : {
-        name : " Reducción de icor",
+        name : '<span style="font-family:GEZFont;"></span> Reducción de icor',
         desc : "Reduce el consumo de icor<br>durante la concentración.",
         usage_req : "Garganta de la reina Códigos de sangre"
       },
       
       D9 : {
-        name : " Mejora drenaje",
+        name : '<span style="font-family:GEZFont;"></span> Mejora drenaje',
         desc : "Aumenta la velocidad de drenaje<br>durante la concentración."
       },
       
       D10 : {
-        name : " Vel. don concentrada",
+        name : '<span style="font-family:GEZFont;"></span> Vel. don concentrada',
         desc : "Aumenta la velocidad de los dones<br>durante la concentración."
       },
       
       D11 : {
-        name : " Mejora sangre",
+        name : '<span style="font-family:GEZFont;"></span> Mejora sangre',
         desc : "Añade daño de sangre al arma actual<br>durante la concentración."
       },
       
       D12 : {
-        name : " Mejora fuego",
+        name : '<span style="font-family:GEZFont;"></span> Mejora fuego',
         desc : "Añade daño de fuego al arma actual<br>durante la concentración."
       },
       
       D13 : {
-        name : " Mejora hielo",
+        name : '<span style="font-family:GEZFont;"></span> Mejora hielo',
         desc : "Añade daño de hielo al arma actual<br>durante la concentración."
       },
       
       D14 : {
-        name : " Mejora rayo",
+        name : '<span style="font-family:GEZFont;"></span> Mejora rayo',
         desc : "Añade daño de rayo al arma actual<br>durante la concentración."
       },
       
       D15 : {
-        name : " Mejora veneno",
+        name : '<span style="font-family:GEZFont;"></span> Mejora veneno',
         desc : "Aplica un efecto de veneno a tu arma actual<br>durante la concentración."
       },
       
       D16 : {
-        name : " Mejora aturdimiento",
+        name : '<span style="font-family:GEZFont;"></span> Mejora aturdimiento',
         desc : "Aplica el efecto de aturdimiento a tu arma<br>actual durante la concentración."
       },
       
       D17 : {
-        name : " Sonrisa de la diosa",
+        name : '<span style="font-family:GEZFont;"></span> Sonrisa de la diosa',
         desc : "Recupera los PS al inicio del estado<br>de concentración."
       },
       
       // Frozen Empress DLC
       D18 : {
-        name : " Concentración de icor",
+        name : '<span style="font-family:GEZFont;"></span> Concentración de icor',
         desc : "Recupera icor al entrar en un estado concentrado."
       },
       

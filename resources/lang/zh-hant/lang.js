@@ -4,13 +4,13 @@ window._lang = {
   // 一般占位符
   na : "無法使用", // 英文縮寫"Not Available"; 日語通常使用"なし" (請酌情翻譯。)
   none : "(無)",
-  
+  en: "英语",
   
   // 標題/標簽
   weapon : "武器",
   blood_veil : "吸血牙裝",
   transform : "蛻變",
-  blood_code : "血碼",
+  blood_code : "BloodCode",
   gift_type : "鍊血類型",
   passive : "被動",
   active : "主動",
@@ -31,6 +31,7 @@ window._lang = {
   
   // 預設選擇器
   preset_default : "選擇一個預設配装",
+  preset_windows : "讀取配裝？"
   preset_empty : "空配裝",
   preset_random : "隨機配裝",
   preset_warn : "您是否要加載這個“%{PRESET_NAME}”配裝？您正在創建的配裝將會被覆蓋。",
@@ -735,110 +736,110 @@ window._lang = {
 
       // # 特化提升 #
       D0 : {
-        name : "陰之衝動",
+        name : '<span style="font-family:GEZFont;"></span>陰之衝動',
         desc : "在爆發狀態下<br>提升鍊血［陰］的能力"
       },
       
       D1 : {
-        name : "陽之衝動",
+        name : '<span style="font-family:GEZFont;"></span>陽之衝動',
         desc : "在爆發狀態下，增加鍊血［陽］的能力"
       },
       
       D2 : {
-        name : "減少防禦時精力消耗",
+        name : '<span style="font-family:GEZFont;"></span>減少防禦時精力消耗',
         desc : "在爆發狀態下<br>減少防禦時消耗的精力"
       },
       
       D3 : {
-        name : "提升防禦能力",
+        name : '<span style="font-family:GEZFont;"></span>提升防禦能力',
         desc : "在爆發狀態下<br>增加對物理攻擊的防禦能力"
       },
       
       D4 : {
-        name : "減少精力消耗",
+        name : '<span style="font-family:GEZFont;"></span>減少精力消耗',
         desc : "在爆發狀態時，減少精力消耗"
       },
       
       D5 : {
-        name : "維持爆發",
+        name : '<span style="font-family:GEZFont;"></span>維持爆發',
         desc : "在爆發狀態時<br>減少爆發量表隨時間消退的值"
       },
       
       D6 : {
-        name : "爆發狂舞",
+        name : '<span style="font-family:GEZFont;"></span>爆發狂舞',
         desc : "在爆發狀態時<br>減少攻擊時，爆發量表消耗的值"
       },
       
       D7 : {
-        name : "節約專家",
+        name : '<span style="font-family:GEZFont;"></span>節約專家',
         desc : "在爆發狀態時<br>減少使用武器攻擊所消耗的冥血量"
       },
       
       D8 : {
-        name : "減少消耗冥血",
+        name : '<span style="font-family:GEZFont;"></span>減少消耗冥血',
         desc : "在爆發狀態下，減少冥血的消耗量",
         usage_req : "女王喉骸血碼"
       },
       
       D9 : {
-        name : "提升吸血能力",
+        name : '<span style="font-family:GEZFont;"></span>提升吸血能力',
         desc : "在爆發狀態下，增加所有吸血能力"
       },
       
       D10 : {
-        name : "縮短鍊血發動時間",
+        name : '<span style="font-family:GEZFont;"></span>縮短鍊血發動時間',
         desc : "在爆發狀態下，加快鍊血的發動速度"
       },
       
       D11 : {
-        name : "附加血屬性",
+        name : '<span style="font-family:GEZFont;"></span>附加血屬性',
         desc : "在爆發狀態下<br>施予裝備中的武器血屬性的力量"
       },
       
       D12 : {
-        name : "附加火屬性",
+        name : '<span style="font-family:GEZFont;"></span>附加火屬性',
         desc : "在爆發狀態下<br>施予裝備中的武器火屬性的力量"
       },
       
       D13 : {
-        name : "附加冰屬性",
+        name : '<span style="font-family:GEZFont;"></span>附加冰屬性',
         desc : "在爆發狀態下<br>施予裝備中的武器冰屬性的力量"
       },
       
       D14 : {
-        name : "附加雷屬性",
+        name : '<span style="font-family:GEZFont;"></span>附加雷屬性',
         desc : "在爆發狀態下<br>施予裝備中的武器雷屬性的力量"
       },
       
       D15 : {
-        name : "附加中毒屬性",
+        name : '<span style="font-family:GEZFont;"></span>附加中毒屬性',
         desc : "在爆發狀態下，施予裝備中的武器<br>能使出異常狀態「中毒」的力量"
       },
       
       D16 : {
-        name : "附加僵直屬性",
+        name : '<span style="font-family:GEZFont;"></span>附加僵直屬性',
         desc : "在爆發狀態下，施予裝備中的武器<br>能使出異常狀態「僵直」的力量"
       },
       
       D17 : {
-        name : "女神的微笑",
+        name : '<span style="font-family:GEZFont;"></span>女神的微笑',
         desc : "進入爆發狀態的瞬間，可以恢復體力"
       },
       
       // 冰花女皇 DLC
       D18 : {
-        name : "爆發時恢復冥血",
+        name : '<span style="font-family:GEZFont;"></span>爆發時恢復冥血',
         desc : "在進入爆發狀態的瞬間，恢復冥血"
       },
       
       // 狂雷皇帝 DLC
       D19 : {
-        name : "爆發時提升能力",
+        name : '<span style="font-family:GEZFont;"></span>爆發時提升能力',
         desc : "在爆發狀態時，增加全部的能力值"
       },
       
       D20 : {
-        name : "制止力",
+        name : '<span style="font-family:GEZFont;"></span>制止力',
         desc : "在爆發狀態下，用刺刀槍以子彈攻擊時<br>提升削減的堅韌度"
       },
 
@@ -1147,7 +1148,7 @@ window._lang = {
       },
       
       A35 : {
-        name : "終亡風暴<br>終亡風暴",
+        name : "終亡風暴",
         desc : "製造出朝目標集中的沙製刀刃<br>在刀刃集中之後，引發爆炸<br><br>多個壓力來源集中於一點，互相接觸後<br>將會引發大爆炸，捲起沙塵暴<br>要從中脫逃，想必是十分困難"
       },
       
@@ -1941,7 +1942,7 @@ window._lang = {
       },
       
       F50 : {
-        name : "眩光貫擊<br>眩光貫擊",
+        name : "眩光貫擊",
         desc : "發射貫穿屬性的強力子彈<br>刺刀槍專用攻擊鍊血<br><br>子彈將瞬間抵達目標物<br>一併貫穿彈道上的所有敵人<br><br>集中能量需要時間，不適合用在近距離的敵人<br>面對大量敵人時將收最大成效"
       }
     },

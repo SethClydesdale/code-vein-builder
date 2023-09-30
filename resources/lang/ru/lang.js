@@ -3,12 +3,12 @@
 window._lang = {
   // general placeholders
   na : 'N/A', // English abbreviation for "Not Available"; Japanese typically use "なし" (so use your equiv.)
-  none : '(None)',
+  none : 'Нет',
   
   
   // titles/labels
   weapon : "Оружие",
-  blood_veil : "Кровавая вуаль",
+  blood_veil : "Код крови",
   transform : "Модифицировать",
   blood_code : "Код крови",
   gift_type : "Типы даров",
@@ -31,6 +31,7 @@ window._lang = {
   
   // preset selector
   preset_default : 'Select a Preset Build', // Please translate this
+  preset_windows : 'Load Preset?' // Please translate this
   preset_empty : 'Empty Build', // Please translate this
   preset_random : 'Random Build', // Please translate this
   preset_warn : 'Do you want to load the "%{PRESET_NAME}" build? Your current build will be overwritten.', // Please translate this
@@ -735,110 +736,110 @@ window._lang = {
 
       // # FOCUS BOOSTS #
       D0 : {
-        name : " Удар тьмы",
+        name : '<span style="font-family:GEZFont;"></span> Удар тьмы',
         desc : "Усиливает действие даров тьмы во время <br>сосредоточения."
       },
       
       D1 : {
-        name : " Удар света",
+        name : '<span style="font-family:GEZFont;"></span> Удар света',
         desc : "Усиливает действие даров света во время <br>сосредоточения."
       },
       
       D2 : {
-        name : " Стойкий блок",
+        name : '<span style="font-family:GEZFont;"></span> Стойкий блок',
         desc : "Снижает расход выносливости на блок <br>при сосредоточении."
       },
       
       D3 : {
-        name : " Блок",
+        name : '<span style="font-family:GEZFont;"></span> Блок',
         desc : "Улучшает защиту оружием от физических <br>атак при сосредоточении."
       },
       
       D4 : {
-        name : " Выносливость",
+        name : '<span style="font-family:GEZFont;"></span> Выносливость',
         desc : "Снижает расход выносливости во время <br>сосредоточения."
       },
       
       D5 : {
-        name : " Стойкое сосредоточение",
+        name : '<span style="font-family:GEZFont;"></span> Стойкое сосредоточение',
         desc : "Снижает скорость расхода сосредоточения."
       },
       
       D6 : {
-        name : " Бойня",
+        name : '<span style="font-family:GEZFont;"></span> Бойня',
         desc : "Снижает скорость расхода сосредоточения <br>на атаки."
       },
       
       D7 : {
-        name : " Удар ихора",
+        name : '<span style="font-family:GEZFont;"></span> Удар ихора',
         desc : "Снижает расход ихора на атаки оружием <br>при сосредоточении."
       },
       
       D8 : {
-        name : " Экономия ихора",
+        name : '<span style="font-family:GEZFont;"></span> Экономия ихора',
         desc : "Снижает расход ихора при сосредоточении.",
         usage_req : "Горло Королевы Код крови"
       },
       
       D9 : {
-        name : " Дар иссушения",
+        name : '<span style="font-family:GEZFont;"></span> Дар иссушения',
         desc : "Повышает силу всех видов иссушения <br>при сосредоточении."
       },
       
       D10 : {
-        name : " Скорость дара",
+        name : '<span style="font-family:GEZFont;"></span> Скорость дара',
         desc : "Повышает скорость даров при <br>сосредоточении."
       },
       
       D11 : {
-        name : " Дар крови",
+        name : '<span style="font-family:GEZFont;"></span> Дар крови',
         desc : "Позволяет наносить кровавый урон оружием, <br>которое у вас в руках, при сосредоточении."
       },
       
       D12 : {
-        name : " Дар огня",
+        name : '<span style="font-family:GEZFont;"></span> Дар огня',
         desc : "Позволяет наносить огненный урон оружием, <br>которое у вас в руках, при сосредоточении."
       },
       
       D13 : {
-        name : " Дар льда",
+        name : '<span style="font-family:GEZFont;"></span> Дар льда',
         desc : "Позволяет наносить ледяной урон оружием, <br>которое у вас в руках, при сосредоточении."
       },
       
       D14 : {
-        name : " Дар молнии",
+        name : '<span style="font-family:GEZFont;"></span> Дар молнии',
         desc : "Позволяет наносить электрический урон <br>оружием, которое у вас в руках, <br>при сосредоточении."
       },
       
       D15 : {
-        name : " Дар яда",
+        name : '<span style="font-family:GEZFont;"></span> Дар яда',
         desc : "Временно позволяет оружию в ваших руках <br>отравлять врагов при сосредоточении."
       },
       
       D16 : {
-        name : " Дар паралича",
+        name : '<span style="font-family:GEZFont;"></span> Дар паралича',
         desc : "Наделяет оружие в ваших руках парализующим <br>действием при сосредоточении."
       },
       
       D17 : {
-        name : " Улыбка богини",
+        name : '<span style="font-family:GEZFont;"></span> Улыбка богини',
         desc : "Восстанавливает здоровье, когда вы входите <br>в состояние сосредоточения."
       },
       
       // Frozen Empress DLC
       D18 : {
-        name : " Сосредоточение ихора",
+        name : '<span style="font-family:GEZFont;"></span> Сосредоточение ихора',
         desc : "Восстанавливает ихор, когда вы<br>входите в состояние сосредоточения."
       },
       
       // Lord of Thunder DLC
       D19 : {
-        name : " Дар всех характеристик",
+        name : '<span style="font-family:GEZFont;"></span> Дар всех характеристик',
         desc : "Повышает все характеристики, когда вы сосредоточены."
       },
       
       D20 : {
-        name : " Стоп-сила",
+        name : '<span style="font-family:GEZFont;"></span> Стоп-сила',
         desc : "Усиливает потерю равновесия у ваших врагов<br>от попадания штыком, когда вы сосредоточены."
       },
 

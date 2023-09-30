@@ -3,14 +3,14 @@
 window._lang = {
   // general placeholders
   na : 'N/A', // English abbreviation for "Not Available"; Japanese typically use "なし" (so use your equiv.)
-  none : '(None)',
+  none : '(Nessuno)',
   
   
   // titles/labels
   weapon : "Arma",
   blood_veil : "Velo di sangue",
   transform : "Trasformazione",
-  blood_code : "Codici sanguigni",
+  blood_code : "Codice sanguigno",
   gift_type : "Tipi dono",
   passive : "Passivo",
   active : "Attivo",
@@ -31,6 +31,7 @@ window._lang = {
   
   // preset selector
   preset_default : 'Select a Preset Build', // Please translate this
+  preset_windows : 'Load Preset?' // Please translate this
   preset_empty : 'Empty Build', // Please translate this
   preset_random : 'Random Build', // Please translate this
   preset_warn : 'Do you want to load the "%{PRESET_NAME}" build? Your current build will be overwritten.', // Please translate this
@@ -735,110 +736,110 @@ window._lang = {
 
       // # FOCUS BOOSTS #
       D0 : {
-        name : " Impulso d'ombra",
+        name : '<span style="font-family:GEZFont;"></span> Impulso d&#39;ombra',
         desc : "Aumenta l'efficacia dei doni ombra mentre si è concentrati."
       },
       
       D1 : {
-        name : " Impulso di luce",
+        name : '<span style="font-family:GEZFont;"></span> Impulso di luce',
         desc : "Aumenta l'efficacia dei doni luce mentre si è concentrati."
       },
       
       D2 : {
-        name : " Guardia stabile",
+        name : '<span style="font-family:GEZFont;"></span> Guardia stabile',
         desc : "Riduce il consumo di vigore durante la guardia mentre<br>si è concentrati."
       },
       
       D3 : {
-        name : " Guardia concentrata",
+        name : '<span style="font-family:GEZFont;"></span> Guardia concentrata',
         desc : "Aumenta la difesa dell'arma contro gli attacchi fisici<br>mentre si è concentrati."
       },
       
       D4 : {
-        name : " Vigore concentrato",
+        name : '<span style="font-family:GEZFont;"></span> Vigore concentrato',
         desc : "Riduce il consumo di vigore mentre si è<br>concentrati."
       },
       
       D5 : {
-        name : " Concentrazione ferrea",
+        name : '<span style="font-family:GEZFont;"></span> Concentrazione ferrea',
         desc : "Riduce il consumo della concentrazione nel tempo<br>mentre si è concentrati."
       },
       
       D6 : {
-        name : " Carneficina concentrata",
+        name : '<span style="font-family:GEZFont;"></span> Carneficina concentrata',
         desc : "Riduce la concentrazione consumata dagli attacchi<br>mentre si è concentrati."
       },
       
       D7 : {
-        name : " Attacchi d'icore",
+        name : '<span style="font-family:GEZFont;"></span> Attacchi d&#39;icore',
         desc : "Riduce il costo in icore degli attacchi con arma mentre<br>si è concentrati."
       },
       
       D8 : {
-        name : " Riduzione icore",
+        name : '<span style="font-family:GEZFont;"></span> Riduzione icore',
         desc : "Riduce il consumo di icore mentre si è concentrati.",
         usage_req : "Gola regale Codici sanguigni"
       },
       
       D9 : {
-        name : " Potenzia prosciugamenti",
+        name : '<span style="font-family:GEZFont;"></span> Potenzia prosciugamenti',
         desc : "Aumenta tutti gli indici di prosciugamento mentre<br>si è concentrati."
       },
       
       D10 : {
-        name : " Velocità concentrata",
+        name : '<span style="font-family:GEZFont;"></span> Velocità concentrata',
         desc : "Aumenta la velocità dei tuoi doni mentre si è concentrati."
       },
       
       D11 : {
-        name : " Buff sangue",
+        name : '<span style="font-family:GEZFont;"></span> Buff sangue',
         desc : "Quando si è concentrati, l'arma equipaggiata infligge<br>danni da sangue."
       },
       
       D12 : {
-        name : " Buff fuoco",
+        name : '<span style="font-family:GEZFont;"></span> Buff fuoco',
         desc : "Quando si è concentrati, l'arma equipaggiata infligge<br>danni da fuoco aggiuntivi."
       },
       
       D13 : {
-        name : " Buff ghiaccio",
+        name : '<span style="font-family:GEZFont;"></span> Buff ghiaccio',
         desc : "Quando si è concentrati, l'arma equipaggiata infligge<br>danni da ghiaccio."
       },
       
       D14 : {
-        name : " Buff fulmine",
+        name : '<span style="font-family:GEZFont;"></span> Buff fulmine',
         desc : "Quando si è concentrati, l'arma equipaggiata infligge<br>danni da fulmine."
       },
       
       D15 : {
-        name : " Buff veleno",
+        name : '<span style="font-family:GEZFont;"></span> Buff veleno',
         desc : "Avvelena temporaneamente l'arma attuale mentre<br>si è concentrati."
       },
       
       D16 : {
-        name : " Buff stordimento",
+        name : '<span style="font-family:GEZFont;"></span> Buff stordimento',
         desc : "Mentre si è concentrati, l'arma attuale è in grado di<br>stordire temporaneamente."
       },
       
       D17 : {
-        name : " Sorriso di dea",
+        name : '<span style="font-family:GEZFont;"></span> Sorriso di dea',
         desc : "Rigenera PF quando si diventa concentrati."
       },
       
       // Frozen Empress DLC
       D18 : {
-        name : " Concentrazione icore",
+        name : '<span style="font-family:GEZFont;"></span> Concentrazione icore',
         desc : "Ripristina l'icore quando entri in uno stato di concentrazione."
       },
       
       // Lord of Thunder DLC
       D19 : {
-        name : " Tutte le stat. +",
+        name : '<span style="font-family:GEZFont;"></span> Tutte le stat. +',
         desc : "Aumenta tutte le statistiche quando sei in uno stato di concentrazione."
       },
       
       D20 : {
-        name : " Potere d'arresto",
+        name : '<span style="font-family:GEZFont;"></span> Potere d&#39;arresto',
         desc : "Aumenta le probabilità che i nemici perdano <br>l'equilibrio per via dei colpi di baionetta <br>quando sei in uno stato di concentrazione."
       },
 

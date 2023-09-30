@@ -10,6 +10,13 @@
   font-style:normal;
 }
 
+@font-face {
+  font-family:'GEZFont';
+  src:url('../fonts/GEZFont_UICustomIcon.otf') format('opentype');
+  font-weight:normal;
+  font-style:normal;
+}
+
 .fa { 
   display:inline-block;
   font:normal normal normal 14px/1 FontAwesomeWeb, FontAwesome;
@@ -35,6 +42,10 @@ body {
   display:flex;
   min-height:100vh;
   flex-direction:column;
+}
+
+body.lang-zh-hant {
+    font-family:"Microsoft YaHei";
 }
 
 p { font-size:14px; }
@@ -280,6 +291,10 @@ h1:hover .anchor-icon, h2:hover .anchor-icon, h3:hover .anchor-icon, h4:hover .a
 /* titles */
 header h1, .title, .title-dsc, .title-med, .general-title, .section-title, .sub-title, #genki-modal-header {
   font-family:"游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+h1, .lang-zh-hant .title, .title-dsc, .title-med, .general-title, .section-title, .sub-title, #genki-modal-header {
+  font-family:"华文中宋";
 }
 
 .general-title {

@@ -13,7 +13,7 @@
 // # 1. BLOOD CODES #
 CodeVeinBuilder.data.blood_code = {
   A0 : { // Queenslayer
-    image : 'queenslayer',
+    image : 'T_BloodCode_Revenant',
 
     mobility : _lang.mobi.normal,
     weight : 100,
@@ -34,7 +34,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A1 : { // Fighter
-    image : 'fighter',
+    image : 'T_BloodCode_Fighter',
 
     mobility : _lang.mobi.normal,
     weight : 120,
@@ -55,7 +55,7 @@ CodeVeinBuilder.data.blood_code = {
   },
 
   A2 : { // Ranger
-    image : 'ranger',
+    image : 'T_BloodCode_Ranger',
 
     mobility : _lang.mobi.quick,
     weight : 70,
@@ -76,7 +76,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A3 : { // Caster
-    image : 'caster',
+    image : 'T_BloodCode_Caster',
 
     mobility : _lang.mobi.normal,
     weight : 98,
@@ -97,7 +97,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A4 : { // Berserker
-    image : 'berserker',
+    image : 'T_BloodCode_Kyosenshi',
 
     mobility : _lang.mobi.slow,
     weight : 250,
@@ -118,7 +118,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A5 : { // Prometheus
-    image : 'prometheus',
+    image : 'T_BloodCode_Prometheus',
 
     mobility : _lang.mobi.normal,
     weight : 103,
@@ -139,7 +139,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A6 : { // Hunter
-    image : 'hunter',
+    image : 'T_BloodCode_Karyudo',
 
     mobility : _lang.mobi.normal,
     weight : 80,
@@ -160,7 +160,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A7 : { // Mercury
-    image : 'mercury',
+    image : 'T_BloodCode_Mercurius',
 
     mobility : _lang.mobi.normal,
     weight : 95,
@@ -181,7 +181,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A8 : { // Hermes
-    image : 'hermes',
+    image : 'T_BloodCode_Hermes',
 
     mobility : _lang.mobi.normal,
     weight : 100,
@@ -202,7 +202,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A9 : { // Darkseeker
-    image : 'darkseeker',
+    image : 'T_BloodCode_YaminoTankyusha',
 
     mobility : _lang.mobi.normal,
     weight : 105,
@@ -223,7 +223,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A10 : { // Atlas
-    image : 'atlas',
+    image : 'T_BloodCode_Atlas',
 
     mobility : _lang.mobi.slow,
     weight : 247,
@@ -244,7 +244,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A11 : { // Assassin
-    image : 'assassin',
+    image : 'T_BloodCode_Assassin',
 
     mobility : _lang.mobi.quick,
     weight : 58,
@@ -265,7 +265,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A12 : { // Artemis
-    image : 'artemis',
+    image : 'T_BloodCode_Artemis',
 
     mobility : _lang.mobi.normal,
     weight : 80,
@@ -286,7 +286,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A13 : { // Isis
-    image : 'isis',
+    image : 'T_BloodCode_Isis',
 
     mobility : _lang.mobi.slow,
     weight : 249,
@@ -307,7 +307,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A14 : { // Queen's Ribcage
-    image : 'queens-ribcage',
+    image : 'T_BloodCode_JounoRokugai',
 
     mobility : _lang.mobi.normal,
     weight : 105,
@@ -328,7 +328,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A15 : { // Eos
-    image : 'eos',
+    image : 'T_BloodCode_Eos',
 
     mobility : _lang.mobi.normal,
     weight : 98,
@@ -349,7 +349,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A16 : { // Fionn
-    image : 'fionn',
+    image : 'T_BloodCode_Fionn',
 
     mobility : _lang.mobi.slow,
     weight : 250,
@@ -370,7 +370,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A17 : { // Queen's Breath
-    image : 'queens-breath',
+    image : 'T_BloodCode_JounoHaigai',
 
     mobility : _lang.mobi.normal,
     weight : 95,
@@ -391,7 +391,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A18 : { // Survivor
-    image : 'survivor',
+    image : 'T_BloodCode_Survivor',
 
     mobility : _lang.mobi.normal,
     weight : 80,
@@ -412,7 +412,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A19 : { // Dark Knight
-    image : 'dark-knight',
+    image : 'T_BloodCode_DarkKnight',
 
     mobility : _lang.mobi.normal,
     weight : 102,
@@ -433,7 +433,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A20 : { // Scathach
-    image : 'scathach',
+    image : 'T_BloodCode_Scathach',
 
     mobility : _lang.mobi.normal,
     weight : 99,
@@ -454,7 +454,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A21 : { // Queen's Claw
-    image : 'queens-claw',
+    image : 'T_BloodCode_JounoSogai',
 
     mobility : _lang.mobi.normal,
     weight : 80,
@@ -475,7 +475,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A22 : { // Harmonia
-    image : 'harmonia',
+    image : 'T_BloodCode_Harmonia',
 
     mobility : _lang.mobi.normal,
     weight : 80,
@@ -496,7 +496,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A23 : { // Queen's Throat
-    image : 'queens-throat',
+    image : 'T_BloodCode_JounoKogai',
 
     mobility : _lang.mobi.quick,
     weight : 63,
@@ -517,7 +517,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A24 : { // Heimdall
-    image : 'heimdall',
+    image : 'T_BloodCode_Heimdal',
 
     mobility : _lang.mobi.quick,
     weight : 55,
@@ -538,7 +538,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A25 : { // Hephaestus
-    image : 'hephaestus',
+    image : 'T_BloodCode_Hephaestus',
 
     mobility : _lang.mobi.normal,
     weight : 80,
@@ -559,7 +559,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A26 : { // Warrior
-    image : 'warrior',
+    image : 'T_BloodCode_Warrior',
 
     mobility : _lang.mobi.slow,
     weight : 245,
@@ -580,7 +580,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A27 : { // Scout
-    image : 'scout',
+    image : 'T_BloodCode_Scout',
 
     mobility : _lang.mobi.quick,
     weight : 60,
@@ -601,7 +601,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A28 : { // Queen
-    image : 'queen',
+    image : 'T_BloodCode_Queen',
 
     mobility : _lang.mobi.normal,
     weight : 103,
@@ -622,7 +622,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A29 : { // Hades
-    image : 'hades',
+    image : 'T_BloodCode_Hades',
 
     mobility : _lang.mobi.slow,
     weight : 250,
@@ -643,7 +643,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A30 : { // Demeter
-    image : 'demeter',
+    image : 'T_BloodCode_Demeter',
 
     mobility : _lang.mobi.normal,
     weight : 99,
@@ -664,7 +664,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A31 : { // Ishtar
-    image : 'ishtar',
+    image : 'T_BloodCode_Ishtar',
 
     mobility : _lang.mobi.normal,
     weight : 100,
@@ -685,7 +685,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A32 : { // Harbinger
-    image : 'harbinger',
+    image : 'T_BloodCode_Yoyakusha',
     dlc : 1,
 
     mobility : _lang.mobi.normal,
@@ -707,7 +707,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A33 : { // Astrea
-    image : 'astrea',
+    image : 'T_BloodCode_Siromia',
     dlc : 1,
 
     mobility : _lang.mobi.normal,
@@ -730,7 +730,7 @@ CodeVeinBuilder.data.blood_code = {
   
   // Hellfire Knight DLC
   A34 : { // Asclepius
-    image : 'asclepius',
+    image : 'DLC/T_BloodCode_DLC_Support',
     dlc : 1,
 
     mobility : _lang.mobi.normal,
@@ -752,7 +752,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A35 : { // Achilles
-    image : 'achilles',
+    image : 'DLC/T_BloodCode_DLC_Dexterity',
     dlc : 1,
 
     mobility : _lang.mobi.quick,
@@ -774,7 +774,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A36 : { // Surt
-    image : 'surt',
+    image : 'DLC/T_BloodCode_DLC_Hannibal',
     dlc : 1,
 
     mobility : _lang.mobi.quick,
@@ -797,7 +797,7 @@ CodeVeinBuilder.data.blood_code = {
   
   // Frozen Empress DLC
   A37 : { // Pollux
-    image : 'pollux',
+    image : 'DLC/T_BloodCode_DLC_Strength',
     dlc : 1,
 
     mobility : _lang.mobi.slow,
@@ -819,7 +819,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A38 : { // Ymir
-    image : 'ymir',
+    image : 'DLC/T_BloodCode_DLC_Marduk',
     dlc : 1,
 
     mobility : _lang.mobi.slow,
@@ -842,7 +842,7 @@ CodeVeinBuilder.data.blood_code = {
   
   // Lord of Thunder DLC
   A39 : { // Perseus
-    image : 'perseus',
+    image : 'DLC/T_BloodCode_DLC_Intention',
     dlc : 1,
 
     mobility : _lang.mobi.normal,
@@ -864,7 +864,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A40 : { // Váli
-    image : 'vali',
+    image : 'DLC/T_BloodCode_DLC_Vajura',
     dlc : 1,
 
     mobility : _lang.mobi.normal,
@@ -886,7 +886,7 @@ CodeVeinBuilder.data.blood_code = {
   },
   
   A41 : { // Orion
-    image : 'orion',
+    image : 'DLC/T_BloodCode_DLC_Shooter',
     dlc : 1,
 
     mobility : _lang.mobi.normal,
@@ -963,91 +963,91 @@ CodeVeinBuilder.data.order.blood_code = [
 CodeVeinBuilder.data.passive = {
   // # GENERAL BOOSTS #
   A0 : { // Health Boost
-    image : 'health-boost',
+    image : 'T_Passive_001',
     tree : _lang.tree.light,
     origin : 'A1'
   },
 
   A1 : { // Health Stimulant
-    image : 'health-stimulant',
+    image : 'T_Passive_062',
     tree : _lang.tree.light,
     origin : 'A26'
   },
 
   A2 : { // Stamina Boost
-    image : 'stamina-boost',
+    image : 'T_Passive_003',
     tree : _lang.tree.light,
     origin : 'A2'
   },
   
   A3 : { // Stamina Stimulant
-    image : 'stamina-stimulant',
+    image : 'T_Passive_060',
     tree : _lang.tree.light,
     origin : 'A24'
   },
   
   A4 : { // Sprinter
-    image : 'sprinter',
+    image : 'T_Passive_019',
     tree : _lang.tree.light,
     origin : 'A7'
   },
   
   A5 : { // Sharpened Fangs
-    image : 'sharpened-fangs',
+    image : 'T_Passive_008',
     tree : _lang.tree.dark,
     origin : 'A11'
   },
   
   A6 : { // Tenacious Fang
-    image : 'tenacious-fang',
+    image : 'T_Passive_075',
     tree : _lang.tree.light,
     origin : 'rvm101'
   },
   
   A7 : { // Heroic Fang
-    image : 'heroic-fang',
+    image : 'T_Passive_076',
     tree : _lang.tree.light,
     origin : 'A8'
   },
   
   A8 : { // Swift Destruction
-    image : 'swift-destruction',
+    image : 'T_Passive_039',
     tree : _lang.tree.light,
     origin : 'A25'
   },
   
   A9 : { // Survival Instinct
-    image : 'survival-instinct',
+    image : 'T_Passive_073',
     tree : _lang.tree.dark,
     origin : 'A29'
   },
   
   A10 : { // Savvy Evasion
-    image : 'savvy-evasion',
+    image : 'T_Passive_010',
     tree : _lang.tree.light,
     origin : 'A5'
   },
   
   A11 : { // Resilient Focus
-    image : 'resilient-focus',
+    image : 'T_Passive_028',
     tree : _lang.tree.light,
     origin : 'A10'
   },
   
   A12 : { // Weapon Drain Rating Up
-    image : 'weapon-drain-rating-up',
+    image : 'T_Passive_005',
     tree : _lang.tree.dark,
     origin : 'A3'
   },
   
   A13 : { // Avarice
-    image : 'avarice',
+    image : 'T_Passive_037',
     tree : _lang.tree.light,
     origin : 'A25'
   },
 
   A14 : { // Vow of Ichor
-    image : 'vow-of-ichor',
+    image : 'T_Passive_042',
     tree : _lang.tree.dark,
     origin : 'A13',
     
@@ -1058,7 +1058,7 @@ CodeVeinBuilder.data.passive = {
   },
 
   A15 : { // Mac Ichor Boost
-    image : 'max-ichor-boost',
+    image : 'T_Passive_056',
     tree : _lang.tree.dark,
     origin : 'A22',
 
@@ -1069,25 +1069,25 @@ CodeVeinBuilder.data.passive = {
   },
   
   A16 : { // Increased Gift Speed
-    image : 'increased-gift-speed',
+    image : 'T_Passive_055',
     tree : _lang.tree.light,
     origin : 'A21'
   },
   
   A17 : { // Charge Accelerator
-    image : 'charge-accelerator',
+    image : 'T_Passive_079',
     tree : _lang.tree.light,
     origin : 'A24'
   },
   
   A18 : { // Debuff Build-Up
-    image : 'debuff-build-up',
+    image : 'T_Passive_083',
     tree : _lang.tree.light,
     origin : 'rvm111'
   },
   
   A19 : { // Revenant's Ambition
-    image : 'revenants-ambition',
+    image : 'T_Passive_047',
     tree : _lang.tree.light,
     origin : 'A17',
     
@@ -1095,14 +1095,14 @@ CodeVeinBuilder.data.passive = {
   },
   
   A20 : { // Opportunism
-    image : 'opportunism',
+    image : 'T_Passive_088',
     tree : _lang.tree.dark,
     origin : 'rvm116'
   },
   
   // Lord of Thunder DLC
   A21 : { // Rush of Blood
-    image : 'rush-of-blood',
+    image : 'T_Passive_096',
     tree : _lang.tree.dark,
     origin : 'A41',
     dlc : 1
@@ -1111,70 +1111,70 @@ CodeVeinBuilder.data.passive = {
   
   // # DEFENSE BOOSTS #
   B0 : { // Balance Up
-    image : 'balance-up',
+    image : 'T_Passive_007',
     tree : _lang.tree.light,
     origin : 'A4'
   },
   
   B1 : { // Deft Parry
-    image : 'deft-parry',
+    image : 'T_Passive_011',
     tree : _lang.tree.light,
     origin : 'A5'
   },
   
   B2 : { // Guard Drain Rating Up
-    image : 'guard-drain-rating-up',
+    image : 'T_Passive_029',
     tree : _lang.tree.light,
     origin : 'A10'
   },
   
   B3 : { // Firm Stand
-    image : 'firm-stand',
+    image : 'T_Passive_032',
     tree : _lang.tree.light,
     origin : 'A10',
     blood_code_req : 'A10' // Atlas
   },
   
   B4 : { // Blood Grab
-    image : 'blood-grab',
+    image : 'T_Passive_036',
     tree : _lang.tree.dark,
     origin : 'A12',
     blood_code_req : 'A12' // Artemis
   },
   
   B5 : { // Evasive Snare
-    image : 'evasive-snare',
+    image : 'T_Passive_041',
     tree : _lang.tree.dark,
     origin : 'A25',
     blood_code_req : 'A25' // Hephaestus
   },
   
   B6 : { // Venom Resistance
-    image : 'venom-resistance',
+    image : 'T_Passive_051',
     tree : _lang.tree.light,
     origin : 'A7'
   },
   
   B7 : { // Stun Resistance
-    image : 'stun-resistance',
+    image : 'T_Passive_009',
     tree : _lang.tree.light,
     origin : 'A8'
   },
   
   B8 : { // Inhibit Resistance
-    image : 'inhibit-resistance',
+    image : 'T_Passive_038',
     tree : _lang.tree.light,
     origin : 'A25'
   },
   
   B9 : { // Slow Resistance
-    image : 'slow-resistance',
+    image : 'T_Passive_018',
     tree : _lang.tree.light,
     origin : 'A7'
   },
   
   B10 : { // Leak Resistance
-    image : 'leak-resistance',
+    image : 'T_Passive_049',
     tree : _lang.tree.light,
     origin : 'A18'
   },
@@ -1182,7 +1182,7 @@ CodeVeinBuilder.data.passive = {
   
   // # STAT BOOSTS #
   C0 : { // Strength Up
-    image : 'strength-up',
+    image : 'T_Passive_022',
     tree : _lang.tree.light,
     origin : 'A8',
 
@@ -1192,7 +1192,7 @@ CodeVeinBuilder.data.passive = {
   },
   
   C1 : { // Dexterity Up
-    image : 'dexterity-up',
+    image : 'T_Passive_016',
     tree : _lang.tree.light,
     origin : 'A6',
     
@@ -1202,7 +1202,7 @@ CodeVeinBuilder.data.passive = {
   },
   
   C2 : { // Mind Up
-    image : 'mind-up',
+    image : 'T_Passive_070',
     tree : _lang.tree.light,
     origin : 'A31',
     
@@ -1212,7 +1212,7 @@ CodeVeinBuilder.data.passive = {
   },
   
   C3 : { // Willpower Up
-    image : 'willpower-up',
+    image : 'T_Passive_067',
     tree : _lang.tree.light,
     origin : 'A28',
     
@@ -1222,7 +1222,7 @@ CodeVeinBuilder.data.passive = {
   },
   
   C4 : { // Vitality Up
-    image : 'vitality-up',
+    image : 'T_Passive_048',
     tree : _lang.tree.light,
     origin : 'A18',
     
@@ -1232,7 +1232,7 @@ CodeVeinBuilder.data.passive = {
   },
   
   C5 : { // Fortitude Up
-    image : 'perseverance-up',
+    image : 'T_Passive_044',
     tree : _lang.tree.light,
     origin : 'A16',
     
@@ -1242,7 +1242,7 @@ CodeVeinBuilder.data.passive = {
   },
   
   C6 : { // Strength/Dexterity Up
-    image : 'strength-dexterity-up',
+    image : 'T_Passive_012',
     tree : _lang.tree.light,
     origin : 'A5',
     
@@ -1253,7 +1253,7 @@ CodeVeinBuilder.data.passive = {
   },
   
   C7 : { // Strength/Willpower Up
-    image : 'strength-willpower-up',
+    image : 'T_Passive_054',
     tree : _lang.tree.light,
     origin : 'A20',
     
@@ -1264,7 +1264,7 @@ CodeVeinBuilder.data.passive = {
   },
 
   C8 : { // Strength/Vitality Up
-    image : 'strength-vitality-up',
+    image : 'T_Passive_030',
     tree : _lang.tree.light,
     origin : 'A10',
 
@@ -1275,7 +1275,7 @@ CodeVeinBuilder.data.passive = {
   },
   
   C9 : { // Dexterity/Willpower Up
-    image : 'dexterity-willpower-up',
+    image : 'T_Passive_034',
     tree : _lang.tree.light,
     origin : 'A12',
     
@@ -1286,7 +1286,7 @@ CodeVeinBuilder.data.passive = {
   },
   
   C10 : { // Dexterity/Fortitude Up
-    image : 'dexterity-fortitude-up',
+    image : 'T_Passive_061',
     tree : _lang.tree.light,
     origin : 'A24',
     
@@ -1297,7 +1297,7 @@ CodeVeinBuilder.data.passive = {
   },
   
   C11 : { // Mind/Willpower Up
-    image : 'mind-willpower-up',
+    image : 'T_Passive_057',
     tree : _lang.tree.light,
     origin : 'A22',
     
@@ -1308,7 +1308,7 @@ CodeVeinBuilder.data.passive = {
   },
   
   C12 : { // Mind/Vitality Up
-    image : 'mind-vitality-up',
+    image : 'T_Passive_043',
     tree : _lang.tree.light,
     origin : 'A15',
     
@@ -1319,7 +1319,7 @@ CodeVeinBuilder.data.passive = {
   },
   
   C13 : { // Mind/Fortitude Up
-    image : 'mind-fortitude-up',
+    image : 'T_Passive_074',
     tree : _lang.tree.light,
     origin : 'A30',
     
@@ -1331,7 +1331,7 @@ CodeVeinBuilder.data.passive = {
   
   // Hellfire Knight DLC
   C14 : { // Strength/Fortitude Up
-    image : 'strength-fortitude-up',
+    image : 'T_Passive_090',
     tree : _lang.tree.light,
     origin : 'A36',
     dlc : 1,
@@ -1344,7 +1344,7 @@ CodeVeinBuilder.data.passive = {
   
   // Frozen Empress DLC
   C15 : { // Willpower/Vitality Up
-    image : 'willpower-vitality-up',
+    image : 'T_Passive_091',
     tree : _lang.tree.light,
     origin : 'A38',
     dlc : 1,
@@ -1357,7 +1357,7 @@ CodeVeinBuilder.data.passive = {
   
   // Lord of Thunder DLC
   C16 : { // Dexterity/Mind Up
-    image : 'dexterity-mind-up',
+    image : 'T_Passive_092',
     tree : _lang.tree.light,
     origin : 'A40',
     dlc : 1,
@@ -1371,117 +1371,117 @@ CodeVeinBuilder.data.passive = {
   
   // # FOCUS BOOSTS #
   D0 : { // Dark Impulse
-    image : 'dark-impulse',
+    image : 'T_Passive_006',
     tree : _lang.tree.dark,
     origin : 'A3'
   },
   
   D1 : { // Light Impulse
-    image : 'light-impulse',
+    image : 'T_Passive_069',
     tree : _lang.tree.light,
     origin : 'A31'
   },
   
   D2 : { // Guard Stability
-    image : 'guard-stability',
+    image : 'T_Passive_004',
     tree : _lang.tree.light,
     origin : 'A2'
   },
   
   D3 : { // Focused Guard
-    image : 'focused-guard',
+    image : 'T_Passive_046',
     tree : _lang.tree.light,
     origin : 'A16'
   },
   
   D4 : { // Focused Stamina Usage
-    image : 'focused-stamina-usage',
+    image : 'T_Passive_002',
     tree : _lang.tree.light,
     origin : 'A1'
   },
   
   D5 : { // Maintained Focus
-    image : 'maintained-focus',
+    image : 'T_Passive_021',
     tree : _lang.tree.light,
     origin : 'A7'
   },
   
   D6 : { // Focused Carnage
-    image : 'focused-carnage',
+    image : 'T_Passive_024',
     tree : _lang.tree.light,
     origin : 'A8'
   },
   
   D7 : { // Ichor Strikes
-    image : 'ichor-strikes',
+    image : 'T_Passive_015',
     tree : _lang.tree.light,
     origin : 'A6'
   },
   
   D8 : { // Ichor Reduction
-    image : 'ichor-reduction',
+    image : 'T_Passive_058',
     tree : _lang.tree.dark,
     origin : 'A23',
     blood_code_req : 'A23' // Queen's Throat
   },
   
   D9 : { // Drain Boost
-    image : 'drain-boost',
+    image : 'T_Passive_064',
     tree : _lang.tree.light,
     origin : 'A0'
   },
   
   D10 : { // Focused Gift Speed
-    image : 'focused-gift-speed',
+    image : 'T_Passive_033',
     tree : _lang.tree.dark,
     origin : 'A12'
   },
   
   D11 : { // Blood Buff
-    image : 'blood-buff',
+    image : 'T_Passive_082',
     tree : _lang.tree.dark,
     origin : 'rvm104'
   },
   
   D12 : { // Fire Buff
-    image : 'fire-buff',
+    image : 'T_Passive_053',
     tree : _lang.tree.dark,
     origin : 'A20'
   },
   
   D13 : { // Ice Buff
-    image : 'ice-buff',
+    image : 'T_Passive_080',
     tree : _lang.tree.dark,
     origin : 'rvm102'
   },
   
   D14 : { // Lightning Buff
-    image : 'lightning-buff',
+    image : 'T_Passive_081',
     tree : _lang.tree.dark,
     origin : 'rvm103'
   },
   
   D15 : { // Venom Buff
-    image : 'venom-buff',
+    image : 'T_Passive_026',
     tree : _lang.tree.dark,
     origin : 'A9'
   },
   
   D16 : { // Stun Buff
-    image : 'stun-buff',
+    image : 'T_Passive_066',
     tree : _lang.tree.dark,
     origin : 'A27'
   },
   
   D17 : { // Goddess's Smile
-    image : 'goddess-smile',
+    image : 'T_Passive_068',
     tree : _lang.tree.light,
     origin : 'A31'
   },
   
   // Frozen Empress DLC
   D18 : { // Ichor Focus
-    image : 'ichor-focus',
+    image : 'T_Passive_094',
     tree : _lang.tree.light,
     origin : 'A38',
     dlc : 1
@@ -1489,14 +1489,14 @@ CodeVeinBuilder.data.passive = {
   
   // Lord of Thunder DLC
   D19 : { // All Stats Up
-    image : 'all-stats-up',
+    image : 'T_Passive_097',
     tree : _lang.tree.light,
     origin : 'A40',
     dlc : 1
   },
   
   D20 : { // Stopping Power
-    image : 'stopping-power',
+    image : 'T_Passive_095',
     tree : _lang.tree.dark,
     origin : 'A41',
     dlc : 1
@@ -1505,31 +1505,31 @@ CodeVeinBuilder.data.passive = {
   
   // # WEAPON MASTERY #
   E0 : { // One-handed Sword Mastery
-    image : 'one-handed-sword-mastery',
+    image : 'T_Passive_013',
     tree : _lang.tree.light,
     origin : 'A5'
   },
   
   E1 : { // Two-handed Sword Mastery
-    image : 'two-handed-sword-mastery',
+    image : 'T_Passive_031',
     tree : _lang.tree.light,
     origin : 'A10'
   },
   
   E2 : { // Halberd Mastery
-    image : 'halberd-mastery',
+    image : 'T_Passive_052',
     tree : _lang.tree.light,
     origin : 'A19'
   },
   
   E3 : { // Hammer Mastery
-    image : 'hammer-mastery',
+    image : 'T_Passive_045',
     tree : _lang.tree.light,
     origin : 'A16'
   },
   
   E4 : { // Bayonet Mastery
-    image : 'bayonet-mastery',
+    image : 'T_Passive_035',
     tree : _lang.tree.light,
     origin : 'A12'
   },
@@ -1537,25 +1537,25 @@ CodeVeinBuilder.data.passive = {
   
   // # MISC #
   F0 : { // Regeneration Shift
-    image : 'regeneration-shift',
+    image : 'T_Passive_059',
     tree : _lang.tree.light,
     origin : 'A24'
   },
   
   F1 : { // Improved Regeneration
-    image : 'improved-regeneration',
+    image : 'T_Passive_063',
     tree : _lang.tree.light,
     origin : 'A26'
   },
   
   F2 : { // Augmented Regeneration
-    image : 'augmented-regeneration',
+    image : 'T_Passive_065',
     tree : _lang.tree.light,
     origin : 'A27'
   },
   
   F3 : { // Torchbearer
-    image : 'torchbearer',
+    image : 'T_Passive_084',
     tree : _lang.tree.light,
     origin : 'A33',
     dlc : 1,
@@ -1563,88 +1563,88 @@ CodeVeinBuilder.data.passive = {
   },
   
   F4 : { // Life Steal
-    image : 'life-steal',
+    image : 'T_Passive_050',
     tree : _lang.tree.dark,
     origin : 'A18'
   },
   
   F5 : { // Regenerative Drain
-    image : 'regenerative-drain',
+    image : 'T_Passive_072',
     tree : _lang.tree.dark,
     origin : 'A29'
   },
   
   F6 : { // Eternal Blade Dance
-    image : 'eternal-blade-dance',
+    image : 'T_Passive_014',
     tree : _lang.tree.light,
     origin : 'A5',
     blood_code_req : 'A5' // Prometheus
   },
   
   F7 : { // Blood-draining Venom
-    image : 'blood-draining-venom',
+    image : 'T_Passive_027',
     tree : _lang.tree.dark,
     origin : 'A9',
     blood_code_req : 'A9' // Darkseeker
   },
   
   F8 : { // Revenant's Hunger
-    image : 'revenants-hunger',
+    image : 'T_Passive_020',
     tree : _lang.tree.light,
     origin : 'A7'
   },
   
   F9 : { // Revenant's Greed
-    image : 'revenants-greed',
+    image : 'T_Passive_023',
     tree : _lang.tree.light,
     origin : 'A8'
   },
   
   F10 : { // Pioneer's Guidance
-    image : 'pioneers-guidance',
+    image : 'T_Passive_040',
     tree : _lang.tree.light,
     origin : 'A25'
   },
   
   F11 : { // Fall Damage Reduction
-    image : 'fall-damage-reduction',
+    image : 'T_Passive_025',
     tree : _lang.tree.dark,
     origin : 'A9'
   },
   
   F12 : { // Deliverance
-    image : 'deliverance',
+    image : 'T_Passive_071',
     tree : _lang.tree.light,
     origin : 'A31',
     blood_code_req : 'A31' // Ishtar
   },
   
   F13 : { // Tirelessness
-    image : 'tirelessness',
+    image : 'T_Passive_085',
     tree : _lang.tree.light,
     origin : 'rvm115'
   },
   
   F14 : { // Bolster
-    image : 'bolster',
+    image : 'T_Passive_086',
     tree : _lang.tree.light,
     origin : 'rvm113'
   },
   
   F15 : { // Revenant Dagger
-    image : 'revenant-dagger',
+    image : 'T_Passive_087',
     tree : _lang.tree.dark,
     origin : 'rvm117'
   },
   
   F16 : { // Complete Attention
-    image : 'complete-attention',
+    image : 'T_Passive_089',
     tree : _lang.tree.light,
     origin : 'rvm114'
   },
   
   F17 : { // Charisma
-    image : 'charisma',
+    image : 'T_Passive_093',
     tree : _lang.tree.light,
     origin : 'rvm124' // Tower of Trials I
   }
@@ -1674,9 +1674,9 @@ CodeVeinBuilder.data.order.passive = [
   'B0', // Balance Up
   'B1', // Deft Parry
   'B2', // Guard Drain Rating Up
-  'B3', // Firm Stand
   'B4', // Blood Grab
   'B5', // Evasive Snare
+  'B3', // Firm Stand
   'B6', // Venom Resistance
   'B7', // Stun Resistance
   'B8', // Inhibit Resistance
@@ -1731,8 +1731,8 @@ CodeVeinBuilder.data.order.passive = [
   'F3', // Torchbearer
   'F4', // Life Steal
   'F5', // Regenerative Drain
-  'F6', // Eternal Blade Dance
   'F7', // Blood-draining Venom
+  'F6', // Eternal Blade Dance
   'F8', // Revenant's Hunger
   'F9', // Revenant's Greed
   'F10', // Pioneer's Guidance
@@ -1757,7 +1757,7 @@ CodeVeinBuilder.data.order.passive = [
 CodeVeinBuilder.data.active = {
   // # SPELLS #
   A0 : { // Sonic Arrow
-    image : 'sonic-arrow',
+    image : 'T_Ketsugi004',
     tree : _lang.tree.dark,
     origin : 'A2',
 
@@ -1767,7 +1767,7 @@ CodeVeinBuilder.data.active = {
   },
 
   A1 : { // Blood Shot
-    image : 'blood-shot',
+    image : 'T_Ketsugi006',
     tree : _lang.tree.dark,
     origin : 'A3',
 
@@ -1782,7 +1782,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A2 : { // Sanguine Roar
-    image : 'sanguine-roar',
+    image : 'T_Ketsugi129',
     tree : _lang.tree.dark,
     origin : 'A9',
 
@@ -1797,7 +1797,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A3 : { // Blazing Roar
-    image : 'blazing-roar',
+    image : 'T_Ketsugi007',
     tree : _lang.tree.dark,
     origin : 'A3',
 
@@ -1812,7 +1812,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A4 : { // Freezing Roar
-    image : 'freezing-roar',
+    image : 'T_Ketsugi127',
     tree : _lang.tree.dark,
     origin : 'A12',
 
@@ -1827,7 +1827,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A5 : { // Plasma Roar
-    image : 'plasma-roar',
+    image : 'T_Ketsugi128',
     tree : _lang.tree.dark,
     origin : 'A13',
 
@@ -1842,7 +1842,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A6 : { // Blood Spike
-    image : 'blood-spike',
+    image : 'T_Ketsugi121',
     tree : _lang.tree.light,
     origin : 'A19',
 
@@ -1857,7 +1857,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A7 : { // Flame Spike
-    image : 'flame-spike',
+    image : 'T_Ketsugi120',
     tree : _lang.tree.light,
     origin : 'A6',
     
@@ -1872,7 +1872,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A8 : { // Frost Spike
-    image : 'frost-spike',
+    image : 'T_Ketsugi025',
     tree : _lang.tree.light,
     origin : 'A8',
 
@@ -1887,7 +1887,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A9 : { // Lightning Spike
-    image : 'lightning-spike',
+    image : 'T_Ketsugi122',
     tree : _lang.tree.light,
     origin : 'A33',
     dlc : 1,
@@ -1903,7 +1903,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A10 : { // Blood Barrage
-    image : 'blood-barrage',
+    image : 'T_Ketsugi116',
     tree : _lang.tree.light,
     origin : 'A27',
 
@@ -1918,7 +1918,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A11 : { // Flame Barrage
-    image : 'flame-barrage',
+    image : 'T_Ketsugi150',
     tree : _lang.tree.light,
     origin : 'rvm112',
 
@@ -1933,7 +1933,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A12 : { // Ice Barrage
-    image : 'ice-barrage',
+    image : 'T_Ketsugi115',
     tree : _lang.tree.light,
     origin : 'A16',
 
@@ -1948,7 +1948,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A13 : { // Lightning Barrage
-    image : 'lightning-barrage',
+    image : 'T_Ketsugi117',
     tree : _lang.tree.light,
     origin : 'rvm105',
 
@@ -1963,7 +1963,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A14 : { // Vodnik Mass
-    image : 'vodnik-mass',
+    image : 'T_Ketsugi134',
     tree : _lang.tree.dark,
     origin : 'A14',
 
@@ -1978,7 +1978,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A15 : { // Walpurgis Fire
-    image : 'walpurgis-fire',
+    image : 'T_Ketsugi135',
     tree : _lang.tree.dark,
     origin : 'A28',
 
@@ -1993,7 +1993,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A16 : { // Baba Yaga's Gaze
-    image : 'baba-yagas-gaze',
+    image : 'T_Ketsugi136',
     tree : _lang.tree.dark,
     origin : 'A28',
 
@@ -2008,7 +2008,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A17 : { // Rage of Perkunas
-    image : 'rage-of-perkunas',
+    image : 'T_Ketsugi137',
     tree : _lang.tree.dark,
     origin : 'A28',
 
@@ -2023,7 +2023,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A18 : { // Dusk Edge
-    image : 'dusk-edge',
+    image : 'T_Ketsugi052',
     tree : _lang.tree.dark,
     origin : 'A14',
 
@@ -2038,7 +2038,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A19 : { // Crimson Moon
-    image : 'crimson-moon',
+    image : 'T_Ketsugi074',
     tree : _lang.tree.dark,
     origin : 'A20',
 
@@ -2053,7 +2053,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A20 : { // Aurora Flash
-    image : 'aurora-flash',
+    image : 'T_Ketsugi067',
     tree : _lang.tree.dark,
     origin : 'A17',
 
@@ -2068,7 +2068,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A21 : { // Jupiter's Blade
-    image : 'jupiters-blade',
+    image : 'T_Ketsugi123',
     tree : _lang.tree.dark,
     origin : 'rvm107',
 
@@ -2083,7 +2083,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A22 : { // Execution
-    image : 'execution',
+    image : 'T_Ketsugi103',
     tree : _lang.tree.dark,
     origin : 'A29',
 
@@ -2099,7 +2099,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A23 : { // Fire Storm
-    image : 'fire-storm',
+    image : 'T_Ketsugi012',
     tree : _lang.tree.dark,
     origin : 'A5',
 
@@ -2114,7 +2114,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A24 : { // Blast Bolt
-    image : 'blast-bolt',
+    image : 'T_Ketsugi048',
     tree : _lang.tree.dark,
     origin : 'A13',
 
@@ -2130,7 +2130,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A25 : { // Guard of Honor
-    image : 'guard-of-honor',
+    image : 'T_Ketsugi043',
     tree : _lang.tree.dark,
     origin : 'A12',
 
@@ -2145,7 +2145,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A26 : { // Dancing Blaze
-    image : 'dancing-blaze',
+    image : 'T_Ketsugi046',
     tree : _lang.tree.dark,
     origin : 'A25',
 
@@ -2160,7 +2160,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A27 : { // Draconic Stake
-    image : 'draconic-stake',
+    image : 'T_Ketsugi047',
     tree : _lang.tree.dark,
     origin : 'A13',
 
@@ -2176,7 +2176,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A28 : { // Indra's Coil
-    image : 'indras-coil',
+    image : 'T_Ketsugi049',
     tree : _lang.tree.dark,
     origin : 'A13',
 
@@ -2192,7 +2192,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A29 : { // Fourfold Verdict
-    image : 'fourfold-verdict',
+    image : 'T_Ketsugi050',
     tree : _lang.tree.dark,
     origin : 'A13',
 
@@ -2208,7 +2208,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A30 : { // Elder Contract
-    image : 'elder-contract',
+    image : 'T_Ketsugi053',
     tree : _lang.tree.dark,
     origin : 'A14',
 
@@ -2223,7 +2223,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A31 : { // Ichorous Ice
-    image : 'ichorous-ice',
+    image : 'T_Ketsugi054',
     tree : _lang.tree.dark,
     origin : 'A14',
 
@@ -2238,7 +2238,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A32 : { // Twilight
-    image : 'twilight',
+    image : 'T_Ketsugi055',
     tree : _lang.tree.dark,
     origin : 'A14',
 
@@ -2250,7 +2250,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A33 : { // Fire Lily
-    image : 'fire-lily',
+    image : 'T_Ketsugi079',
     tree : _lang.tree.dark,
     origin : 'A21',
 
@@ -2265,7 +2265,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A34 : { // Sand Edge
-    image : 'sand-edge',
+    image : 'T_Ketsugi082',
     tree : _lang.tree.dark,
     origin : 'A22',
     
@@ -2280,7 +2280,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A35 : { // Volatile Storm
-    image : 'volatile-storm',
+    image : 'T_Ketsugi083',
     tree : _lang.tree.dark,
     origin : 'A22',
 
@@ -2295,7 +2295,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A36 : { // Arm of Set
-    image : 'arm-of-set',
+    image : 'T_Ketsugi086',
     tree : _lang.tree.dark,
     origin : 'A23',
 
@@ -2309,7 +2309,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A37 : { // Sands of Depravity
-    image : 'sands-of-depravity',
+    image : 'T_Ketsugi087',
     tree : _lang.tree.dark,
     origin : 'A23',
 
@@ -2323,7 +2323,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A38 : { // Chaotic Ash
-    image : 'chaotic-ash',
+    image : 'T_Ketsugi099',
     tree : _lang.tree.dark,
     origin : 'A28',
 
@@ -2337,7 +2337,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A39 : { // Purging Thorn
-    image : 'purging-thorn',
+    image : 'T_Ketsugi100',
     tree : _lang.tree.dark,
     origin : 'A28',
 
@@ -2353,7 +2353,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A40 : { // Argent Wolf Cross
-    image : 'argent-wolf-cross',
+    image : 'T_Ketsugi102',
     tree : _lang.tree.dark,
     origin : 'A29',
 
@@ -2368,7 +2368,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A41 : { // Shadow Leap
-    image : 'shadow-leap',
+    image : 'T_Ketsugi051',
     tree : _lang.tree.dark,
     origin : 'A13',
     
@@ -2380,7 +2380,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A42 : { // Bloody Impact
-    image : 'bloody-impact',
+    image : 'T_Ketsugi059',
     tree : _lang.tree.light,
     origin : 'A8',
 
@@ -2395,7 +2395,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A43 : { // Cloak of Winter
-    image : 'cloak-of-winter',
+    image : 'T_Ketsugi066',
     tree : _lang.tree.light,
     origin : 'A17',
 
@@ -2410,7 +2410,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A44 : { // Peony Flash
-    image : 'peony-flash',
+    image : 'T_Ketsugi077',
     tree : _lang.tree.dark,
     origin : 'A20',
 
@@ -2422,7 +2422,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A45 : { // Will-o'-the-Wisp
-    image : 'will-o-the-wisp',
+    image : 'T_Ketsugi098',
     tree : _lang.tree.dark,
     origin : 'A27',
 
@@ -2438,7 +2438,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A46 : { // Ember Reversal
-    image : 'ember-reversal',
+    image : 'T_Ketsugi075',
     tree : _lang.tree.dark,
     origin : 'A20',
 
@@ -2453,7 +2453,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A47 : { // Desperate Burst
-    image : 'desperate-burst',
+    image : 'T_Ketsugi152',
     tree : _lang.tree.dark,
     origin : 'A32',
     dlc : 1,
@@ -2465,7 +2465,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A48 : { // Rose Flame
-    image : 'rose-flame',
+    image : 'T_Ketsugi078',
     tree : _lang.tree.dark,
     origin : 'A21',
 
@@ -2482,7 +2482,7 @@ CodeVeinBuilder.data.active = {
   
   // Hellfire Knight DLC
   A49 : { // Homing Hellfire
-    image : 'homing-hellfire',
+    image : 'T_Ketsugi162',
     tree : _lang.tree.dark,
     origin : 'A36',
     dlc : 1,
@@ -2498,7 +2498,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A50 : { // Dancing Fireblade
-    image : 'dancing-fireblade',
+    image : 'T_Ketsugi169',
     tree : _lang.tree.dark,
     origin : 'A36',
     dlc : 1,
@@ -2515,7 +2515,7 @@ CodeVeinBuilder.data.active = {
   
   // Frozen Empress DLC
   A51 : { // Hoarfrost Stream
-    image : 'hoarfrost-stream',
+    image : 'T_Ketsugi166',
     tree : _lang.tree.dark,
     origin : 'A38',
     dlc : 1,
@@ -2531,7 +2531,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A52 : { // Frost Turret
-    image : 'frost-turret',
+    image : 'T_Ketsugi170',
     tree : _lang.tree.dark,
     origin : 'A38',
     dlc : 1,
@@ -2548,7 +2548,7 @@ CodeVeinBuilder.data.active = {
   
   // Lord of Thunder DLC
   A53 : { // Meteor Crush
-    image : 'meteor-crush',
+    image : 'T_Ketsugi165',
     tree : _lang.tree.dark,
     origin : 'A39',
     dlc : 1,
@@ -2564,7 +2564,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A54 : { // Frost Wave
-    image : 'frost-wave',
+    image : 'T_Ketsugi163',
     tree : _lang.tree.light,
     origin : 'A39',
     dlc : 1,
@@ -2580,7 +2580,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A55 : { // Field of Thirst
-    image : 'field-of-thirst',
+    image : 'T_Ketsugi168',
     tree : _lang.tree.dark,
     origin : 'A39',
     dlc : 1,
@@ -2594,7 +2594,7 @@ CodeVeinBuilder.data.active = {
   },
   
   A56 : { // Thunderbolt Impact
-    image : 'thunderbolt-impact',
+    image : 'T_Ketsugi158',
     tree : _lang.tree.light,
     origin : 'A40',
     dlc : 1,
@@ -2612,7 +2612,7 @@ CodeVeinBuilder.data.active = {
   
   // # DEBUFFS #
   B0 : { // Venomous Shot
-    image : 'venomous-shot',
+    image : 'T_Ketsugi028',
     tree : _lang.tree.dark,
     origin : 'A9',
     
@@ -2626,7 +2626,7 @@ CodeVeinBuilder.data.active = {
   },
   
   B1 : { // Stun Shot
-    image : 'stun-shot',
+    image : 'T_Ketsugi119',
     tree : _lang.tree.dark,
     origin : 'rvm106',
     
@@ -2640,7 +2640,7 @@ CodeVeinBuilder.data.active = {
   },
   
   B2 : { // Slowing Shot
-    image : 'slowing-shot',
+    image : 'T_Ketsugi097',
     tree : _lang.tree.dark,
     origin : 'A27',
 
@@ -2654,7 +2654,7 @@ CodeVeinBuilder.data.active = {
   },
   
   B3 : { // Venomous Web
-    image : 'venomous-web',
+    image : 'T_Ketsugi142',
     tree : _lang.tree.dark,
     origin : 'rvm108',
 
@@ -2669,7 +2669,7 @@ CodeVeinBuilder.data.active = {
   },
   
   B4 : { // Stun Web
-    image : 'stun-web',
+    image : 'T_Ketsugi143',
     tree : _lang.tree.dark,
     origin : 'rvm109',
 
@@ -2684,7 +2684,7 @@ CodeVeinBuilder.data.active = {
   },
   
   B5 : { // Slow Web
-    image : 'slow-web',
+    image : 'T_Ketsugi145',
     tree : _lang.tree.dark,
     origin : 'rvm110',
 
@@ -2699,7 +2699,7 @@ CodeVeinBuilder.data.active = {
   },
   
   B6 : { // Shock Web
-    image : 'shock-web',
+    image : 'T_Ketsugi040',
     tree : _lang.tree.dark,
     origin : 'A12',
 
@@ -2713,7 +2713,7 @@ CodeVeinBuilder.data.active = {
   },
   
   B7 : { // Flames of Rage
-    image : 'flames-of-rage',
+    image : 'T_Ketsugi045',
     tree : _lang.tree.dark,
     origin : 'A25',
 
@@ -2728,7 +2728,7 @@ CodeVeinBuilder.data.active = {
   },
   
   B8 : { // Venom Trap
-    image : 'venom-trap',
+    image : 'T_Ketsugi146',
     tree : _lang.tree.dark,
     origin : 'A9',
     
@@ -2742,7 +2742,7 @@ CodeVeinBuilder.data.active = {
   },
   
   B9 : { // Stun Trap
-    image : 'stun-trap',
+    image : 'T_Ketsugi147',
     tree : _lang.tree.dark,
     origin : 'A11',
     
@@ -2756,7 +2756,7 @@ CodeVeinBuilder.data.active = {
   },
   
   B10 : { // Slow Trap
-    image : 'slow-trap',
+    image : 'T_Ketsugi149',
     tree : _lang.tree.dark,
     origin : 'A27',
     
@@ -2770,7 +2770,7 @@ CodeVeinBuilder.data.active = {
   },
   
   B11 : { // Frenzied Fire
-    image : 'frenzied-fire',
+    image : 'T_Ketsugi094',
     tree : _lang.tree.dark,
     origin : 'A0',
 
@@ -2781,7 +2781,7 @@ CodeVeinBuilder.data.active = {
   
   // # BUFFS #
   C0 : { // Blood Weapon
-    image : 'blood-weapon',
+    image : 'T_Ketsugi071',
     tree : _lang.tree.light,
     origin : 'A19',
     
@@ -2795,7 +2795,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C1 : { // Flame Weapon
-    image : 'flame-weapon',
+    image : 'T_Ketsugi014',
     tree : _lang.tree.light,
     origin : 'A5',
     
@@ -2809,7 +2809,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C2 : { // Frost Weapon
-    image : 'frost-weapon',
+    image : 'T_Ketsugi064',
     tree : _lang.tree.light,
     origin : 'A16',
     
@@ -2823,7 +2823,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C3 : { // Lightning Weapon
-    image : 'lightning-weapon',
+    image : 'T_Ketsugi114',
     tree : _lang.tree.light,
     origin : 'A7',
     
@@ -2837,7 +2837,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C4 : { // Venom Mark
-    image : 'venom-mark',
+    image : 'T_Ketsugi005',
     tree : _lang.tree.dark,
     origin : 'A2',
 
@@ -2850,7 +2850,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C5 : { // Numbing Mark
-    image : 'numbing-mark',
+    image : 'T_Ketsugi030',
     tree : _lang.tree.dark,
     origin : 'A11',
 
@@ -2863,7 +2863,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C6 : { // Warding Mark
-    image : 'warding-mark',
+    image : 'T_Ketsugi015',
     tree : _lang.tree.dark,
     origin : 'A5',
 
@@ -2876,7 +2876,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C7 : { // Binding Mark
-    image : 'binding-mark',
+    image : 'T_Ketsugi018',
     tree : _lang.tree.dark,
     origin : 'A6',
 
@@ -2889,7 +2889,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C8 : { // Adrenaline
-    image : 'adrenaline',
+    image : 'T_Ketsugi002',
     tree : _lang.tree.light,
     origin : 'A1',
 
@@ -2902,7 +2902,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C9 : { // Bridge to Glory
-    image : 'bridge-to-glory',
+    image : 'T_Ketsugi023',
     tree : _lang.tree.light,
     origin : 'A15',
 
@@ -2915,7 +2915,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C10 : { // Overdrive
-    image : 'overdrive',
+    image : 'T_Ketsugi031',
     tree : _lang.tree.light,
     origin : 'A11',
 
@@ -2929,7 +2929,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C11 : { // Ranged Impact
-    image : 'ranged-impact',
+    image : 'T_Ketsugi017',
     tree : _lang.tree.light,
     origin : 'A6',
 
@@ -2942,7 +2942,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C12 : { // Blow of Madness
-    image : 'blow-of-madness',
+    image : 'T_Ketsugi008',
     tree : _lang.tree.light,
     origin : 'A4',
 
@@ -2955,7 +2955,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C13 : { // Flashing Fang
-    image : 'flashing-fang',
+    image : 'T_Ketsugi037',
     tree : _lang.tree.light,
     origin : 'A10',
 
@@ -2968,7 +2968,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C14 : { // Merciless Reaper
-    image : 'merciless-reaper',
+    image : 'T_Ketsugi033',
     tree : _lang.tree.light,
     origin : 'A11',
 
@@ -2982,7 +2982,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C15 : { // Dark Shout
-    image : 'dark-shout',
+    image : 'T_Ketsugi085',
     tree : _lang.tree.dark,
     origin : 'A23',
 
@@ -2996,7 +2996,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C16 : { // Blade Dance
-    image : 'blade-dance',
+    image : 'T_Ketsugi013',
     tree : _lang.tree.light,
     origin : 'A5',
 
@@ -3006,7 +3006,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C17 : { // Sacrificial Edge
-    image : 'sacrificial-edge',
+    image : 'T_Ketsugi091',
     tree : _lang.tree.dark,
     origin : 'A24',
 
@@ -3016,7 +3016,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C18 : { // Somatic Zeal
-    image : 'somatic-zeal',
+    image : 'T_Ketsugi073',
     tree : _lang.tree.light,
     origin : 'A19',
 
@@ -3029,7 +3029,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C19 : { // Cognitive Zeal
-    image : 'cognitive-zeal',
+    image : 'T_Ketsugi108',
     tree : _lang.tree.light,
     origin : 'cor5',
 
@@ -3043,7 +3043,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C20 : { // Precision
-    image : 'precision',
+    image : 'T_Ketsugi009',
     tree : _lang.tree.light,
     origin : 'A4',
 
@@ -3056,7 +3056,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C21 : { // Hunting Feast
-    image : 'hunting-feast',
+    image : 'T_Ketsugi019',
     tree : _lang.tree.light,
     origin : 'A6',
 
@@ -3069,7 +3069,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C22 : { // Bloodsucking Blades
-    image : 'bloodsucking-blades',
+    image : 'T_Ketsugi042',
     tree : _lang.tree.dark,
     origin : 'A12',
 
@@ -3082,7 +3082,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C23 : { // Gift Prowess
-    image : 'gift-prowess',
+    image : 'T_Ketsugi081',
     tree : _lang.tree.dark,
     origin : 'A22',
 
@@ -3096,7 +3096,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C24 : { // Gift Extension
-    image : 'gift-extension',
+    image : 'T_Ketsugi107',
     tree : _lang.tree.light,
     origin : 'A33',
     dlc : 1,
@@ -3111,7 +3111,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C25 : { // Hasten
-    image : 'hasten',
+    image : 'T_Ketsugi016',
     tree : _lang.tree.light,
     origin : 'A5',
 
@@ -3125,7 +3125,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C26 : { // Concentration
-    image : 'concentration',
+    image : 'T_Ketsugi032',
     tree : _lang.tree.light,
     origin : 'A11',
 
@@ -3138,7 +3138,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C27 : { // Red Shoes
-    image : 'red-shoes',
+    image : 'T_Ketsugi065',
     tree : _lang.tree.light,
     origin : 'A16',
 
@@ -3148,7 +3148,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C28 : { // Valiant Heart
-    image : 'valiant-heart',
+    image : 'T_Ketsugi070',
     tree : _lang.tree.light,
     origin : 'A18',
 
@@ -3161,7 +3161,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C29 : { // Morale Boost
-    image : 'morale-boost',
+    image : 'T_Ketsugi089',
     tree : _lang.tree.light,
     origin : 'A24',
 
@@ -3176,7 +3176,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C30 : { // Time Crunch
-    image : 'time-crunch',
+    image : 'T_Ketsugi076',
     tree : _lang.tree.dark,
     origin : 'A20',
 
@@ -3190,7 +3190,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C31 : { // Supernatural Blood
-    image : 'supernatural-blood',
+    image : 'T_Ketsugi084',
     tree : _lang.tree.dark,
     origin : 'A22',
 
@@ -3200,7 +3200,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C32 : { // Impact Wave
-    image : 'impact-wave',
+    image : 'T_Ketsugi039',
     tree : _lang.tree.light,
     origin : 'A10',
 
@@ -3215,7 +3215,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C33 : { // Final Journey
-    image : 'final-journey',
+    image : 'T_Ketsugi096',
     tree : _lang.tree.light,
     origin : 'A0',
     
@@ -3225,7 +3225,7 @@ CodeVeinBuilder.data.active = {
   },
   
   C34 : { // Vigorous Zeal
-    image : 'vigorous-zeal',
+    image : 'T_Ketsugi178',
     tree : _lang.tree.light,
     origin : 'rvm123', // Tower of Trials II
 
@@ -3239,7 +3239,7 @@ CodeVeinBuilder.data.active = {
   
   // Frozen Empress DLC
   C35 : { // Offensive Order
-    image : 'offensive-order',
+    image : 'T_Ketsugi177',
     tree : _lang.tree.light,
     origin : 'A34', // Asclepius
     dlc : 1,
@@ -3254,7 +3254,7 @@ CodeVeinBuilder.data.active = {
   
   // Lord of Thunder DLC
   C36 : { // Ichor Efficiency
-    image : 'ichor-efficiency',
+    image : 'T_Ketsugi160',
     tree : _lang.tree.light,
     origin : 'A41',
     dlc : 1,
@@ -3270,7 +3270,7 @@ CodeVeinBuilder.data.active = {
   
   // # DEFENSE BUFFS #
   D0 : { // Iron Will
-    image : 'iron-will',
+    image : 'T_Ketsugi011',
     tree : _lang.tree.light,
     origin : 'A4',
     
@@ -3283,7 +3283,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D1 : { // Foulblood Barrier
-    image : 'foulblood-barrier',
+    image : 'T_Ketsugi035',
     tree : _lang.tree.light,
     origin : 'A10',
     
@@ -3297,7 +3297,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D2 : { // Ablative Blood
-    image : 'ablative-blood',
+    image : 'T_Ketsugi062',
     tree : _lang.tree.light,
     origin : 'A15',
 
@@ -3307,7 +3307,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D3 : { // Juggernaut
-    image : 'juggernaut',
+    image : 'T_Ketsugi068',
     tree : _lang.tree.light,
     origin : 'A17',
 
@@ -3317,7 +3317,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D4 : { // Steady Bulwark
-    image : 'steady-bulwark',
+    image : 'T_Ketsugi026',
     tree : _lang.tree.light,
     origin : 'A8',
 
@@ -3330,7 +3330,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D5 : { // Guard Reversal
-    image : 'guard-reversal',
+    image : 'T_Ketsugi038',
     tree : _lang.tree.light,
     origin : 'A10',
 
@@ -3343,7 +3343,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D6 : { // Crushing Might
-    image : 'crushing-might',
+    image : 'T_Ketsugi063',
     tree : _lang.tree.light,
     origin : 'A16',
 
@@ -3356,7 +3356,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D7 : { // Guard Stability
-    image : 'guard-stability',
+    image : 'T_Ketsugi069',
     tree : _lang.tree.light,
     origin : 'A18',
 
@@ -3369,7 +3369,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D8 : { // Prismatic Veil
-    image : 'prismatic-veil',
+    image : 'T_Ketsugi105',
     tree : _lang.tree.light,
     origin : 'A30',
 
@@ -3383,7 +3383,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D9 : { // Blood Guard
-    image : 'blood-guard',
+    image : 'T_Ketsugi003',
     tree : _lang.tree.light,
     origin : 'A1',
 
@@ -3392,7 +3392,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D10 : { // Flame Protection
-    image : 'flame-protection',
+    image : 'T_Ketsugi072',
     tree : _lang.tree.light,
     origin : 'A19',
 
@@ -3406,7 +3406,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D11 : { // Ice Armor
-    image : 'ice-armor',
+    image : 'T_Ketsugi041',
     tree : _lang.tree.light,
     origin : 'A12',
 
@@ -3416,7 +3416,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D12 : { // Raijin's Veil
-    image : 'raijins-veil',
+    image : 'T_Ketsugi034',
     tree : _lang.tree.light,
     origin : 'A7',
 
@@ -3430,7 +3430,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D13 : { // Elemental Wall
-    image : 'elemental-wall',
+    image : 'T_Ketsugi058',
     tree : _lang.tree.light,
     origin : 'A15',
 
@@ -3443,7 +3443,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D14 : { // Royal Heart
-    image : 'royal-heart',
+    image : 'T_Ketsugi010',
     tree : _lang.tree.light,
     origin : 'A4',
 
@@ -3456,7 +3456,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D15 : { // Dogged Fighter
-    image : 'dogged-fighter',
+    image : 'T_Ketsugi036',
     tree : _lang.tree.light,
     origin : 'A10',
 
@@ -3469,7 +3469,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D16 : { // Perfect Balance
-    image : 'perfect-balance',
+    image : 'T_Ketsugi092',
     tree : _lang.tree.light,
     origin : 'A26',
 
@@ -3482,7 +3482,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D17 : { // Antibody Generation
-    image : 'antibody-generation',
+    image : 'T_Ketsugi057',
     tree : _lang.tree.light,
     origin : 'A15',
     
@@ -3495,7 +3495,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D18 : { // Countermeasure
-    image : 'countermeasure',
+    image : 'T_Ketsugi044',
     tree : _lang.tree.dark,
     origin : 'A25',
 
@@ -3511,7 +3511,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D19 : { // Sly Vengeance
-    image : 'sly-vengeance',
+    image : 'T_Ketsugi080',
     tree : _lang.tree.dark,
     origin : 'A21',
 
@@ -3523,7 +3523,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D20 : { // Feral Tenacity
-    image : 'feral-tenacity',
+    image : 'T_Ketsugi093',
     tree : _lang.tree.light,
     origin : 'A26',
 
@@ -3537,7 +3537,7 @@ CodeVeinBuilder.data.active = {
   
   // Frozen Empress DLC
   D21 : { // Sturdy Body
-    image : 'sturdy-body',
+    image : 'T_Ketsugi164',
     tree : _lang.tree.light,
     origin : 'A37',
     dlc : 1,
@@ -3551,7 +3551,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D22 : { // Circular Guard
-    image : 'circular-guard',
+    image : 'T_Ketsugi171',
     tree : _lang.tree.light,
     origin : 'A37',
     dlc : 1,
@@ -3565,7 +3565,7 @@ CodeVeinBuilder.data.active = {
   },
   
   D23 : { // Defensive Order
-    image : 'defensive-order',
+    image : 'T_Ketsugi176',
     tree : _lang.tree.light,
     origin : 'A34',
     dlc : 1,
@@ -3580,7 +3580,7 @@ CodeVeinBuilder.data.active = {
 
   // # COMMUNAL GIFTS #
   E0 : { // Reckless Abandon
-    image : 'reckless-abandon',
+    image : 'Louis/T_BuddyKetsugiLouis00',
     tree : _lang.tree.dark,
 
     ichor_cost : 20,
@@ -3588,7 +3588,7 @@ CodeVeinBuilder.data.active = {
   },
   
   E1 : { // Lipinus Vita
-    image : 'lupinus-vita',
+    image : 'Yakumo/T_BuddyKetsugiYakumo00',
     tree : _lang.tree.light,
 
     ichor_cost : 20,
@@ -3596,7 +3596,7 @@ CodeVeinBuilder.data.active = {
   },
   
   E2 : { // Conviction Spike
-    image : 'conviction-spike',
+    image : 'Io/T_BuddyKetsugiIo00',
     tree : _lang.tree.light,
 
     ichor_cost : 20,
@@ -3604,7 +3604,7 @@ CodeVeinBuilder.data.active = {
   },
   
   E3 : { // Blood Awakening
-    image : 'blood-awakening',
+    image : 'Mia/T_BuddyKetsugiMia00',
     tree : _lang.tree.light,
 
     ichor_cost : 24,
@@ -3612,7 +3612,7 @@ CodeVeinBuilder.data.active = {
   },
   
   E4 : { // Fatal Surge
-    image : 'fatal-surge',
+    image : 'Jack/T_BuddyKetsugiJack00',
     tree : _lang.tree.dark,
 
     ichor_cost : 20,
@@ -3620,7 +3620,7 @@ CodeVeinBuilder.data.active = {
   },
   
   E5 : { // Ephemeral Refrain
-    image : 'ephemeral-refrain',
+    image : 'Eva/T_BuddyKetsugiEva00',
     tree : _lang.tree.dark,
 
     ichor_cost : 20,
@@ -3630,7 +3630,7 @@ CodeVeinBuilder.data.active = {
   
   // # MISC #
   F0 : { // Restorative Offering
-    image : 'restorative-offering',
+    image : 'T_Ketsugi001',
     tree : _lang.tree.light,
 
     ichor_cost : 2,
@@ -3638,7 +3638,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F1 : { // Sympathetic Boon
-    image : 'sympathetic-boon',
+    image : 'T_Ketsugi056',
     tree : _lang.tree.light,
     origin : 'A15',
 
@@ -3651,7 +3651,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F2 : { // Auto Heal
-    image : 'auto-heal',
+    image : 'T_Ketsugi106',
     tree : _lang.tree.light,
     origin : 'A30',
 
@@ -3661,7 +3661,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F3 : { // Guardian Aid
-    image : 'guardian-aid',
+    image : 'T_Ketsugi151',
     tree : _lang.tree.light,
     origin : 'A33',
     dlc : 1,
@@ -3672,7 +3672,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F4 : { // Cleansing Light
-    image : 'cleansing-light',
+    image : 'T_Ketsugi095',
     tree : _lang.tree.light,
     origin : 'A0',
 
@@ -3686,7 +3686,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F5 : { // Regenerator
-    image : 'regenerator',
+    image : 'T_Ketsugi060',
     tree : _lang.tree.light,
     origin : 'A15',
 
@@ -3699,7 +3699,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F6 : { // Venom Removal
-    image : 'venom-removal',
+    image : 'T_Ketsugi113',
     tree : _lang.tree.light,
     origin : 'A7',
 
@@ -3712,7 +3712,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F7 : { // Stun Removal
-    image : 'stun-removal',
+    image : 'T_Ketsugi110',
     tree : _lang.tree.light,
     origin : 'A8',
 
@@ -3725,7 +3725,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F8 : { // Inhibit Removal
-    image : 'inhibit-removal',
+    image : 'T_Ketsugi111',
     tree : _lang.tree.light,
     origin : 'A25',
 
@@ -3738,7 +3738,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F9 : { // Slow Removal
-    image : 'slow-removal',
+    image : 'T_Ketsugi022',
     tree : _lang.tree.light,
     origin : 'A7',
 
@@ -3751,7 +3751,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F10 : { // Leak Removal
-    image : 'leak-removal',
+    image : 'T_Ketsugi112',
     tree : _lang.tree.light,
     origin : 'A18',
 
@@ -3764,7 +3764,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F11 : { // Panacea's Essence
-    image : 'panaceas-essence',
+    image : 'T_Ketsugi061',
     tree : _lang.tree.light,
     origin : 'A15',
 
@@ -3777,7 +3777,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F12 : { // Blood Sacrifice
-    image : 'blood-sacrifice',
+    image : 'T_Ketsugi020',
     tree : _lang.tree.dark,
     origin : 'A6',
 
@@ -3790,7 +3790,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F13 : { // Disremember
-    image : 'disremember',
+    image : 'T_Ketsugi104',
     tree : _lang.tree.light,
     origin : 'A30',
 
@@ -3804,7 +3804,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F14 : { // Floating Light
-    image : 'floating-light',
+    image : 'T_Ketsugi024',
     tree : _lang.tree.light,
     origin : 'A8',
 
@@ -3813,7 +3813,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F15 : { // Vivification
-    image : 'vivification',
+    image : 'T_Ketsugi021',
     tree : _lang.tree.light,
     origin : 'A7',
 
@@ -3826,7 +3826,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F16 : { // Nightstalker
-    image : 'nightstalker',
+    image : 'T_Ketsugi029',
     tree : _lang.tree.light,
     origin : 'A11',
 
@@ -3840,7 +3840,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F17 : { // Night Fog Veil
-    image : 'night-fog-veil',
+    image : 'T_Ketsugi088',
     tree : _lang.tree.light,
     origin : 'A24',
 
@@ -3855,7 +3855,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F18 : { // Spoils Spotter
-    image : 'spoils-spotter',
+    image : 'T_Ketsugi155',
     tree : _lang.tree.light,
     origin : 'A2',
 
@@ -3864,7 +3864,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F19 : { // Active IFF
-    image : 'active-iff',
+    image : 'T_Ketsugi157',
     tree : _lang.tree.light,
     origin : 'A6',
 
@@ -3873,7 +3873,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F20 : { // Treasure Tracker
-    image : 'treasure-tracker',
+    image : 'T_Ketsugi156',
     tree : _lang.tree.light,
     origin : 'A18',
 
@@ -3882,7 +3882,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F21 : { // Prize Perception
-    image : 'prize-perception',
+    image : 'T_Ketsugi154',
     tree : _lang.tree.light,
     origin : 'A27',
 
@@ -3891,7 +3891,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F22 : { // Severing Abyss
-    image : 'severing-abyss',
+    image : 'T_ActionKetsugi001',
     tree : _lang.tree.skill,
     origin : 'A24',
     
@@ -3902,7 +3902,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F23 : { // Phantom Assault
-    image : 'phantom-assault',
+    image : 'T_ActionKetsugi002',
     tree : _lang.tree.skill,
     origin : 'A5',
 
@@ -3913,7 +3913,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F24 : { // Circulating Pulse
-    image : 'circulating-pulse',
+    image : 'T_ActionKetsugi003',
     tree : _lang.tree.skill,
     origin : 'A0',
 
@@ -3924,7 +3924,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F25 : { // Legion Punisher
-    image : 'legion-punisher',
+    image : 'T_ActionKetsugi004',
     tree : _lang.tree.skill,
     origin : 'A17',
 
@@ -3935,7 +3935,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F26 : { // Fusillade Rondo
-    image : 'fusillade-rondo',
+    image : 'T_ActionKetsugi014',
     tree : _lang.tree.skill,
     origin : 'A12',
 
@@ -3946,7 +3946,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F27 : { // Triple Annihilator
-    image : 'triple-annihilator',
+    image : 'T_ActionKetsugi005',
     tree : _lang.tree.skill,
     origin : 'A1',
 
@@ -3957,7 +3957,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F28 : { // Dragon Lunge
-    image : 'dragon-lunge',
+    image : 'T_ActionKetsugi006',
     tree : _lang.tree.skill,
     origin : 'A4',
 
@@ -3968,7 +3968,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F29 : { // Chariot Rush
-    image : 'chariot-rush',
+    image : 'T_ActionKetsugi015',
     tree : _lang.tree.skill,
     origin : 'A19',
 
@@ -3979,7 +3979,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F30 : { // Shifting Hollow
-    image : 'shifting-hollow',
+    image : 'T_ActionKetsugi013',
     tree : _lang.tree.skill,
     origin : 'A2',
 
@@ -3990,7 +3990,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F31 : { // Grave Knocker
-    image : 'grave-knocker',
+    image : 'T_ActionKetsugi007',
     tree : _lang.tree.skill,
     origin : 'A16',
 
@@ -4001,7 +4001,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F32 : { // Swallow Cutter
-    image : 'swallow-cutter',
+    image : 'T_ActionKetsugi009',
     tree : _lang.tree.skill,
     origin : 'A8',
 
@@ -4012,7 +4012,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F33 : { // Vanishing Hollow
-    image : 'vanishing-hollow',
+    image : 'T_ActionKetsugi010',
     tree : _lang.tree.skill,
     origin : 'A25',
 
@@ -4023,7 +4023,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F34 : { // Tormenting Blast
-    image : 'tormenting-blast',
+    image : 'T_ActionKetsugi011',
     tree : _lang.tree.skill,
     origin : 'A10',
 
@@ -4034,7 +4034,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F35 : { // Shadow Assault
-    image : 'shadow-assault',
+    image : 'T_ActionKetsugi012',
     tree : _lang.tree.skill,
     origin : 'A11',
 
@@ -4045,7 +4045,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F36 : { // Modest Offering
-    image : 'modest-offering',
+    image : 'T_Ketsugi179',
     tree : _lang.tree.light,
     origin : 'rvm122', // Tower of Trials III
     
@@ -4055,7 +4055,7 @@ CodeVeinBuilder.data.active = {
   
   // Hellfire Knight DLC
   F37 : { // Ichor Resonance (Receive)
-    image : 'ichor-resonance-receive',
+    image : 'T_Ketsugi173',
     tree : _lang.tree.light,
     origin : 'A34',
     dlc : 1,
@@ -4069,7 +4069,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F38 : { // Ichor Resonance (Send)
-    image : 'ichor-resonance-send',
+    image : 'T_Ketsugi174',
     tree : _lang.tree.light,
     origin : 'A34',
     dlc : 1,
@@ -4083,7 +4083,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F39 : { // Serene Stance
-    image : 'serene-stance',
+    image : 'T_Ketsugi172',
     tree : _lang.tree.light,
     origin : 'A35',
     dlc : 1,
@@ -4097,7 +4097,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F40 : { // Invigorating Rush
-    image : 'invigorating-rush',
+    image : 'T_Ketsugi167',
     tree : _lang.tree.light,
     origin : 'A35',
     dlc : 1,
@@ -4111,7 +4111,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F41 : { // Tranquil Slice
-    image : 'tranquil-slice',
+    image : 'T_ActionKetsugi020',
     tree : _lang.tree.skill,
     origin : 'A35',
     dlc : 1,
@@ -4123,7 +4123,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F42 : { // Circular Cleaver
-    image : 'circular-cleaver',
+    image : 'T_ActionKetsugi019',
     tree : _lang.tree.skill,
     origin : 'A35',
     dlc : 1,
@@ -4135,7 +4135,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F43 : { // Savage Dive
-    image : 'savage-dive',
+    image : 'T_ActionKetsugi022',
     tree : _lang.tree.skill,
     origin : 'A36',
     dlc : 1,
@@ -4148,7 +4148,7 @@ CodeVeinBuilder.data.active = {
   
   // Frozen Empress DLC
   F44 : { // Steadfast Strike
-    image : 'steadfast-strike',
+    image : 'T_ActionKetsugi021',
     tree : _lang.tree.skill,
     origin : 'A37',
     dlc : 1,
@@ -4160,7 +4160,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F45 : { // Usurper's Blade
-    image : 'usurpers-blade',
+    image : 'T_ActionKetsugi018',
     tree : _lang.tree.skill,
     origin : 'A37',
     dlc : 1,
@@ -4173,7 +4173,7 @@ CodeVeinBuilder.data.active = {
   
   // Lord of Thunder DLC
   F46 : { // Zero Recast
-    image : 'zero-recast',
+    image : 'T_Ketsugi175',
     tree : _lang.tree.light,
     origin : 'A34',
     dlc : 1,
@@ -4188,7 +4188,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F47 : { // Ichor Regeneration
-    image : 'ichor-regeneration',
+    image : 'T_Ketsugi159',
     tree : _lang.tree.dark,
     origin : 'A39',
     dlc : 1,
@@ -4202,7 +4202,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F48 : { // Lightning Charge
-    image : 'lightning-charge',
+    image : 'T_ActionKetsugi016',
     tree : _lang.tree.skill,
     origin : 'A40',
     dlc : 1,
@@ -4214,7 +4214,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F49 : { // Focus Recovery
-    image : 'focus-recovery',
+    image : 'T_Ketsugi161',
     tree : _lang.tree.light,
     origin : 'A41',
     dlc : 1,
@@ -4228,7 +4228,7 @@ CodeVeinBuilder.data.active = {
   },
   
   F50 : { // Radiant Barrel
-    image : 'radiant-barrel',
+    image : 'T_ActionKetsugi017',
     tree : _lang.tree.skill,
     origin : 'A41',
     dlc : 1,
@@ -4439,7 +4439,7 @@ CodeVeinBuilder.data.order.active = [
 CodeVeinBuilder.data.weapon = {
   // # ONE-HANDED SWORDS #
   A0 : { // Queenslayer Blade
-    image : 'queenslayer-blade',
+    image : 'T_WeaponIcon_SingleSword_A',
     
     weight : 35,
 
@@ -4455,7 +4455,7 @@ CodeVeinBuilder.data.weapon = {
   },
 
   A1 : { // Pipe of Thralldom
-    image : 'pipe-of-thralldom',
+    image : 'T_WeaponIcon_IronPipe',
     
     weight : 5,
 
@@ -4471,7 +4471,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   A2 : { // Broadsword
-    image : 'broadsword',
+    image : 'T_WeaponIcon_SingleSword_B',
     
     weight : 43,
 
@@ -4486,7 +4486,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   A3 : { // Hanemukuro
-    image : 'hanemukuro',
+    image : 'T_WeaponIcon_SingleSword_C',
     
     weight : 32,
 
@@ -4502,7 +4502,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   A4 : { // Enduring Crimson
-    image : 'enduring-crimson',
+    image : 'T_WeaponIcon_SingleSword_C_Col2',
     
     weight : 34,
 
@@ -4518,7 +4518,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   A5 : { // Machete
-    image : 'machete',
+    image : 'T_WeaponIcon_SingleSword_D',
     
     weight : 46,
 
@@ -4534,7 +4534,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   A6 : { // Argent Wolf Blade
-    image : 'argent-wolf-blade',
+    image : 'T_WeaponIcon_SingleSword_E',
     
     weight : 35,
 
@@ -4552,7 +4552,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   A7 : { // Blazing Claw
-    image : 'blazing-claw',
+    image : 'T_WeaponIcon_SingleSword_F',
     
     weight : 28,
 
@@ -4572,7 +4572,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   A8 : { // Iceblood
-    image : 'iceblood',
+    image : 'T_WeaponIcon_SingleSword_G',
     
     weight : 17,
 
@@ -4592,7 +4592,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   A9 : { // Sunset Sword
-    image : 'sunset-sword',
+    image : 'T_WeaponIcon_SingleSword_K',
     
     weight : 30,
 
@@ -4607,7 +4607,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   A10 : { // Black Saber
-    image : 'black-saber',
+    image : 'T_WeaponIcon_SingleSword_L',
     
     weight : 48,
 
@@ -4622,7 +4622,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   A11 : { // Executioner
-    image : 'executioner',
+    image : 'T_WeaponIcon_SingleSword_L',
     
     weight : 38,
 
@@ -4642,7 +4642,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   A12 : { // Lost Broadsword
-    image : 'lost-broadsword',
+    image : 'T_WeaponIcon_SingleSword_M',
     
     weight : 40,
 
@@ -4658,7 +4658,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   A13 : { // Crimson Longsword
-    image : 'crimson-longsword',
+    image : 'T_WeaponIcon_SingleSword_N',
     dlc : 1,
     
     weight : 30,
@@ -4680,7 +4680,7 @@ CodeVeinBuilder.data.weapon = {
   
   // Hellfire Knight DLC
   A14 : { // Hellfire Pipe
-    image : 'hellfire-pipe',
+    image : 'T_WeaponIcon_IronPipe_DLCHannnibal',
     dlc : 1,
     
     weight : 5,
@@ -4697,7 +4697,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   A15 : { // Inferno Blade
-    image : 'inferno-blade',
+    image : 'T_WeaponIcon_SingleSword_DLC_Hannibal',
     dlc : 1,
     
     weight : 33,
@@ -4713,7 +4713,7 @@ CodeVeinBuilder.data.weapon = {
   
   // Frozen Empress DLC
   A16 : { // Hoarfrost Pipe
-    image : 'hoarfrost-pipe',
+    image : 'T_WeaponIcon_IronPipe_DLCMarduk',
     dlc : 1,
     
     weight : 5,
@@ -4731,7 +4731,7 @@ CodeVeinBuilder.data.weapon = {
   
   // Lord of Thunder DLC
   A17 : { // Thunderbolt Pipe
-    image : 'thunderbolt-pipe',
+    image : 'T_WeaponIcon_IronPipe_DLC_Vajura',
     dlc : 1,
     
     weight : 5,
@@ -4748,7 +4748,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   A18 : { // Pipe of the Unrivaled
-    image : 'pipe-of-the-unrivaled',
+    image : 'T_WeaponIcon_IronPipe_Gold',
     dlc : 1,
     
     weight : 5,
@@ -4765,7 +4765,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   A19 : { // Fulmen Blade
-    image : 'fulmen-blade',
+    image : 'T_WeaponIcon_SingleSword_DLC_Vajura',
     dlc : 1,
     
     weight : 45,
@@ -4783,7 +4783,7 @@ CodeVeinBuilder.data.weapon = {
   
   // # TWO-HANDED SWORDS #
   B0 : { // Queenslayer Greatsword
-    image : 'queenslayer-greatsword',
+    image : 'T_WeaponIcon_LargeSword_A',
     
     weight : 73,
 
@@ -4798,7 +4798,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   B1 : { // Zweihander
-    image : 'zweihander',
+    image : 'T_WeaponIcon_LargeSword_B',
     
     weight : 87,
 
@@ -4813,7 +4813,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   B2 : { // Nagimukuro
-    image : 'nagimukuro',
+    image : 'T_WeaponIcon_LargeSword_C',
     
     weight : 75,
 
@@ -4829,7 +4829,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   B3 : { // Oni Bane
-    image : 'oni-bane',
+    image : 'T_WeaponIcon_LargeSword_C_Col2',
     
     weight : 78,
 
@@ -4844,7 +4844,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   B4 : { // Warped Blade
-    image : 'warped-blade',
+    image : 'T_WeaponIcon_LargeSword_D',
     
     weight : 72,
 
@@ -4861,7 +4861,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   B5 : { // Black Great Sword
-    image : 'black-great-sword',
+    image : 'T_WeaponIcon_LargeSword_E',
     
     weight : 70,
 
@@ -4879,7 +4879,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   B6 : { // Argent Wolf King's Blade
-    image : 'argent-wolf-kings-blade',
+    image : 'T_WeaponIcon_LargeSword_F',
     
     weight : 88,
 
@@ -4896,7 +4896,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   B7 : { // Judgement Edge
-    image : 'judgement-edge',
+    image : 'T_WeaponIcon_LargeSword_G',
     
     weight : 86,
 
@@ -4911,7 +4911,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   B8 : { // Sunset Great Sword
-    image : 'sunset-great-sword',
+    image : 'T_WeaponIcon_LargeSword_H',
     
     weight : 65,
 
@@ -4926,7 +4926,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   B9 : { // Lost Zweihander
-    image : 'lost-zweihander',
+    image : 'T_WeaponIcon_LargeSword_I',
     
     weight : 80,
 
@@ -4941,7 +4941,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   B10 : { // Argent Wolf Brand
-    image : 'argent-wolf-brand',
+    image : 'T_WeaponIcon_LargeSword_J',
     
     weight : 82,
 
@@ -4956,7 +4956,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   B11 : { // Blanched Greatsword
-    image : 'blanched-greatsword',
+    image : 'T_WeaponIcon_LargeSword_K',
     dlc : 1,
     
     weight : 90,
@@ -4972,7 +4972,7 @@ CodeVeinBuilder.data.weapon = {
   
   // Hellfire Knight DLC
   B12 : { // Wrathful Balmung
-    image : 'wrathful-balmung',
+    image : 'T_WeaponIcon_LargeSword_DLC_Hannibal',
     dlc : 1,
     
     weight : 80,
@@ -4988,7 +4988,7 @@ CodeVeinBuilder.data.weapon = {
   
   // Frozen Empress DLC
   B13 : { // Azure Greatsword
-    image : 'azure-greatsword',
+    image : 'T_WeaponIcon_LargeSword_DLC_Marcuk',
     dlc : 1,
     
     weight : 85,
@@ -5006,7 +5006,7 @@ CodeVeinBuilder.data.weapon = {
   
   // # HALBERDS #
   C0 : { // Queenslayer Halberd
-    image : 'queenslayer-halberd',
+    image : 'T_WeaponIcon_WeaponHalberd_A',
     
     weight : 60,
 
@@ -5022,7 +5022,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   C1 : { // Bardiche
-    image : 'bardiche',
+    image : 'T_WeaponIcon_WeaponHalberd_B',
     
     weight : 52,
 
@@ -5038,7 +5038,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   C2 : { // Impaler
-    image : 'impaler',
+    image : 'T_WeaponIcon_WeaponHalberd_C',
     
     weight : 47,
 
@@ -5053,7 +5053,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   C3 : { // Garnet Splitter
-    image : 'garnet-splitter',
+    image : 'T_WeaponIcon_WeaponHalberd_D',
     
     weight : 54,
 
@@ -5072,7 +5072,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   C4 : { // Dammerung
-    image : 'dammerung',
+    image : 'T_WeaponIcon_WeaponHalberd_D_Col2',
     
     weight : 57,
 
@@ -5093,7 +5093,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   C5 : { // Black Halberd
-    image : 'black-halberd',
+    image : 'T_WeaponIcon_WeaponHalberd_E',
     
     weight : 48,
 
@@ -5112,7 +5112,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   C6 : { // Assassin's Sickle
-    image : 'assassins-sickle',
+    image : 'T_WeaponIcon_WeaponHalberd_F',
     
     weight : 42,
 
@@ -5131,7 +5131,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   C7 : { // Sunset Halberd
-    image : 'sunset-halberd',
+    image : 'T_WeaponIcon_WeaponHalberd_G',
     
     weight : 58,
 
@@ -5146,7 +5146,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   C8 : { // Lost Bardiche
-    image : 'lost-bardiche',
+    image : 'T_WeaponIcon_WeaponHalberd_H',
     
     weight : 50,
 
@@ -5161,7 +5161,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   C9 : { // Obliterator Axe
-    image : 'obliterator-axe',
+    image : 'T_WeaponIcon_WeaponHalberd_I',
     
     weight : 70,
 
@@ -5176,7 +5176,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   C10 : { // Argent Wolf Poleaxe
-    image : 'argent-wolf-poleaxe',
+    image : 'T_WeaponIcon_WeaponHalberd_J',
     
     weight : 66,
 
@@ -5191,7 +5191,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   C11 : { // Cerulean Spear
-    image : 'cerulean-spear',
+    image : 'T_WeaponIcon_WeaponHalberd_K',
     dlc : 1,
     
     weight : 45,
@@ -5212,7 +5212,7 @@ CodeVeinBuilder.data.weapon = {
   
   // Frozen Empress DLC
   C12 : { // Blood Mist Halberd
-    image : 'blood-mist-halberd',
+    image : 'T_WeaponIcon_WeaponHalberd_DLC_Marduk',
     dlc : 1,
     
     weight : 50,
@@ -5228,7 +5228,7 @@ CodeVeinBuilder.data.weapon = {
   
   // Lord of Thunder DLC
   C13 : { // Lightning Brionac
-    image : 'lightning-brionac',
+    image : 'T_WeaponIcon_WeaponHalberd_DLC_Vajura',
     dlc : 1,
     
     weight : 30,
@@ -5246,7 +5246,7 @@ CodeVeinBuilder.data.weapon = {
   
   // # HAMMERS #
   D0 : { // Queenslayer Hammer
-    image : 'queenslayer-hammer',
+    image : 'T_WeaponIcon_WeaponHammer_A',
     
     weight : 74,
 
@@ -5261,7 +5261,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   D1 : { // Hammer of Thralldom
-    image : 'hammer-of-thralldom',
+    image : 'T_WeaponIcon_Hammer_Concrete',
     
     weight : 95,
 
@@ -5276,7 +5276,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   D2 : { // Juggernaut Sledgehammer
-    image : 'juggernaut-sledgehammer',
+    image : 'T_WeaponIcon_WeaponHammer_A_Col2',
     
     weight : 76,
 
@@ -5291,7 +5291,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   D3 : { // Heavy Axe
-    image : 'heavy-axe',
+    image : 'T_WeaponIcon_WeaponHammer_B',
     
     weight : 55,
 
@@ -5306,7 +5306,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   D4 : { // Impulse Anchor
-    image : 'impulse-anchor',
+    image : 'T_WeaponIcon_WeaponHammer_C',
     
     weight : 78,
 
@@ -5321,7 +5321,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   D5 : { // Huge Hammer
-    image : 'huge-hammer',
+    image : 'T_WeaponIcon_WeaponHammer_D',
     
     weight : 87,
 
@@ -5336,7 +5336,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   D6 : { // Argent Wolf Warhammer
-    image : 'argent-wolf-warhammer',
+    image : 'T_WeaponIcon_WeaponHammer_E',
     
     weight : 84,
 
@@ -5352,7 +5352,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   D7 : { // Tyrant's Labrys
-    image : 'tyrants-labrys',
+    image : 'T_WeaponIcon_WeaponHammer_F',
     
     weight : 58,
 
@@ -5369,7 +5369,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   D8 : { // Sunset Hammer
-    image : 'sunset-hammer',
+    image : 'T_WeaponIcon_WeaponHammer_G',
     
     weight : 68,
 
@@ -5384,7 +5384,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   D9 : { // Burned Warhammer
-    image : 'burned-warhammer',
+    image : 'T_WeaponIcon_WeaponHammer_G_Col2',
     
     weight : 72,
 
@@ -5402,7 +5402,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   D10 : { // Lost Heavy Axe
-    image : 'lost-heavy-axe',
+    image : 'T_WeaponIcon_WeaponHammer_H',
     
     weight : 50,
 
@@ -5419,7 +5419,7 @@ CodeVeinBuilder.data.weapon = {
   
   // Hellfire Knight DLC
   D11 : { // Hellfire Hammer
-    image : 'hellfire-hammer',
+    image : 'T_WeaponIcon_WeaponHammer_DLC_Hannibal',
     dlc : 1,
     
     weight : 56,
@@ -5436,7 +5436,7 @@ CodeVeinBuilder.data.weapon = {
   
   // Frozen Empress DLC
   D12 : { // Snowdrift Sharur
-    image : 'snowdrift-sharur',
+    image : 'T_WeaponIcon_WeaponHammer_DLC_Marduk',
     dlc : 1,
     
     weight : 58,
@@ -5453,7 +5453,7 @@ CodeVeinBuilder.data.weapon = {
   
   // # BAYONETS #
   E0 : { // Queenslayer Bayonet
-    image : 'queenslayer-bayonet',
+    image : 'T_WeaponIcon_WeaponBayonet_A',
     
     weight : 15,
 
@@ -5471,7 +5471,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   E1 : { // Brodiaea
-    image : 'brodiaea',
+    image : 'T_WeaponIcon_WeaponBayonet_A_Col2',
     
     weight : 10,
 
@@ -5489,7 +5489,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   E2 : { // Riot Breaker
-    image : 'riot-breaker',
+    image : 'T_WeaponIcon_WeaponBayonet_B',
     
     weight : 22,
 
@@ -5509,7 +5509,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   E3 : { // Bayonet
-    image : 'bayonet',
+    image : 'T_WeaponIcon_WeaponBayonet_C',
     
     weight : 14,
 
@@ -5527,7 +5527,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   E4 : { // Rubellite Piercer
-    image : 'rubellite-piercer',
+    image : 'T_WeaponIcon_WeaponBayonet_D',
     
     weight : 18,
 
@@ -5545,7 +5545,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   E5 : { // Argent Wolf Bayonet
-    image : 'argent-wolf-bayonet',
+    image : 'T_WeaponIcon_WeaponBayonet_E',
     
     weight : 27,
 
@@ -5562,7 +5562,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   E6 : { // Burning Disaster
-    image : 'burning-disaster',
+    image : 'T_WeaponIcon_WeaponBayonet_F',
     
     weight : 33,
 
@@ -5581,7 +5581,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   E7 : { // Sunset Bayonet
-    image : 'sunset-bayonet',
+    image : 'T_WeaponIcon_WeaponBayonet_G',
     
     weight : 8,
 
@@ -5598,7 +5598,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   E8 : { // Black Bayonet
-    image : 'black-bayonet',
+    image : 'T_WeaponIcon_WeaponBayonet_H',
     
     weight : 24,
 
@@ -5615,7 +5615,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   E9 : { // Libertador
-    image : 'libertador',
+    image : 'T_WeaponIcon_WeaponBayonet_H_Col2',
     
     weight : 20,
 
@@ -5633,7 +5633,7 @@ CodeVeinBuilder.data.weapon = {
   },
   
   E10 : { // Lost Bayonet
-    image : 'lost-bayonet',
+    image : 'T_WeaponIcon_WeaponBayonet_I',
     
     weight : 11,
 
@@ -5650,7 +5650,7 @@ CodeVeinBuilder.data.weapon = {
   
   // Frozen Empress DLC
   E11 : { // Bloody Snow
-    image : 'bloody-snow',
+    image : 'T_WeaponIcon_WeaponBayonet_DLC_Marduk',
     dlc : 1,
     
     weight : 12,
@@ -5668,7 +5668,7 @@ CodeVeinBuilder.data.weapon = {
   
   // Lord of Thunder DLC
   E12 : { // Thunderbolt
-    image : 'thunderbolt',
+    image : 'T_WeaponIcon_WeaponBayonet_DLC_Vajura',
     dlc : 1,
     
     weight : 14,
@@ -5770,7 +5770,7 @@ CodeVeinBuilder.data.order.weapon = [
 CodeVeinBuilder.data.blood_veil = {
   // # OGRE #
   A0 : { // Night Claw
-    image : 'night-claw',
+    image : 'T_CategoryIcon_Gauntlet_A',
     
     weight : 30,
 
@@ -5788,7 +5788,7 @@ CodeVeinBuilder.data.blood_veil = {
   },
   
   A1 : { // Noble Silver
-    image : 'noble-silver',
+    image : 'T_CategoryIcon_Gauntlet_C',
     
     weight : 22,
 
@@ -5805,7 +5805,7 @@ CodeVeinBuilder.data.blood_veil = {
   },
 
   A2 : { // GXM Variant
-    image : 'gxm-variant',
+    image : 'T_CategoryIcon_Gauntlet_E',
     
     weight : 63,
 
@@ -5823,7 +5823,7 @@ CodeVeinBuilder.data.blood_veil = {
   },
   
   A3 : { // Blackblood Liberator
-    image : 'blackblood-liberator',
+    image : 'T_CategoryIcon_Gauntlet_F',
     
     weight : 49,
 
@@ -5839,7 +5839,7 @@ CodeVeinBuilder.data.blood_veil = {
   },
   
   A4 : { // Queenslayer Claw
-    image : 'queenslayer-claw',
+    image : 'T_CategoryIcon_Gauntlet_H',
     
     weight : 55,
 
@@ -5857,7 +5857,7 @@ CodeVeinBuilder.data.blood_veil = {
   },
   
   A5 : { // Venous Claw
-    image : 'venous-claw',
+    image : 'T_CategoryIcon_Gauntlet_ColEx',
     dlc : 1,
     
     weight : 18,
@@ -5879,7 +5879,7 @@ CodeVeinBuilder.data.blood_veil = {
   
   // Hellfire Knight DLC
   A6 : { // Ruinous Chevalier
-    image : 'ruinous-chevalier',
+    image : 'T_CategoryIcon_Gauntlet_F_Col4',
     dlc : 1,
     
     weight : 60,
@@ -5897,7 +5897,7 @@ CodeVeinBuilder.data.blood_veil = {
   
   // Lord of Thunder DLC
   A7 : { // Twilight Claw
-    image : 'twilight-claw',
+    image : 'T_CategoryIcon_Gauntlet_A_Col4',
     dlc : 1,
     
     weight : 32,
@@ -5914,7 +5914,7 @@ CodeVeinBuilder.data.blood_veil = {
   
   // # STINGER #
   B0 : { // Night Spear
-    image : 'night-spear',
+    image : 'T_CategoryIcon_LongCoat_A',
     
     weight : 65,
 
@@ -5932,7 +5932,7 @@ CodeVeinBuilder.data.blood_veil = {
   },
   
   B1 : { // Raven Fatigues
-    image : 'raven-fatigues',
+    image : 'T_CategoryIcon_LongCoat_B',
     
     weight : 38,
 
@@ -5950,7 +5950,7 @@ CodeVeinBuilder.data.blood_veil = {
   },
   
   B2 : { // Winter Mantle
-    image : 'winter-mantle',
+    image : 'T_CategoryIcon_LongCoat_D',
     
     weight : 74,
 
@@ -5967,7 +5967,7 @@ CodeVeinBuilder.data.blood_veil = {
   },
   
   B3 : { // Silver Garb
-    image : 'silver-garb',
+    image : 'T_CategoryIcon_LongCoat_E',
     
     weight : 80,
 
@@ -5985,7 +5985,7 @@ CodeVeinBuilder.data.blood_veil = {
   },
   
   B4 : { // Queenslayer Thorn
-    image : 'queenslayer-thorn',
+    image : 'T_CategoryIcon_LongCoat_H',
     
     weight : 47,
 
@@ -6003,7 +6003,7 @@ CodeVeinBuilder.data.blood_veil = {
   
   // Hellfire Knight DLC
   B5 : { // Graceful Prominence
-    image : 'graceful-prominence',
+    image : 'T_CategoryIcon_LongCoat_B_Col4',
     dlc : 1,
     
     weight : 34,
@@ -6020,7 +6020,7 @@ CodeVeinBuilder.data.blood_veil = {
   
   // Frozen Empress DLC
   B6 : { // Subzero Shroud
-    image : 'subzero-shroud',
+    image : 'T_CategoryIcon_LongCoat_D_Col4',
     dlc : 1,
     
     weight : 78,
@@ -6037,7 +6037,7 @@ CodeVeinBuilder.data.blood_veil = {
   
   // # HOUNDS #
   C0 : { // Night Fang
-    image : 'night-fang',
+    image : 'T_CategoryIcon_Drape_A',
     
     weight : 60,
 
@@ -6054,7 +6054,7 @@ CodeVeinBuilder.data.blood_veil = {
   },
   
   C1 : { // Blue Hounds
-    image : 'blue-hounds',
+    image : 'T_CategoryIcon_Drape_B',
     
     weight : 53,
 
@@ -6072,7 +6072,7 @@ CodeVeinBuilder.data.blood_veil = {
   },
   
   C2 : { // GXL Defender
-    image : 'gxl-defender',
+    image : 'T_CategoryIcon_Drape_C',
     
     weight : 88,
 
@@ -6090,7 +6090,7 @@ CodeVeinBuilder.data.blood_veil = {
   },
   
   C3 : { // Hedgehog Fort
-    image : 'hedgehog-fort',
+    image : 'T_CategoryIcon_Drape_D',
     
     weight : 80,
 
@@ -6109,7 +6109,7 @@ CodeVeinBuilder.data.blood_veil = {
   },
   
   C4 : { // White Vestment
-    image : 'white-vestment',
+    image : 'T_CategoryIcon_Drape_E',
     
     weight : 65,
 
@@ -6128,7 +6128,7 @@ CodeVeinBuilder.data.blood_veil = {
   
   // Hellfire Knight DLC
   C5 : { // Violet Gear
-    image : 'violet-gear',
+    image : 'T_CategoryIcon_Drape_B_Col4',
     dlc : 1,
     
     weight : 43,
@@ -6145,7 +6145,7 @@ CodeVeinBuilder.data.blood_veil = {
   
   // Lord of Thunder DLC
   C6 : { // Daybreak Thunderfang
-    image : 'daybreak-thunderfang',
+    image : 'T_CategoryIcon_Drape_A_Col4',
     dlc : 1,
     
     weight : 77,
@@ -6164,7 +6164,7 @@ CodeVeinBuilder.data.blood_veil = {
   
   // # IVY #
   D0 : { // Night Thorn
-    image : 'night-thorn',
+    image : 'T_CategoryIcon_Muffler_A',
     
     weight : 24,
 
@@ -6182,7 +6182,7 @@ CodeVeinBuilder.data.blood_veil = {
   },
   
   D1 : { // Ivory Grace
-    image : 'ivory-grace',
+    image : 'T_CategoryIcon_Muffler_C',
     
     weight : 12,
 
@@ -6200,7 +6200,7 @@ CodeVeinBuilder.data.blood_veil = {
   },
   
   D2 : { // GXH Assault
-    image : 'gxh-assault',
+    image : 'T_CategoryIcon_Muffler_D',
     
     weight : 40,
 
@@ -6219,7 +6219,7 @@ CodeVeinBuilder.data.blood_veil = {
   },
   
   D3 : { // Prayer Shawl
-    image : 'prayer-shawl',
+    image : 'T_CategoryIcon_Muffler_E',
     
     weight : 48,
 
@@ -6236,7 +6236,7 @@ CodeVeinBuilder.data.blood_veil = {
   },
   
   D4 : { // Suicide Spur
-    image : 'suicide-spur',
+    image : 'T_CategoryIcon_Muffler_F',
     
     weight : 35,
 
@@ -6255,7 +6255,7 @@ CodeVeinBuilder.data.blood_veil = {
   
   // Frozen Empress DLC
   D5 : { // Bewitching Thorn
-    image : 'bewitching-thorn',
+    image : 'T_CategoryIcon_Muffler_E_Col4',
     dlc : 1,
     
     weight : 23,
@@ -6271,7 +6271,7 @@ CodeVeinBuilder.data.blood_veil = {
   
   // Lord of Thunder DLC
   D6 : { // Master Spines
-    image : 'master-spines',
+    image : 'T_CategoryIcon_Muffler_A_Col4',
     dlc : 1,
     
     weight : 12,
@@ -6327,12 +6327,12 @@ CodeVeinBuilder.data.order.blood_veil = [
 CodeVeinBuilder.data.transform = {
   // # PHYSICAL #
   A0 : { // Alleviation
-    image : 'alleviation',
+    image : 'T_ItemIcon_chrome_mini8',
     dec_weight : 1.25
   },
 
   A1 : { // Fortification
-    image : 'fortification',
+    image : 'T_ItemIcon_chrome_mini9',
     inc_weight : {
       weapon : 1.15,
       blood_veil : 1.10
@@ -6340,47 +6340,47 @@ CodeVeinBuilder.data.transform = {
   },
   
   A2 : { // Intensification
-    image : 'intensification'
+    image : 'T_ItemIcon_chrome_mini6'
   },
 
   A3 : { // Gifts
-    image : 'gifts'
+    image : 'T_ItemIcon_chrome_mini10'
   },
   
   A4 : { // Devour
-    image : 'devour'
+    image : 'T_ItemIcon_chrome_mini4'
   },
 
   
   // # ELEMENTAL #
   B0 : { // Fire
-    image : 'fire'
+    image : 'T_ItemIcon_chrome_mini1'
   },
 
   B1 : { // Ice
-    image : 'ice'
+    image : 'T_ItemIcon_chrome_mini2'
   },
 
   B2 : { // Lightning
-    image : 'lightning'
+    image : 'T_ItemIcon_chrome_mini3'
   },
   
   
   // # AILMENTS #
   C0 : { // Venom
-    image : 'venom'
+    image : 'T_ItemIcon_chrome_mini5'
   },
 
   C1 : { // Stun
-    image : 'stun'
+    image : 'T_ItemIcon_chrome_mini11'
   },
   
   C2 : { // Inhibit
-    image : 'inhibit'
+    image : 'T_ItemIcon_chrome_mini7'
   },
 
   C3 : { // Slow
-    image : 'slow'
+    image : 'T_ItemIcon_chrome_mini12'
   }
 };
 CodeVeinBuilder.data.order.transform = [

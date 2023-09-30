@@ -10,7 +10,7 @@ window._lang = {
   weapon : "武器",
   blood_veil : "吸血牙装",
   transform : "転成する",
-  blood_code : "ブラッドコード",
+  blood_code : "BloodCode",
   gift_type : "錬血タイプ",
   passive : "パッシブ",
   active : "アクティブ",
@@ -31,6 +31,7 @@ window._lang = {
   
   // preset selector
   preset_default : 'Select a Preset Build', // Please translate this
+  preset_windows : 'Load Preset?' // Please translate this
   preset_empty : 'Empty Build', // Please translate this
   preset_random : 'Random Build', // Please translate this
   preset_warn : 'Do you want to load the "%{PRESET_NAME}" build? Your current build will be overwritten.', // Please translate this
@@ -735,110 +736,110 @@ window._lang = {
 
       // # FOCUS BOOSTS #
       D0 : {
-        name : "陰の衝動",
+        name : '<span style="font-family:GEZFont;"></span>陰の衝動',
         desc : "集中状態の時、錬血[陰]の性能が増加する"
       },
       
       D1 : {
-        name : "陽の衝動",
+        name : '<span style="font-family:GEZFont;"></span>陽の衝動',
         desc : "集中状態の時、錬血[陽]の性能が増加する"
       },
       
       D2 : {
-        name : "ガード時ST軽減",
+        name : '<span style="font-family:GEZFont;"></span>ガード時ST軽減',
         desc : "集中状態の時、ガード時の<br>スタミナ消費を軽減する"
       },
       
       D3 : {
-        name : "ガード性能向上",
+        name : '<span style="font-family:GEZFont;"></span>ガード性能向上',
         desc : "集中状態の時、物理攻撃に対する<br>ガード性能が増加する"
       },
       
       D4 : {
-        name : "消費スタミナ軽減",
+        name : '<span style="font-family:GEZFont;"></span>消費スタミナ軽減',
         desc : "集中状態の時、消費スタミナが軽減される"
       },
       
       D5 : {
-        name : "集中持続",
+        name : '<span style="font-family:GEZFont;"></span>集中持続',
         desc : "集中状態の時、時間による<br>集中ゲージ減少量を軽減する"
       },
       
       D6 : {
-        name : "集中乱舞",
+        name : '<span style="font-family:GEZFont;"></span>集中乱舞',
         desc : "集中状態の時、攻撃行動による<br>集中ゲージ減少量を軽減する"
       },
       
       D7 : {
-        name : "倹約家",
+        name : '<span style="font-family:GEZFont;"></span>倹約家',
         desc : "集中状態の時、武器攻撃による<br>冥血の消費量が軽減される"
       },
       
       D8 : {
-        name : "消費冥血軽減",
+        name : '<span style="font-family:GEZFont;"></span>消費冥血軽減',
         desc : "集中状態の時、冥血の消費量を軽減する",
         usage_req : "女王の喉骸 ブラッドコード"
       },
       
       D9 : {
-        name : "吸血性能向上",
+        name : '<span style="font-family:GEZFont;"></span>吸血性能向上',
         desc : "集中状態の時、あらゆる吸血性能が増加する"
       },
       
       D10 : {
-        name : "錬血発動短縮",
+        name : '<span style="font-family:GEZFont;"></span>錬血発動短縮',
         desc : "集中状態の時、錬血の使用速度が速くなる"
       },
       
       D11 : {
-        name : "血属性付与",
+        name : '<span style="font-family:GEZFont;"></span>血属性付与',
         desc : "集中状態の時、装備中の武器に<br>血属性の力を付与する"
       },
       
       D12 : {
-        name : "火属性付与",
+        name : '<span style="font-family:GEZFont;"></span>火属性付与',
         desc : "集中状態の時、装備中の武器に<br>火属性の力を付与する"
       },
       
       D13 : {
-        name : "氷属性付与",
+        name : '<span style="font-family:GEZFont;"></span>氷属性付与',
         desc : "集中状態の時、装備中の武器に<br>氷属性の力を付与する"
       },
       
       D14 : {
-        name : "雷属性付与",
+        name : '<span style="font-family:GEZFont;"></span>雷属性付与',
         desc : "集中状態の時、装備中の武器に<br>雷属性の力を付与する"
       },
       
       D15 : {
-        name : "ヴェノム属性付与",
+        name : '<span style="font-family:GEZFont;"></span>ヴェノム属性付与',
         desc : "集中状態の時、装備中の武器に<br>状態異常“ヴェノム”の力を付与する"
       },
       
       D16 : {
-        name : "スタン属性付与",
+        name : '<span style="font-family:GEZFont;"></span>スタン属性付与',
         desc : "集中状態の時、装備中の武器に<br>状態異常“スタン”の力を付与する"
       },
       
       D17 : {
-        name : "女神の微笑み",
+        name : '<span style="font-family:GEZFont;"></span>女神の微笑み',
         desc : "集中状態になった瞬間、HPが回復する"
       },
       
       // Frozen Empress DLC
       D18 : {
-        name : "集中時冥血回復",
+        name : '<span style="font-family:GEZFont;"></span>集中時冥血回復',
         desc : "集中状態になった瞬間、冥血が回復する"
       },
       
       // Lord of Thunder DLC
       D19 : {
-        name : "集中時能力向上",
+        name : '<span style="font-family:GEZFont;"></span>集中時能力向上',
         desc : "集中状態の間だけ<br>全ての能力値が増加する"
       },
       
       D20 : {
-        name : "ストッピングパワー",
+        name : '<span style="font-family:GEZFont;"></span>ストッピングパワー',
         desc : "集中状態時に、銃剣の弾丸攻撃で<br>削ることができる敵の堅牢値が上昇する"
       },
 

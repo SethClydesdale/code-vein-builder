@@ -3,7 +3,7 @@
 window._lang = {
   // general placeholders
   na : 'N/A', // English abbreviation for "Not Available"; Japanese typically use "なし" (so use your equiv.)
-  none : '(None)',
+  none : '(Aucun)',
   
   
   // titles/labels
@@ -31,6 +31,7 @@ window._lang = {
   
   // preset selector
   preset_default : 'Select a Preset Build', // Please translate this
+  preset_windows : 'Load Preset?' // Please translate this
   preset_empty : 'Empty Build', // Please translate this
   preset_random : 'Random Build', // Please translate this
   preset_warn : 'Do you want to load the "%{PRESET_NAME}" build? Your current build will be overwritten.', // Please translate this
@@ -735,110 +736,110 @@ window._lang = {
 
       // # FOCUS BOOSTS #
       D0 : {
-        name : " Élan ténébreux",
+        name : '<span style="font-family:GEZFont;"></span> Élan ténébreux',
         desc : "Augmente les effets des Dons de ténèbres en<br>état de concentration."
       },
       
       D1 : {
-        name : " Élan lumineux",
+        name : '<span style="font-family:GEZFont;"></span> Élan lumineux',
         desc : "Augmente les effets des Dons de lumière en<br>état de concentration."
       },
       
       D2 : {
-        name : " Stabilité de la garde",
+        name : '<span style="font-family:GEZFont;"></span> Stabilité de la garde',
         desc : "Réduit l'endurance consommée par la garde en<br>état de concentration."
       },
       
       D3 : {
-        name : " Garde concentrée",
+        name : '<span style="font-family:GEZFont;"></span> Garde concentrée',
         desc : "Augmente la défense de l'arme contre les<br>attaques physiques en état de concentration."
       },
       
       D4 : {
-        name : " Endurance concentrée",
+        name : '<span style="font-family:GEZFont;"></span> Endurance concentrée',
         desc : "Réduit l'endurance dépensée en état de<br>concentration."
       },
       
       D5 : {
-        name : " Concentration continue",
+        name : '<span style="font-family:GEZFont;"></span> Concentration continue',
         desc : "Réduit la vitesse de consommation de la jauge<br>de concentration en état de concentration."
       },
       
       D6 : {
-        name : " Carnage concentré",
+        name : '<span style="font-family:GEZFont;"></span> Carnage concentré',
         desc : "Réduit la quantité de concentration consommée<br>par les attaques en état de concentration."
       },
       
       D7 : {
-        name : " Coups d'ichor",
+        name : '<span style="font-family:GEZFont;"></span> Coups d&#39;ichor',
         desc : "Réduit le coût en ichor des attaques à<br>l'arme en état de concentration."
       },
       
       D8 : {
-        name : " Ichor réduit",
+        name : '<span style="font-family:GEZFont;"></span> Ichor réduit',
         desc : "Réduit la consommation d'ichor en état de<br>concentration.",
         usage_req : "Gorge de la Reine Code sanguin"
       },
       
       D9 : {
-        name : " Bonus d'absorption",
+        name : '<span style="font-family:GEZFont;"></span> Bonus d&#39;absorption',
         desc : "Augmente tous les taux d'absorption en état<br>de concentration."
       },
       
       D10 : {
-        name : " Don rapide concentré",
+        name : '<span style="font-family:GEZFont;"></span> Don rapide concentré',
         desc : "Augmente la vitesse d'utilisation des Dons<br>en état de concentration."
       },
       
       D11 : {
-        name : " Bonus de sang",
+        name : '<span style="font-family:GEZFont;"></span> Bonus de sang',
         desc : "Votre arme actuelle inflige des dégâts de<br>sang en état de concentration."
       },
       
       D12 : {
-        name : " Bonus de feu",
+        name : '<span style="font-family:GEZFont;"></span> Bonus de feu',
         desc : "Votre arme actuelle inflige des dégâts de<br>feu en état de concentration."
       },
       
       D13 : {
-        name : " Bonus de glace",
+        name : '<span style="font-family:GEZFont;"></span> Bonus de glace',
         desc : "Votre arme actuelle inflige des dégâts de<br>glace en état de concentration."
       },
       
       D14 : {
-        name : " Bonus de foudre",
+        name : '<span style="font-family:GEZFont;"></span> Bonus de foudre',
         desc : "Votre arme actuelle inflige des dégâts de<br>foudre en état de concentration."
       },
       
       D15 : {
-        name : " Bonus de poison",
+        name : '<span style="font-family:GEZFont;"></span> Bonus de poison',
         desc : "Ajoute un effet à votre arme qui inflige l'altération<br>empoisonnement en état de concentration."
       },
       
       D16 : {
-        name : " Bonus d'étourdissement",
+        name : '<span style="font-family:GEZFont;"></span> Bonus d&#39;étourdissement',
         desc : "Ajoute un effet à votre arme qui inflige l'altération<br>étourdissement en état de concentration."
       },
       
       D17 : {
-        name : " Le sourire de la Déesse",
+        name : '<span style="font-family:GEZFont;"></span> Le sourire de la Déesse',
         desc : "Restaure les PV quand vous passez en état de<br>concentration."
       },
       
       // Frozen Empress DLC
       D18 : {
-        name : " Concentration d'ichor",
+        name : '<span style="font-family:GEZFont;"></span> Concentration d&#39;ichor',
         desc : "Restaure de l'ichor quand vous passez en état de<br>concentration."
       },
       
       // Lord of Thunder DLC
       D19 : {
-        name : " Bonus de stats",
+        name : '<span style="font-family:GEZFont;"></span> Bonus de stats',
         desc : "Augmente toutes les statistiques en état de<br>concentration."
       },
       
       D20 : {
-        name : " Pouvoir d'arrêt",
+        name : '<span style="font-family:GEZFont;"></span> Pouvoir d&#39;arrêt',
         desc : "En état de concentration, vos tirs de baïonnette<br>déstabilisent davantage l'ennemi."
       },
 

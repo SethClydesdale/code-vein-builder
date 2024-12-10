@@ -10,8 +10,16 @@
     languages : {
       '0 - submit_translation' : 'submit',
       '1 - English' : 'en',
-      '2 - 繁體中文' : 'zh-hant'
-	  '3 - 日本語' : 'ja'
+      '2 - 繁體中文' : 'zh-hant',
+      '3 - 日本語' : 'ja',
+      '4 - Français' : 'fr',
+      '5 - Deutsch' : 'de',
+      '6 - Italiano' : 'it',
+      '7 - 한국어' : 'ko',
+      '8 - Português' : 'pt-BR',
+      '9 - Русский' : 'ru',
+      '10 - Español - España' : 'es',
+      '11 - Español - Latinoamérica' : 'es-419'
     },
     
     // node cache + any other cached data
@@ -1468,7 +1476,7 @@
             
           } else {
             GenkiModal.open({
-              title : 'Load Preset?',
+              title : _lang.preset_windows,
               content : _lang.preset_warn.replace('%{PRESET_NAME}', build.innerHTML)+
               '<div class="checkbox-zone">'+
                 '<label for="preset_warning"><input id="preset_warning" type="checkbox" onchange="localStorage.noPresetWarning = this.checked;"> ' + _lang.preset_stop_warning + '</label>'+

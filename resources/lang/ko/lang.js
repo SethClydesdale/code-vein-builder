@@ -1,4 +1,5 @@
 // # 한국어 TRANSLATION  By 清羽？ or  Qingyu510
+// more korean translation added by M-xiz. 더 많은 번역 추가. thx for everyone's effort
 // Language file for the entire application which can be used for translations.
 window._lang = {
   // general placeholders
@@ -9,12 +10,12 @@ window._lang = {
   // titles/labels
   weapon : "무기",
   blood_veil : "흡혈아장",
-  transform : "성질 변경한다",
-  blood_code : "BloodCode",
+  transform : "성질을 바꾼다",
+  blood_code : "블러드코드",
   gift_type : "연혈 타입",
   passive : "패시브",
   active : "액티브",
-  options : "OPTIONS",
+  options : "설정",
   code_owner : "Code owner",
   origin : "획득 경로:",
   companion_rank : "협력자의 공적",
@@ -25,22 +26,22 @@ window._lang = {
   
   // modal
   modal_ok : "결정",
-  modal_close : "닫는다",
-  modal_title_default : "Popup", // Please translate this
+  modal_close : "취소",
+  modal_title_default : "팝업",
   
   
   // preset selector
-  preset_default : 'Select a Preset Build', // Please translate this
-  preset_windows : 'Load Preset?' // Please translate this
-  preset_empty : 'Empty Build', // Please translate this
-  preset_random : 'Random Build', // Please translate this
-  preset_warn : 'Do you want to load the "%{PRESET_NAME}" build? Your current build will be overwritten.', // Please translate this
-  preset_stop_warning : 'Stop showing this warning', // Please translate this
-  preset_submit : 'Submit a Build', // Please translate this
-  preset_submit_confirm : 'Do you want to submit a build? You will leave the current page. Please make sure to save your build before proceeding.', // Please translate this
-  preset_author : 'Author', // Please translate this
-  preset_origin : 'Source', // Please translate this
-  preset_desc : 'Description', // Please translate this
+  preset_default : '프리셋 빌드 선택',
+  preset_windows : '프리셋 불러오기?'
+  preset_empty : '새 빌드',
+  preset_random : '무작위 빌드',
+  preset_warn : '"%{PRESET_NAME}"를 불러오겠습니까? 현재 빌드가 덮어씌워집니다',
+  preset_stop_warning : '경고 그만 표시하기',
+  preset_submit : '빌드 제출하기',
+  preset_submit_confirm : '빌드를 제출하시겠습니까? 다른 페이지로 이동합니다. 진행하기 전에 현재 빌드를 저장해주세요',
+  preset_author : '빌드 제작자',
+  preset_origin : '출처',
+  preset_desc : '빌드 설명',
   
   // preset groups
   preset_group : {
@@ -53,28 +54,28 @@ window._lang = {
     light_gifts : "[양]연혈",
     dark_gifts : "[음]연혈",
     debuff : "디버프",
-    misc : "미스켈렌"
+    misc : "기타"
   },
   
   
   // language selector
-  lang_select : 'Language', // Please translate this
-  submit_translation : 'Submit a Translation', // Please translate this
-  submit_translation_confirm : 'Do you want to submit a translation? You will leave the current page. Please make sure to save your build before proceeding.', // Please translate this
+  lang_select : '언어',
+  submit_translation : '번역 제출하기',
+  submit_translation_confirm : '번역을 제출하시겠습니까? 다른 페이지로 이동합니다. 진행하기 전에 현재 빌드를 저장해주세요',
   
   
   // save build
-  save_build : 'Save Build', // Please translate this
-  save_build_desc : 'Copy the URL or Code for your build to save it or share it with others online.', // Please translate this
-  copy_url : 'Copy URL', // Please translate this
-  copy_code : 'Copy Code', // Please translate this
-  copy_success : 'Copied!', // Please translate this
+  save_build : '빌드 저장',
+  save_build_desc : 'URL 또는 코드를 복사해서 빌드를 저장하거나 온라인에 공유할 수 있습니다',
+  copy_url : 'URL 복사',
+  copy_code : '코드 복사',
+  copy_success : '복사완료!',
   
   // load build
-  load_build : 'Load Build', // Please translate this
-  load_build_label : 'Build URL/Code', // Please translate this
-  load_build_desc : 'Paste your Build URL or Code into the textarea below and click the "Load Build" button to load the build. Please note that this will overwrite your current build.', // Please translate this
-  load_build_error : 'Please insert a build URL or Code to load a build.', // Please translate this
+  load_build : '빌드 불러오기',
+  load_build_label : '빌드 URL/코드',
+  load_build_desc : '아래에 복사한 빌드 URL 또는 코드를 붙여넣고 "빌드 불러오기"를 클릭하여 빌드를 불러옵니다. 현재 빌드를 덮어씌웁니다.',
+  load_build_error : '빌드 URL 또는 코드를 입력하십시오.',
 
   
   // stats
@@ -195,7 +196,7 @@ window._lang = {
   
   
   // equip error
-  equip_error : "You do not meet the requirements to use one or more Gifts/Items you have equipped.", // Please translate this
+  equip_error : "필요 파라미터가 부족해서 장착한 연혈/장비를 사용할 수 없습니다.",
   
   
   // # DATA SECTION #

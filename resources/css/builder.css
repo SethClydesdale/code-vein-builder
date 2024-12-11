@@ -661,10 +661,3 @@
   #cv-alert-text { width:240px; }
   #cv-alert-text p { padding:5px; font-size:11px; }
 }
-
-@media (max-width:728px) {
-  #content {
-    margin-top:296px;
-    margin-bottom:296px;
-  }
-}

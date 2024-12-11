@@ -443,6 +443,11 @@ footer li:first-child:before { display:none; }
   margin:0 6px 0 6px;
 }
 
+/* ADS */
+.ad-container {
+  text-align:center;
+  padding:20px 0;
+}
 
 /* RESPONSIVENESS */
 @media (max-width:1000px) {

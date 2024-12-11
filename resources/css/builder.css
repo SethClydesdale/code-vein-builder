@@ -631,13 +631,6 @@
 }
 
 
-/* ADS */
-.ad-container {
-  text-align:center;
-  padding:20px 0;
-}
-
-
 /* RESPONSIVENESS */
 @media (max-width:1000px) {
   #builder {

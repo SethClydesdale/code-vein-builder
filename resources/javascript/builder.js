@@ -4,6 +4,7 @@
   window.CodeVeinBuilder = {
     // "build" stores your selection as an alphanumeric id, where the id is used to access data in CodeVeinBuilder.data
     // consult node cache for index order (CodeVeinBuilder.cache.build)
+    // language codes should remain lowercase (e.g. pt-br instead of pt-BR)
     build : [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     
     // available languages
@@ -16,7 +17,7 @@
       '5 - Deutsch' : 'de',
       '6 - Italiano' : 'it',
       '7 - 한국어' : 'ko',
-      '8 - Português' : 'pt-BR',
+      '8 - Português' : 'pt-br',
       '9 - Русский' : 'ru',
       '10 - Español - España' : 'es',
       '11 - Español - Latinoamérica' : 'es-419'
@@ -1393,7 +1394,7 @@
         }
         
         // push new history state
-        window.history.pushState({}, document.title, window.location.href.replace(window.location.search, '') + '?build=' + LZString.compressToEncodedURIComponent(CodeVeinBuilder.build.join('|')) + (/devmode=true/i.test(window.location.search) ? '&devmode=true' : '') + lang + (context ? '&context=' + LZString.compressToEncodedURIComponent(context.join('|')) : ''));
+        window.history.pushState({}, document.title, (window.location.href.replace(window.location.search, '') + '?build=' + LZString.compressToEncodedURIComponent(CodeVeinBuilder.build.join('|')) + (/devmode=true/i.test(window.location.search) ? '&devmode=true' : '') + lang.replace(/&$/, '') + (context ? '&context=' + LZString.compressToEncodedURIComponent(context.join('|')) : '')));
       }
     },
     
@@ -1406,7 +1407,7 @@
       } else {
         var reddit = /u\//.test(data.author[0]);
 
-        CodeVeinBuilder.cache.buildDesc.innerHTML = '<div class="ui-window">'+
+        CodeVeinBuilder.cache.buildDesc.innerHTML = '<div class="ui-window" style="margin-bottom:0;">'+
           '<div class="ui-title">' + data.title + '</div>'+
           '<div class="ui-window-inner">'+
             '<div class="info-group">'+
@@ -1563,7 +1564,7 @@
       // standard language switching
       if (lang != 'en') {
         if (/lang=/i.test(window.location.search)) {
-          window.location.search = window.location.search.replace(/lang=.*?(?:&|$)/i, 'lang=' + lang)
+          window.location.search = window.location.search.replace(/lang=.*?(&|$)/i, 'lang=' + lang + '$1')
 
         } else if (/build=/i.test(window.location.search)) {
           window.location.search = window.location.search + '&lang=' + lang;

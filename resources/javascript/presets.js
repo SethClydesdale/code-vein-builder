@@ -128,6 +128,12 @@ CodeVeinBuilder.presets = {
       'u/Soluden|fg839kj'
     ],
 
+    'Perfectly Balanced Prometheus' : [
+      'IIVgPsCMkQHGARGwBMFkGY5gKIAYwAxANnTUIBYZCUKiNTKwBheZlGZyAr4oA',
+      "The goal of the build is to take tools from prometheus blood code and make the best use out of it. Since blood code from itself doesn't have the best stats, the idea is to use weapons with 4 scaling stats as well as the buff only prometheus can use: Blade dance. Playstyle: Fast attacks that gets buffed when you hit enemies many times in quick succession as well as dodging their attacks with quick mobility.",
+      'taz4s|54'
+    ],
+
     'Pipe Meister' : [
       'IIJgLAPsCMEAxVgYVg4BmKAOKI0E4IUQIAxcIyU6E09BUyJQpAViOgHYg',
       "The trick to this build is buff swapping, most importantly Passive abilities. Don't get hit and your damage potential is insane even with the pipe!<br><br>"+
@@ -266,6 +272,12 @@ CodeVeinBuilder.presets = {
   // # HALBERD #
   // builds based around the halberd
   'halberd' : {
+    'Assassin Halberd' : [
+      'IIJg7APgwgrNAsEAiBGCp1oAzoBzRRwFEQCBmCAMRUksUpAE4r59rSpmoREpCg',
+      "It's a build for halberd users use to explore the map. Night Fog Veil can make sure you can hit the enemy first, most of enemy will get stun at first two hit then you can combo them to dead. With the high poise enemy, you can start with backstab, then finish them with Chariot Rush high damage. This build not good to boss fight but it can let you have a comfortable experience.",
+      'SilvrWill|52'
+    ],
+    
     'Dancing Scythe' : [
       'IIFgDAPgwgrBwEYCc0Bs9KI-AHBAogEzQIIQBiCAzBYSuSPDOlIXK2VCq461UA',
       "This build is for those who enjoy a good sparring with bosses rather than attempt to one-shot everything.<br><br>"+
@@ -442,6 +454,29 @@ CodeVeinBuilder.presets = {
       'Just a simple build using Artemis and with ability to have strong dark gifts, bayonet usage and cqc with one handed sword. A jack of all trades!',
       'cooldudeachyut|9'
     ],
+    
+    'Block Sucker Step 1' : [
+      'IITgPsBMYAxgQgRggFlugIne0OLcItFMlAMyoSQCsYGaAohQGJwDCkkQA',
+      "If you are in the begining of your Code vein adventure and seek a build that you can start playing right now, you have come to the right place. This build can be made going before the 5th boss of the journey. Hovewer, we will improve the build along the way up to post-game version, where we finally acquire desired blood code. Check step 2 and 3 for more info.<br>"+
+      "For now, Darkseeker will do just fine as it meets the requirements of our final weapon - broadsword devour. In base game, there is no other weapon that fits this build so this will be our weapon for the entire run. It has very high defense, low requirements and excellent drain rating. The weapon defense will come into play as the gift \"steady bulwark\" will allow us to get to 100 physical block without any additional defense enhancements. With guard drain rating up and bloodsucking blades buff both from you and Mia, you will replenish your ichor very quickly even by just guarding. This allows you to blast enemies with dark gifts of your choosing when they aren´t on top of you. The first four active gifts of the build are my suggestion, but its not important so it´s up to you. Steady bulwark is a must, the build won´t work without it. It lasts very long, but when it runs out, be sure to just dodge before reaplying it. Passive gifts are also just suggestions, the guard drain up is the only one that really matters, other gifts I would reccomend are ice buff, one handed sword mastery, dexterity/willpower up or tenacious fang.<br>"+
+      "If you did complete this build, check step 2 before you go any further. We will require the \"dweller in the dark\" ending for completing this build, check the requirements. We will need to collect all Isis vestiges before 7th boss for now.",
+      'Parapuch|49'
+    ],
+    
+    'Block Sucker Step 2' : [
+      'IIRgzAPsBMEAxUsALPNAhWARBWS5FRhCmiIFZSBOCLVAUUgDEEBhaaIA',
+      "Welcome to second step of the block sucker build. In this one I focused on what you can improve on the build before facing the 9th boss of Code vein. Isis is our new blood code now, it is very much a straight upgrade from what we had going in step one, and it brings along a lot of useful dark gifts we may use. Just before the 9th boss, we acquire our final blood veil, the blackblood liberator, which sports very high willpower scaling and good drain rating along with more balanced defense stats than suicide spur blood veil, which is final destination for most mage builds in Code vein´s base game. Before you get there, you might give a try to hedgehog fort, a heavy willpower boosting blood veil with solid defences. It is heavy, but with the setup we have going right now, you will still have normal mobility, so you may as well choose to stick with it until very late in the game. One good passive you will want to choose now is focused gift speed, you already had acces to it in step 1 but I kind of overlooked it.<br>"+
+      "Before the 8th boss of the game, make sure to collect and repair all Fionn vestiges, before 10th boss get all Scartach vestiges, and before 11th boss you should get all Harmonia vestiges.<br>"+
+      "See you on the third and last step, we will look at how the build should look heading into new game+",
+      'Parapuch|50'
+    ],
+    
+    'Block Sucker Step 3' : [
+      'IIJgHAPqEAxQzFALLKIICF0BE7YIx4Csa6oKwJw+A7BNigMIiIBiczIQA',
+      "Welcome in the last step, where we are finishing the game and are heading into new journey+ with enhanced difficulty. That is tough, so we should make sure to get the best gear and abilities possible here. The new Gift prowess buff grabbed from Harmonia blood code will make all gifts for you and companion cast faster, which is useful, because it is one of few ways how to buff as dark magic user. Also, after finishing the game and getting the base version of the \"dweller in the dark\" ending, collect all Eos vestiges and fight the final boss again. You will now not only get 2/4 on view all endings in one playtrough, but also be rewarded with Queen blood code, which is final destination for our build. Also consider blood veil transformation. If fortification is better than intensification will depend on the character´s level. The higher your level, the better intensification becomes.<br>"+
+      "As always, all the offensive gifts are mere suggestions. For passive gifts you might prefer to push your scalings up with willpower/strenght up and willpower up.",
+      'Parapuch|51'
+    ],
 
     'Frigid Blade Bearer' : [
       'IIJgHAPskAwQIgRiiCdjOhAonAwgJxSKqjogCsxAbFACwDMEeIqhzIyAYjEA',
@@ -541,6 +576,12 @@ CodeVeinBuilder.presets = {
     'Deliverance' : [
       'IIZgjAPgDNECKRjYkBiaBMEDCYvqyVhlQBYcBOCVAVmrCA',
       'This is a support build for co-op that helps keep the host alive at the cost of your own life. Use Cleansing Light in tandem with Regenerator to ensure you can quickly recover your health while the host is being thrown around.'
+    ],
+    
+    'Jolly Cooperation' : [
+      'IIZgDAPsBMUKwQEIigRjRgYrT7GwFFJtYBhADglIE4IARAFgkwV2djtRCA',
+      "Support build fit to assisting other players. Sacrifices mobility to boasts high defences, 100% physical guard and high balance. Empowers regeneration and features advanced health sharing. Attack boosting gifts provide long lasting bonus. Tip: for some bosses, vanishing hollow can be proficient to avoid aoe explosion attacks.",
+      'Parapuch|48'
     ],
 
     'Vampiric Blitzer' : [

@@ -2,7 +2,7 @@
 #builder {
   font-size:0;
   max-width:1000px;
-  margin:50px auto;
+  margin:25px auto;
 }
 
 #build-list .ui-block {
@@ -216,6 +216,10 @@
   padding-top:2px;
   padding-bottom:2px;
   box-sizing:border-box;
+}
+
+#build-desc .info-value {
+  font-weight:normal;
 }
 
 .info-label {
@@ -627,6 +631,12 @@
 }
 
 
+/* ADS */
+.ad-container {
+  text-align:center;
+  padding:20px 0;
+}
+
 
 /* RESPONSIVENESS */
 @media (max-width:1000px) {
@@ -650,4 +660,11 @@
 
   #cv-alert-text { width:240px; }
   #cv-alert-text p { padding:5px; font-size:11px; }
+}
+
+@media (max-width:728px) {
+  #content {
+    margin-top:296px;
+    margin-bottom:296px;
+  }
 }

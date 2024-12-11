@@ -20,6 +20,9 @@ if (window.location.hostname == 'sethclydesdale.github.io') {
   
   // Adsense
   (function (window, document, id) {
+    // exclusions
+    if (/\/donate\//.test(window.location.pathname)) return false;
+    
     var adsense = document.createElement('SCRIPT'), ad;
     adsense.async = true;
     adsense.crossorigin = 'anonymous';

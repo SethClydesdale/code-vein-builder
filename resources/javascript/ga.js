@@ -23,15 +23,15 @@ if (window.location.hostname == 'sethclydesdale.github.io') {
     // exclusions
     if (/\/donate\//.test(window.location.pathname)) return false;
     
-    var adsense = document.createElement('SCRIPT'), ad;
+    var adsense = document.createElement('SCRIPT');
     adsense.async = true;
     adsense.crossorigin = 'anonymous';
     adsense.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + id;
     document.head.appendChild(adsense);
     
-    // wait until DOM loaded to insert ads
-    window.addEventListener('DOMContentLoaded', function() {
-      var content = document.getElementById('content');
+    // function for inserting ads into document
+    var insertAds = function() {
+      var content = document.getElementById('content'), ad;
       
       if (content) {
         
@@ -63,7 +63,14 @@ if (window.location.hostname == 'sethclydesdale.github.io') {
           (adsbygoogle = window.adsbygoogle || []).push({});
         }
       }
-    });
+    };
+    
+    // wait until DOM loaded to insert ads
+    if (document.readyState !== 'loading') {
+      insertAds();
+    } else {
+      document.addEventListener('DOMContentLoaded', insertAds);
+    }
     
   }(window, document, 'ca-pub-2159011770843378'));
 }

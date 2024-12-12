@@ -32,7 +32,7 @@ window._lang = {
   
   // preset selector
   preset_default : '프리셋 빌드 선택',
-  preset_windows : '프리셋 불러오기?'
+  preset_windows : '프리셋 불러오기?',
   preset_empty : '새 빌드',
   preset_random : '무작위 빌드',
   preset_warn : '"%{PRESET_NAME}"를 불러오겠습니까? 현재 빌드가 덮어씌워집니다',

@@ -458,7 +458,8 @@
   border-bottom:5px solid #D73B3C;
   margin-top:-2px;
   width:100%;
-  transform:rotate(45deg);
+  -webkit-transform:rotate(45deg);
+          transform:rotate(45deg);
   position:absolute;
   top:50%;
   left:0;

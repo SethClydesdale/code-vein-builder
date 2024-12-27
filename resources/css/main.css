@@ -164,7 +164,8 @@ a#fork-me {
   line-height:30px;
   height:30px;
   width:200px;
-  transform:rotate(45deg);
+  -webkit-transform:rotate(45deg);
+          transform:rotate(45deg);
   position:absolute;
   right:-55px;
   top:30px;
@@ -280,7 +281,8 @@ a.anchor {
 
 .anchor-icon {
   display:inline-block;
-  transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+          transform:rotate(-45deg);
   visibility:hidden;
 }
 

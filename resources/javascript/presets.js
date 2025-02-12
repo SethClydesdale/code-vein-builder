@@ -262,6 +262,12 @@ CodeVeinBuilder.presets = {
       'u/srlynowwhat|fa9jsba'
     ],
 
+    'Shifting Skillmaster Demeter' : [
+      'IIZgDAPgQgjJs2gJgsRbWIKKIGKKkgGEY8AWMiXEFIgTivAiKTxX2aSSA',
+      'The sheer power and tankiness of Demeter blood code paired with the unique gift of auto heal make it look like a powerhouse. But in the end it falls flat. This is mainly because of the horrendous fortitude of E+. That leaves you with low mellee combat endurance, you have to manage your stamine really well and even then keep running out of it. Valiant heart or guard stability are tools Demeter users can use to preserve stamina, but what if I told you there is a much better way. Introducing Shifting hollow! This gift will allow you to stick to the enemy you choose to engage and dodge attacks with generous invincibility frames. Now you have a way to defend yourself without stamina and can use it all on attacking. Weave a speedy swallow cutter skill between attack to save even more and steadfast strike or dragon lunge for big boy damage. And ichor recovery is no problem thanks to hunting feast and bloodsucking blades. Finally auto heal, improved regen and balance together with large healthpool provide generous room for error on both ends.',
+      'Parapuch|57'
+    ],
+
     'Swift Blade Dancer' : [
       'IIZgDAPgQgHBkBECMFiUsATKuBRFAwgOypICcEAYpnNQKxWYmUgAsEBm2BFnKlYIA',
       'A two-handed sword build focused on quick mobility and attack spam. Buff up with Bridge to Glory and the two drain rating buffs to deal good damage while also draining tons of ichor. Due to this high drain rating, you should be able to spam all your attack Gifts, then following up with regular attacks to regain your ichor. Rinse and repeat for a decisive victory.'

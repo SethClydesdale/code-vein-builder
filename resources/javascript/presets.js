@@ -308,6 +308,12 @@ CodeVeinBuilder.presets = {
       'IIBgPgwgnG4CIEYzCeFyAcYCiAmZMEAbGAGK74QIAsZClCAzJAuBI8xFttUA',
       'A build that can kill bosses in one hit, at least on NG. Use all buffs before a fight with Jack as a partner and use Fatal Surge last. Once ready, enter the boss room and activate Severing Abyss near the boss to destroy them.'
     ],
+    
+    "Pokey Stick" : [
+      'IIBgPgwgTG7AjGBsmIKI2ADlTCA2MAMSgE5iBmcIigVkhwkWkgsnhCA',
+      "Due to the lack of Impaler builds within the preset by the time I submit this, I have decided to submit one myself. Design-wise, it's generic and general-purposes, good for both exploration and bosses so that you can poke anywhere, at any times. (Made with limited knowledge of the meta)",
+      'Janediamondp|59'
+    ],
 
     'Queenslayer Halberdier' : [
       'IIBgPgwgrGwIzgnWz63AMTgZjAUQCZIjhcIBOSADjAwMo2xgm1w0ziKziA',

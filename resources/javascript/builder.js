@@ -842,6 +842,11 @@
       // shows info on a weapon, skill, etc...
       showInfo : function (caller, hover, id) {
         if (hover) {
+          if (CodeVeinBuilder.selector.hidingInfo) {
+            clearTimeout(CodeVeinBuilder.selector.hidingInfo);
+            delete CodeVeinBuilder.selector.hidingInfo;
+          }
+          
           if (caller.dataset.id == '0') return false;
           
           CodeVeinBuilder.selector.activeCaller = id;
@@ -1174,8 +1179,15 @@
       
       // hides the hover info on mouse out
       hideInfo : function () {
-        CodeVeinBuilder.cache.infoColumn.main.style.display = '';
-        CodeVeinBuilder.cache.infoColumn.hover.style.display = 'none';
+        if (CodeVeinBuilder.selector.hidingInfo) {
+          clearTimeout(CodeVeinBuilder.selector.hidingInfo);
+          delete CodeVeinBuilder.selector.hidingInfo;
+        }
+        
+        CodeVeinBuilder.selector.hidingInfo = setTimeout(function () {
+          CodeVeinBuilder.cache.infoColumn.main.style.display = '';
+          CodeVeinBuilder.cache.infoColumn.hover.style.display = 'none';
+        }, 150);
       },
       
       

@@ -5,6 +5,10 @@
   margin:25px auto;
 }
 
+#build-list {
+  min-height:810px;
+}
+
 #build-list .ui-block {
   background-size:100%;
   background-repeat:no-repeat;
@@ -317,7 +321,8 @@
 
 
 /* WEAPON/SKILL SELECTION WINDOW */
-#selector-window {
+#selector-window { min-height:810px; }
+#selector-window, #hover-info {
   font-size:14px;
   position:relative;
 }
@@ -330,7 +335,7 @@
   margin:0 20px;
 }
 
-#selector-window .ui-block {
+#selector-window .ui-block, #hover-info .ui-block {
   height:80px;
   width:80px;
   margin:0 5px 5px 0;
@@ -339,13 +344,13 @@
   background-position:center;
 }
 
-#selector-window .ui-block.ui-blood_code {
+#selector-window .ui-block.ui-blood_code, #hover-info .ui-block.ui-blood_code {
   height:75px;
   width:105px;
   margin:0 2px 4px 0;
 }
 
-#selector-window .ui-block.ui-transform { background-size:60px; }
+#selector-window .ui-block.ui-transform, #hover-info .ui-block.ui-transform { background-size:60px; }
 
 .ui-title {
   color:#8D8D8B;
@@ -496,20 +501,21 @@
   margin:0;
   padding:0;
 }
+#hover-info #selector-close { display:none; }
 
 /* WEAPON SKILL INFO (TOP) */
-#selector-info-top {
+#selector-info-top, #hover-info-top {
   min-height:120px;
   margin-bottom:30px;
 }
 
-#selector-info-top .ui-block:before { display:none; }
-#selector-info-top .ui-block {
+#selector-info-top .ui-block:before, #hover-info-top .ui-block:before { display:none; }
+#selector-info-top .ui-block, #hover-info-top .ui-block {
   position:absolute;
   cursor:auto;
 }
 
-#selector-info-top .ui-block:hover {
+#selector-info-top .ui-block:hover, #hover-info-top .ui-block:hover {
   border-color:#514D4C;
   box-shadow:none;
 }

@@ -55,14 +55,20 @@
       
       infoColumn : {
         status : document.getElementById('status-info'),
-        options : document.getElementById('options')
+        options : document.getElementById('options'),
+        
+        main : document.getElementById('main-info'),
+        hover : document.getElementById('hover-info')
       },
       
       selector : {
         window : document.getElementById('selector-window'),
         box : document.getElementById('selector-box'),
         infoTop : document.getElementById('selector-info-top'),
-        infoBottom : document.getElementById('selector-info-bottom')
+        infoBottom : document.getElementById('selector-info-bottom'),
+        
+        hoverTop : document.getElementById('hover-info-top'),
+        hoverBottom : document.getElementById('hover-info-bottom')
       }
     },
     
@@ -834,7 +840,15 @@
       
       
       // shows info on a weapon, skill, etc...
-      showInfo : function (caller) {
+      showInfo : function (caller, hover, id) {
+        if (hover) {
+          if (caller.dataset.id == '0') return false;
+          
+          CodeVeinBuilder.selector.activeCaller = id;
+          CodeVeinBuilder.cache.infoColumn.main.style.display = 'none';
+          CodeVeinBuilder.cache.infoColumn.hover.style.display = '';
+        }
+        
         var type = caller.dataset.type,
             id = caller.dataset.id,
             bottom = '',
@@ -856,7 +870,7 @@
         // top info is name, description and icon
         origin = id == 0 ? null : CodeVeinBuilder.data[type][id].origin;
         
-        CodeVeinBuilder.cache.selector.infoTop.innerHTML = id == 0 ? 
+        CodeVeinBuilder.cache.selector[hover ? 'hoverTop' : 'infoTop'].innerHTML = id == 0 ? 
           '<div class="' + caller.className.replace(' info-active', '') + '"></div>'+
           '<div class="item-info">'+
             '<div class="item-title">' + _lang.remove + '</div>'+
@@ -1154,7 +1168,14 @@
 
         }
         
-        CodeVeinBuilder.cache.selector.infoBottom.innerHTML = type == 'transform' || id == 0 ? '' : '<div class="ui-window-inner' + (/active|passive/.test(type) ? ' skill-info' : /weapon|blood_/.test(type) ? ' status-info' : '') + '">' + bottom + '</div>';
+        CodeVeinBuilder.cache.selector[hover ? 'hoverBottom' : 'infoBottom'].innerHTML = type == 'transform' || id == 0 ? '' : '<div class="ui-window-inner' + (/active|passive/.test(type) ? ' skill-info' : /weapon|blood_/.test(type) ? ' status-info' : '') + '">' + bottom + '</div>';
+      },
+      
+      
+      // hides the hover info on mouse out
+      hideInfo : function () {
+        CodeVeinBuilder.cache.infoColumn.main.style.display = '';
+        CodeVeinBuilder.cache.infoColumn.hover.style.display = 'none';
       },
       
       
